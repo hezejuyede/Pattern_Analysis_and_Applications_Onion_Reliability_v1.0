@@ -1,0 +1,21 @@
+{
+  "samples": 3464,
+  "by_dataset": {
+    "COLD_raw_India": 813,
+    "DigitalGreen_non_onion_OOD": 225,
+    "DigitalGreen_onion_operational": 24,
+    "TOM2024_A_BurkinaFaso": 2402
+  },
+  "foliar_binary_eligible": {
+    "COLD_raw_India": 813,
+    "DigitalGreen_non_onion_OOD": 0,
+    "DigitalGreen_onion_operational": 24,
+    "TOM2024_A_BurkinaFaso": 1647
+  },
+  "alternaria_binary_eligible": {
+    "COLD_raw_India": 444,
+    "DigitalGreen_non_onion_OOD": 0,
+    "DigitalGreen_onion_operational": 15,
+    "TOM2024_A_BurkinaFaso": 884
+  }
+}

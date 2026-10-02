@@ -1,0 +1,16 @@
+{
+  "created": "2026-09-30",
+  "python": "3.13.3 (tags/v3.13.3:6280bb5, Apr  8 2025, 14:47:33) [MSC v.1943 64 bit (AMD64)]",
+  "platform": "Windows-10-10.0.19045-SP0",
+  "packages": {
+    "numpy": "2.2.6",
+    "pandas": "2.2.3",
+    "scikit_learn": "1.6.1",
+    "scipy": "1.15.3",
+    "pillow": "11.2.1",
+    "opencv": "4.11.0",
+    "torch": "2.7.1+cpu",
+    "torchvision": "0.22.1+cpu"
+  },
+  "cpu_count": 12
+}

@@ -1,0 +1,114 @@
+{
+  "parquet_integrity": {
+    "raw_rows": 815,
+    "augmented_rows": 4502,
+    "local_vs_parquet_byte_sha256_matches": 556,
+    "local_vs_parquet_byte_sha256_mismatches_due_to_cached_jpeg_materialization": 4761,
+    "decoded_content_correspondence_failures": 0,
+    "maximum_pixel_mae": 4.092010498046875,
+    "maximum_dhash_hamming_256": 9,
+    "unparsed_augmented_filenames": 0
+  },
+  "family_lineage": {
+    "family_count": 816,
+    "augmented_files_assigned_to_filename_families": 4502,
+    "counts_by_label": {
+      "iris_yellow_virus": 282,
+      "stemphylium_colletotrichum_leaf_blight": 90,
+      "healthy": 426,
+      "purple_blotch": 18
+    },
+    "family_size_distribution_by_label": {
+      "iris_yellow_virus": {
+        "4": 138,
+        "5": 144
+      },
+      "stemphylium_colletotrichum_leaf_blight": {
+        "13": 43,
+        "14": 47
+      },
+      "healthy": {
+        "3": 426
+      },
+      "purple_blotch": {
+        "39": 1,
+        "40": 1,
+        "41": 16
+      }
+    },
+    "parent_indexes_contiguous_by_label": {
+      "iris_yellow_virus": true,
+      "stemphylium_colletotrichum_leaf_blight": true,
+      "healthy": true,
+      "purple_blotch": true
+    },
+    "resnet18_within_family_consistency": {
+      "healthy": {
+        "median_family_mean_pairwise_cosine": 0.912237075,
+        "p05_family_mean_pairwise_cosine": 0.856751475,
+        "median_family_minimum_pairwise_cosine": 0.892353,
+        "p05_family_minimum_pairwise_cosine": 0.8176761425
+      },
+      "iris_yellow_virus": {
+        "median_family_mean_pairwise_cosine": 0.9170040349999999,
+        "p05_family_mean_pairwise_cosine": 0.8782198565,
+        "median_family_minimum_pairwise_cosine": 0.88089332,
+        "p05_family_minimum_pairwise_cosine": 0.820385975
+      },
+      "purple_blotch": {
+        "median_family_mean_pairwise_cosine": 0.89626155,
+        "p05_family_mean_pairwise_cosine": 0.8762880345,
+        "median_family_minimum_pairwise_cosine": 0.785583685,
+        "p05_family_minimum_pairwise_cosine": 0.753723635
+      },
+      "stemphylium_colletotrichum_leaf_blight": {
+        "median_family_mean_pairwise_cosine": 0.91394362,
+        "p05_family_mean_pairwise_cosine": 0.8872715299999999,
+        "median_family_minimum_pairwise_cosine": 0.84510025,
+        "p05_family_minimum_pairwise_cosine": 0.776704205
+      }
+    }
+  },
+  "raw_sources": {
+    "counts_by_label": {
+      "healthy": 426,
+      "stemphylium_colletotrichum_leaf_blight": 90,
+      "purple_blotch": 18,
+      "iris_yellow_virus": 281
+    },
+    "exact_unique_images": 813,
+    "exact_duplicate_files": 2,
+    "family_minus_raw_file_count": {
+      "iris_yellow_virus": 1,
+      "stemphylium_colletotrichum_leaf_blight": 0,
+      "healthy": 0,
+      "purple_blotch": 0
+    }
+  },
+  "raw_linkage": {
+    "method": "ResNet-18 candidate retrieval plus SIFT/RANSAC verification; no forced one-to-one assignment",
+    "confidence_tier_counts": {
+      "ambiguous_candidate": 49,
+      "moderate_geometric_support": 51,
+      "high_geometric_support": 653,
+      "unresolved": 41,
+      "ambiguous_global_collision": 22
+    },
+    "high_or_moderate_supported": 704,
+    "raw_link_is_not_required_for_family_safe_splitting": true,
+    "global_collision_downgrades": 22
+  },
+  "embedding_metadata": {
+    "model": "torchvision ResNet-18 ImageNet1K_V1, frozen global-average-pool features",
+    "feature_dimension": 512,
+    "cache_status": "reused_reordered",
+    "torch": "2.7.1+cpu",
+    "torchvision": "0.22.1+cpu"
+  },
+  "parameters": {
+    "resnet_candidates": 30,
+    "sift_family_members": 5,
+    "sift_ratio_test": 0.75,
+    "homography_ransac_threshold_pixels": 4.0
+  }
+}

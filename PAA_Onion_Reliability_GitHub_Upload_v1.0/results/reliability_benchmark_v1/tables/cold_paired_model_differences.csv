@@ -1,0 +1,19 @@
+reference_model,comparator_model,metric,improvement_positive_favors_reference,ci_low,ci_high,bootstrap_replicates,bootstrap_unit,tail_fraction_at_or_below_zero
+resnet18_logit,prior_prevalence,balanced_accuracy,0.15532081377151796,0.1254395073441131,0.18504313303492925,3000,COLD exact-deduplicated raw SHA group,0.0
+resnet18_logit,prior_prevalence,auroc,0.23451128822894307,0.19975058526821068,0.26768544873531785,3000,COLD exact-deduplicated raw SHA group,0.0
+resnet18_logit,prior_prevalence,brier,0.08051589412771559,0.052992788208385225,0.10877250560783025,3000,COLD exact-deduplicated raw SHA group,0.0
+resnet18_logit,color_shortcut_logit,balanced_accuracy,0.13001783309677173,0.09485253105703674,0.1651984322416482,3000,COLD exact-deduplicated raw SHA group,0.0
+resnet18_logit,color_shortcut_logit,auroc,0.12787058266914142,0.08779102590356268,0.1669649537468569,3000,COLD exact-deduplicated raw SHA group,0.0
+resnet18_logit,color_shortcut_logit,brier,0.03495319420855281,0.011609870179339165,0.05744613930331003,3000,COLD exact-deduplicated raw SHA group,0.0016666666666666668
+resnet18_logit,handcrafted_logit,balanced_accuracy,0.08461622447865491,0.045442571440406074,0.12382198916480767,3000,COLD exact-deduplicated raw SHA group,0.0
+resnet18_logit,handcrafted_logit,auroc,0.13167376351130045,0.09260315147790854,0.1710085121718757,3000,COLD exact-deduplicated raw SHA group,0.0
+resnet18_logit,handcrafted_logit,brier,0.04788114798683657,0.024119028566902574,0.0722657749382924,3000,COLD exact-deduplicated raw SHA group,0.0
+resnet18_logit,efficientnet_b0_logit,balanced_accuracy,0.005158860137569499,-0.03206578471043376,0.043330372962167824,3000,COLD exact-deduplicated raw SHA group,0.385
+resnet18_logit,efficientnet_b0_logit,auroc,0.014048112967208981,-0.025155514931080647,0.05425250039157732,3000,COLD exact-deduplicated raw SHA group,0.26
+resnet18_logit,efficientnet_b0_logit,brier,0.021727906128934826,-0.005069936838669928,0.05127299447423398,3000,COLD exact-deduplicated raw SHA group,0.063
+resnet18_logit,convnext_tiny_logit,balanced_accuracy,0.07238781526367499,0.04170079711792521,0.10363174727942047,3000,COLD exact-deduplicated raw SHA group,0.0
+resnet18_logit,convnext_tiny_logit,auroc,0.02398976113355422,-0.00769661764975199,0.055318769189977114,3000,COLD exact-deduplicated raw SHA group,0.072
+resnet18_logit,convnext_tiny_logit,brier,0.010382352452344645,-0.011540532268062497,0.03308429125877417,3000,COLD exact-deduplicated raw SHA group,0.18366666666666667
+resnet18_logit,swin_t_logit,balanced_accuracy,0.09318702915165411,0.06371847936437566,0.12276107004967443,3000,COLD exact-deduplicated raw SHA group,0.0
+resnet18_logit,swin_t_logit,auroc,-0.047506399291528556,-0.07898266569811277,-0.01496842795549338,3000,COLD exact-deduplicated raw SHA group,0.9996666666666667
+resnet18_logit,swin_t_logit,brier,0.04216694658996062,0.014751426900293815,0.0705367142629833,3000,COLD exact-deduplicated raw SHA group,0.0006666666666666666

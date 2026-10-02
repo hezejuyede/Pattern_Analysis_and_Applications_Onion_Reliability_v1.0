@@ -1,0 +1,23 @@
+{
+  "created_utc": "2026-09-29T18:13:50.306727+00:00",
+  "purpose": "TOM split-unit sensitivity; separate from locked external evaluation",
+  "files_after_exact_deduplication": 2053,
+  "exact_duplicate_files_removed": 36,
+  "source_groups": 1643,
+  "acquisition_days": 103,
+  "repetitions": 30,
+  "seed_start": 20260930,
+  "fixed_logistic_C": 0.01,
+  "source_manifest_sha256": "8a6dd9e53c7be7723c1fb8ab14ef33cea00cd310551f60bd63a1dc6d663b0080",
+  "inventory_sha256": "6b59e4cccba8df76cf4e8ebb3c9151c427581f16ab884b1db54cb51d1a63e836",
+  "feature_cache_sha256": "1c9005cc11a07d1e73617aaf72b5a0caaf68cbcd1780d5984edc2ef6a11cfbda",
+  "script_sha256": "9989d65f33c1c8c6fad40fa607ecbfa6d1fe37303dd1a56bcc8279bc6359fb11",
+  "python": "3.13.3 (tags/v3.13.3:6280bb5, Apr  8 2025, 14:47:33) [MSC v.1943 64 bit (AMD64)]",
+  "platform": "Windows-10-10.0.19045-SP0",
+  "torch": "2.7.1+cpu",
+  "torchvision": "0.22.1+cpu",
+  "numpy": "2.2.6",
+  "pandas": "2.2.3",
+  "scipy": "1.15.3",
+  "scikit_learn": "1.6.1"
+}

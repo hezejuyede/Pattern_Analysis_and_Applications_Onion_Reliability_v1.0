@@ -1,0 +1,43 @@
+model,original_label,n,correct,mean_probability,accuracy_descriptive
+color_shortcut_logit,Downy Mildew,2,1,0.8341095104297511,0.5
+color_shortcut_logit,Healthy,12,6,0.7088178691303582,0.5
+color_shortcut_logit,Purple Blotch,1,1,0.7825447712829728,1.0
+color_shortcut_logit,Purple Blotch; Onion Maggot,1,1,0.8533112490354778,1.0
+color_shortcut_logit,Purple Blotch; Stemphylium Blight,1,1,0.8671849179713307,1.0
+color_shortcut_logit,Thrips,7,1,0.5046352968651082,0.14285714285714285
+convnext_tiny_logit,Downy Mildew,2,1,0.6653489223117037,0.5
+convnext_tiny_logit,Healthy,12,8,0.5873058916996686,0.6666666666666666
+convnext_tiny_logit,Purple Blotch,1,1,0.9874555578657044,1.0
+convnext_tiny_logit,Purple Blotch; Onion Maggot,1,1,0.959844437870047,1.0
+convnext_tiny_logit,Purple Blotch; Stemphylium Blight,1,0,0.7399488239237084,0.0
+convnext_tiny_logit,Thrips,7,3,0.616795625864613,0.42857142857142855
+efficientnet_b0_logit,Downy Mildew,2,1,0.500320768587757,0.5
+efficientnet_b0_logit,Healthy,12,6,0.6085455123040477,0.5
+efficientnet_b0_logit,Purple Blotch,1,1,0.9956688450641417,1.0
+efficientnet_b0_logit,Purple Blotch; Onion Maggot,1,1,0.9829267941372942,1.0
+efficientnet_b0_logit,Purple Blotch; Stemphylium Blight,1,1,0.9997815273179357,1.0
+efficientnet_b0_logit,Thrips,7,4,0.6372161886119699,0.5714285714285714
+handcrafted_logit,Downy Mildew,2,2,0.9227336418077587,1.0
+handcrafted_logit,Healthy,12,5,0.6444393350086349,0.4166666666666667
+handcrafted_logit,Purple Blotch,1,1,0.7953874546820215,1.0
+handcrafted_logit,Purple Blotch; Onion Maggot,1,1,0.892003411143735,1.0
+handcrafted_logit,Purple Blotch; Stemphylium Blight,1,0,0.6801138157516997,0.0
+handcrafted_logit,Thrips,7,3,0.6298874440096005,0.42857142857142855
+prior_prevalence,Downy Mildew,2,2,0.7431527693244065,1.0
+prior_prevalence,Healthy,12,0,0.7431527693244065,0.0
+prior_prevalence,Purple Blotch,1,1,0.7431527693244065,1.0
+prior_prevalence,Purple Blotch; Onion Maggot,1,1,0.7431527693244065,1.0
+prior_prevalence,Purple Blotch; Stemphylium Blight,1,1,0.7431527693244065,1.0
+prior_prevalence,Thrips,7,7,0.7431527693244065,1.0
+resnet18_logit,Downy Mildew,2,1,0.5007846760098075,0.5
+resnet18_logit,Healthy,12,4,0.8292338312938606,0.3333333333333333
+resnet18_logit,Purple Blotch,1,1,0.9993038982249863,1.0
+resnet18_logit,Purple Blotch; Onion Maggot,1,1,0.898985043150659,1.0
+resnet18_logit,Purple Blotch; Stemphylium Blight,1,1,0.9991936579229859,1.0
+resnet18_logit,Thrips,7,3,0.6961031982233284,0.42857142857142855
+swin_t_logit,Downy Mildew,2,1,0.5158778344290137,0.5
+swin_t_logit,Healthy,12,8,0.5766003979951327,0.6666666666666666
+swin_t_logit,Purple Blotch,1,1,0.9989231820618244,1.0
+swin_t_logit,Purple Blotch; Onion Maggot,1,1,0.9898282614712828,1.0
+swin_t_logit,Purple Blotch; Stemphylium Blight,1,0,0.03603852449648475,0.0
+swin_t_logit,Thrips,7,3,0.4498114046744229,0.42857142857142855

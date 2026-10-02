@@ -1,0 +1,191 @@
+check,passed,detail
+tom_nested_oof: model sample-ID sets identical,True,"models=['color_shortcut_logit', 'convnext_tiny_logit', 'efficientnet_b0_logit', 'handcrafted_logit', 'prior_prevalence', 'resnet18_logit', 'swin_t_logit']; n=1643"
+tom_nested_oof/color_shortcut_logit: one row per sample,True,duplicates=0
+tom_nested_oof/color_shortcut_logit: all IDs in manifest,True,missing=0
+tom_nested_oof/color_shortcut_logit: truth matches manifest,True,
+tom_nested_oof/color_shortcut_logit: source groups match manifest,True,
+tom_nested_oof/color_shortcut_logit: paths match manifest,True,
+"tom_nested_oof/color_shortcut_logit: finite probabilities in [0,1]",True,
+tom_nested_oof/color_shortcut_logit: predictions equal probability>=threshold,True,
+tom_nested_oof/convnext_tiny_logit: one row per sample,True,duplicates=0
+tom_nested_oof/convnext_tiny_logit: all IDs in manifest,True,missing=0
+tom_nested_oof/convnext_tiny_logit: truth matches manifest,True,
+tom_nested_oof/convnext_tiny_logit: source groups match manifest,True,
+tom_nested_oof/convnext_tiny_logit: paths match manifest,True,
+"tom_nested_oof/convnext_tiny_logit: finite probabilities in [0,1]",True,
+tom_nested_oof/convnext_tiny_logit: predictions equal probability>=threshold,True,
+tom_nested_oof/efficientnet_b0_logit: one row per sample,True,duplicates=0
+tom_nested_oof/efficientnet_b0_logit: all IDs in manifest,True,missing=0
+tom_nested_oof/efficientnet_b0_logit: truth matches manifest,True,
+tom_nested_oof/efficientnet_b0_logit: source groups match manifest,True,
+tom_nested_oof/efficientnet_b0_logit: paths match manifest,True,
+"tom_nested_oof/efficientnet_b0_logit: finite probabilities in [0,1]",True,
+tom_nested_oof/efficientnet_b0_logit: predictions equal probability>=threshold,True,
+tom_nested_oof/handcrafted_logit: one row per sample,True,duplicates=0
+tom_nested_oof/handcrafted_logit: all IDs in manifest,True,missing=0
+tom_nested_oof/handcrafted_logit: truth matches manifest,True,
+tom_nested_oof/handcrafted_logit: source groups match manifest,True,
+tom_nested_oof/handcrafted_logit: paths match manifest,True,
+"tom_nested_oof/handcrafted_logit: finite probabilities in [0,1]",True,
+tom_nested_oof/handcrafted_logit: predictions equal probability>=threshold,True,
+tom_nested_oof/prior_prevalence: one row per sample,True,duplicates=0
+tom_nested_oof/prior_prevalence: all IDs in manifest,True,missing=0
+tom_nested_oof/prior_prevalence: truth matches manifest,True,
+tom_nested_oof/prior_prevalence: source groups match manifest,True,
+tom_nested_oof/prior_prevalence: paths match manifest,True,
+"tom_nested_oof/prior_prevalence: finite probabilities in [0,1]",True,
+tom_nested_oof/prior_prevalence: predictions equal probability>=threshold,True,
+tom_nested_oof/resnet18_logit: one row per sample,True,duplicates=0
+tom_nested_oof/resnet18_logit: all IDs in manifest,True,missing=0
+tom_nested_oof/resnet18_logit: truth matches manifest,True,
+tom_nested_oof/resnet18_logit: source groups match manifest,True,
+tom_nested_oof/resnet18_logit: paths match manifest,True,
+"tom_nested_oof/resnet18_logit: finite probabilities in [0,1]",True,
+tom_nested_oof/resnet18_logit: predictions equal probability>=threshold,True,
+tom_nested_oof/swin_t_logit: one row per sample,True,duplicates=0
+tom_nested_oof/swin_t_logit: all IDs in manifest,True,missing=0
+tom_nested_oof/swin_t_logit: truth matches manifest,True,
+tom_nested_oof/swin_t_logit: source groups match manifest,True,
+tom_nested_oof/swin_t_logit: paths match manifest,True,
+"tom_nested_oof/swin_t_logit: finite probabilities in [0,1]",True,
+tom_nested_oof/swin_t_logit: predictions equal probability>=threshold,True,
+cold_locked_external: model sample-ID sets identical,True,"models=['color_shortcut_logit', 'convnext_tiny_logit', 'efficientnet_b0_logit', 'handcrafted_logit', 'prior_prevalence', 'resnet18_logit', 'swin_t_logit']; n=813"
+cold_locked_external/color_shortcut_logit: one row per sample,True,duplicates=0
+cold_locked_external/color_shortcut_logit: all IDs in manifest,True,missing=0
+cold_locked_external/color_shortcut_logit: truth matches manifest,True,
+cold_locked_external/color_shortcut_logit: source groups match manifest,True,
+cold_locked_external/color_shortcut_logit: paths match manifest,True,
+"cold_locked_external/color_shortcut_logit: finite probabilities in [0,1]",True,
+cold_locked_external/color_shortcut_logit: predictions equal probability>=threshold,True,
+cold_locked_external/convnext_tiny_logit: one row per sample,True,duplicates=0
+cold_locked_external/convnext_tiny_logit: all IDs in manifest,True,missing=0
+cold_locked_external/convnext_tiny_logit: truth matches manifest,True,
+cold_locked_external/convnext_tiny_logit: source groups match manifest,True,
+cold_locked_external/convnext_tiny_logit: paths match manifest,True,
+"cold_locked_external/convnext_tiny_logit: finite probabilities in [0,1]",True,
+cold_locked_external/convnext_tiny_logit: predictions equal probability>=threshold,True,
+cold_locked_external/efficientnet_b0_logit: one row per sample,True,duplicates=0
+cold_locked_external/efficientnet_b0_logit: all IDs in manifest,True,missing=0
+cold_locked_external/efficientnet_b0_logit: truth matches manifest,True,
+cold_locked_external/efficientnet_b0_logit: source groups match manifest,True,
+cold_locked_external/efficientnet_b0_logit: paths match manifest,True,
+"cold_locked_external/efficientnet_b0_logit: finite probabilities in [0,1]",True,
+cold_locked_external/efficientnet_b0_logit: predictions equal probability>=threshold,True,
+cold_locked_external/handcrafted_logit: one row per sample,True,duplicates=0
+cold_locked_external/handcrafted_logit: all IDs in manifest,True,missing=0
+cold_locked_external/handcrafted_logit: truth matches manifest,True,
+cold_locked_external/handcrafted_logit: source groups match manifest,True,
+cold_locked_external/handcrafted_logit: paths match manifest,True,
+"cold_locked_external/handcrafted_logit: finite probabilities in [0,1]",True,
+cold_locked_external/handcrafted_logit: predictions equal probability>=threshold,True,
+cold_locked_external/prior_prevalence: one row per sample,True,duplicates=0
+cold_locked_external/prior_prevalence: all IDs in manifest,True,missing=0
+cold_locked_external/prior_prevalence: truth matches manifest,True,
+cold_locked_external/prior_prevalence: source groups match manifest,True,
+cold_locked_external/prior_prevalence: paths match manifest,True,
+"cold_locked_external/prior_prevalence: finite probabilities in [0,1]",True,
+cold_locked_external/prior_prevalence: predictions equal probability>=threshold,True,
+cold_locked_external/resnet18_logit: one row per sample,True,duplicates=0
+cold_locked_external/resnet18_logit: all IDs in manifest,True,missing=0
+cold_locked_external/resnet18_logit: truth matches manifest,True,
+cold_locked_external/resnet18_logit: source groups match manifest,True,
+cold_locked_external/resnet18_logit: paths match manifest,True,
+"cold_locked_external/resnet18_logit: finite probabilities in [0,1]",True,
+cold_locked_external/resnet18_logit: predictions equal probability>=threshold,True,
+cold_locked_external/swin_t_logit: one row per sample,True,duplicates=0
+cold_locked_external/swin_t_logit: all IDs in manifest,True,missing=0
+cold_locked_external/swin_t_logit: truth matches manifest,True,
+cold_locked_external/swin_t_logit: source groups match manifest,True,
+cold_locked_external/swin_t_logit: paths match manifest,True,
+"cold_locked_external/swin_t_logit: finite probabilities in [0,1]",True,
+cold_locked_external/swin_t_logit: predictions equal probability>=threshold,True,
+digigreen_onion_case_series: model sample-ID sets identical,True,"models=['color_shortcut_logit', 'convnext_tiny_logit', 'efficientnet_b0_logit', 'handcrafted_logit', 'prior_prevalence', 'resnet18_logit', 'swin_t_logit']; n=24"
+digigreen_onion_case_series/color_shortcut_logit: one row per sample,True,duplicates=0
+digigreen_onion_case_series/color_shortcut_logit: all IDs in manifest,True,missing=0
+digigreen_onion_case_series/color_shortcut_logit: truth matches manifest,True,
+digigreen_onion_case_series/color_shortcut_logit: source groups match manifest,True,
+digigreen_onion_case_series/color_shortcut_logit: paths match manifest,True,
+"digigreen_onion_case_series/color_shortcut_logit: finite probabilities in [0,1]",True,
+digigreen_onion_case_series/color_shortcut_logit: predictions equal probability>=threshold,True,
+digigreen_onion_case_series/convnext_tiny_logit: one row per sample,True,duplicates=0
+digigreen_onion_case_series/convnext_tiny_logit: all IDs in manifest,True,missing=0
+digigreen_onion_case_series/convnext_tiny_logit: truth matches manifest,True,
+digigreen_onion_case_series/convnext_tiny_logit: source groups match manifest,True,
+digigreen_onion_case_series/convnext_tiny_logit: paths match manifest,True,
+"digigreen_onion_case_series/convnext_tiny_logit: finite probabilities in [0,1]",True,
+digigreen_onion_case_series/convnext_tiny_logit: predictions equal probability>=threshold,True,
+digigreen_onion_case_series/efficientnet_b0_logit: one row per sample,True,duplicates=0
+digigreen_onion_case_series/efficientnet_b0_logit: all IDs in manifest,True,missing=0
+digigreen_onion_case_series/efficientnet_b0_logit: truth matches manifest,True,
+digigreen_onion_case_series/efficientnet_b0_logit: source groups match manifest,True,
+digigreen_onion_case_series/efficientnet_b0_logit: paths match manifest,True,
+"digigreen_onion_case_series/efficientnet_b0_logit: finite probabilities in [0,1]",True,
+digigreen_onion_case_series/efficientnet_b0_logit: predictions equal probability>=threshold,True,
+digigreen_onion_case_series/handcrafted_logit: one row per sample,True,duplicates=0
+digigreen_onion_case_series/handcrafted_logit: all IDs in manifest,True,missing=0
+digigreen_onion_case_series/handcrafted_logit: truth matches manifest,True,
+digigreen_onion_case_series/handcrafted_logit: source groups match manifest,True,
+digigreen_onion_case_series/handcrafted_logit: paths match manifest,True,
+"digigreen_onion_case_series/handcrafted_logit: finite probabilities in [0,1]",True,
+digigreen_onion_case_series/handcrafted_logit: predictions equal probability>=threshold,True,
+digigreen_onion_case_series/prior_prevalence: one row per sample,True,duplicates=0
+digigreen_onion_case_series/prior_prevalence: all IDs in manifest,True,missing=0
+digigreen_onion_case_series/prior_prevalence: truth matches manifest,True,
+digigreen_onion_case_series/prior_prevalence: source groups match manifest,True,
+digigreen_onion_case_series/prior_prevalence: paths match manifest,True,
+"digigreen_onion_case_series/prior_prevalence: finite probabilities in [0,1]",True,
+digigreen_onion_case_series/prior_prevalence: predictions equal probability>=threshold,True,
+digigreen_onion_case_series/resnet18_logit: one row per sample,True,duplicates=0
+digigreen_onion_case_series/resnet18_logit: all IDs in manifest,True,missing=0
+digigreen_onion_case_series/resnet18_logit: truth matches manifest,True,
+digigreen_onion_case_series/resnet18_logit: source groups match manifest,True,
+digigreen_onion_case_series/resnet18_logit: paths match manifest,True,
+"digigreen_onion_case_series/resnet18_logit: finite probabilities in [0,1]",True,
+digigreen_onion_case_series/resnet18_logit: predictions equal probability>=threshold,True,
+digigreen_onion_case_series/swin_t_logit: one row per sample,True,duplicates=0
+digigreen_onion_case_series/swin_t_logit: all IDs in manifest,True,missing=0
+digigreen_onion_case_series/swin_t_logit: truth matches manifest,True,
+digigreen_onion_case_series/swin_t_logit: source groups match manifest,True,
+digigreen_onion_case_series/swin_t_logit: paths match manifest,True,
+"digigreen_onion_case_series/swin_t_logit: finite probabilities in [0,1]",True,
+digigreen_onion_case_series/swin_t_logit: predictions equal probability>=threshold,True,
+all published point estimates reproduce at 1e-12,True,max_abs_diff=6.66e-15
+all published bootstrap limits reproduce at 1e-12,True,max_low=2.3e-14; max_high=6e-15
+TOM acquisition day occurs in one outer fold,True,days=103
+TOM source group occurs in one outer fold,True,groups=1643
+TOM exact hash occurs in one outer fold,True,hashes=1643
+TOM split manifest has unique sample IDs,True,n=1643
+TOM split manifest has both classes in every fold,True,"{0: 291, 1: 441, 2: 365, 3: 311, 4: 235}"
+stored TOM outer folds recreate from seed,True,StratifiedGroupKFold(seed=20260930)
+all primary image SHA-256 values independently reproduce,True,n=2456
+no exact image hash overlap TOM vs COLD,True,overlap=0
+TOM included hashes unique,True,unique=1643
+COLD included hashes unique,True,unique=813
+removed TOM exact duplicates do not cross labels,True,removed=4; conflicting_hash_groups=0
+handcrafted feature IDs equal manifest order,True,n=3464
+ResNet feature IDs equal manifest order,True,n=3464
+efficientnet_b0 feature IDs equal manifest order,True,n=3464
+convnext_tiny feature IDs equal manifest order,True,n=3464
+swin_t feature IDs equal manifest order,True,n=3464
+prior_prevalence: serialized OOF fields equal TOM prediction CSV,True,oof_n=1643
+prior_prevalence: serialized final model exactly regenerates COLD predictions,True,C=None; threshold=0.5
+prior_prevalence: final calibrator/threshold derived from TOM-sized OOF stream,True,n=1643
+color_shortcut_logit: serialized OOF fields equal TOM prediction CSV,True,oof_n=1643
+color_shortcut_logit: serialized final model exactly regenerates COLD predictions,True,C=0.1; threshold=0.780009913740713
+color_shortcut_logit: final calibrator/threshold derived from TOM-sized OOF stream,True,n=1643
+handcrafted_logit: serialized OOF fields equal TOM prediction CSV,True,oof_n=1643
+handcrafted_logit: serialized final model exactly regenerates COLD predictions,True,C=0.01; threshold=0.720757970964042
+handcrafted_logit: final calibrator/threshold derived from TOM-sized OOF stream,True,n=1643
+resnet18_logit: serialized OOF fields equal TOM prediction CSV,True,oof_n=1643
+resnet18_logit: serialized final model exactly regenerates COLD predictions,True,C=0.1; threshold=0.815475135887927
+resnet18_logit: final calibrator/threshold derived from TOM-sized OOF stream,True,n=1643
+efficientnet_b0_logit: serialized OOF fields equal TOM prediction CSV,True,oof_n=1643
+efficientnet_b0_logit: serialized final model exactly regenerates COLD predictions,True,C=1.0; threshold=0.7500402829869
+efficientnet_b0_logit: final calibrator/threshold derived from TOM-sized OOF stream,True,n=1643
+convnext_tiny_logit: serialized OOF fields equal TOM prediction CSV,True,oof_n=1643
+convnext_tiny_logit: serialized final model exactly regenerates COLD predictions,True,C=0.1; threshold=0.805925006638969
+convnext_tiny_logit: final calibrator/threshold derived from TOM-sized OOF stream,True,n=1643
+swin_t_logit: serialized OOF fields equal TOM prediction CSV,True,oof_n=1643
+swin_t_logit: serialized final model exactly regenerates COLD predictions,True,C=0.1; threshold=0.805996080723909
+swin_t_logit: final calibrator/threshold derived from TOM-sized OOF stream,True,n=1643
+reported paired COLD bootstrap table reproduces,True,max_abs_diff=1.11e-16

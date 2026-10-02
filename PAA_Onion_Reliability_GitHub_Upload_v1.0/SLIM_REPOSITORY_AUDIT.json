@@ -1,0 +1,36 @@
+{
+  "status": "PASS_READY_FOR_GITHUB_UPLOAD",
+  "purpose": "GitHub browser-uploadable scientific repository",
+  "github_browser_constraints": {
+    "maximum_files_per_upload": 100,
+    "maximum_bytes_per_file": 26214400
+  },
+  "files_before_audit_and_hash_manifest": 94,
+  "largest_file": "results/reliability_benchmark_v1/predictions/tom_nested_oof.csv",
+  "largest_file_bytes": 5163389,
+  "raw_third_party_images_included": false,
+  "large_derived_feature_caches_included": false,
+  "per_image_predictions_included": true,
+  "source_code_included": true,
+  "independent_numeric_recomputation_included": true,
+  "reference_offline_evidence_verification": {
+    "status": "PASS",
+    "metric_rows_recomputed": 189,
+    "metric_max_estimate_abs_difference": 6.661338147750939e-15,
+    "metric_max_interval_abs_difference": 2.298161660974074e-14,
+    "prediction_checks_passed": 152,
+    "prediction_checks_total": 152,
+    "paired_cold_max_abs_difference": 1.1102230246251565e-16,
+    "locked_fold_checks_passed": 4,
+    "locked_fold_checks_total": 4,
+    "hash_ledger_checks_passed": 3,
+    "hash_ledger_checks_total": 3,
+    "cold_ablation_aggregate_rows": 40,
+    "cold_ablation_aggregate_max_abs_difference": 1.1368683772161603e-13,
+    "tom_sensitivity_aggregate_rows": 24,
+    "tom_sensitivity_aggregate_max_abs_difference": 5.684341886080802e-14,
+    "image_byte_hash_verification": "NOT_RUN_OFFLINE"
+  },
+  "public_repository_url": "https://github.com/hezejuyede/Pattern_Analysis_and_Applications_Onion_Reliability_v1.0",
+  "public_repository_url_resolved": true
+}

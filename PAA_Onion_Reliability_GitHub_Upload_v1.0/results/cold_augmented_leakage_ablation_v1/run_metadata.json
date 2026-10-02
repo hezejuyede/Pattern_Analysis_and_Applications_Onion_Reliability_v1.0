@@ -1,0 +1,20 @@
+{
+  "created_utc": "2026-09-29T18:36:28.121361+00:00",
+  "purpose": "split-unit leakage sensitivity only; not external validation",
+  "repetitions": 30,
+  "seed_start": 20260930,
+  "test_fraction": 0.2,
+  "fixed_logistic_C": 0.01,
+  "families": 816,
+  "files": 4502,
+  "lineage_manifest_sha256": "db89d16dc79262faa8b3bc2d8bca68b9c4ce9466ce63f10b556430b828820c0a",
+  "embedding_archive_sha256": "6cf804b512ab193d72cc044550db76a2cdbbfdc09165deed4eb2cea1426de877",
+  "color_feature_cache_sha256": "24a783bb1442262076f725a056f610e34694d6d21d0c2148e82e987f705ce790",
+  "script_sha256": "b8cea7051c8aa72d6424bd148543ea94bc599ef6a5bd7c27376ef0a7d82b5d57",
+  "python": "3.13.3 (tags/v3.13.3:6280bb5, Apr  8 2025, 14:47:33) [MSC v.1943 64 bit (AMD64)]",
+  "platform": "Windows-10-10.0.19045-SP0",
+  "numpy": "2.2.6",
+  "pandas": "2.2.3",
+  "scipy": "1.15.3",
+  "scikit_learn": "1.6.1"
+}

@@ -1,0 +1,81 @@
+{
+  "created_utc": "2026-09-30T01:53:44.716960+00:00",
+  "primary_model": "resnet18_logit",
+  "model_selection_rule": "ResNet18 remains the sole a-priori primary. All three challengers are secondary sensitivities and are reported regardless of COLD performance; no external ranking changes the claim.",
+  "deployment_claim_gate": "FAIL",
+  "publication_reliability_science_gate": "PASS_WITH_EXPLICIT_LIMITS",
+  "submission_package_gate": "PASS_SCIENTIFIC_EVIDENCE_WITH_EXPLICIT_LIMITS",
+  "criteria": {
+    "pattern_analysis_scope": "PASS_FOR_RELIABILITY_BENCHMARK_FRAMING",
+    "substantive_original_contribution": "PASS_WITH_CAVEAT: augmentation-family inflation, acquisition-day grouping, cross-country transport, calibration, selective risk, and OOD are integrated; no new architecture is claimed.",
+    "independent_validation": "PASS_WITH_LIMITATIONS: COLD is country/dataset independent and excluded from all fits, but it is public, lacks acquisition-day/plant IDs, and had been opened for the primary before challenger expansion.",
+    "strong_baselines": "PASS: prevalence, color shortcut, handcrafted, ResNet18 primary, EfficientNet-B0, ConvNeXt-Tiny, and Swin-T all use the same TOM-only nested protocol.",
+    "leakage_prevention": "PASS_WITH_METADATA_LIMITATION: exact duplicates removed; TOM inner/outer splits grouped by acquisition day; augmented COLD assessed separately by 816 filename families; plant identity remains unavailable.",
+    "data_conclusion_match": "PASS only for a negative reliability/transport conclusion; FAIL for accurate field diagnosis, pathogen-specific transfer, safety, or deployment claims.",
+    "reproducibility": "PASS_INTERNALLY: frozen features, split manifests, portable fitted artifacts, exact per-image predictions, hashes, and commands are present; independent audit is still required for final submission release."
+  },
+  "primary_locked_external_evidence": {
+    "balanced_accuracy": 0.655320813771518,
+    "balanced_accuracy_95_group_bootstrap": [
+      0.6259346009045166,
+      0.6847288203408297
+    ],
+    "auroc": 0.7345112882289431,
+    "sensitivity": 0.4444444444444444,
+    "brier": 0.2402715300884541,
+    "ece_10_point_only": 0.167645409878887,
+    "TOM_to_COLD_balanced_accuracy_change": -0.2717386239514269,
+    "DigitalGreen_case_series_balanced_accuracy_n24": 0.4583333333333333,
+    "non_onion_5NN_OOD_AUROC": 0.7948066147328139,
+    "non_onion_5NN_OOD_FPR95": 0.8733087330873309
+  },
+  "challenger_secondary_sensitivity_evidence": {
+    "efficientnet_b0_logit": {
+      "balanced_accuracy": 0.6501619536339485,
+      "auroc": 0.7204631752617341,
+      "brier": 0.261999436217389,
+      "ece_10": 0.2078444458875794,
+      "sensitivity": 0.4599483204134367,
+      "specificity": 0.8403755868544601
+    },
+    "convnext_tiny_logit": {
+      "balanced_accuracy": 0.582932998507843,
+      "auroc": 0.7105215270953888,
+      "brier": 0.2506538825407988,
+      "ece_10": 0.1653360716235971,
+      "sensitivity": 0.1963824289405684,
+      "specificity": 0.9694835680751174
+    },
+    "swin_t_logit": {
+      "balanced_accuracy": 0.5621337846198639,
+      "auroc": 0.7820176875204716,
+      "brier": 0.2824384766784146,
+      "ece_10": 0.2862594064704843,
+      "sensitivity": 0.1266149870801033,
+      "specificity": 0.9976525821596244
+    }
+  },
+  "augmentation_family_leakage_evidence": {
+    "files": 4502,
+    "families": 816,
+    "purple_blotch_files": 735,
+    "purple_blotch_families": 18,
+    "file_split_test_sibling_contamination_fraction": 0.9848316685164631,
+    "resnet_file_split_balanced_accuracy": 0.8317528327238818,
+    "resnet_family_split_balanced_accuracy": 0.6747973161743724
+  },
+  "deployment_failures_preserved": [
+    "Primary disorder sensitivity is below 0.50 at the source-locked threshold.",
+    "The primary internal-to-external balanced-accuracy loss is large.",
+    "The 24-image operational onion set is descriptive and near chance at the locked threshold.",
+    "OOD FPR95 is too high for a safety/deployment claim.",
+    "There is no prospective cohort, plant-level identity, or independent phytopathologist re-adjudication."
+  ],
+  "publication_release_conditions": [
+    "Manuscript title, abstract, and conclusions must state reliability audit/transport failure rather than deployment.",
+    "All challenger models must remain secondary; COLD cannot select a replacement primary.",
+    "COLD broad binary labels must not be rewritten as pathogen-confirmed ground truth.",
+    "Complete target-journal format, citation, figure, equation, author, and portal-metadata QA.",
+    "Independent rerun/hash audit must pass after this evidence freeze."
+  ]
+}

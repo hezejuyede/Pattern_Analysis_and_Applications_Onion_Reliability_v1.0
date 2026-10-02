@@ -1,0 +1,15 @@
+{
+  "created_utc": "2026-09-29T17:33:00Z",
+  "status": "prospective_for_challenger_scores_but_post_primary_external_opening",
+  "primary_model_fixed_before_any_challenger": "resnet18_logit",
+  "primary_claim_rule": "ResNet18 remains the sole a-priori primary model regardless of challenger COLD performance.",
+  "challengers": [
+    {"model": "efficientnet_b0_logit", "role": "secondary_architecture_sensitivity", "weights": "torchvision EfficientNet_B0_Weights.IMAGENET1K_V1"},
+    {"model": "convnext_tiny_logit", "role": "secondary_architecture_sensitivity", "weights": "torchvision ConvNeXt_Tiny_Weights.IMAGENET1K_V1"},
+    {"model": "swin_t_logit", "role": "secondary_transformer_sensitivity", "weights": "torchvision Swin_T_Weights.IMAGENET1K_V1"}
+  ],
+  "protocol": "Frozen pretrained embeddings; the identical TOM-only acquisition-day grouped nested hyperparameter, cross-fitted calibration, and threshold protocol used by the primary analysis; COLD labels excluded from every fit, selection, calibration, and threshold operation.",
+  "retention_rule": "All successfully extracted challenger models are reported. None is retained, discarded, renamed best, or used to revise the primary claim based on COLD.",
+  "external_test_caveat": "COLD had already been opened for the ResNet18 primary analysis before this journal-fit challenger expansion. Challenger comparisons are therefore post-primary architecture sensitivity analyses, not a new pristine confirmatory test, even though their computational pipelines remain target-label independent.",
+  "optional_model": "DINOv2-S/14 may be added only if official weights load reproducibly; failure or success will be logged without reference to COLD results."
+}

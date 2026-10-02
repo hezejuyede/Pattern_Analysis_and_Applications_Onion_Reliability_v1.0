@@ -1,0 +1,36 @@
+{
+  "manifest_sha256": "283dbe54925acb97a281faff9dbe0669323b65f24b0158181ac37a5ad7cee6e5",
+  "handcrafted_features_sha256": "ba81c01ad64fcdb68adeafa3a27d8ca3d396a8c3d253cc607b5b4cbe20311a67",
+  "resnet18_features_sha256": "a0127be9efd0361541e6fad667f2e68ada436e9735f57c9e69a0eecccf0621db",
+  "efficientnet_b0_features_sha256": "ce458767f10489195f23b27bc71a56df85674b631172721544868c84726c9967",
+  "convnext_tiny_features_sha256": "07929a2ab60e7eefdc57bca7713503982b3e1a598024ed762638b57486b5b4f7",
+  "swin_t_features_sha256": "29875336933febe736e8abda2dbbe7e65d2023264d4b521ae70afad680e40954",
+  "script_sha256": "287f848b7f7b5d94c2ce7dbe5e7cb04ae0436de296ca5e34424c3b32232422b4",
+  "samples": {
+    "TOM2024_development_primary": 1643,
+    "TOM2024_primary_exact_duplicates_removed": 4,
+    "TOM2024_acquisition_days": 103,
+    "COLD_locked_external": 813,
+    "DigitalGreen_onion_case_series": 24,
+    "DigitalGreen_non_onion_OOD": 225
+  },
+  "assertions": {
+    "TOM_one_representative_per_raw_source_group": true,
+    "TOM_primary_exact_hashes_unique_after_filter": true,
+    "outer_fold_acquisition_day_overlap": 0,
+    "TOM_COLD_source_group_overlap": 0,
+    "TOM_COLD_exact_hash_overlap": 0,
+    "COLD_used_for_model_selection": false,
+    "COLD_used_for_calibration": false,
+    "COLD_used_for_threshold_selection": false,
+    "augmented_collections_used": false,
+    "challenger_models_used_COLD_for_selection_or_tuning": false
+  },
+  "known_limitations": [
+    "COLD filenames do not expose acquisition day or biological specimen identity; external uncertainty is bootstrapped by deduplicated raw SHA group.",
+    "TOM timestamps are acquisition events, not verified biological plant identities; day grouping is the coarser leakage barrier.",
+    "The healthy-versus-dataset-labelled-foliar-disorder endpoint harmonizes heterogeneous diagnoses and does not establish pathogen-specific transfer.",
+    "Digital Green onion n=24 is a descriptive operational case series and is not a confirmatory external test.",
+    "Digital Green non-onion images test crop-level open-set rejection, not unknown onion-disease rejection."
+  ]
+}

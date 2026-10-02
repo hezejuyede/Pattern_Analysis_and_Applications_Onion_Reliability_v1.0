@@ -1,0 +1,32 @@
+[
+  {
+    "path": "work/onion_crossdomain/raw/TOM2024-CATEGORYA-English.zip",
+    "bytes": 134833774,
+    "sha256": "6c110be15bc8bcdd4bc58aed277b3b81d66d8e2497505edb19639a60a8b76747"
+  },
+  {
+    "path": "work/onion_crossdomain/raw/TOM2024-onion-labelled.zip",
+    "bytes": 5477416,
+    "sha256": "66a2c04834932ed243f9ba601bf9553ba3f97ce5793eebdf4a673e70c694afdc"
+  },
+  {
+    "path": "work/onion_crossdomain/features/handcrafted.npz",
+    "bytes": 21122256,
+    "sha256": "ba81c01ad64fcdb68adeafa3a27d8ca3d396a8c3d253cc607b5b4cbe20311a67"
+  },
+  {
+    "path": "work/onion_crossdomain/features/resnet18.npz",
+    "bytes": 6358361,
+    "sha256": "a0127be9efd0361541e6fad667f2e68ada436e9735f57c9e69a0eecccf0621db"
+  },
+  {
+    "path": "work/onion_crossdomain/manifests/unified_manifest.csv",
+    "bytes": 824088,
+    "sha256": "283dbe54925acb97a281faff9dbe0669323b65f24b0158181ac37a5ad7cee6e5"
+  },
+  {
+    "path": "work/onion_crossdomain/models/hub/checkpoints/resnet18-f37072fd.pth",
+    "bytes": 46830571,
+    "sha256": "f37072fd47e89c5e827621c5baffa7500819f7896bbacec160b1a16c560e07ec"
+  }
+]

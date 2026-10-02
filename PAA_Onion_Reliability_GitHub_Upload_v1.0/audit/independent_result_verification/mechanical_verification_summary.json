@@ -1,0 +1,20 @@
+{
+  "audit_snapshot_utc": "2026-09-29T18:41:33.582734+00:00",
+  "input_script_sha256": "287f848b7f7b5d94c2ce7dbe5e7cb04ae0436de296ca5e34424c3b32232422b4",
+  "all_mechanical_checks_pass": true,
+  "checks_passed": 190,
+  "checks_total": 190,
+  "data": {
+    "tom_included": 1643,
+    "cold_included": 813,
+    "tom_days": 103,
+    "tom_removed_exact_duplicates": 4,
+    "tom_cold_exact_hash_overlap": 0,
+    "cold_unique_source_groups": 813
+  },
+  "metric_rows": 189,
+  "metric_max_estimate_abs_diff": 6.661338147750939e-15,
+  "metric_max_ci_low_abs_diff": 2.298161660974074e-14,
+  "metric_max_ci_high_abs_diff": 5.995204332975845e-15,
+  "cold_groups_are_singletons": true
+}
