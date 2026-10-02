@@ -1,0 +1,245 @@
+{
+  "status": "PASS_ALL_SOURCE_HASHES_MATCH",
+  "files": [
+    {
+      "path": "code/run_matched_sibling_intervention.py",
+      "bytes": 27801,
+      "sha256": "22044f23c3803df1f2545bd6ebdb825211b54b7c055bd7db9a335843a0b49730"
+    },
+    {
+      "path": "code/run_matched_sibling_intervention_cli.py",
+      "bytes": 1082,
+      "sha256": "827552e1b79288c06bc5075a37abf4d842061ff5e888616e5a8298920431cbef"
+    },
+    {
+      "path": "code/verify_matched_sibling_rerun.py",
+      "bytes": 5177,
+      "sha256": "1f2921269f781005094572f130c8f7f4425bfbe77743d267936b0d37adabe338"
+    },
+    {
+      "path": "code/README_DEEP_REVISION.md",
+      "bytes": 7153,
+      "sha256": "15991b52ccb52a1e3199ec95b999847ddefb0ae063f55897a5c0c5b64cc2ec9e"
+    },
+    {
+      "path": "code/DEEP_REVISION_INPUTS.json",
+      "bytes": 1969,
+      "sha256": "422b42fd2265351659f51bd14c92392e7868b95c1ede644239bfa97dd0038e3f"
+    },
+    {
+      "path": "code/run_calibration_scale_sensitivity.py",
+      "bytes": 19831,
+      "sha256": "c14f1caf78239c95c84698110b24ef4c2cb439713c9458a25b0a787a3c8958b6"
+    },
+    {
+      "path": "audit/cold_augmented_lineage/augmented_family_manifest.csv",
+      "bytes": 1780674,
+      "sha256": "db89d16dc79262faa8b3bc2d8bca68b9c4ce9466ce63f10b556430b828820c0a"
+    },
+    {
+      "path": "audit/cold_augmented_lineage/resnet18_embeddings.npz",
+      "bytes": 9777873,
+      "sha256": "6cf804b512ab193d72cc044550db76a2cdbbfdc09165deed4eb2cea1426de877"
+    },
+    {
+      "path": "features/cold_augmented_color_shortcut.npz",
+      "bytes": 1703207,
+      "sha256": "24a783bb1442262076f725a056f610e34694d6d21d0c2148e82e987f705ce790"
+    },
+    {
+      "path": "features/resnet18.npz",
+      "bytes": 6358361,
+      "sha256": "a0127be9efd0361541e6fad667f2e68ada436e9735f57c9e69a0eecccf0621db"
+    },
+    {
+      "path": "manifests/unified_manifest.csv",
+      "bytes": 824088,
+      "sha256": "283dbe54925acb97a281faff9dbe0669323b65f24b0158181ac37a5ad7cee6e5"
+    },
+    {
+      "path": "results/reliability_benchmark_v1/models/model_summary.json",
+      "bytes": 2894,
+      "sha256": "9c827fbfddb12754d386e98b223742a53d7110333ee3f9cd703097193482c0a4"
+    },
+    {
+      "path": "results/reliability_benchmark_v1/split_manifests/tom_acquisition_day_outer_folds.csv",
+      "bytes": 394554,
+      "sha256": "b342795ee73a4c13c7116b96e90321686ea0b7125b4e6c3ac38bfb3d490abbec"
+    },
+    {
+      "path": "results/reliability_benchmark_v1/predictions/tom_nested_oof.csv",
+      "bytes": 5163389,
+      "sha256": "7ea01a77f43d434e860b7819b08da18e961485453ea1f03c0f86f9a516f436cb"
+    },
+    {
+      "path": "results/reliability_benchmark_v1/predictions/cold_locked_external.csv",
+      "bytes": 2398484,
+      "sha256": "40b711702faacc32cbcca62032de4fc5f9a071b503e265ba8ae4a0b703644dd7"
+    },
+    {
+      "path": "results/deep_revision_independent_audit_v1.json",
+      "bytes": 19762,
+      "sha256": "e628f9e921f504a6ef0b80d4b476092bbbfa966004bf77bbb7d9ca62200e2522"
+    },
+    {
+      "path": "results/deep_revision_independent_audit_v1.md",
+      "bytes": 6346,
+      "sha256": "2ef1198a2ee0ae2c0330156666b19d55a0aadc1f38c7d9ab52737efe7b6342eb"
+    },
+    {
+      "path": "results/matched_sibling_intervention_v1/aggregate_metrics.csv",
+      "bytes": 16474,
+      "sha256": "7343c4b1ac1c5a767fdf192ec33e189fe3d232216da6cede8a53e87df4f9de49"
+    },
+    {
+      "path": "results/matched_sibling_intervention_v1/class_recall.csv",
+      "bytes": 180381,
+      "sha256": "c18961c479abec47fa64b4286d7ed7c661389229fe2cdcd31ccf5cc1c7695819"
+    },
+    {
+      "path": "results/matched_sibling_intervention_v1/design.json",
+      "bytes": 4802,
+      "sha256": "ce542a8f4492c66769968dee435b06d6d2378dc7b13a3f64b36955baef9a9b93"
+    },
+    {
+      "path": "results/matched_sibling_intervention_v1/DESIGN.md",
+      "bytes": 2269,
+      "sha256": "090d7064d5f415ab28a7f61614ee3afb69510c750a47051b742e94e5b3bd55b2"
+    },
+    {
+      "path": "results/matched_sibling_intervention_v1/execution_checks.csv",
+      "bytes": 30980,
+      "sha256": "4d0248cb003ae15ac6ad20933003e7d7ca95788da745023e72bfdf442d84fe1b"
+    },
+    {
+      "path": "results/matched_sibling_intervention_v1/family_membership.csv.gz",
+      "bytes": 270834,
+      "sha256": "8587d4d2ea298f286b2b47e0ad16e9afdaa07febbb22e9d26814b183a61daeb0"
+    },
+    {
+      "path": "results/matched_sibling_intervention_v1/localization_contrasts.csv",
+      "bytes": 135084,
+      "sha256": "79f842cdb34a81673e29556999cae7e5ed4d3f8f583b156302341f9fed1a49d4"
+    },
+    {
+      "path": "results/matched_sibling_intervention_v1/localization_summary.csv",
+      "bytes": 5774,
+      "sha256": "415953769ae17624bf1e10f450321e4472883a15b951c5cb5f29af939e5f4c79"
+    },
+    {
+      "path": "results/matched_sibling_intervention_v1/manifest.csv",
+      "bytes": 1381,
+      "sha256": "2e014a298fa5dae710c0d8ad7e4baf14d7ed071a59d17454e7d106321b1fa114"
+    },
+    {
+      "path": "results/matched_sibling_intervention_v1/paired_differences.csv",
+      "bytes": 199299,
+      "sha256": "d2a0b3f16a2e4d2a8d549e1d1cf442d9bdb50a0104f1d213d1bc904a7f5e9cb3"
+    },
+    {
+      "path": "results/matched_sibling_intervention_v1/paired_summary.csv",
+      "bytes": 12238,
+      "sha256": "b32c62b04d8b23596049a332ed3850964de8b26498f59ff6e26a7f72f4f7f4f7"
+    },
+    {
+      "path": "results/matched_sibling_intervention_v1/predictions.csv.gz",
+      "bytes": 2776035,
+      "sha256": "a4659a32fd7743ecff431fe41916cb68348aa96805bc616de2027a020944ae48"
+    },
+    {
+      "path": "results/matched_sibling_intervention_v1/repeated_metrics.csv",
+      "bytes": 118739,
+      "sha256": "05de0eecd8c57a8b8b23878621f0b5d616b01f857bdc584beda2bd9833b564b6"
+    },
+    {
+      "path": "results/matched_sibling_intervention_v1/rerun_comparison.csv",
+      "bytes": 2641,
+      "sha256": "cff4a20dd8bc74b8f849d5168f49c8b1c05c09dde02be9ec96b854c0f081183a"
+    },
+    {
+      "path": "results/matched_sibling_intervention_v1/rerun_reproducibility.json",
+      "bytes": 921,
+      "sha256": "229f4939a63b86dda3fa56efb0b0590f51828cd6d803a7aba4ed218aa34ce7b6"
+    },
+    {
+      "path": "results/matched_sibling_intervention_v1/RERUN_REPRODUCIBILITY.md",
+      "bytes": 922,
+      "sha256": "c36ce584af449043b4f5cb0b34002bf508eb9a843bff74c70cae9e00881db4b4"
+    },
+    {
+      "path": "results/matched_sibling_intervention_v1/RESULTS.md",
+      "bytes": 2854,
+      "sha256": "2fc9a32c32e04b36d286f7abfbec83ba8fa32d8cfc7845854168e23b241507a1"
+    },
+    {
+      "path": "results/matched_sibling_intervention_v1/run_metadata.json",
+      "bytes": 700,
+      "sha256": "e0180916bae5c3ebada22a87211654511cd1937ce810963303b1a64d1a483311"
+    },
+    {
+      "path": "results/matched_sibling_intervention_v1/warnings.json",
+      "bytes": 47,
+      "sha256": "d4c297fbc5dc39de8628b6197592fe5b2ead3cedf74c24558e494db9e8bbeeee"
+    },
+    {
+      "path": "results/calibration_scale_sensitivity_v1/calibration_parameters.csv",
+      "bytes": 415,
+      "sha256": "1dc075d447e9e6254f13eb01f4ea72f995c19b83d3194a2a8ad1e9ea45c18379"
+    },
+    {
+      "path": "results/calibration_scale_sensitivity_v1/external_metrics.csv",
+      "bytes": 2880,
+      "sha256": "ecedcd7a059a56ceff17dc8c280a5d6587064f5f18d1ec75a53b12fc0b59dd85"
+    },
+    {
+      "path": "results/calibration_scale_sensitivity_v1/external_predictions.csv",
+      "bytes": 295037,
+      "sha256": "48b6c04c601e8b4b1b9efda8e53a4389350ff868920b00dd243bbb0f71ff8c25"
+    },
+    {
+      "path": "results/calibration_scale_sensitivity_v1/INDEPENDENT_VERIFICATION.json",
+      "bytes": 2599,
+      "sha256": "24c074fa36fa690d7095bc335e2182067efec156d79fc671d23c6ba6c2b54ab3"
+    },
+    {
+      "path": "results/calibration_scale_sensitivity_v1/METHODS_AND_RESULTS.md",
+      "bytes": 2926,
+      "sha256": "1eb6aa3a72752a4f9f86fdff21d33fe49f8af15e8a29508a282e267ea918c0d5"
+    },
+    {
+      "path": "results/calibration_scale_sensitivity_v1/output_sha256.csv",
+      "bytes": 1111,
+      "sha256": "0e9eb9caac9170389123e756480813cb090b6f62be1da9c93cb076fdc57a7eaa"
+    },
+    {
+      "path": "results/calibration_scale_sensitivity_v1/paired_external_differences.csv",
+      "bytes": 965,
+      "sha256": "6982d42a373ea45b00ba2ddd5f5c4db1db3ddda7b5f12e3ea0130915b19605ce"
+    },
+    {
+      "path": "results/calibration_scale_sensitivity_v1/prespecified_protocol.json",
+      "bytes": 2418,
+      "sha256": "3d4e89bfc93656b61fb57ddd9be688382c24464806d01b1260f22f9d97c272b6"
+    },
+    {
+      "path": "results/calibration_scale_sensitivity_v1/published_reconstruction_metrics.csv",
+      "bytes": 578,
+      "sha256": "a51f750e5bfdb44c4800741d99f227af57ccc9fa339d96313fdb5830a8c56be1"
+    },
+    {
+      "path": "results/calibration_scale_sensitivity_v1/reconstruction_audit.json",
+      "bytes": 397,
+      "sha256": "b49068b3fcab94c12c50539c0ecd2fbdfb5e10e8de564194f8196e0e66399ce8"
+    },
+    {
+      "path": "results/calibration_scale_sensitivity_v1/source_calibration_scores.csv",
+      "bytes": 313400,
+      "sha256": "b43f51a70880975e816a87b128c1b48fd39052df5ff8261efa0eab973cae7729"
+    },
+    {
+      "path": "results/calibration_scale_sensitivity_v1/source_fold_score_comparison.csv",
+      "bytes": 1009,
+      "sha256": "36bc0b0f052f0242e897d1c9f226e4b1783a75756bf00159dfc8d8894a817b28"
+    }
+  ]
+}

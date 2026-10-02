@@ -1,0 +1,396 @@
+{
+  "audit_utc": "2026-10-02T08:04:00.518264+00:00",
+  "status": "MINOR_REFERENCE_ITEMS_REMAIN",
+  "scope": "Read-only scientific and citation review of current bilingual narrative; only audit artifacts written. Known figure-caption integration may be occurring concurrently.",
+  "snapshot_sha256": {
+    "en": "222083e23eaabb791f1142696656a14a6edec7ad198179561db4a1401e747fbd",
+    "zh": "b9514d46e72d6acbc93f19f43b16d1000ce01b35efa34061bdcd8f1a64f4dbab",
+    "bib": "bb8421eab744d28d19285abdcca6d9321e828be2a5f722c485de5db0f5ff6395"
+  },
+  "citation_closure": {
+    "en": {
+      "distinct_cited_keys": 38,
+      "missing_keys": [],
+      "uncited_bib_keys": []
+    },
+    "zh": {
+      "distinct_cited_keys": 38,
+      "missing_keys": [],
+      "uncited_bib_keys": []
+    },
+    "bib_entries": 38,
+    "duplicate_keys": [],
+    "language_key_difference": []
+  },
+  "english_abstract_whitespace_words": 224,
+  "new_numeric_checks": [
+    {
+      "claim": "four-class ResNet probe dose 0.0",
+      "values": {
+        "mean": 0.641868775288
+      },
+      "reported_3dp": {
+        "mean": "0.642"
+      },
+      "present_in_target_paragraph": {
+        "mean": true
+      },
+      "status": "PASS"
+    },
+    {
+      "claim": "four-class ResNet probe dose 1.0",
+      "values": {
+        "mean": 0.794604341737
+      },
+      "reported_3dp": {
+        "mean": "0.795"
+      },
+      "present_in_target_paragraph": {
+        "mean": true
+      },
+      "status": "PASS"
+    },
+    {
+      "claim": "four-class ResNet sentinel dose 0.0",
+      "values": {
+        "mean": 0.613439768672
+      },
+      "reported_3dp": {
+        "mean": "0.613"
+      },
+      "present_in_target_paragraph": {
+        "mean": true
+      },
+      "status": "PASS"
+    },
+    {
+      "claim": "four-class ResNet sentinel dose 1.0",
+      "values": {
+        "mean": 0.604597329888
+      },
+      "reported_3dp": {
+        "mean": "0.605"
+      },
+      "present_in_target_paragraph": {
+        "mean": true
+      },
+      "status": "PASS"
+    },
+    {
+      "claim": "four-class ResNet localization",
+      "values": {
+        "mean_localization_contrast": 0.161578005233,
+        "split_p025": -0.0136124411005,
+        "split_p975": 0.355463358793
+      },
+      "reported_3dp": {
+        "mean_localization_contrast": "0.162",
+        "split_p025": "-0.014",
+        "split_p975": "0.355"
+      },
+      "present_in_target_paragraph": {
+        "mean_localization_contrast": true,
+        "split_p025": true,
+        "split_p975": true
+      },
+      "status": "PASS"
+    },
+    {
+      "claim": "four-class colour probe dose 0.0",
+      "values": {
+        "mean": 0.416929660753
+      },
+      "reported_3dp": {
+        "mean": "0.417"
+      },
+      "present_in_target_paragraph": {
+        "mean": true
+      },
+      "status": "PASS"
+    },
+    {
+      "claim": "four-class colour probe dose 1.0",
+      "values": {
+        "mean": 0.700792094616
+      },
+      "reported_3dp": {
+        "mean": "0.701"
+      },
+      "present_in_target_paragraph": {
+        "mean": true
+      },
+      "status": "PASS"
+    },
+    {
+      "claim": "four-class colour localization",
+      "values": {
+        "mean_localization_contrast": 0.281930601698,
+        "split_p025": 0.0860808640317,
+        "split_p975": 0.505959543217
+      },
+      "reported_3dp": {
+        "mean_localization_contrast": "0.282",
+        "split_p025": "0.086",
+        "split_p975": "0.506"
+      },
+      "present_in_target_paragraph": {
+        "mean_localization_contrast": true,
+        "split_p025": true,
+        "split_p975": true
+      },
+      "status": "PASS"
+    },
+    {
+      "claim": "binary ResNet probe gain",
+      "values": {
+        "mean_exposed_minus_clean": 0.0380744092509
+      },
+      "reported_3dp": {
+        "mean_exposed_minus_clean": "0.038"
+      },
+      "present_in_target_paragraph": {
+        "mean_exposed_minus_clean": true
+      },
+      "status": "PASS"
+    },
+    {
+      "claim": "binary resnet18 localization",
+      "values": {
+        "mean_localization_contrast": 0.0359376571141,
+        "split_p025": -0.0242372584096,
+        "split_p975": 0.103191448315
+      },
+      "reported_3dp": {
+        "mean_localization_contrast": "0.036",
+        "split_p025": "-0.024",
+        "split_p975": "0.103"
+      },
+      "present_in_target_paragraph": {
+        "mean_localization_contrast": true,
+        "split_p025": true,
+        "split_p975": true
+      },
+      "status": "PASS"
+    },
+    {
+      "claim": "binary color_shortcut localization",
+      "values": {
+        "mean_localization_contrast": 0.0892005448572,
+        "split_p025": 0.0142954856361,
+        "split_p975": 0.178659765337
+      },
+      "reported_3dp": {
+        "mean_localization_contrast": "0.089",
+        "split_p025": "0.014",
+        "split_p975": "0.179"
+      },
+      "present_in_target_paragraph": {
+        "mean_localization_contrast": true,
+        "split_p025": true,
+        "split_p975": true
+      },
+      "status": "PASS"
+    },
+    {
+      "claim": "reconstructed_legacy_mixed_C balanced_accuracy",
+      "values": {
+        "estimate": 0.655320813771518
+      },
+      "reported_3dp": {
+        "estimate": "0.655"
+      },
+      "present_in_target_paragraph": {
+        "estimate": true
+      },
+      "status": "PASS"
+    },
+    {
+      "claim": "fixed_final_C_OOF balanced_accuracy",
+      "values": {
+        "estimate": 0.6461495068602832
+      },
+      "reported_3dp": {
+        "estimate": "0.646"
+      },
+      "present_in_target_paragraph": {
+        "estimate": true
+      },
+      "status": "PASS"
+    },
+    {
+      "claim": "calibration difference balanced_accuracy",
+      "values": {
+        "difference": -0.0091713069112348,
+        "ci_low": -0.0224398687895884,
+        "ci_high": 0.0032704368750274
+      },
+      "reported_3dp": {
+        "difference": "-0.009",
+        "ci_low": "-0.022",
+        "ci_high": "0.003"
+      },
+      "present_in_target_paragraph": {
+        "difference": true,
+        "ci_low": true,
+        "ci_high": true
+      },
+      "status": "PASS"
+    },
+    {
+      "claim": "reconstructed_legacy_mixed_C brier",
+      "values": {
+        "estimate": 0.2402715300884541
+      },
+      "reported_3dp": {
+        "estimate": "0.240"
+      },
+      "present_in_target_paragraph": {
+        "estimate": true
+      },
+      "status": "PASS"
+    },
+    {
+      "claim": "fixed_final_C_OOF brier",
+      "values": {
+        "estimate": 0.2309676592385479
+      },
+      "reported_3dp": {
+        "estimate": "0.231"
+      },
+      "present_in_target_paragraph": {
+        "estimate": true
+      },
+      "status": "PASS"
+    },
+    {
+      "claim": "calibration difference brier",
+      "values": {
+        "difference": -0.0093038708499061,
+        "ci_low": -0.0112051193794818,
+        "ci_high": -0.0074463190667945
+      },
+      "reported_3dp": {
+        "difference": "-0.009",
+        "ci_low": "-0.011",
+        "ci_high": "-0.007"
+      },
+      "present_in_target_paragraph": {
+        "difference": true,
+        "ci_low": true,
+        "ci_high": true
+      },
+      "status": "PASS"
+    }
+  ],
+  "new_reference_metadata": {
+    "status": "PASS",
+    "entries": {
+      "Apicella2025Leakage": {
+        "author": "{Apicella, Andrea and Isgr{\\`o}, Francesco and Prevete, Roberto}",
+        "title": "{Don't push the button! Exploring data leakage risks in machine learning and transfer learning}",
+        "journal": "{Artificial Intelligence Review}",
+        "year": "{2025}",
+        "volume": "{58}",
+        "number": "{11}",
+        "pages": "{339}",
+        "doi": "{10.1007/s10462-025-11326-3}"
+      },
+      "Guignard2024ClusterLeakage": {
+        "author": "{Guignard, Fabian and Ginsbourger, David and Levy H{\\\"a}ner, Lilia and Herrera, Juan Manuel}",
+        "title": "{Some combinatorics of data leakage induced by clusters}",
+        "journal": "{Stochastic Environmental Research and Risk Assessment}",
+        "year": "{2024}",
+        "volume": "{38}",
+        "number": "{7}",
+        "pages": "{2815--2828}",
+        "doi": "{10.1007/s00477-024-02715-1}"
+      }
+    },
+    "sources": [
+      "https://link.springer.com/article/10.1007/s10462-025-11326-3",
+      "https://api.crossref.org/works/10.1007/s10462-025-11326-3",
+      "https://link.springer.com/article/10.1007/s00477-024-02715-1",
+      "https://api.crossref.org/works/10.1007/s00477-024-02715-1"
+    ],
+    "notes": [
+      "Apicella author surname Isgrò and article number 339 are correct; pages=339 is the project style mapping for article number.",
+      "Guignard coauthor surname Levy Häner is correctly retained as one compound family name; volume 38 issue 7 pages 2815-2828 are correct."
+    ]
+  },
+  "evidence_framing": {
+    "EUVP_occurrences": {
+      "en": 0,
+      "zh": 0
+    },
+    "new_theory_or_first_leakage_claim_detected": false,
+    "separate_endpoints_explicit": true,
+    "post_hoc_chronology_explicit": true,
+    "seed_percentiles_not_biological_CI_explicit": true,
+    "sentinel_non_equivalence_explicit": true,
+    "independent_validation_limits_explicit": true
+  },
+  "issues": [
+    {
+      "id": "N08",
+      "severity": "P2",
+      "file": "work\\onion_crossdomain\\manuscript\\final_paa\\narrative\\full_text.md",
+      "line": null,
+      "finding": "Supplemental OOD Fig. S1 is not explicitly called out in the body.",
+      "recommended_action": "Add Online Resource 1, Fig. S1 / 在线资源 1，图 S1 to the crop-level OOD paragraph."
+    },
+    {
+      "id": "N07",
+      "severity": "P3",
+      "file": "work\\onion_crossdomain\\manuscript\\final_paa\\narrative\\full_text_zh.md",
+      "line": null,
+      "finding": "Proposed Table 4 caption remains as an unused planning item; actual main text calls Tables 1-3 only.",
+      "recommended_action": "Remove the stale caption scaffold or explicitly map its contrasts into the stated supplementary table. Do not generate an uncited fourth main table."
+    },
+    {
+      "id": "N08",
+      "severity": "P2",
+      "file": "work\\onion_crossdomain\\manuscript\\final_paa\\narrative\\full_text_zh.md",
+      "line": null,
+      "finding": "Supplemental OOD Fig. S1 is not explicitly called out in the body.",
+      "recommended_action": "Add Online Resource 1, Fig. S1 / 在线资源 1，图 S1 to the crop-level OOD paragraph."
+    }
+  ],
+  "not_claimed": "This audit does not predict journal acceptance or assign a quality score; it does not replace rendered DOCX/PDF inspection.",
+  "release_note": "Historical v1.0.0 may remain when explicitly identified as the original evidence. Current text correctly distinguishes the cumulative v1.1.0. Public verification of the new tag is a separate release check, not a narrative error.",
+  "equation_callout_checks": {
+    "en": {
+      "explicit_individual_equation_callouts": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "expected_numbered_expressions": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "note": "Manual verification includes English grouped callout Equations (3) and (4), and Chinese 式（3）与式（4）.",
+      "status": "PASS"
+    },
+    "zh": {
+      "explicit_individual_equation_callouts": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "expected_numbered_expressions": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "note": "Manual verification includes English grouped callout Equations (3) and (4), and Chinese 式（3）与式（4）.",
+      "status": "PASS"
+    }
+  },
+  "audit_addendum_utc": "2026-10-02T08:05:30.078757+00:00",
+  "addendum_note": "Removed a false-positive legacy-tag finding after checking that the old tag is intentionally identified as original evidence; contemporaneous working-tree corrections may already resolve listed items."
+}

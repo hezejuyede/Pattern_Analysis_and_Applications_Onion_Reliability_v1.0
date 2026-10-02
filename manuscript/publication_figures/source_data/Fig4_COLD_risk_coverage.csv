@@ -1,0 +1,17 @@
+analysis_set,model,coverage,risk,accepted_images
+cold_locked_external,resnet18_logit,0.25,0.1617647058823529,204
+cold_locked_external,resnet18_logit,0.5,0.2358722358722358,407
+cold_locked_external,resnet18_logit,0.75,0.2901639344262295,610
+cold_locked_external,resnet18_logit,1.0,0.3345633456334563,813
+cold_locked_external,efficientnet_b0_logit,0.25,0.196078431372549,204
+cold_locked_external,efficientnet_b0_logit,0.5,0.2457002457002457,407
+cold_locked_external,efficientnet_b0_logit,0.75,0.3,610
+cold_locked_external,efficientnet_b0_logit,1.0,0.3407134071340713,813
+cold_locked_external,convnext_tiny_logit,0.25,0.2254901960784313,204
+cold_locked_external,convnext_tiny_logit,0.5,0.2874692874692874,407
+cold_locked_external,convnext_tiny_logit,0.75,0.3524590163934426,610
+cold_locked_external,convnext_tiny_logit,1.0,0.3985239852398524,813
+cold_locked_external,swin_t_logit,0.25,0.196078431372549,204
+cold_locked_external,swin_t_logit,0.5,0.2555282555282555,407
+cold_locked_external,swin_t_logit,0.75,0.3131147540983606,610
+cold_locked_external,swin_t_logit,1.0,0.4169741697416974,813

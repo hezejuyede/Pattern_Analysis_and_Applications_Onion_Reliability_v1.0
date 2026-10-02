@@ -1,0 +1,10 @@
+contrast,metric,difference,ci_low,ci_high,paired_bootstrap_replicates
+fixed_C_minus_reconstructed_legacy,balanced_accuracy,-0.0091713069112348,-0.022439868789588435,0.003270436875027473,1000
+fixed_C_minus_reconstructed_legacy,sensitivity,-0.046511627906976716,-0.06842372428533261,-0.027395388876412904,1000
+fixed_C_minus_reconstructed_legacy,specificity,0.028169014084507116,0.013818629188648108,0.04418604651162783,1000
+fixed_C_minus_reconstructed_legacy,macro_f1,-0.015422525215804006,-0.030396340115226506,-0.0012594774825264163,1000
+fixed_C_minus_reconstructed_legacy,auroc,0.0,0.0,0.0,1000
+fixed_C_minus_reconstructed_legacy,average_precision,0.0,0.0,0.0,1000
+fixed_C_minus_reconstructed_legacy,brier,-0.009303870849906193,-0.011205119379481846,-0.0074463190667945125,1000
+fixed_C_minus_reconstructed_legacy,nll,-0.07573225742262013,-0.09219664945796975,-0.062284053137794275,1000
+fixed_C_minus_reconstructed_legacy,ece_10,-0.023680842309632022,,,0

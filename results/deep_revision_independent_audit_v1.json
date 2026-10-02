@@ -1,0 +1,783 @@
+{
+  "status": "PASS_WITH_EXPLICIT_INFERENCE_LIMITS",
+  "created_utc": "2026-10-02T07:58:54.439147+00:00",
+  "review_mode": "independent_read_only_of_analysis_scripts_and_frozen_results",
+  "matched_script_sha256": "22044f23c3803df1f2545bd6ebdb825211b54b7c055bd7db9a335843a0b49730",
+  "matched_design_sha256": "ce542a8f4492c66769968dee435b06d6d2378dc7b13a3f64b36955baef9a9b93",
+  "matched_original_inputs_and_output_manifest_hashes": "PASS",
+  "matched_membership_checks": [
+    {
+      "repetition": 0,
+      "dose": "0",
+      "status": "PASS"
+    },
+    {
+      "repetition": 0,
+      "dose": "0.5",
+      "status": "PASS"
+    },
+    {
+      "repetition": 0,
+      "dose": "1",
+      "status": "PASS"
+    },
+    {
+      "repetition": 1,
+      "dose": "0",
+      "status": "PASS"
+    },
+    {
+      "repetition": 1,
+      "dose": "0.5",
+      "status": "PASS"
+    },
+    {
+      "repetition": 1,
+      "dose": "1",
+      "status": "PASS"
+    },
+    {
+      "repetition": 2,
+      "dose": "0",
+      "status": "PASS"
+    },
+    {
+      "repetition": 2,
+      "dose": "0.5",
+      "status": "PASS"
+    },
+    {
+      "repetition": 2,
+      "dose": "1",
+      "status": "PASS"
+    },
+    {
+      "repetition": 3,
+      "dose": "0",
+      "status": "PASS"
+    },
+    {
+      "repetition": 3,
+      "dose": "0.5",
+      "status": "PASS"
+    },
+    {
+      "repetition": 3,
+      "dose": "1",
+      "status": "PASS"
+    },
+    {
+      "repetition": 4,
+      "dose": "0",
+      "status": "PASS"
+    },
+    {
+      "repetition": 4,
+      "dose": "0.5",
+      "status": "PASS"
+    },
+    {
+      "repetition": 4,
+      "dose": "1",
+      "status": "PASS"
+    },
+    {
+      "repetition": 5,
+      "dose": "0",
+      "status": "PASS"
+    },
+    {
+      "repetition": 5,
+      "dose": "0.5",
+      "status": "PASS"
+    },
+    {
+      "repetition": 5,
+      "dose": "1",
+      "status": "PASS"
+    },
+    {
+      "repetition": 6,
+      "dose": "0",
+      "status": "PASS"
+    },
+    {
+      "repetition": 6,
+      "dose": "0.5",
+      "status": "PASS"
+    },
+    {
+      "repetition": 6,
+      "dose": "1",
+      "status": "PASS"
+    },
+    {
+      "repetition": 7,
+      "dose": "0",
+      "status": "PASS"
+    },
+    {
+      "repetition": 7,
+      "dose": "0.5",
+      "status": "PASS"
+    },
+    {
+      "repetition": 7,
+      "dose": "1",
+      "status": "PASS"
+    },
+    {
+      "repetition": 8,
+      "dose": "0",
+      "status": "PASS"
+    },
+    {
+      "repetition": 8,
+      "dose": "0.5",
+      "status": "PASS"
+    },
+    {
+      "repetition": 8,
+      "dose": "1",
+      "status": "PASS"
+    },
+    {
+      "repetition": 9,
+      "dose": "0",
+      "status": "PASS"
+    },
+    {
+      "repetition": 9,
+      "dose": "0.5",
+      "status": "PASS"
+    },
+    {
+      "repetition": 9,
+      "dose": "1",
+      "status": "PASS"
+    },
+    {
+      "repetition": 10,
+      "dose": "0",
+      "status": "PASS"
+    },
+    {
+      "repetition": 10,
+      "dose": "0.5",
+      "status": "PASS"
+    },
+    {
+      "repetition": 10,
+      "dose": "1",
+      "status": "PASS"
+    },
+    {
+      "repetition": 11,
+      "dose": "0",
+      "status": "PASS"
+    },
+    {
+      "repetition": 11,
+      "dose": "0.5",
+      "status": "PASS"
+    },
+    {
+      "repetition": 11,
+      "dose": "1",
+      "status": "PASS"
+    },
+    {
+      "repetition": 12,
+      "dose": "0",
+      "status": "PASS"
+    },
+    {
+      "repetition": 12,
+      "dose": "0.5",
+      "status": "PASS"
+    },
+    {
+      "repetition": 12,
+      "dose": "1",
+      "status": "PASS"
+    },
+    {
+      "repetition": 13,
+      "dose": "0",
+      "status": "PASS"
+    },
+    {
+      "repetition": 13,
+      "dose": "0.5",
+      "status": "PASS"
+    },
+    {
+      "repetition": 13,
+      "dose": "1",
+      "status": "PASS"
+    },
+    {
+      "repetition": 14,
+      "dose": "0",
+      "status": "PASS"
+    },
+    {
+      "repetition": 14,
+      "dose": "0.5",
+      "status": "PASS"
+    },
+    {
+      "repetition": 14,
+      "dose": "1",
+      "status": "PASS"
+    },
+    {
+      "repetition": 15,
+      "dose": "0",
+      "status": "PASS"
+    },
+    {
+      "repetition": 15,
+      "dose": "0.5",
+      "status": "PASS"
+    },
+    {
+      "repetition": 15,
+      "dose": "1",
+      "status": "PASS"
+    },
+    {
+      "repetition": 16,
+      "dose": "0",
+      "status": "PASS"
+    },
+    {
+      "repetition": 16,
+      "dose": "0.5",
+      "status": "PASS"
+    },
+    {
+      "repetition": 16,
+      "dose": "1",
+      "status": "PASS"
+    },
+    {
+      "repetition": 17,
+      "dose": "0",
+      "status": "PASS"
+    },
+    {
+      "repetition": 17,
+      "dose": "0.5",
+      "status": "PASS"
+    },
+    {
+      "repetition": 17,
+      "dose": "1",
+      "status": "PASS"
+    },
+    {
+      "repetition": 18,
+      "dose": "0",
+      "status": "PASS"
+    },
+    {
+      "repetition": 18,
+      "dose": "0.5",
+      "status": "PASS"
+    },
+    {
+      "repetition": 18,
+      "dose": "1",
+      "status": "PASS"
+    },
+    {
+      "repetition": 19,
+      "dose": "0",
+      "status": "PASS"
+    },
+    {
+      "repetition": 19,
+      "dose": "0.5",
+      "status": "PASS"
+    },
+    {
+      "repetition": 19,
+      "dose": "1",
+      "status": "PASS"
+    },
+    {
+      "repetition": 20,
+      "dose": "0",
+      "status": "PASS"
+    },
+    {
+      "repetition": 20,
+      "dose": "0.5",
+      "status": "PASS"
+    },
+    {
+      "repetition": 20,
+      "dose": "1",
+      "status": "PASS"
+    },
+    {
+      "repetition": 21,
+      "dose": "0",
+      "status": "PASS"
+    },
+    {
+      "repetition": 21,
+      "dose": "0.5",
+      "status": "PASS"
+    },
+    {
+      "repetition": 21,
+      "dose": "1",
+      "status": "PASS"
+    },
+    {
+      "repetition": 22,
+      "dose": "0",
+      "status": "PASS"
+    },
+    {
+      "repetition": 22,
+      "dose": "0.5",
+      "status": "PASS"
+    },
+    {
+      "repetition": 22,
+      "dose": "1",
+      "status": "PASS"
+    },
+    {
+      "repetition": 23,
+      "dose": "0",
+      "status": "PASS"
+    },
+    {
+      "repetition": 23,
+      "dose": "0.5",
+      "status": "PASS"
+    },
+    {
+      "repetition": 23,
+      "dose": "1",
+      "status": "PASS"
+    },
+    {
+      "repetition": 24,
+      "dose": "0",
+      "status": "PASS"
+    },
+    {
+      "repetition": 24,
+      "dose": "0.5",
+      "status": "PASS"
+    },
+    {
+      "repetition": 24,
+      "dose": "1",
+      "status": "PASS"
+    },
+    {
+      "repetition": 25,
+      "dose": "0",
+      "status": "PASS"
+    },
+    {
+      "repetition": 25,
+      "dose": "0.5",
+      "status": "PASS"
+    },
+    {
+      "repetition": 25,
+      "dose": "1",
+      "status": "PASS"
+    },
+    {
+      "repetition": 26,
+      "dose": "0",
+      "status": "PASS"
+    },
+    {
+      "repetition": 26,
+      "dose": "0.5",
+      "status": "PASS"
+    },
+    {
+      "repetition": 26,
+      "dose": "1",
+      "status": "PASS"
+    },
+    {
+      "repetition": 27,
+      "dose": "0",
+      "status": "PASS"
+    },
+    {
+      "repetition": 27,
+      "dose": "0.5",
+      "status": "PASS"
+    },
+    {
+      "repetition": 27,
+      "dose": "1",
+      "status": "PASS"
+    },
+    {
+      "repetition": 28,
+      "dose": "0",
+      "status": "PASS"
+    },
+    {
+      "repetition": 28,
+      "dose": "0.5",
+      "status": "PASS"
+    },
+    {
+      "repetition": 28,
+      "dose": "1",
+      "status": "PASS"
+    },
+    {
+      "repetition": 29,
+      "dose": "0",
+      "status": "PASS"
+    },
+    {
+      "repetition": 29,
+      "dose": "0.5",
+      "status": "PASS"
+    },
+    {
+      "repetition": 29,
+      "dose": "1",
+      "status": "PASS"
+    }
+  ],
+  "same_class_reciprocal_pair_checks": 4890,
+  "independently_recomputed_metric_values": 4320,
+  "max_metric_absolute_error": 4.99889019067723e-12,
+  "paired_difference_checks": 2880,
+  "max_paired_difference_absolute_error": 9.000022949123831e-12,
+  "localization_contrast_checks": 1440,
+  "max_localization_contrast_absolute_error": 1.0000056338554941e-12,
+  "independent_fresh_fits": [
+    {
+      "dose": "0",
+      "feature_model": "resnet18",
+      "endpoint": "four_class",
+      "max_probability_error": 4.986011603591578e-13,
+      "status": "PASS"
+    },
+    {
+      "dose": "0",
+      "feature_model": "resnet18",
+      "endpoint": "binary_healthy_affected",
+      "max_probability_error": 4.985178936323109e-13,
+      "status": "PASS"
+    },
+    {
+      "dose": "0",
+      "feature_model": "color_shortcut",
+      "endpoint": "four_class",
+      "max_probability_error": 4.987954493884672e-13,
+      "status": "PASS"
+    },
+    {
+      "dose": "0",
+      "feature_model": "color_shortcut",
+      "endpoint": "binary_healthy_affected",
+      "max_probability_error": 4.977129819394577e-13,
+      "status": "PASS"
+    },
+    {
+      "dose": "0.5",
+      "feature_model": "resnet18",
+      "endpoint": "four_class",
+      "max_probability_error": 4.990452495690079e-13,
+      "status": "PASS"
+    },
+    {
+      "dose": "0.5",
+      "feature_model": "resnet18",
+      "endpoint": "binary_healthy_affected",
+      "max_probability_error": 4.996003610813204e-13,
+      "status": "PASS"
+    },
+    {
+      "dose": "0.5",
+      "feature_model": "color_shortcut",
+      "endpoint": "four_class",
+      "max_probability_error": 4.987121826616203e-13,
+      "status": "PASS"
+    },
+    {
+      "dose": "0.5",
+      "feature_model": "color_shortcut",
+      "endpoint": "binary_healthy_affected",
+      "max_probability_error": 4.928835117823382e-13,
+      "status": "PASS"
+    },
+    {
+      "dose": "1",
+      "feature_model": "resnet18",
+      "endpoint": "four_class",
+      "max_probability_error": 4.990452495690079e-13,
+      "status": "PASS"
+    },
+    {
+      "dose": "1",
+      "feature_model": "resnet18",
+      "endpoint": "binary_healthy_affected",
+      "max_probability_error": 4.992672941739329e-13,
+      "status": "PASS"
+    },
+    {
+      "dose": "1",
+      "feature_model": "color_shortcut",
+      "endpoint": "four_class",
+      "max_probability_error": 4.992672941739329e-13,
+      "status": "PASS"
+    },
+    {
+      "dose": "1",
+      "feature_model": "color_shortcut",
+      "endpoint": "binary_healthy_affected",
+      "max_probability_error": 4.975464484857639e-13,
+      "status": "PASS"
+    }
+  ],
+  "primary_fourclass_and_secondary_binary_full_dose_results": [
+    {
+      "feature_model": "color_shortcut",
+      "endpoint": "binary_healthy_affected",
+      "evaluation_panel": "probe",
+      "dose": "1",
+      "metric": "balanced_accuracy",
+      "mean_exposed_minus_clean": 0.0791528406234,
+      "split_sd": 0.0316836594843,
+      "split_p025": 0.0322888386124,
+      "split_p975": 0.143188159879,
+      "positive_seeds": 30,
+      "negative_seeds": 0,
+      "zero_seeds": 0,
+      "repetitions": 30
+    },
+    {
+      "feature_model": "color_shortcut",
+      "endpoint": "binary_healthy_affected",
+      "evaluation_panel": "sentinel",
+      "dose": "1",
+      "metric": "balanced_accuracy",
+      "mean_exposed_minus_clean": -0.0100477042338,
+      "split_sd": 0.0324248216238,
+      "split_p025": -0.0631857483602,
+      "split_p975": 0.0481514609422,
+      "positive_seeds": 8,
+      "negative_seeds": 20,
+      "zero_seeds": 2,
+      "repetitions": 30
+    },
+    {
+      "feature_model": "color_shortcut",
+      "endpoint": "four_class",
+      "evaluation_panel": "probe",
+      "dose": "1",
+      "metric": "balanced_accuracy",
+      "mean_exposed_minus_clean": 0.283862433862,
+      "split_sd": 0.0732262984778,
+      "split_p025": 0.141887838469,
+      "split_p975": 0.413173873716,
+      "positive_seeds": 30,
+      "negative_seeds": 0,
+      "zero_seeds": 0,
+      "repetitions": 30
+    },
+    {
+      "feature_model": "color_shortcut",
+      "endpoint": "four_class",
+      "evaluation_panel": "sentinel",
+      "dose": "1",
+      "metric": "balanced_accuracy",
+      "mean_exposed_minus_clean": 0.00193183216439,
+      "split_sd": 0.0809671505805,
+      "split_p025": -0.150111318752,
+      "split_p975": 0.136804978774,
+      "positive_seeds": 16,
+      "negative_seeds": 14,
+      "zero_seeds": 0,
+      "repetitions": 30
+    },
+    {
+      "feature_model": "resnet18",
+      "endpoint": "binary_healthy_affected",
+      "evaluation_panel": "probe",
+      "dose": "1",
+      "metric": "balanced_accuracy",
+      "mean_exposed_minus_clean": 0.0380744092509,
+      "split_sd": 0.02482064797,
+      "split_p025": -0.000673076923077,
+      "split_p975": 0.091072775264,
+      "positive_seeds": 28,
+      "negative_seeds": 2,
+      "zero_seeds": 0,
+      "repetitions": 30
+    },
+    {
+      "feature_model": "resnet18",
+      "endpoint": "binary_healthy_affected",
+      "evaluation_panel": "sentinel",
+      "dose": "1",
+      "metric": "balanced_accuracy",
+      "mean_exposed_minus_clean": 0.00213675213675,
+      "split_sd": 0.0316988752475,
+      "split_p025": -0.0421958855098,
+      "split_p975": 0.0564847942755,
+      "positive_seeds": 15,
+      "negative_seeds": 14,
+      "zero_seeds": 1,
+      "repetitions": 30
+    },
+    {
+      "feature_model": "resnet18",
+      "endpoint": "four_class",
+      "evaluation_panel": "probe",
+      "dose": "1",
+      "metric": "balanced_accuracy",
+      "mean_exposed_minus_clean": 0.152735566449,
+      "split_sd": 0.0710381588578,
+      "split_p025": 0.024977386788,
+      "split_p975": 0.280477503501,
+      "positive_seeds": 29,
+      "negative_seeds": 1,
+      "zero_seeds": 0,
+      "repetitions": 30
+    },
+    {
+      "feature_model": "resnet18",
+      "endpoint": "four_class",
+      "evaluation_panel": "sentinel",
+      "dose": "1",
+      "metric": "balanced_accuracy",
+      "mean_exposed_minus_clean": -0.0088424387843,
+      "split_sd": 0.0683799177828,
+      "split_p025": -0.131125415282,
+      "split_p975": 0.123807216685,
+      "positive_seeds": 14,
+      "negative_seeds": 15,
+      "zero_seeds": 1,
+      "repetitions": 30
+    }
+  ],
+  "localization_results": [
+    {
+      "feature_model": "color_shortcut",
+      "endpoint": "binary_healthy_affected",
+      "dose": "1",
+      "metric": "balanced_accuracy",
+      "mean_localization_contrast": 0.0892005448572,
+      "split_sd": 0.0459556462823,
+      "split_p025": 0.0142954856361,
+      "split_p975": 0.178659765337,
+      "positive_seeds": 30,
+      "negative_seeds": 0,
+      "zero_seeds": 0,
+      "repetitions": 30
+    },
+    {
+      "feature_model": "color_shortcut",
+      "endpoint": "four_class",
+      "dose": "1",
+      "metric": "balanced_accuracy",
+      "mean_localization_contrast": 0.281930601698,
+      "split_sd": 0.103442898699,
+      "split_p025": 0.0860808640317,
+      "split_p975": 0.505959543217,
+      "positive_seeds": 30,
+      "negative_seeds": 0,
+      "zero_seeds": 0,
+      "repetitions": 30
+    },
+    {
+      "feature_model": "resnet18",
+      "endpoint": "binary_healthy_affected",
+      "dose": "1",
+      "metric": "balanced_accuracy",
+      "mean_localization_contrast": 0.0359376571141,
+      "split_sd": 0.0400563743241,
+      "split_p025": -0.0242372584096,
+      "split_p975": 0.103191448315,
+      "positive_seeds": 23,
+      "negative_seeds": 7,
+      "zero_seeds": 0,
+      "repetitions": 30
+    },
+    {
+      "feature_model": "resnet18",
+      "endpoint": "four_class",
+      "dose": "1",
+      "metric": "balanced_accuracy",
+      "mean_localization_contrast": 0.161578005233,
+      "split_sd": 0.10370565305,
+      "split_p025": -0.0136124411005,
+      "split_p975": 0.355463358793,
+      "positive_seeds": 29,
+      "negative_seeds": 1,
+      "zero_seeds": 0,
+      "repetitions": 30
+    }
+  ],
+  "calibration_reconstruction": {
+    "source_legacy_score_max_abs_error": 3.552713678800501e-15,
+    "external_raw_score_max_abs_error": 1.7763568394002505e-15,
+    "external_probability_max_abs_error": 2.220446049250313e-16,
+    "threshold_absolute_difference": 0.0,
+    "external_label_decision_disagreements": 0,
+    "shared_external_raw_score_two_arms": true,
+    "old_results_modified": false,
+    "input_hashes_unchanged": true
+  },
+  "calibration_independent_metric_checks": 16,
+  "post_hoc_status_verified_for_both": true,
+  "findings": [
+    {
+      "severity": "interpretation_required",
+      "finding": "Four evidence units are complementary audit questions across separate datasets and endpoints, not an empirically identified four-stage causal or numerical decomposition.",
+      "action": "Replace claims that one common material forms a progressively nested measured chain; report augmented-archive interventions and binary external transport as separate complementary experiments."
+    },
+    {
+      "severity": "interpretation_required",
+      "finding": "Old same-number random split seeds do not match test images or training families.",
+      "action": "Call the original result a split-scheme contrast. Use the new fixed-anchor/fixed-budget intervention for the conditional within-archive sibling-substitution claim, without numerically merging effect sizes."
+    },
+    {
+      "severity": "precision_limit",
+      "finding": "Only four purple-blotch probe families and two sentinel families occur per seed; an individual error changes four-class balanced accuracy by 0.0625 or 0.125 respectively. Repeated seeds reuse the archive.",
+      "action": "Retain class support and split-variation ranges; do not treat 30 seeds as 30 biological replicates or claim precise pathology-specific effects."
+    },
+    {
+      "severity": "interpretation_required",
+      "finding": "Sentinel near-zero or sign-changing effects are compatible with split variation but do not establish equivalence or absence of global effects.",
+      "action": "Report all sentinel results and localization contrasts with their ranges. Do not use seed significance tests or declare equivalence without a justified margin and independent replication."
+    },
+    {
+      "severity": "uncertainty_limit",
+      "finding": "Bootstrap resampling keeps fitted models and prediction streams fixed; COLD exact-SHA groups are singleton images with unknown biological clusters.",
+      "action": "Describe conditional image/day uncertainty, not full training-procedure or biological uncertainty."
+    },
+    {
+      "severity": "protocol_boundary",
+      "finding": "Same-class donor matching deliberately uses augmented-archive class labels; both new analyses were designed after original target results were known.",
+      "action": "Call them post hoc diagnostic/sensitivity analyses; neither is label-free deployment, a new independent external validation, or a prospectively preregistered primary study."
+    },
+    {
+      "severity": "remaining_calibration_limit",
+      "finding": "Fixed-C OOF calibration removes mixed-C score construction but both arms still transfer from fold-trained to full-source-fitted heads.",
+      "action": "Interpret persistence of external failure as robustness to the tested construction only, not proof that all possible score-scale effects have been eliminated."
+    }
+  ],
+  "blocking_numerical_or_membership_errors": []
+}

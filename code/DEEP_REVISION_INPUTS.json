@@ -1,0 +1,59 @@
+{
+  "suite": "matched_sibling_intervention_v1",
+  "analysis_status": "post_hoc_diagnostic",
+  "runtime": {
+    "python": "3.12.14",
+    "numpy": "2.3.5",
+    "pandas": "3.0.1",
+    "scipy": "1.18.1",
+    "scikit_learn": "1.8.0",
+    "threadpoolctl": "3.7.0"
+  },
+  "original_suite_environment_unchanged": "scikit-learn 1.6.1",
+  "files": [
+    {
+      "path": "audit/cold_augmented_lineage/augmented_family_manifest.csv",
+      "bytes": 1780674,
+      "sha256": "db89d16dc79262faa8b3bc2d8bca68b9c4ce9466ce63f10b556430b828820c0a"
+    },
+    {
+      "path": "audit/cold_augmented_lineage/resnet18_embeddings.npz",
+      "bytes": 9777873,
+      "sha256": "6cf804b512ab193d72cc044550db76a2cdbbfdc09165deed4eb2cea1426de877"
+    },
+    {
+      "path": "features/cold_augmented_color_shortcut.npz",
+      "bytes": 1703207,
+      "sha256": "24a783bb1442262076f725a056f610e34694d6d21d0c2148e82e987f705ce790"
+    },
+    {
+      "path": "code/run_matched_sibling_intervention.py",
+      "bytes": 27801,
+      "sha256": "22044f23c3803df1f2545bd6ebdb825211b54b7c055bd7db9a335843a0b49730"
+    },
+    {
+      "path": "code/run_matched_sibling_intervention_cli.py",
+      "bytes": 1082,
+      "sha256": "827552e1b79288c06bc5075a37abf4d842061ff5e888616e5a8298920431cbef"
+    },
+    {
+      "path": "code/verify_matched_sibling_rerun.py",
+      "bytes": 5177,
+      "sha256": "1f2921269f781005094572f130c8f7f4425bfbe77743d267936b0d37adabe338"
+    },
+    {
+      "path": "code/README_DEEP_REVISION.md",
+      "bytes": 7153,
+      "sha256": "15991b52ccb52a1e3199ec95b999847ddefb0ae063f55897a5c0c5b64cc2ec9e"
+    },
+    {
+      "path": "audit/reproducibility/data_sources_and_licenses.md",
+      "bytes": 3728,
+      "sha256": "a1ef5207860602a04cdd9dc259451aa3ebc3f34ed002eb93dc6f45ad5a2239e0"
+    }
+  ],
+  "scientific_input_count": 3,
+  "new_image_decoding_required": false,
+  "network_required": false,
+  "GPU_required": false
+}

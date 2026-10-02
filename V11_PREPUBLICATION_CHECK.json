@@ -1,0 +1,7 @@
+{
+  "status": "PASS",
+  "checks": 49,
+  "failures": [],
+  "oversized_files": [],
+  "scope": "scientific inputs, immutable protocols and result checksums; not editorial readiness or acceptance"
+}

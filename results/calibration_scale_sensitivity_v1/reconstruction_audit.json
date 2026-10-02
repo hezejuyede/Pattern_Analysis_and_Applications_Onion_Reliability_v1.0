@@ -1,0 +1,10 @@
+{
+  "source_legacy_score_max_abs_error": 3.552713678800501e-15,
+  "external_raw_score_max_abs_error": 1.7763568394002505e-15,
+  "external_probability_max_abs_error": 2.220446049250313e-16,
+  "threshold_absolute_difference": 0.0,
+  "external_label_decision_disagreements": 0,
+  "shared_external_raw_score_two_arms": true,
+  "old_results_modified": false,
+  "input_hashes_unchanged": true
+}

@@ -1,32 +1,9 @@
 {
-  "title": "Evidence units and cross-dataset reliability in onion foliar image classification",
-  "version": "1.0.0",
-  "publication_state": "PUBLIC_RELEASE",
-  "repository_url": "https://github.com/hezejuyede/Pattern_Analysis_and_Applications_Onion_Reliability_v1.0",
-  "authors": [
-    {
-      "name": "Xin Li",
-      "orcid": "0009-0005-0670-5006"
-    },
-    {
-      "name": "Bojian Guo",
-      "orcid": "0009-0005-8353-2436"
-    },
-    {
-      "name": "Asel Kartanova",
-      "orcid": "0000-0003-1479-0747"
-    }
-  ],
-  "release_blockers": [],
-  "repository_root_layout_required": true,
-  "repository_content_verified": true,
-  "public_verification": {
-    "verified_utc_date": "2026-10-02",
-    "verified_commit": "2ed0a4ed8af7da0480f0b4d451b5c19f3355ed40",
-    "anonymous_clone": true,
-    "root_layout": true,
-    "integrity_status": "PASS",
-    "numerical_status": "PASS",
-    "release_tag": "v1.0.0"
-  }
+  "title": "Controlled sibling exposure and locked cross-source reliability in onion image classification",
+  "release_tag": "v1.1.0",
+  "manuscript_version": "v1.4",
+  "historical_tag": "v1.0.0",
+  "scope": "cumulative original evidence plus post hoc controlled experiments",
+  "canonical_metadata": "release_metadata_v11.json",
+  "verification": "Content hashes are in SHA256SUMS; the immutable Git tag identifies this tree. Numerical checks do not certify acceptance."
 }

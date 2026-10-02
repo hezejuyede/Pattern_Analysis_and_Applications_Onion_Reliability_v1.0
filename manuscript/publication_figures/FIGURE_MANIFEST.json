@@ -1,0 +1,31 @@
+{
+  "source_root": "C:\\Users\\lixin\\Documents\\Codex\\2026-09-27\\lu\\work\\onion_crossdomain",
+  "figures": {
+    "Fig1": "separate controlled sibling-exposure and locked source-transfer branches; COLD file-to-family counts",
+    "Fig2": "30-seed fixed-budget sibling exposure: fixed probe/sentinel accuracy, paired changes and localization contrast",
+    "Fig3": "TOM internal versus COLD external transport across all prespecified models",
+    "Fig4": "calibration, class-specific correctness and selective risk for four backbones",
+    "FigS1": "descriptive non-onion open-set results; not unknown-onion-disease validation"
+  },
+  "formats": [
+    "PDF vector",
+    "EPS vector",
+    "TIFF RGB 600 dpi with LZW compression"
+  ],
+  "generation_rule": "No raw image or model object is read; all marks derive from frozen CSV/JSON artifacts.",
+  "Fig2_uncertainty": "2.5th and 97.5th percentiles across 30 prespecified seeds; not biological confidence intervals",
+  "Fig2_primary_endpoint": "four original COLD archive classes; binary results are a separate sensitivity",
+  "source_sha256": {
+    "results/matched_sibling_intervention_v1/design.json": "ce542a8f4492c66769968dee435b06d6d2378dc7b13a3f64b36955baef9a9b93",
+    "results/matched_sibling_intervention_v1/repeated_metrics.csv": "05de0eecd8c57a8b8b23878621f0b5d616b01f857bdc584beda2bd9833b564b6",
+    "results/matched_sibling_intervention_v1/execution_checks.csv": "4d0248cb003ae15ac6ad20933003e7d7ca95788da745023e72bfdf442d84fe1b",
+    "manuscript/publication_figures/source_data/Fig1_family_counts.csv": "63b3edfcbff8eb7b29ec6a3126176d79b40a2e3b620cb30f2bdaccb0ddcfef90",
+    "manuscript/publication_figures/source_data/Fig1_intervention_checks.csv": "7a1409a4ea1ba15dbf28eafb1bbecc74fdc70999059ee64d1164948df8c17b80",
+    "manuscript/publication_figures/source_data/Fig2_controlled_balanced_accuracy_by_seed.csv": "fe41555f2d4549ce715f511ce0581b22e9b5289ab1b4a1860aa5be76f45e8eff",
+    "manuscript/publication_figures/source_data/Fig2_controlled_balanced_accuracy_summary.csv": "2a1a7c6a39697de0fef901b70b470ebbc3e559d62b9af63ff9621e98f4f9f653",
+    "manuscript/publication_figures/source_data/Fig2_paired_changes_by_seed.csv": "15e0e7924d3b26e9b5dd1ff8986d48425b54b6317e81a6d6f2b127db65522bec",
+    "manuscript/publication_figures/source_data/Fig2_paired_changes_summary.csv": "589458247f8b157a8f89a10e71230ac2a6a28b0e1c9c3e0329cec98c8654cb3f",
+    "manuscript/publication_figures/source_data/Fig2_localization_by_seed.csv": "76cf83e085e9da33cdd4904d88b2aad745d2617952f9f881eb244f6d7f3982f9",
+    "manuscript/publication_figures/source_data/Fig2_localization_summary.csv": "1698a0931092c4ddead214d7f797d2d036092f39aabc4066123cf8602b214a5c"
+  }
+}

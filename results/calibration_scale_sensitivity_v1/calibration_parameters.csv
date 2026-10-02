@@ -1,0 +1,3 @@
+arm,final_head_C,platt_slope,platt_intercept,probability_threshold,raw_score_threshold,calibration_source_n,interpretation
+reconstructed_legacy_mixed_C,0.1,1.093387037398187,1.3156739932998653,0.8154751358879273,0.15576617778289398,1643,source_fitted_not_source_validation
+fixed_final_C_OOF,0.1,0.8995713389503346,1.057474339031633,0.8135006599402107,0.46182518311816495,1643,source_fitted_not_source_validation

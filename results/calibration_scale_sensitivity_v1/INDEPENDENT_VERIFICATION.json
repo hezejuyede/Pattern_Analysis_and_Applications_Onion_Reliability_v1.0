@@ -1,0 +1,106 @@
+{
+  "status": "PASS",
+  "independent_sklearn_metric_checks": [
+    {
+      "arm": "fixed_final_C_OOF",
+      "metric": "balanced_accuracy",
+      "absolute_error": 0.0,
+      "status": "PASS"
+    },
+    {
+      "arm": "fixed_final_C_OOF",
+      "metric": "macro_f1",
+      "absolute_error": 0.0,
+      "status": "PASS"
+    },
+    {
+      "arm": "fixed_final_C_OOF",
+      "metric": "sensitivity",
+      "absolute_error": 0.0,
+      "status": "PASS"
+    },
+    {
+      "arm": "fixed_final_C_OOF",
+      "metric": "specificity",
+      "absolute_error": 0.0,
+      "status": "PASS"
+    },
+    {
+      "arm": "fixed_final_C_OOF",
+      "metric": "auroc",
+      "absolute_error": 0.0,
+      "status": "PASS"
+    },
+    {
+      "arm": "fixed_final_C_OOF",
+      "metric": "average_precision",
+      "absolute_error": 0.0,
+      "status": "PASS"
+    },
+    {
+      "arm": "fixed_final_C_OOF",
+      "metric": "brier",
+      "absolute_error": 2.7755575615628914e-17,
+      "status": "PASS"
+    },
+    {
+      "arm": "fixed_final_C_OOF",
+      "metric": "nll",
+      "absolute_error": 1.1102230246251565e-16,
+      "status": "PASS"
+    },
+    {
+      "arm": "reconstructed_legacy_mixed_C",
+      "metric": "balanced_accuracy",
+      "absolute_error": 0.0,
+      "status": "PASS"
+    },
+    {
+      "arm": "reconstructed_legacy_mixed_C",
+      "metric": "macro_f1",
+      "absolute_error": 0.0,
+      "status": "PASS"
+    },
+    {
+      "arm": "reconstructed_legacy_mixed_C",
+      "metric": "sensitivity",
+      "absolute_error": 0.0,
+      "status": "PASS"
+    },
+    {
+      "arm": "reconstructed_legacy_mixed_C",
+      "metric": "specificity",
+      "absolute_error": 0.0,
+      "status": "PASS"
+    },
+    {
+      "arm": "reconstructed_legacy_mixed_C",
+      "metric": "auroc",
+      "absolute_error": 0.0,
+      "status": "PASS"
+    },
+    {
+      "arm": "reconstructed_legacy_mixed_C",
+      "metric": "average_precision",
+      "absolute_error": 0.0,
+      "status": "PASS"
+    },
+    {
+      "arm": "reconstructed_legacy_mixed_C",
+      "metric": "brier",
+      "absolute_error": 5.551115123125783e-17,
+      "status": "PASS"
+    },
+    {
+      "arm": "reconstructed_legacy_mixed_C",
+      "metric": "nll",
+      "absolute_error": 6.661338147750939e-16,
+      "status": "PASS"
+    }
+  ],
+  "same_external_sample_order_and_raw_scores": true,
+  "unique_external_images": 813,
+  "unique_source_images": 1643,
+  "acquisition_day_outer_fold_exclusivity": true,
+  "positive_calibration_slopes": true
+}

@@ -1,0 +1,108 @@
+[
+  {
+    "model": "prior_prevalence",
+    "feature": null,
+    "role": "baseline",
+    "final_C_selected_with_TOM_grouped_CV": null,
+    "outer_fold_best_C": [],
+    "calibration": "source prevalence",
+    "threshold": 0.5,
+    "threshold_source": "fixed 0.5"
+  },
+  {
+    "model": "color_shortcut_logit",
+    "feature": "color_shortcut",
+    "role": "shortcut_baseline",
+    "final_C_selected_with_TOM_grouped_CV": 0.1,
+    "outer_fold_best_C": [
+      1.0,
+      0.1,
+      0.1,
+      1.0,
+      1.0
+    ],
+    "calibration": "Platt scaling on acquisition-day nested OOF scores",
+    "threshold": 0.7800099137407127,
+    "threshold_source": "TOM acquisition-day nested OOF"
+  },
+  {
+    "model": "handcrafted_logit",
+    "feature": "handcrafted",
+    "role": "classical_baseline",
+    "final_C_selected_with_TOM_grouped_CV": 0.01,
+    "outer_fold_best_C": [
+      0.01,
+      0.1,
+      0.01,
+      0.01,
+      0.01
+    ],
+    "calibration": "Platt scaling on acquisition-day nested OOF scores",
+    "threshold": 0.7207579709640418,
+    "threshold_source": "TOM acquisition-day nested OOF"
+  },
+  {
+    "model": "resnet18_logit",
+    "feature": "resnet18",
+    "role": "a_priori_primary",
+    "final_C_selected_with_TOM_grouped_CV": 0.1,
+    "outer_fold_best_C": [
+      0.01,
+      0.01,
+      0.1,
+      0.1,
+      0.1
+    ],
+    "calibration": "Platt scaling on acquisition-day nested OOF scores",
+    "threshold": 0.8154751358879273,
+    "threshold_source": "TOM acquisition-day nested OOF"
+  },
+  {
+    "model": "efficientnet_b0_logit",
+    "feature": "efficientnet_b0",
+    "role": "secondary_architecture_sensitivity",
+    "final_C_selected_with_TOM_grouped_CV": 1.0,
+    "outer_fold_best_C": [
+      0.1,
+      0.1,
+      0.01,
+      0.01,
+      0.1
+    ],
+    "calibration": "Platt scaling on acquisition-day nested OOF scores",
+    "threshold": 0.7500402829869004,
+    "threshold_source": "TOM acquisition-day nested OOF"
+  },
+  {
+    "model": "convnext_tiny_logit",
+    "feature": "convnext_tiny",
+    "role": "secondary_architecture_sensitivity",
+    "final_C_selected_with_TOM_grouped_CV": 0.1,
+    "outer_fold_best_C": [
+      0.1,
+      0.1,
+      1.0,
+      0.1,
+      0.1
+    ],
+    "calibration": "Platt scaling on acquisition-day nested OOF scores",
+    "threshold": 0.8059250066389689,
+    "threshold_source": "TOM acquisition-day nested OOF"
+  },
+  {
+    "model": "swin_t_logit",
+    "feature": "swin_t",
+    "role": "secondary_transformer_sensitivity",
+    "final_C_selected_with_TOM_grouped_CV": 0.1,
+    "outer_fold_best_C": [
+      0.1,
+      0.1,
+      0.1,
+      1.0,
+      0.1
+    ],
+    "calibration": "Platt scaling on acquisition-day nested OOF scores",
+    "threshold": 0.8059960807239086,
+    "threshold_source": "TOM acquisition-day nested OOF"
+  }
+]

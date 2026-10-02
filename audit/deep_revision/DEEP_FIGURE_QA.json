@@ -1,0 +1,38 @@
+{
+  "status": "PASS",
+  "checks": [
+    {
+      "figure": "Fig1",
+      "mode": "RGB",
+      "dpi": [
+        600.0,
+        600.0
+      ],
+      "pixels": [
+        4215,
+        3345
+      ],
+      "embedded_pdf_fonts": true,
+      "eps_eof": true,
+      "pdf_sha256": "ea85c227fd2f4c3b9f287ec00a758fad4f0562dba63c4b0515ba7e701af506c2",
+      "visual_review": "PASS: latest 180-dpi PDF render inspected; no clipping, overlap or lost labels"
+    },
+    {
+      "figure": "Fig2",
+      "mode": "RGB",
+      "dpi": [
+        600.0,
+        600.0
+      ],
+      "pixels": [
+        4215,
+        3286
+      ],
+      "embedded_pdf_fonts": true,
+      "eps_eof": true,
+      "pdf_sha256": "d6d9b364fdfc3de025f1398ee628b02432a8f61fa9dd783892ba705185c18f19",
+      "visual_review": "PASS: latest 180-dpi PDF render inspected; no clipping, overlap or lost labels"
+    }
+  ],
+  "plot_numeric_check": "All extracted means and seed percentile endpoints matched released analysis aggregates within 2e-10"
+}

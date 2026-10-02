@@ -1,0 +1,10 @@
+{
+  "release": "v1.4",
+  "repository_tag": "v1.1.0",
+  "meaning": "source-content freeze after substantive revision; not a publication-quality score",
+  "files": {
+    "narrative/full_text.md": "fdc8709267ef042a373b103b6489bc20c15cfa74013f4d645534c6ef6742adb0",
+    "narrative/full_text_zh.md": "0d6249a568aed46206a2991d8256508261057d0654f292d73dad95d37d812453",
+    "narrative/references_paa.bib": "bb8421eab744d28d19285abdcca6d9321e828be2a5f722c485de5db0f5ff6395"
+  }
+}

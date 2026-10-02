@@ -1,0 +1,102 @@
+{
+  "frozen_utc": "2026-10-02T07:50:44.082204+00:00",
+  "analysis_status": "post_hoc_diagnostic_designed_after_existing_results_were_known",
+  "purpose": "Estimate the fixed-budget same-class sibling-substitution effect within one augmented archive.",
+  "not_estimated": [
+    "prospective generalization",
+    "new independent external validation",
+    "biological causal effect",
+    "plant-level replication"
+  ],
+  "repetitions": 30,
+  "seed_start": 20261002,
+  "seed_rule": "20261002 + repetition, repetition = 0,...,29; retain every seed",
+  "test_family_fraction_by_class": 0.2,
+  "test_family_count_rule": "max(1, Python round(0.2 * n_families_in_class))",
+  "test_families_by_class": {
+    "healthy": 85,
+    "iris_yellow_virus": 56,
+    "purple_blotch": 4,
+    "stemphylium_colletotrichum_leaf_blight": 18
+  },
+  "sentinel_family_fraction_by_class": 0.1,
+  "sentinel_families_by_class": {
+    "healthy": 43,
+    "iris_yellow_virus": 28,
+    "purple_blotch": 2,
+    "stemphylium_colletotrichum_leaf_blight": 9
+  },
+  "test_images": 245,
+  "probe_test_images": 163,
+  "sentinel_test_images": 82,
+  "test_view_selection": "one random anchor and two other distinct sibling views per test family, shared across all conditions and endpoints",
+  "sentinel_selection": "After selecting probe P families, select round(0.1 * original_class_family_count) sentinel S families from the remaining class; one anchor each, all S families excluded from all training conditions.",
+  "clean_training": "Every remaining D family contributes two random distinct views; 571 families, 1142 images.",
+  "donor_matching": "Each probe P family is matched without replacement to one random D donor family from the same class; donor family contributes its two selected views.",
+  "doses": [
+    "0",
+    "0.5",
+    "1"
+  ],
+  "dose_rule": "Within each class, randomize matched pair order; replace round(dose * n_test_families) donor pairs by the corresponding two test-family siblings. Record actual exposure rate.",
+  "controls": [
+    "identical test anchor images",
+    "identical training image budget",
+    "identical per-class image counts",
+    "identical training family count",
+    "exactly two training views per included family",
+    "identical feature extractors",
+    "identical logistic hyperparameters",
+    "training-only standardization"
+  ],
+  "models": {
+    "resnet18": "frozen ImageNet 512 dimensions",
+    "color_shortcut": "fixed color histogram/statistic 189 dimensions"
+  },
+  "classifier": {
+    "name": "LogisticRegression",
+    "C": 0.01,
+    "regularization": "L2 library default",
+    "solver": "lbfgs",
+    "class_weight": "balanced",
+    "max_iter": 10000,
+    "random_state": 20261002
+  },
+  "endpoints": {
+    "four_class": "primary; original four archive classes",
+    "binary_healthy_affected": "secondary; healthy=0, all three affected archive classes=1; no pathology equivalence claim"
+  },
+  "primary_metric": "four-class balanced accuracy; full exposure minus zero exposure separately in P probes and S sentinels; localization contrast = delta_P minus delta_S, paired within seed and feature set",
+  "secondary_metrics": [
+    "balanced_accuracy",
+    "accuracy",
+    "macro_f1",
+    "log_loss",
+    "brier",
+    "auroc"
+  ],
+  "brier_definition": "four-class sum_k (p_k - onehot_k)^2 without dividing by classes; binary (p_affected - y)^2",
+  "uncertainty": "Across-seed SD and 2.5/97.5 percentiles describe split variation, not independent biological confidence intervals; no seed-level significance tests.",
+  "interpretation": "The intervention replaces same-class unrelated source families with related families. It controls quantity and class composition, but intentionally changes training identity and dependence. Its magnitude is conditional on this two-view budget and archive.",
+  "prohibited": [
+    "raw-parent inferred crosswalk",
+    "target-label hyperparameter tuning",
+    "seed selection",
+    "changing primary model after inspecting results",
+    "representing the diagnostic as preregistered before the original study"
+  ],
+  "input_sha256": {
+    "lineage": "db89d16dc79262faa8b3bc2d8bca68b9c4ce9466ce63f10b556430b828820c0a",
+    "resnet18": "6cf804b512ab193d72cc044550db76a2cdbbfdc09165deed4eb2cea1426de877",
+    "color_shortcut": "24a783bb1442262076f725a056f610e34694d6d21d0c2148e82e987f705ce790"
+  },
+  "script_sha256": "22044f23c3803df1f2545bd6ebdb825211b54b7c055bd7db9a335843a0b49730",
+  "software": {
+    "python": "3.12.14",
+    "numpy": "2.3.5",
+    "pandas": "3.0.1",
+    "scipy": "1.18.1",
+    "scikit_learn": "1.8.0"
+  },
+  "execution": "CPU only, one numerical library thread; no cv2, torch, image decoding, new features, or new image data"
+}

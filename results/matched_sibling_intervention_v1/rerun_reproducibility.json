@@ -1,0 +1,21 @@
+{
+  "status": "PASS_EXACT_REPRODUCTION",
+  "checked_utc": "2026-10-02T07:57:17.623973+00:00",
+  "checks": 15,
+  "prediction_rows_exact": 88200,
+  "family_membership_rows_exact": 24480,
+  "panel_metric_rows_exact": 720,
+  "membership_condition_checks_exact": 90,
+  "all_360_models_refitted": true,
+  "original_runtime_seconds": 23.244239399995422,
+  "rerun_runtime_seconds": 23.967943700001342,
+  "script_sha256_unchanged": true,
+  "excluded": {
+    "fit_predict_seconds": "Wall-clock measurements are not numerical model outputs.",
+    "frozen_utc_and_completed_utc": "A rerun has its own execution times.",
+    "elapsed_seconds": "Wall-clock execution time differs between runs.",
+    "design_sha256": "Protocol text is identical except its frozen_utc timestamp, so the enclosing JSON hash changes."
+  },
+  "no_exclusion_for_predictions_or_metrics": true,
+  "rerun_directory_may_be_deleted": true
+}

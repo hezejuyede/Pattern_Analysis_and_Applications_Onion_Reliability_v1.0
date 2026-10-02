@@ -1,0 +1,5 @@
+label,files,effective_families,min_family_size,max_family_size,files_per_effective_family
+healthy,1278,426,3,3,3.0
+iris_yellow_virus,1272,282,4,5,4.51063829787234
+purple_blotch,735,18,39,41,40.833333333333336
+stemphylium_colletotrichum_leaf_blight,1217,90,13,14,13.522222222222222

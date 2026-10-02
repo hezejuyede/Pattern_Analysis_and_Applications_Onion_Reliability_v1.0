@@ -1,0 +1,22 @@
+{
+  "status": "PASS_POST_HOC_DIAGNOSTIC",
+  "completed_utc": "2026-10-02T07:51:07.346011+00:00",
+  "elapsed_seconds": 23.244239399995422,
+  "fits": 360,
+  "prediction_rows": 88200,
+  "membership_family_rows": 24480,
+  "membership_checks": 90,
+  "warnings": 0,
+  "convergence_warnings": 0,
+  "design_sha256": "ce542a8f4492c66769968dee435b06d6d2378dc7b13a3f64b36955baef9a9b93",
+  "script_sha256": "22044f23c3803df1f2545bd6ebdb825211b54b7c055bd7db9a335843a0b49730",
+  "software": {
+    "python": "3.12.14",
+    "numpy": "2.3.5",
+    "pandas": "3.0.1",
+    "scipy": "1.18.1",
+    "scikit_learn": "1.8.0"
+  },
+  "input_sha256_unchanged": true,
+  "original_results_untouched": true
+}
