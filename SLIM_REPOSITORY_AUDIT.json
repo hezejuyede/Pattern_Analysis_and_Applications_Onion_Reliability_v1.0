@@ -1,6 +1,6 @@
 {
-  "status": "PASS_ROOT_CORRECTION_READY",
-  "purpose": "Repository-root correction after remote upload audit",
+  "status": "PASS_PUBLIC_RELEASE",
+  "purpose": "Verified public reproducibility release",
   "github_browser_constraints": {
     "maximum_files_per_upload": 100,
     "maximum_bytes_per_file": 26214400
@@ -33,5 +33,14 @@
   },
   "public_repository_url": "https://github.com/hezejuyede/Pattern_Analysis_and_Applications_Onion_Reliability_v1.0",
   "public_repository_url_resolved": true,
-  "remote_content_verified": false
+  "remote_content_verified": true,
+  "remote_verification": {
+    "verified_utc_date": "2026-10-02",
+    "verified_commit": "2ed0a4ed8af7da0480f0b4d451b5c19f3355ed40",
+    "anonymous_clone": true,
+    "root_files_including_SHA256SUMS": 97,
+    "integrity_status": "PASS",
+    "numerical_status": "PASS",
+    "release_tag": "v1.0.0"
+  }
 }

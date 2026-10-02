@@ -1,22 +1,21 @@
 # Compact repository release audit
 
-Status: **PASS_ROOT_CORRECTION_READY**
+Status: **PASS_PUBLIC_RELEASE**
 
-- Intended use: replace the nested upload with these files at the repository root.
-- Largest file: `results/reliability_benchmark_v1/predictions/tom_nested_oof.csv` (4.92 MiB).
-- Raw third-party images: not redistributed.
-- Retained evidence: source code, unified manifest, locked folds, per-image
-  predictions, metric tables, repeated-split outputs, lineage mapping, hashes
-  and independent verification summaries.
-- Omitted content: regenerable feature caches, serialized estimator copies,
-  expanded repeated-split membership ledgers and redundant audit intermediates.
-- Reference offline recomputation: PASS; 189 metric rows and 152 prediction
-  checks reproduced, with maximum metric/interval differences below 2.4e-14.
-- Aggregate checks: 40 COLD ablation rows and 24 TOM sensitivity rows reproduced
-  to floating-point precision.
-- Public target: `https://github.com/hezejuyede/Pattern_Analysis_and_Applications_Onion_Reliability_v1.0`.
-- Remaining action: verify this root tree in the pinned environment, push tag
-  `v1.0.0`, and confirm anonymous access.
+- Public repository: `https://github.com/hezejuyede/Pattern_Analysis_and_Applications_Onion_Reliability_v1.0`.
+- Anonymous root-level clone verified on 2 October 2026 at commit `2ed0a4ed8af7da0480f0b4d451b5c19f3355ed40`.
+- Integrity verification: PASS; 97 release files, 96 declared SHA-256 hashes,
+  no mismatch, missing file, unlisted file or oversized file.
+- Pinned numerical recomputation: PASS; 189 metric rows and 152/152 prediction
+  checks reproduced.
+- Locked-fold and evidence-ledger checks: 4/4 and 3/3 passed.
+- Maximum metric and interval differences: `6.66e-15` and `2.30e-14`.
+- COLD ablation and TOM split-sensitivity aggregates reproduced to floating-point
+  precision.
+- Raw third-party images are not redistributed. Source code, manifests, locked
+  folds, per-image predictions, metric tables, sensitivity outputs, lineage
+  mapping, hashes and audit summaries are retained.
+- Immutable release: tag `v1.0.0`.
 
 Run `python scripts/verify_slim_repository.py` and
 `python scripts/recompute_slim_evidence.py` from the repository root.

@@ -49,4 +49,5 @@ python scripts/recompute_slim_evidence.py
 ## Repository status
 
 The public release is available at `https://github.com/hezejuyede/Pattern_Analysis_and_Applications_Onion_Reliability_v1.0`. This compact tree has
-passed integrity and numerical checks. Release tag `v1.0.0` should be used for an immutable citation after it is pushed.
+passed anonymous integrity and pinned-environment numerical checks. Use the immutable
+release tag `v1.0.0`: `https://github.com/hezejuyede/Pattern_Analysis_and_Applications_Onion_Reliability_v1.0/tree/v1.0.0`.

@@ -1,0 +1,40 @@
+{
+  "status": "PASS",
+  "verified_utc_date": "2026-10-02",
+  "repository_url": "https://github.com/hezejuyede/Pattern_Analysis_and_Applications_Onion_Reliability_v1.0",
+  "verified_commit": "2ed0a4ed8af7da0480f0b4d451b5c19f3355ed40",
+  "anonymous_clone": true,
+  "repository_root_files_including_SHA256SUMS": 97,
+  "integrity": {
+    "status": "PASS",
+    "declared_hashes": 96,
+    "hash_mismatches": 0,
+    "unlisted_files": 0,
+    "missing_required": 0,
+    "oversized_files": 0
+  },
+  "numerical": {
+    "status": "PASS",
+    "environment": {
+      "numpy": "2.2.6",
+      "pandas": "2.2.3",
+      "scipy": "1.15.3",
+      "scikit-learn": "1.6.1",
+      "joblib": "1.4.2"
+    },
+    "metric_rows_recomputed": 189,
+    "metric_max_estimate_abs_difference": 6.661338147750939e-15,
+    "metric_max_interval_abs_difference": 2.298161660974074e-14,
+    "prediction_checks_passed": 152,
+    "prediction_checks_total": 152,
+    "locked_fold_checks_passed": 4,
+    "locked_fold_checks_total": 4,
+    "hash_ledger_checks_passed": 3,
+    "hash_ledger_checks_total": 3,
+    "cold_ablation_aggregate_rows": 40,
+    "cold_ablation_aggregate_max_abs_difference": 1.1368683772161603e-13,
+    "tom_sensitivity_aggregate_rows": 24,
+    "tom_sensitivity_aggregate_max_abs_difference": 5.684341886080802e-14
+  },
+  "release_tag": "v1.0.0"
+}
