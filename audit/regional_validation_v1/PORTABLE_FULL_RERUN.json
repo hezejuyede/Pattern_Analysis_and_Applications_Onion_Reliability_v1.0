@@ -1,0 +1,350 @@
+{
+  "status": "PASS",
+  "started_utc": "2026-10-02T10:24:02.508476+00:00",
+  "finished_utc": "2026-10-02T10:24:58.844740+00:00",
+  "command": [
+    "C:\\Users\\lixin\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+    "code/run_regional_robustness.py",
+    "--output-dir",
+    "verification_output/regional_rerun",
+    "--n-jobs",
+    "4",
+    "--mode",
+    "all"
+  ],
+  "cwd": "D:\\论文\\SCI投稿汇总\\Onion_Regional_Reproducibility_20261002",
+  "metadata_and_feature_arguments_omitted": true,
+  "unchanged_frozen_script": true,
+  "subprocess_returncode": 0,
+  "versions": {
+    "python": "3.12.14",
+    "numpy": "2.3.5",
+    "pandas": "3.0.1",
+    "sklearn": "1.8.0"
+  },
+  "copied_input_hashes": [
+    {
+      "relative_path": "code/run_regional_robustness.py",
+      "original_sha256": "6fa6fe018d81088e8b858b3240e7060292b94e8a975e3e976ba1e6bc4c166990",
+      "copied_sha256": "6fa6fe018d81088e8b858b3240e7060292b94e8a975e3e976ba1e6bc4c166990",
+      "bytes": 23733
+    },
+    {
+      "relative_path": "metadata/tom_region_recovery/analysis_image_region_join.csv",
+      "original_sha256": "cf8dccdb01574e85882f3362dabf673a9000df0b9c0557ea6637f0202e713a02",
+      "copied_sha256": "cf8dccdb01574e85882f3362dabf673a9000df0b9c0557ea6637f0202e713a02",
+      "bytes": 452987
+    },
+    {
+      "relative_path": "features/handcrafted.npz",
+      "original_sha256": "ba81c01ad64fcdb68adeafa3a27d8ca3d396a8c3d253cc607b5b4cbe20311a67",
+      "copied_sha256": "ba81c01ad64fcdb68adeafa3a27d8ca3d396a8c3d253cc607b5b4cbe20311a67",
+      "bytes": 21122256
+    },
+    {
+      "relative_path": "features/resnet18.npz",
+      "original_sha256": "a0127be9efd0361541e6fad667f2e68ada436e9735f57c9e69a0eecccf0621db",
+      "copied_sha256": "a0127be9efd0361541e6fad667f2e68ada436e9735f57c9e69a0eecccf0621db",
+      "bytes": 6358361
+    }
+  ],
+  "numeric_absolute_tolerance": 1e-12,
+  "numeric_relative_tolerance": 0,
+  "csv_files_compared": 12,
+  "csv_rows_compared": 42644,
+  "numeric_cells_compared": 186227,
+  "text_cells_compared": 297564,
+  "max_absolute_numeric_difference": 0.0,
+  "csv_comparisons": [
+    {
+      "file": "aggregate_metrics.csv",
+      "rows": 16,
+      "columns": 8,
+      "numeric_columns": [
+        "balanced_accuracy",
+        "roc_auc",
+        "brier",
+        "sensitivity",
+        "specificity"
+      ],
+      "text_columns": [
+        "variant",
+        "region",
+        "model"
+      ],
+      "max_absolute_numeric_difference": 0.0,
+      "original_sha256": "4f7505290762e8f3e54fc0073c9ba180965c865d48fb5455b9c924522e6e8ef1",
+      "rerun_sha256": "4f7505290762e8f3e54fc0073c9ba180965c865d48fb5455b9c924522e6e8ef1",
+      "exact_bytes_equal": true
+    },
+    {
+      "file": "analysis_metadata.csv",
+      "rows": 1643,
+      "columns": 11,
+      "numeric_columns": [
+        "foliar_binary",
+        "outer_fold",
+        "plant_identity_verified"
+      ],
+      "text_columns": [
+        "sample_id",
+        "relative_path",
+        "source_group",
+        "analysis_sha256",
+        "acquisition_day_utc",
+        "original_label",
+        "recovered_region",
+        "region_match_status"
+      ],
+      "max_absolute_numeric_difference": 0.0,
+      "original_sha256": "5e46a85734f732f688b6c23e0d5c92b27ae78f5a89d0eec2c82f926911705fbe",
+      "rerun_sha256": "5e46a85734f732f688b6c23e0d5c92b27ae78f5a89d0eec2c82f926911705fbe",
+      "exact_bytes_equal": true
+    },
+    {
+      "file": "class_support.csv",
+      "rows": 81,
+      "columns": 6,
+      "numeric_columns": [
+        "n",
+        "days"
+      ],
+      "text_columns": [
+        "variant",
+        "region",
+        "role",
+        "original_label"
+      ],
+      "max_absolute_numeric_difference": 0.0,
+      "original_sha256": "f6c64cdaade26e25a8232cff3ac633ef57704bfb47313f11b82fb5629206a625",
+      "rerun_sha256": "f6c64cdaade26e25a8232cff3ac633ef57704bfb47313f11b82fb5629206a625",
+      "exact_bytes_equal": true
+    },
+    {
+      "file": "cv_selection.csv",
+      "rows": 126,
+      "columns": 19,
+      "numeric_columns": [
+        "param_logisticregression__C",
+        "split0_test_balanced_accuracy",
+        "split1_test_balanced_accuracy",
+        "split2_test_balanced_accuracy",
+        "split3_test_balanced_accuracy",
+        "split4_test_balanced_accuracy",
+        "mean_test_balanced_accuracy",
+        "std_test_balanced_accuracy",
+        "split0_test_roc_auc",
+        "split1_test_roc_auc",
+        "split2_test_roc_auc",
+        "split3_test_roc_auc",
+        "split4_test_roc_auc",
+        "mean_test_roc_auc",
+        "std_test_roc_auc",
+        "selected"
+      ],
+      "text_columns": [
+        "variant",
+        "region",
+        "model"
+      ],
+      "max_absolute_numeric_difference": 0.0,
+      "original_sha256": "5ab994ff9c8b9214605a94c03c3b9901d03d3bf4b270a70dfc7543f18d92fad9",
+      "rerun_sha256": "5ab994ff9c8b9214605a94c03c3b9901d03d3bf4b270a70dfc7543f18d92fad9",
+      "exact_bytes_equal": true
+    },
+    {
+      "file": "inner_fold_assignments.csv",
+      "rows": 4830,
+      "columns": 5,
+      "numeric_columns": [
+        "calibration_fold"
+      ],
+      "text_columns": [
+        "variant",
+        "region",
+        "sample_id",
+        "acquisition_day_utc"
+      ],
+      "max_absolute_numeric_difference": 0.0,
+      "original_sha256": "df522e2e4fb309cf006ece527776315ada12b353b7ee1777f9a610b93848aec8",
+      "rerun_sha256": "df522e2e4fb309cf006ece527776315ada12b353b7ee1777f9a610b93848aec8",
+      "exact_bytes_equal": true
+    },
+    {
+      "file": "intervals.csv",
+      "rows": 100,
+      "columns": 7,
+      "numeric_columns": [
+        "estimate",
+        "lower",
+        "upper"
+      ],
+      "text_columns": [
+        "variant",
+        "region",
+        "model",
+        "metric"
+      ],
+      "max_absolute_numeric_difference": 0.0,
+      "original_sha256": "a8aa14c84c95c017d1071d7aa25bfd52f1c144f182d2f0fe38860667cd9eb386",
+      "rerun_sha256": "a8aa14c84c95c017d1071d7aa25bfd52f1c144f182d2f0fe38860667cd9eb386",
+      "exact_bytes_equal": true
+    },
+    {
+      "file": "metrics.csv",
+      "rows": 24,
+      "columns": 16,
+      "numeric_columns": [
+        "n",
+        "train_n",
+        "train_days",
+        "test_days",
+        "selected_c",
+        "threshold",
+        "train_prevalence",
+        "test_prevalence",
+        "balanced_accuracy",
+        "roc_auc",
+        "brier",
+        "sensitivity",
+        "specificity"
+      ],
+      "text_columns": [
+        "variant",
+        "region",
+        "model"
+      ],
+      "max_absolute_numeric_difference": 0.0,
+      "original_sha256": "2dfb444682f7a41422f8b4a9a03b94c7cabc3452063155e73a14acfac5d9d84e",
+      "rerun_sha256": "2dfb444682f7a41422f8b4a9a03b94c7cabc3452063155e73a14acfac5d9d84e",
+      "exact_bytes_equal": true
+    },
+    {
+      "file": "outer_memberships.csv",
+      "rows": 9858,
+      "columns": 14,
+      "numeric_columns": [
+        "foliar_binary",
+        "outer_fold",
+        "plant_identity_verified"
+      ],
+      "text_columns": [
+        "variant",
+        "region",
+        "sample_id",
+        "relative_path",
+        "source_group",
+        "analysis_sha256",
+        "acquisition_day_utc",
+        "original_label",
+        "recovered_region",
+        "region_match_status",
+        "role"
+      ],
+      "max_absolute_numeric_difference": 0.0,
+      "original_sha256": "17ef539b9995cb3e4e5f7c49c06904578040d60d5a615a936daf1b73ea0eb5b4",
+      "rerun_sha256": "17ef539b9995cb3e4e5f7c49c06904578040d60d5a615a936daf1b73ea0eb5b4",
+      "exact_bytes_equal": true
+    },
+    {
+      "file": "paired_contrasts.csv",
+      "rows": 60,
+      "columns": 6,
+      "numeric_columns": [
+        "estimate",
+        "lower",
+        "upper"
+      ],
+      "text_columns": [
+        "region",
+        "comparator",
+        "metric"
+      ],
+      "max_absolute_numeric_difference": 0.0,
+      "original_sha256": "8ae7d90183556231f4f61e40db9debe86a412d640c31654edd380d5561e027b1",
+      "rerun_sha256": "8ae7d90183556231f4f61e40db9debe86a412d640c31654edd380d5561e027b1",
+      "exact_bytes_equal": true
+    },
+    {
+      "file": "predictions.csv",
+      "rows": 11328,
+      "columns": 11,
+      "numeric_columns": [
+        "y_true",
+        "score",
+        "probability",
+        "prediction",
+        "threshold"
+      ],
+      "text_columns": [
+        "variant",
+        "region",
+        "model",
+        "sample_id",
+        "acquisition_day_utc",
+        "original_label"
+      ],
+      "max_absolute_numeric_difference": 0.0,
+      "original_sha256": "aa3de8f2d551961d21363e3e04e3548da7eb4d83f1316fae63e0e511a2fc325e",
+      "rerun_sha256": "aa3de8f2d551961d21363e3e04e3548da7eb4d83f1316fae63e0e511a2fc325e",
+      "exact_bytes_equal": true
+    },
+    {
+      "file": "source_calibration_oof.csv",
+      "rows": 14490,
+      "columns": 12,
+      "numeric_columns": [
+        "y_true",
+        "calibration_fold",
+        "score",
+        "probability",
+        "threshold",
+        "selected_c"
+      ],
+      "text_columns": [
+        "variant",
+        "region",
+        "model",
+        "sample_id",
+        "acquisition_day_utc",
+        "original_label"
+      ],
+      "max_absolute_numeric_difference": 0.0,
+      "original_sha256": "8a9dc2422a4be33b3e16d970fd74048db9c46286d175580118197e99fd368cf7",
+      "rerun_sha256": "8a9dc2422a4be33b3e16d970fd74048db9c46286d175580118197e99fd368cf7",
+      "exact_bytes_equal": true
+    },
+    {
+      "file": "source_label_recall.csv",
+      "rows": 88,
+      "columns": 7,
+      "numeric_columns": [
+        "n",
+        "days",
+        "recall"
+      ],
+      "text_columns": [
+        "variant",
+        "region",
+        "model",
+        "original_label"
+      ],
+      "max_absolute_numeric_difference": 0.0,
+      "original_sha256": "d0d3090f19e30b008dec6778fe4394d58649bedcfcaca5efd14dec2c3060ff3c",
+      "rerun_sha256": "d0d3090f19e30b008dec6778fe4394d58649bedcfcaca5efd14dec2c3060ff3c",
+      "exact_bytes_equal": true
+    }
+  ],
+  "bootstrap_count_arrays_equal": {
+    "region_0": true,
+    "region_1": true,
+    "region_2": true,
+    "joint_global": true
+  },
+  "bootstrap_day_orders_equal": true,
+  "warnings": [],
+  "failures": [],
+  "execution_log": "D:\\论文\\SCI投稿汇总\\Onion_Regional_Reproducibility_20261002\\portable_run_log.txt",
+  "exclusions": "Timestamp-bearing protocol/completion JSON and model serialization metadata are expected to differ by run directory/time; all deterministic CSV data and bootstrap arrays are compared. CV output has no timing columns.",
+  "scope": "Reproduces the same scientific experiment from four inputs in a separate directory; does not establish biological or external validation."
+}

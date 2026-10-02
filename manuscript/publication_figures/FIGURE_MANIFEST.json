@@ -5,7 +5,8 @@
     "Fig2": "30-seed fixed-budget sibling exposure: fixed probe/sentinel accuracy, paired changes and localization contrast",
     "Fig3": "TOM internal versus COLD external transport across all prespecified models",
     "Fig4": "calibration, class-specific correctness and selective risk for four backbones",
-    "FigS1": "descriptive non-onion open-set results; not unknown-onion-disease validation"
+    "FigS1": "descriptive non-onion open-set results; not unknown-onion-disease validation",
+    "Fig5": "post hoc region-and-timestamp-day-disjoint comparisons and archived label support"
   },
   "formats": [
     "PDF vector",
@@ -27,5 +28,7 @@
     "manuscript/publication_figures/source_data/Fig2_paired_changes_summary.csv": "589458247f8b157a8f89a10e71230ac2a6a28b0e1c9c3e0329cec98c8654cb3f",
     "manuscript/publication_figures/source_data/Fig2_localization_by_seed.csv": "76cf83e085e9da33cdd4904d88b2aad745d2617952f9f881eb244f6d7f3982f9",
     "manuscript/publication_figures/source_data/Fig2_localization_summary.csv": "1698a0931092c4ddead214d7f797d2d036092f39aabc4066123cf8602b214a5c"
-  }
+  },
+  "Fig5_provenance": "source_data/Fig5_BUILD_MANIFEST.json",
+  "Fig5_uncertainty": "2000 conditional day-cluster draws; aggregate jointly resamples global days across fixed regions"
 }

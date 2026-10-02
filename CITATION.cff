@@ -12,7 +12,7 @@ authors:
   - family-names: Kartanova
     given-names: Asel
     orcid: "https://orcid.org/0000-0003-1479-0747"
-version: "1.1.0"
+version: "1.2.0"
 date-released: "2026-10-02"
 repository-code: "https://github.com/hezejuyede/Pattern_Analysis_and_Applications_Onion_Reliability_v1.0"
 license: MIT

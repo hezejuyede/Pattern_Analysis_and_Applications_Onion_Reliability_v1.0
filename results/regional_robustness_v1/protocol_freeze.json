@@ -1,0 +1,72 @@
+{
+  "schema": "regional_robustness_v1",
+  "created_utc": "2026-10-02T10:16:30.481638+00:00",
+  "overall_status": "post_hoc_within_existing_archive_not_new_independent_collection",
+  "freeze_timing": "Before fitting these regional models; original archive outcomes were already known.",
+  "regions": [
+    "Centre-Ouest",
+    "Centre-Sud",
+    "Plateau-Central"
+  ],
+  "variants": [
+    "region_day_disjoint",
+    "region_only"
+  ],
+  "models": [
+    "prior_prevalence",
+    "color_shortcut_logit",
+    "handcrafted_logit",
+    "resnet18_logit"
+  ],
+  "C_grid": [
+    0.0001,
+    0.001,
+    0.01,
+    0.1,
+    1.0,
+    10.0,
+    100.0
+  ],
+  "inner_folds": 5,
+  "inner_seed_base": 20261839,
+  "fit_seed": 20260930,
+  "bootstrap_seed": 20261002,
+  "bootstrap_replicates": 2000,
+  "primary": "region_day_disjoint per-region BA, equal-region mean BA, minimum-region BA",
+  "calibration": "Selected-C source 5-fold OOF scores fit Platt C=1e6 and finite Youden threshold; not unbiased source validation.",
+  "prior": "Training prevalence probability and fixed 0.5 decision threshold; no fitted calibrator.",
+  "bootstrap": "Per-region UTC-day cluster resampling; aggregate joint resampling of globally unique UTC days retains cross-region dependence; reject replicates lacking either state in any represented region. Conditional on fitted models and these three regions.",
+  "sensitivity_limit": "Region-only and day-purged training differ in sample size/composition; their difference is not a causal leakage effect.",
+  "identity_limit": "Filename timestamp UTC day and recovered archive region are not independently verified collection dates, farms or plant identities. Source folder names are not confirmed diagnoses.",
+  "features": "Previously frozen ImageNet features / fixed handcrafted features; no target adaptation.",
+  "inputs": {
+    "metadata": {
+      "path": "D:\\论文\\SCI投稿汇总\\Onion_External_Cohort_Feasibility_20261002\\tom_metadata_recovery\\analysis_image_region_join.csv",
+      "sha256": "cf8dccdb01574e85882f3362dabf673a9000df0b9c0557ea6637f0202e713a02"
+    },
+    "handcrafted_features": {
+      "path": "C:\\Users\\lixin\\Documents\\Codex\\2026-09-27\\lu\\work\\onion_crossdomain\\features\\handcrafted.npz",
+      "sha256": "ba81c01ad64fcdb68adeafa3a27d8ca3d396a8c3d253cc607b5b4cbe20311a67"
+    },
+    "resnet18_features": {
+      "path": "C:\\Users\\lixin\\Documents\\Codex\\2026-09-27\\lu\\work\\onion_crossdomain\\features\\resnet18.npz",
+      "sha256": "a0127be9efd0361541e6fad667f2e68ada436e9735f57c9e69a0eecccf0621db"
+    },
+    "implementation": {
+      "path": "C:\\Users\\lixin\\Documents\\Codex\\2026-09-27\\lu\\work\\onion_crossdomain\\code\\run_regional_robustness.py",
+      "sha256": "6fa6fe018d81088e8b858b3240e7060292b94e8a975e3e976ba1e6bc4c166990"
+    }
+  },
+  "frozen_files": {
+    "outer_memberships.csv": "17ef539b9995cb3e4e5f7c49c06904578040d60d5a615a936daf1b73ea0eb5b4",
+    "inner_fold_assignments.csv": "df522e2e4fb309cf006ece527776315ada12b353b7ee1777f9a610b93848aec8",
+    "class_support.csv": "f6c64cdaade26e25a8232cff3ac633ef57704bfb47313f11b82fb5629206a625",
+    "analysis_metadata.csv": "5e46a85734f732f688b6c23e0d5c92b27ae78f5a89d0eec2c82f926911705fbe"
+  },
+  "versions": {
+    "python": "3.12.14",
+    "numpy": "2.3.5",
+    "pandas": "3.0.1",
+    "sklearn": "1.8.0"
+  }
+}

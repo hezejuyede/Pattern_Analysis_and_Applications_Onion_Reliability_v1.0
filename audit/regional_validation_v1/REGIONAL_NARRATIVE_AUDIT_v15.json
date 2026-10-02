@@ -1,0 +1,166 @@
+{
+  "status": "PASS",
+  "abstract_words": 244,
+  "checks": [
+    {
+      "name": "regional BA Centre-Ouest",
+      "passed": true
+    },
+    {
+      "name": "regional BA in both languages Centre-Ouest",
+      "passed": true
+    },
+    {
+      "name": "regional BA Centre-Sud",
+      "passed": true
+    },
+    {
+      "name": "regional BA in both languages Centre-Sud",
+      "passed": true
+    },
+    {
+      "name": "regional BA Plateau-Central",
+      "passed": true
+    },
+    {
+      "name": "regional BA in both languages Plateau-Central",
+      "passed": true
+    },
+    {
+      "name": "equal mean resnet18_logit",
+      "passed": true
+    },
+    {
+      "name": "equal mean color_shortcut_logit",
+      "passed": true
+    },
+    {
+      "name": "equal mean handcrafted_logit",
+      "passed": true
+    },
+    {
+      "name": "equal mean prior_prevalence",
+      "passed": true
+    },
+    {
+      "name": "equal mean lower",
+      "passed": true
+    },
+    {
+      "name": "equal mean upper",
+      "passed": true
+    },
+    {
+      "name": "paired colour equal_region_mean estimate",
+      "passed": true
+    },
+    {
+      "name": "paired colour equal_region_mean lower",
+      "passed": true
+    },
+    {
+      "name": "paired colour equal_region_mean upper",
+      "passed": true
+    },
+    {
+      "name": "paired colour Centre-Ouest estimate",
+      "passed": true
+    },
+    {
+      "name": "paired colour Centre-Ouest lower",
+      "passed": true
+    },
+    {
+      "name": "paired colour Centre-Ouest upper",
+      "passed": true
+    },
+    {
+      "name": "minimum regional AUROC",
+      "passed": true
+    },
+    {
+      "name": "maximum regional AUROC",
+      "passed": true
+    },
+    {
+      "name": "minimum threshold",
+      "passed": true
+    },
+    {
+      "name": "maximum threshold",
+      "passed": true
+    },
+    {
+      "name": "Centre Ouest sensitivity",
+      "passed": true
+    },
+    {
+      "name": "Centre Ouest healthy 57/88",
+      "passed": true
+    },
+    {
+      "name": "Centre Ouest virosis binary 99/102",
+      "passed": true
+    },
+    {
+      "name": "Centre Ouest train Alternaria 15",
+      "passed": true
+    },
+    {
+      "name": "Centre Ouest test Alternaria 232",
+      "passed": true
+    },
+    {
+      "name": "Centre Ouest train virosis zero",
+      "passed": true
+    },
+    {
+      "name": "EN regional section and figure",
+      "passed": true
+    },
+    {
+      "name": "ZH regional section and figure",
+      "passed": true
+    },
+    {
+      "name": "abstract 150-250 words",
+      "passed": true
+    },
+    {
+      "name": "abstract AUROC expanded",
+      "passed": true
+    },
+    {
+      "name": "EN current release",
+      "passed": true
+    },
+    {
+      "name": "EN historical v1.1 preserved",
+      "passed": true
+    },
+    {
+      "name": "EN supplemental S12 range",
+      "passed": true
+    },
+    {
+      "name": "ZH current release",
+      "passed": true
+    },
+    {
+      "name": "ZH historical v1.1 preserved",
+      "passed": true
+    },
+    {
+      "name": "ZH supplemental S12 range",
+      "passed": true
+    }
+  ],
+  "scope": "Numerical text/source consistency; not a scientific quality score or acceptance guarantee",
+  "sources": {
+    "full_text.md": "ebc7a035496820fc447fef694a03a13517691c1d6759f3a76d9ad298ff12f2c7",
+    "full_text_zh.md": "66d43d7ac352f7ee21d683288dc849a44947d0020ef6b1db71f9095b54781214",
+    "metrics.csv": "2dfb444682f7a41422f8b4a9a03b94c7cabc3452063155e73a14acfac5d9d84e",
+    "intervals.csv": "a8aa14c84c95c017d1071d7aa25bfd52f1c144f182d2f0fe38860667cd9eb386",
+    "paired_contrasts.csv": "8ae7d90183556231f4f61e40db9debe86a412d640c31654edd380d5561e027b1"
+  }
+}

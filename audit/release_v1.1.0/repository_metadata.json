@@ -1,0 +1,9 @@
+{
+  "title": "Controlled sibling exposure and locked cross-source reliability in onion image classification",
+  "release_tag": "v1.1.0",
+  "manuscript_version": "v1.4",
+  "historical_tag": "v1.0.0",
+  "scope": "cumulative original evidence plus post hoc controlled experiments",
+  "canonical_metadata": "release_metadata_v11.json",
+  "verification": "Content hashes are in SHA256SUMS; the immutable Git tag identifies this tree. Numerical checks do not certify acceptance."
+}

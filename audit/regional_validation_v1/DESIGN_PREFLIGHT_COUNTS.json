@@ -1,0 +1,1067 @@
+{
+  "source_path": "D:\\\u8bba\u6587\\SCI\u6295\u7a3f\u6c47\u603b\\Onion_External_Cohort_Feasibility_20261002\\tom_metadata_recovery\\analysis_image_region_join.csv",
+  "source_sha256": "cf8dccdb01574e85882f3362dabf673a9000df0b9c0557ea6637f0202e713a02",
+  "model_predictions_inspected": false,
+  "known_n": 1416,
+  "unknown_n": 227,
+  "unknown_by_original_label": {
+    "Alternaria_D": 119,
+    "Virosis-D": 63,
+    "Fusarium-D": 24,
+    "Healthy_leaf": 21
+  },
+  "regions": [
+    {
+      "held_region": "Centre-Ouest",
+      "test_n": 736,
+      "test_healthy": 88,
+      "test_affected": 648,
+      "test_days": 75,
+      "test_day_class_support": {
+        "0": 41,
+        "1": 62
+      },
+      "test_by_original_label": {
+        "Fusarium-D": 314,
+        "Alternaria_D": 232,
+        "Virosis-D": 102,
+        "Healthy_leaf": 88
+      },
+      "candidate_train_n": 680,
+      "purged_train_n": 296,
+      "train_n": 384,
+      "train_healthy": 217,
+      "train_affected": 167,
+      "train_days": 28,
+      "train_day_class_support": {
+        "0": 23,
+        "1": 23
+      },
+      "train_by_original_label": {
+        "Healthy_leaf": 217,
+        "Fusarium-D": 152,
+        "Alternaria_D": 15
+      },
+      "nested_day_folds": [
+        {
+          "outer_fold": 0,
+          "train_counts": [
+            174,
+            141
+          ],
+          "test_counts": [
+            43,
+            26
+          ],
+          "train_days": 23,
+          "test_days": 5,
+          "inner": [
+            {
+              "train_class_counts": [
+                135,
+                102
+              ],
+              "validation_class_counts": [
+                39,
+                39
+              ],
+              "train_days": 17,
+              "validation_days": 6
+            },
+            {
+              "train_class_counts": [
+                130,
+                104
+              ],
+              "validation_class_counts": [
+                44,
+                37
+              ],
+              "train_days": 17,
+              "validation_days": 6
+            },
+            {
+              "train_class_counts": [
+                126,
+                100
+              ],
+              "validation_class_counts": [
+                48,
+                41
+              ],
+              "train_days": 17,
+              "validation_days": 6
+            },
+            {
+              "train_class_counts": [
+                131,
+                117
+              ],
+              "validation_class_counts": [
+                43,
+                24
+              ],
+              "train_days": 18,
+              "validation_days": 5
+            }
+          ]
+        },
+        {
+          "outer_fold": 1,
+          "train_counts": [
+            178,
+            126
+          ],
+          "test_counts": [
+            39,
+            41
+          ],
+          "train_days": 22,
+          "test_days": 6,
+          "inner": [
+            {
+              "train_class_counts": [
+                125,
+                88
+              ],
+              "validation_class_counts": [
+                53,
+                38
+              ],
+              "train_days": 16,
+              "validation_days": 6
+            },
+            {
+              "train_class_counts": [
+                142,
+                98
+              ],
+              "validation_class_counts": [
+                36,
+                28
+              ],
+              "train_days": 17,
+              "validation_days": 5
+            },
+            {
+              "train_class_counts": [
+                130,
+                96
+              ],
+              "validation_class_counts": [
+                48,
+                30
+              ],
+              "train_days": 15,
+              "validation_days": 7
+            },
+            {
+              "train_class_counts": [
+                137,
+                96
+              ],
+              "validation_class_counts": [
+                41,
+                30
+              ],
+              "train_days": 18,
+              "validation_days": 4
+            }
+          ]
+        },
+        {
+          "outer_fold": 2,
+          "train_counts": [
+            173,
+            141
+          ],
+          "test_counts": [
+            44,
+            26
+          ],
+          "train_days": 22,
+          "test_days": 6,
+          "inner": [
+            {
+              "train_class_counts": [
+                134,
+                100
+              ],
+              "validation_class_counts": [
+                39,
+                41
+              ],
+              "train_days": 16,
+              "validation_days": 6
+            },
+            {
+              "train_class_counts": [
+                131,
+                115
+              ],
+              "validation_class_counts": [
+                42,
+                26
+              ],
+              "train_days": 18,
+              "validation_days": 4
+            },
+            {
+              "train_class_counts": [
+                130,
+                106
+              ],
+              "validation_class_counts": [
+                43,
+                35
+              ],
+              "train_days": 16,
+              "validation_days": 6
+            },
+            {
+              "train_class_counts": [
+                124,
+                102
+              ],
+              "validation_class_counts": [
+                49,
+                39
+              ],
+              "train_days": 16,
+              "validation_days": 6
+            }
+          ]
+        },
+        {
+          "outer_fold": 3,
+          "train_counts": [
+            179,
+            133
+          ],
+          "test_counts": [
+            38,
+            34
+          ],
+          "train_days": 23,
+          "test_days": 5,
+          "inner": [
+            {
+              "train_class_counts": [
+                136,
+                106
+              ],
+              "validation_class_counts": [
+                43,
+                27
+              ],
+              "train_days": 19,
+              "validation_days": 4
+            },
+            {
+              "train_class_counts": [
+                140,
+                92
+              ],
+              "validation_class_counts": [
+                39,
+                41
+              ],
+              "train_days": 17,
+              "validation_days": 6
+            },
+            {
+              "train_class_counts": [
+                125,
+                94
+              ],
+              "validation_class_counts": [
+                54,
+                39
+              ],
+              "train_days": 17,
+              "validation_days": 6
+            },
+            {
+              "train_class_counts": [
+                136,
+                107
+              ],
+              "validation_class_counts": [
+                43,
+                26
+              ],
+              "train_days": 16,
+              "validation_days": 7
+            }
+          ]
+        },
+        {
+          "outer_fold": 4,
+          "train_counts": [
+            164,
+            127
+          ],
+          "test_counts": [
+            53,
+            40
+          ],
+          "train_days": 22,
+          "test_days": 6,
+          "inner": [
+            {
+              "train_class_counts": [
+                125,
+                86
+              ],
+              "validation_class_counts": [
+                39,
+                41
+              ],
+              "train_days": 16,
+              "validation_days": 6
+            },
+            {
+              "train_class_counts": [
+                120,
+                100
+              ],
+              "validation_class_counts": [
+                44,
+                27
+              ],
+              "train_days": 17,
+              "validation_days": 5
+            },
+            {
+              "train_class_counts": [
+                121,
+                102
+              ],
+              "validation_class_counts": [
+                43,
+                25
+              ],
+              "train_days": 16,
+              "validation_days": 6
+            },
+            {
+              "train_class_counts": [
+                126,
+                93
+              ],
+              "validation_class_counts": [
+                38,
+                34
+              ],
+              "train_days": 17,
+              "validation_days": 5
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "held_region": "Centre-Sud",
+      "test_n": 313,
+      "test_healthy": 204,
+      "test_affected": 109,
+      "test_days": 33,
+      "test_day_class_support": {
+        "0": 25,
+        "1": 24
+      },
+      "test_by_original_label": {
+        "Healthy_leaf": 204,
+        "Fusarium-D": 56,
+        "Alternaria_D": 51,
+        "Virosis-D": 2
+      },
+      "candidate_train_n": 1103,
+      "purged_train_n": 249,
+      "train_n": 854,
+      "train_healthy": 140,
+      "train_affected": 714,
+      "train_days": 70,
+      "train_day_class_support": {
+        "0": 39,
+        "1": 63
+      },
+      "train_by_original_label": {
+        "Fusarium-D": 389,
+        "Alternaria_D": 225,
+        "Healthy_leaf": 140,
+        "Virosis-D": 100
+      },
+      "nested_day_folds": [
+        {
+          "outer_fold": 0,
+          "train_counts": [
+            107,
+            564
+          ],
+          "test_counts": [
+            33,
+            150
+          ],
+          "train_days": 56,
+          "test_days": 14,
+          "inner": [
+            {
+              "train_class_counts": [
+                84,
+                424
+              ],
+              "validation_class_counts": [
+                23,
+                140
+              ],
+              "train_days": 44,
+              "validation_days": 12
+            },
+            {
+              "train_class_counts": [
+                83,
+                424
+              ],
+              "validation_class_counts": [
+                24,
+                140
+              ],
+              "train_days": 37,
+              "validation_days": 19
+            },
+            {
+              "train_class_counts": [
+                71,
+                417
+              ],
+              "validation_class_counts": [
+                36,
+                147
+              ],
+              "train_days": 48,
+              "validation_days": 8
+            },
+            {
+              "train_class_counts": [
+                83,
+                427
+              ],
+              "validation_class_counts": [
+                24,
+                137
+              ],
+              "train_days": 39,
+              "validation_days": 17
+            }
+          ]
+        },
+        {
+          "outer_fold": 1,
+          "train_counts": [
+            116,
+            575
+          ],
+          "test_counts": [
+            24,
+            139
+          ],
+          "train_days": 55,
+          "test_days": 15,
+          "inner": [
+            {
+              "train_class_counts": [
+                84,
+                429
+              ],
+              "validation_class_counts": [
+                32,
+                146
+              ],
+              "train_days": 41,
+              "validation_days": 14
+            },
+            {
+              "train_class_counts": [
+                93,
+                439
+              ],
+              "validation_class_counts": [
+                23,
+                136
+              ],
+              "train_days": 43,
+              "validation_days": 12
+            },
+            {
+              "train_class_counts": [
+                80,
+                426
+              ],
+              "validation_class_counts": [
+                36,
+                149
+              ],
+              "train_days": 42,
+              "validation_days": 13
+            },
+            {
+              "train_class_counts": [
+                91,
+                431
+              ],
+              "validation_class_counts": [
+                25,
+                144
+              ],
+              "train_days": 39,
+              "validation_days": 16
+            }
+          ]
+        },
+        {
+          "outer_fold": 2,
+          "train_counts": [
+            105,
+            566
+          ],
+          "test_counts": [
+            35,
+            148
+          ],
+          "train_days": 63,
+          "test_days": 7,
+          "inner": [
+            {
+              "train_class_counts": [
+                82,
+                415
+              ],
+              "validation_class_counts": [
+                23,
+                151
+              ],
+              "train_days": 50,
+              "validation_days": 13
+            },
+            {
+              "train_class_counts": [
+                79,
+                430
+              ],
+              "validation_class_counts": [
+                26,
+                136
+              ],
+              "train_days": 48,
+              "validation_days": 15
+            },
+            {
+              "train_class_counts": [
+                82,
+                430
+              ],
+              "validation_class_counts": [
+                23,
+                136
+              ],
+              "train_days": 47,
+              "validation_days": 16
+            },
+            {
+              "train_class_counts": [
+                72,
+                423
+              ],
+              "validation_class_counts": [
+                33,
+                143
+              ],
+              "train_days": 44,
+              "validation_days": 19
+            }
+          ]
+        },
+        {
+          "outer_fold": 3,
+          "train_counts": [
+            116,
+            576
+          ],
+          "test_counts": [
+            24,
+            138
+          ],
+          "train_days": 51,
+          "test_days": 19,
+          "inner": [
+            {
+              "train_class_counts": [
+                80,
+                430
+              ],
+              "validation_class_counts": [
+                36,
+                146
+              ],
+              "train_days": 45,
+              "validation_days": 6
+            },
+            {
+              "train_class_counts": [
+                93,
+                433
+              ],
+              "validation_class_counts": [
+                23,
+                143
+              ],
+              "train_days": 36,
+              "validation_days": 15
+            },
+            {
+              "train_class_counts": [
+                84,
+                428
+              ],
+              "validation_class_counts": [
+                32,
+                148
+              ],
+              "train_days": 38,
+              "validation_days": 13
+            },
+            {
+              "train_class_counts": [
+                91,
+                437
+              ],
+              "validation_class_counts": [
+                25,
+                139
+              ],
+              "train_days": 34,
+              "validation_days": 17
+            }
+          ]
+        },
+        {
+          "outer_fold": 4,
+          "train_counts": [
+            116,
+            575
+          ],
+          "test_counts": [
+            24,
+            139
+          ],
+          "train_days": 55,
+          "test_days": 15,
+          "inner": [
+            {
+              "train_class_counts": [
+                80,
+                426
+              ],
+              "validation_class_counts": [
+                36,
+                149
+              ],
+              "train_days": 49,
+              "validation_days": 6
+            },
+            {
+              "train_class_counts": [
+                92,
+                435
+              ],
+              "validation_class_counts": [
+                24,
+                140
+              ],
+              "train_days": 39,
+              "validation_days": 16
+            },
+            {
+              "train_class_counts": [
+                92,
+                437
+              ],
+              "validation_class_counts": [
+                24,
+                138
+              ],
+              "train_days": 38,
+              "validation_days": 17
+            },
+            {
+              "train_class_counts": [
+                84,
+                427
+              ],
+              "validation_class_counts": [
+                32,
+                148
+              ],
+              "train_days": 39,
+              "validation_days": 16
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "held_region": "Plateau-Central",
+      "test_n": 367,
+      "test_healthy": 109,
+      "test_affected": 258,
+      "test_days": 41,
+      "test_day_class_support": {
+        "0": 19,
+        "1": 39
+      },
+      "test_by_original_label": {
+        "Fusarium-D": 201,
+        "Healthy_leaf": 109,
+        "Alternaria_D": 57
+      },
+      "candidate_train_n": 1049,
+      "purged_train_n": 289,
+      "train_n": 760,
+      "train_healthy": 258,
+      "train_affected": 502,
+      "train_days": 62,
+      "train_day_class_support": {
+        "0": 43,
+        "1": 50
+      },
+      "train_by_original_label": {
+        "Fusarium-D": 322,
+        "Healthy_leaf": 258,
+        "Alternaria_D": 147,
+        "Virosis-D": 33
+      },
+      "nested_day_folds": [
+        {
+          "outer_fold": 0,
+          "train_counts": [
+            209,
+            404
+          ],
+          "test_counts": [
+            49,
+            98
+          ],
+          "train_days": 57,
+          "test_days": 5,
+          "inner": [
+            {
+              "train_class_counts": [
+                151,
+                295
+              ],
+              "validation_class_counts": [
+                58,
+                109
+              ],
+              "train_days": 48,
+              "validation_days": 9
+            },
+            {
+              "train_class_counts": [
+                161,
+                308
+              ],
+              "validation_class_counts": [
+                48,
+                96
+              ],
+              "train_days": 39,
+              "validation_days": 18
+            },
+            {
+              "train_class_counts": [
+                154,
+                302
+              ],
+              "validation_class_counts": [
+                55,
+                102
+              ],
+              "train_days": 43,
+              "validation_days": 14
+            },
+            {
+              "train_class_counts": [
+                161,
+                307
+              ],
+              "validation_class_counts": [
+                48,
+                97
+              ],
+              "train_days": 41,
+              "validation_days": 16
+            }
+          ]
+        },
+        {
+          "outer_fold": 1,
+          "train_counts": [
+            211,
+            401
+          ],
+          "test_counts": [
+            47,
+            101
+          ],
+          "train_days": 52,
+          "test_days": 10,
+          "inner": [
+            {
+              "train_class_counts": [
+                158,
+                301
+              ],
+              "validation_class_counts": [
+                53,
+                100
+              ],
+              "train_days": 41,
+              "validation_days": 11
+            },
+            {
+              "train_class_counts": [
+                162,
+                305
+              ],
+              "validation_class_counts": [
+                49,
+                96
+              ],
+              "train_days": 33,
+              "validation_days": 19
+            },
+            {
+              "train_class_counts": [
+                160,
+                303
+              ],
+              "validation_class_counts": [
+                51,
+                98
+              ],
+              "train_days": 43,
+              "validation_days": 9
+            },
+            {
+              "train_class_counts": [
+                153,
+                294
+              ],
+              "validation_class_counts": [
+                58,
+                107
+              ],
+              "train_days": 39,
+              "validation_days": 13
+            }
+          ]
+        },
+        {
+          "outer_fold": 2,
+          "train_counts": [
+            209,
+            407
+          ],
+          "test_counts": [
+            49,
+            95
+          ],
+          "train_days": 43,
+          "test_days": 19,
+          "inner": [
+            {
+              "train_class_counts": [
+                155,
+                303
+              ],
+              "validation_class_counts": [
+                54,
+                104
+              ],
+              "train_days": 33,
+              "validation_days": 10
+            },
+            {
+              "train_class_counts": [
+                161,
+                311
+              ],
+              "validation_class_counts": [
+                48,
+                96
+              ],
+              "train_days": 33,
+              "validation_days": 10
+            },
+            {
+              "train_class_counts": [
+                163,
+                305
+              ],
+              "validation_class_counts": [
+                46,
+                102
+              ],
+              "train_days": 33,
+              "validation_days": 10
+            },
+            {
+              "train_class_counts": [
+                148,
+                302
+              ],
+              "validation_class_counts": [
+                61,
+                105
+              ],
+              "train_days": 30,
+              "validation_days": 13
+            }
+          ]
+        },
+        {
+          "outer_fold": 3,
+          "train_counts": [
+            199,
+            396
+          ],
+          "test_counts": [
+            59,
+            106
+          ],
+          "train_days": 49,
+          "test_days": 13,
+          "inner": [
+            {
+              "train_class_counts": [
+                151,
+                297
+              ],
+              "validation_class_counts": [
+                48,
+                99
+              ],
+              "train_days": 38,
+              "validation_days": 11
+            },
+            {
+              "train_class_counts": [
+                151,
+                300
+              ],
+              "validation_class_counts": [
+                48,
+                96
+              ],
+              "train_days": 42,
+              "validation_days": 7
+            },
+            {
+              "train_class_counts": [
+                144,
+                296
+              ],
+              "validation_class_counts": [
+                55,
+                100
+              ],
+              "train_days": 33,
+              "validation_days": 16
+            },
+            {
+              "train_class_counts": [
+                151,
+                295
+              ],
+              "validation_class_counts": [
+                48,
+                101
+              ],
+              "train_days": 34,
+              "validation_days": 15
+            }
+          ]
+        },
+        {
+          "outer_fold": 4,
+          "train_counts": [
+            204,
+            400
+          ],
+          "test_counts": [
+            54,
+            102
+          ],
+          "train_days": 47,
+          "test_days": 15,
+          "inner": [
+            {
+              "train_class_counts": [
+                157,
+                302
+              ],
+              "validation_class_counts": [
+                47,
+                98
+              ],
+              "train_days": 37,
+              "validation_days": 10
+            },
+            {
+              "train_class_counts": [
+                157,
+                303
+              ],
+              "validation_class_counts": [
+                47,
+                97
+              ],
+              "train_days": 35,
+              "validation_days": 12
+            },
+            {
+              "train_class_counts": [
+                145,
+                291
+              ],
+              "validation_class_counts": [
+                59,
+                109
+              ],
+              "train_days": 32,
+              "validation_days": 15
+            },
+            {
+              "train_class_counts": [
+                153,
+                304
+              ],
+              "validation_class_counts": [
+                51,
+                96
+              ],
+              "train_days": 37,
+              "validation_days": 10
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "seed": 20260930,
+  "outer_n": 5,
+  "inner_n": 4,
+  "status": "FEASIBLE_POSTHOC_REGION_AND_DAY_HOLDOUT_NOT_BIOLOGICAL_COHORT"
+}

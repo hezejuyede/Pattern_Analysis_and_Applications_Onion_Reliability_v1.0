@@ -1,0 +1,24 @@
+REGIONAL IMPLEMENTATION INDEPENDENT AUDIT
+Status: PASS_WITH_EXPLICIT_INFERENCE_LIMITS
+
+No import or execution of the regional implementation was used for this audit.
+39 input/output-ledger files, six split manifests, 30 inner day partitions, 24 model states, 11,328 predictions, 120 point metrics and 88 source-label recall rows passed.
+All scaler means, head scores, calibrated probabilities, selected C values and thresholds were reconstructed; maximum error was zero in this environment.
+One colour model was independently rebuilt with all 35 C-search fits, one final head and one Platt calibrator (37 fits). Scores, probabilities, threshold and predictions matched exactly; zero warnings.
+All four 2,000-replicate day-weight arrays were regenerated from the frozen seeds and matched exactly.
+All 100 uncertainty intervals, 60 paired contrasts and 16 aggregate rows were independently recomputed. Maximum interval/contrast numerical error: 1.1102230246251565e-16
+144 weighted AUC checks against sklearn, maximum error 2.220446049250313e-16.
+
+Inference limits:
+- Post hoc analysis within an already examined archive, not a new independently acquired cohort.
+- Known regions are recovered search-index associations; timestamp-derived UTC days are not verified plant, farm, plot or capture identities.
+- 227 unknown-region images are excluded from both training and test; exclusion depends on source label.
+- Centre-Ouest strict training has zero virosis and only 15 Alternaria-labelled images; regional results combine spatial, temporal, training-budget and source-label-case-mix changes.
+- Selected-C OOF probabilities fit calibration/threshold and are not unbiased internal validation scores.
+- Bootstrap intervals condition on fixed models and these three observed regions; no retraining, new-region or biological-replication uncertainty.
+- Region-only versus day-purged comparison changes training budget and composition; it is not an isolated causal leakage effect.
+- Generic minimum_region is a literal numerical minimum. Only higher-is-better metrics such as BA identify a worse region; minimum Brier denotes the best Brier.
+- Original folder labels were preserved; no new expert pathology or laboratory review was performed.
+
+Protocol SHA-256: 6ec05323424db72c060172793cc5117b7fe55fd37e4688c3973e97870539bc79
+Completion-ledger SHA-256: ade20c6420370ee0808eab3432beec2042973ebdd75a097ced530d0c821c87cc

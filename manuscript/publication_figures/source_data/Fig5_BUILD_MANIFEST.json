@@ -1,0 +1,39 @@
+{
+  "figure": "Fig5",
+  "dimensions_mm": [
+    178,
+    124
+  ],
+  "dpi_raster": 600,
+  "inputs": {
+    "C:\\Users\\lixin\\Documents\\Codex\\2026-09-27\\lu\\work\\onion_crossdomain\\manuscript\\publication_figures\\source_data\\Fig5_regional_balanced_accuracy.csv": "b4cc33ba639ae83f776a3bcc9f81ccd30f236a48db70f397f091faa97fb1803a",
+    "C:\\Users\\lixin\\Documents\\Codex\\2026-09-27\\lu\\work\\onion_crossdomain\\manuscript\\publication_figures\\source_data\\Fig5_region_label_support.csv": "d2237b52ffc32aab12bf6d25ff2af8ec52d6b9e1c9b73c77f3e83d9a5e314ad3"
+  },
+  "executed_result_inputs": {
+    "C:\\Users\\lixin\\Documents\\Codex\\2026-09-27\\lu\\work\\onion_crossdomain\\results\\regional_robustness_v1\\intervals.csv": "a8aa14c84c95c017d1071d7aa25bfd52f1c144f182d2f0fe38860667cd9eb386",
+    "C:\\Users\\lixin\\Documents\\Codex\\2026-09-27\\lu\\work\\onion_crossdomain\\results\\regional_robustness_v1\\class_support.csv": "f6c64cdaade26e25a8232cff3ac633ef57704bfb47313f11b82fb5629206a625"
+  },
+  "outputs": {
+    "Fig5.pdf": {
+      "bytes": 43198,
+      "sha256": "1bbac403c0d4cad6bd8da31355e84c6f0863300d52f1e3c65c465d91c44f043e"
+    },
+    "Fig5.eps": {
+      "bytes": 161882,
+      "sha256": "8abb36943d06e368ae403c277429f75c38bac5c66193777d16eb2baa24fb9c6a"
+    },
+    "Fig5.svg": {
+      "bytes": 80511,
+      "sha256": "3b49007b2d6009b07395d181465bb8c1a64f885d22331bb734aae11842702c1a"
+    },
+    "Fig5.png": {
+      "bytes": 230148,
+      "sha256": "e9d0ecbff7a20c18b7402aa6c23611822a350704bdc859dab559ffcc0cf3a0c5"
+    },
+    "Fig5.tif": {
+      "bytes": 545322,
+      "sha256": "4735b5fa5c06f6f72d3f49f5ed323083cff5cfe65fd2a230e2f4537a5f9cd2eb"
+    }
+  },
+  "inference": "Post hoc matched-region analysis; not new plants or independent pathology validation"
+}

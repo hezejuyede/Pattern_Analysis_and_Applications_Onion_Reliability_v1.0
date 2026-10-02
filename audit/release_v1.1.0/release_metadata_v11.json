@@ -1,0 +1,26 @@
+{
+  "target_tag": "v1.1.0",
+  "publication_state": "PLANNED_NOT_COMMITTED_OR_PUSHED",
+  "original_release_tag": "v1.0.0",
+  "original_release_peeled_commit": "c2ec309b28976951842f4d4297725f8785282572",
+  "repository_url": "https://github.com/hezejuyede/Pattern_Analysis_and_Applications_Onion_Reliability_v1.0",
+  "release_commit": null,
+  "research_extensions": [
+    "matched_sibling_intervention_v1",
+    "calibration_scale_sensitivity_v1"
+  ],
+  "analysis_status": "post_hoc_extensions_after_primary_external_results_known",
+  "primary_external_predictions_unchanged": true,
+  "original_tag_unchanged": true,
+  "feature_archives_included": 3,
+  "requirements_file": "requirements-deep-revision.txt",
+  "python_version": "3.12.14",
+  "original_requirements_file": "requirements.txt",
+  "paper_source_and_plot_files_status": "awaiting_root_finalization_not_yet_copied",
+  "code_license": "Existing MIT LICENSE retained unchanged; third-party datasets retain original terms",
+  "historical_records": "Original v1.0 metadata and verification reports are retained as historical evidence; this file describes the v1.1 preparation state.",
+  "status": "RELEASE_CONTENT_FROZEN",
+  "manuscript_version": "v1.4",
+  "title": "Controlled sibling exposure and locked cross-source reliability in onion image classification",
+  "preserves_original_tag": "v1.0.0"
+}

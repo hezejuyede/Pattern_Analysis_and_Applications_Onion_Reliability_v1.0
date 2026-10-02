@@ -1,0 +1,10 @@
+{
+  "release": "v1.5",
+  "repository_tag": "v1.2.0",
+  "meaning": "Reviewed research content freeze; not a publication-quality score or independent field validation",
+  "files": {
+    "narrative/full_text.md": "ebc7a035496820fc447fef694a03a13517691c1d6759f3a76d9ad298ff12f2c7",
+    "narrative/full_text_zh.md": "66d43d7ac352f7ee21d683288dc849a44947d0020ef6b1db71f9095b54781214",
+    "narrative/references_paa.bib": "bb8421eab744d28d19285abdcca6d9321e828be2a5f722c485de5db0f5ff6395"
+  }
+}

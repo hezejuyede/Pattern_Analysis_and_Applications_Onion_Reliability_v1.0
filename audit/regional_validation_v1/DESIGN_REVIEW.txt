@@ -1,0 +1,108 @@
+Regional robustness design review — 2026-10-02
+
+Decision: a new fit-and-test experiment is feasible now. It is a post hoc,
+within-archive, region-and-day-disjoint transport sensitivity. It is not a
+newly collected cohort, independently verified biological replication, or
+unified pathology adjudication. No model predictions were inspected in this
+design review.
+
+Primary scientific question
+Does the frozen-feature, source-only decision pipeline retain discrimination,
+probability quality, and its chosen operating point when an entire recovered
+region is withheld and every acquisition day occurring in that region is also
+excluded from training? Report what is estimated; geographic causation is not
+identified because region, acquisition context, date, and disorder composition
+change together.
+
+Analysis population
+Only 1,416 images with a unique original-search-index region association are
+eligible. Exclude all 227 images whose region is missing from BOTH training and
+test. Including them in training could reintroduce the held-out region. Do not
+impute a region from appearance, class, timestamp, or predictions. Keep all
+original sample identifiers, source-photo identifiers, and SHA-256 identities.
+Metadata recovery is class-dependent: missing counts are 119/459 Alternaria,
+24/595 Fusarium, 21/422 healthy, and 63/167 virosis. These exclusions change the
+population and prevent an unrestricted comparison with the original 1,643-image
+internal estimate.
+
+Outer regional tests and exact support (healthy / affected)
+Centre-Ouest: test 736 (88 / 648), 75 days. Candidate training 680;
+296 same-day images purged; final training 384 (217 / 167), 28 days.
+Centre-Sud: test 313 (204 / 109), 33 days. Candidate training 1,103;
+249 same-day images purged; final training 854 (140 / 714), 70 days.
+Plateau-Central: test 367 (109 / 258), 41 days. Candidate training 1,049;
+289 same-day images purged; final training 760 (258 / 502), 62 days.
+Days supporting each binary state in regional training are at least 23;
+days supporting each binary state in each test region are at least 19.
+
+Major composition limit
+The Centre-Ouest holdout has 102 virosis-labelled test images but NO such training
+images after purging. It also has 232 Alternaria-labelled test images but only
+15 training images of that source category. Its remaining training consists of
+152 Fusarium-labelled and 217 healthy-labelled images. Centre-Sud has only two
+virosis-labelled test images, and Plateau-Central has none. A four-pathogen
+classification experiment is unsupported. Preserve the existing binary visual
+endpoint and display source-label-specific recall together with denominators.
+The folder names are archive labels, not independently verified diagnoses.
+
+Fitting boundary and comparators
+Refit ResNet18 frozen-feature logistic regression, colour-only logistic
+regression, full handcrafted logistic regression, and the training-prevalence
+baseline separately for all three regional tests. Use the SAME region/day
+manifests across every representation. Training scaling, C search, calibration,
+and thresholding must never see the held-out region or its days. Keep all four
+models and all three regions irrespective of results. Frozen cached ImageNet
+features permit this without fitting a new high-capacity image network.
+
+The existing 5-outer/4-inner acquisition-day grouped folds (seed 20260930,
+inner seed 20260930 + 101 + outer_fold) pass two-class feasibility for all three
+purged training sets. Reusing the implementation is tractable. Preserve the
+current C grid [0.0001, 0.001, 0.01, 0.1, 1, 10, 100]. In the final source-only
+refit, state exactly which OOF score stream fits the Platt map and Youden
+threshold. If a fixed-selected-C OOF stream is used, it is calibration data,
+not an unbiased internal validation estimate. If penalties vary by OOF fold,
+retain the known score-scale/fit-size limitation and avoid implying this was
+eliminated. An honest source internal reference requires the full nested
+pipeline, including fold-specific calibrator and threshold.
+
+Existing original day-OOF predictions may be tabulated by recovered region only
+as a descriptive archive-stratification diagnostic. They do NOT test an unseen
+region because their models contain images from that region on other days.
+Regional holdout requires the fresh refits described above.
+
+Prespecified reporting
+Primary: per-region balanced accuracy with the frozen source threshold; average
+the three regional balanced accuracies with equal region weight, rather than
+allowing the largest region to dominate. Also show the minimum region value.
+Secondary: sensitivity, specificity, AUROC, Brier score, threshold, training and
+test prevalence, source-label-specific recall and sample/day denominators.
+Compare primary against EVERY simple comparator, not only the one it beats.
+Use paired fixed-prediction day-cluster bootstrap contrasts within each region.
+For the equal-region aggregate, resample global UTC days jointly across all
+regions to preserve cross-region same-day dependence, rejecting replicates that
+lack either binary state in any region. Report three regions individually even
+when giving an aggregate. The intervals condition on these fitted models and
+these three observed regions; they do not estimate uncertainty from retraining,
+new regions, farms, plants, or pathology verification.
+
+Freeze and fail-closed gates before looking at these new outcomes
+Save source metadata and feature hashes, every train/test/purged/unknown role,
+all inner and outer day folds, model grid, seeds, metrics and bootstrap rule.
+Assert no overlap of region, UTC day, source-photo key, image SHA, or sample ID
+between each regional training set and its test. Assert exactly one regional
+test assignment for every one of the 1,416 known-region images, and none for the
+227 unknowns. Assert both binary states in every fitted or evaluated fold and
+finite, correctly aligned feature matrices. Verify every source-index match is
+unique and every original label is preserved. Do not change the selected
+regions, model set, endpoint, hyperparameter grid, or interpretation after
+seeing regional outcomes. This freeze is prospective only with respect to the
+new fits; the overall project has already examined these image archives.
+
+Interpretation gate
+If a simple comparator matches or exceeds ResNet18, report that fact and narrow
+the representational claim. If all models fail in one region, discuss joint
+acquisition and case-mix support, not a discovered geographic mechanism. If
+results are strong, they provide archived-region robustness conditional on
+recoverable provenance; they still do not establish new-plant diagnostic
+validity. This experiment strengthens current evidence without resolving or
+concealing the independent-collection and pathology-review limitations.

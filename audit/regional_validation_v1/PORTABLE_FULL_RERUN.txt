@@ -1,0 +1,15 @@
+Portable full regional rerun: PASS
+Run directory: D:\论文\SCI投稿汇总\Onion_Regional_Reproducibility_20261002
+No --metadata or --features-dir argument supplied: defaults resolved successfully.
+Frozen scientific script copied byte-for-byte; no scientific source edited.
+Compared 12 CSV files, 42644 rows, 186227 numeric cells and 297564 text cells.
+Maximum numeric absolute difference: 0.0; tolerance: 1e-12, rtol=0.
+Bootstrap day-count arrays and day-order records: True
+Subprocess exit code: 0; warnings captured: 0.
+Inputs:
+  code/run_regional_robustness.py: 6fa6fe018d81088e8b858b3240e7060292b94e8a975e3e976ba1e6bc4c166990
+  metadata/tom_region_recovery/analysis_image_region_join.csv: cf8dccdb01574e85882f3362dabf673a9000df0b9c0557ea6637f0202e713a02
+  features/handcrafted.npz: ba81c01ad64fcdb68adeafa3a27d8ca3d396a8c3d253cc607b5b4cbe20311a67
+  features/resnet18.npz: a0127be9efd0361541e6fad667f2e68ada436e9735f57c9e69a0eecccf0621db
+Command: C:\Users\lixin\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\python.exe code/run_regional_robustness.py --output-dir verification_output/regional_rerun --n-jobs 4 --mode all
+Limit: computational reproduction does not add independent plants or pathology review.

@@ -1,0 +1,6 @@
+{
+  "Fig5": {
+    "en": "Post hoc robustness to recovered region and filename-derived UTC day. (a) Balanced accuracy at source-selected thresholds for each held-out region and the equally weighted three-region average. Bars are 95% fixed-prediction day-cluster bootstrap intervals; the average uses jointly resampled global days. (b) Original archive-label composition of the purged training set and regional test. Counts describe images, not independent plants. Region, timing, acquisition context and label mix change together; these results do not isolate a geographic effect or constitute a newly collected cohort",
+    "zh": "恢复地区与文件名推导 UTC 日后的事后鲁棒性分析。（a）各留出地区及三个地区等权平均的平衡准确率，阈值仅由来源训练集选择。误差线为基于固定预测、按日聚类的 95% 自助区间；等权均值采用全局日期联合重抽样。（b）删除共享日期后的训练集与地区测试集的原始图像库标签组成。计数表示图像，不是独立植株。地区、时间、采集环境和标签组成同时变化；该分析不能分离地理效应，也不构成新采集队列"
+  }
+}

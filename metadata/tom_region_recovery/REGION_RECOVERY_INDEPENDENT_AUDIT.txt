@@ -1,0 +1,67 @@
+Independent region recovery audit: PASS_WITH_EXPLICIT_INFERENCE_LIMITS
+Date: 2026-10-02
+Independent stdlib HTMLParser DOM extraction of image hrefs, result headings and page cursors from retained HTML; no imports or execution of recovery code; no network calls; independently reconstructed source-key joins and UTC dates.
+
+Pages=452; records=10820; unique source keys=10820; ambiguous keys=0.
+Analysis images=1643; uniquely matched=1416; unmatched=227.
+Acquisition days=103; days with any matched image=103; days containing multiple recovered regions=42.
+
+Region totals:
+Centre-Ouest: {"pages": 270, "image_records": 6479, "unique_keys": 6479}
+Centre-Sud: {"pages": 56, "image_records": 1337, "unique_keys": 1337}
+Plateau-Central: {"pages": 126, "image_records": 3004, "unique_keys": 3004}
+
+Original class x recovered region:
+Alternaria_D | Centre-Ouest | 232
+Alternaria_D | Centre-Sud | 51
+Alternaria_D | Plateau-Central | 57
+Alternaria_D | UNMATCHED | 119
+Fusarium-D | Centre-Ouest | 314
+Fusarium-D | Centre-Sud | 56
+Fusarium-D | Plateau-Central | 201
+Fusarium-D | UNMATCHED | 24
+Healthy_leaf | Centre-Ouest | 88
+Healthy_leaf | Centre-Sud | 204
+Healthy_leaf | Plateau-Central | 109
+Healthy_leaf | UNMATCHED | 21
+Virosis-D | Centre-Ouest | 102
+Virosis-D | Centre-Sud | 2
+Virosis-D | UNMATCHED | 63
+
+Binary endpoint x recovered region:
+0.0 | Centre-Ouest | 88
+0.0 | Centre-Sud | 204
+0.0 | Plateau-Central | 109
+0.0 | UNMATCHED | 21
+1.0 | Centre-Ouest | 648
+1.0 | Centre-Sud | 109
+1.0 | Plateau-Central | 258
+1.0 | UNMATCHED | 206
+
+Checks:
+PASS | Centre-Ouest complete pagination
+PASS | Centre-Ouest all declared images listed once
+PASS | Centre-Ouest page image budgets
+PASS | Centre-Sud complete pagination
+PASS | Centre-Sud all declared images listed once
+PASS | Centre-Sud page image budgets
+PASS | Plateau-Central complete pagination
+PASS | Plateau-Central all declared images listed once
+PASS | Plateau-Central page image budgets
+PASS | all page headings/cursors/hashes agree
+PASS | independent DOM links equal CSV membership
+PASS | expected page and unique-key totals
+PASS | source key belongs to one region only
+PASS | analysis sample IDs are unique
+PASS | every join and original field reconstructed correctly
+PASS | expected match totals
+PASS | analysis source keys are unique
+PASS | summary totals agree
+
+Inference limits:
+Links establish membership in a public region search result, not independently verified GPS or planting location.
+Timestamp/photo source identity is not plant identity or plot identity.
+Different regions on the same UTC day may reflect multiple collectors; this is not by itself a joining error.
+Unmatched cases may be systematically distributed by class/day; report missingness, do not impute regions.
+This is metadata recovery for an existing cohort, not an independently collected validation cohort or new pathology adjudication.
+No image content or model outcome was evaluated.

@@ -1,0 +1,129 @@
+{
+  "status": "PASS_WITH_EXPLICIT_INFERENCE_LIMITS",
+  "method": "Independent code did not import the regional implementation. Source manifests reconstructed; all 24 prediction states rebuilt with scaler and coefficients; all point metrics and category recall recomputed; one source-only colour pipeline independently refitted across complete 7-by-5 search and Platt/Youden. Four bootstrap weight arrays independently regenerated; all 100 intervals and 60 paired contrasts recomputed with an independent pairwise AUC formula and checked against sklearn.",
+  "protocol_sha256": "6ec05323424db72c060172793cc5117b7fe55fd37e4688c3973e97870539bc79",
+  "completion_manifest_sha256": "ade20c6420370ee0808eab3432beec2042973ebdd75a097ced530d0c821c87cc",
+  "all_input_and_completion_hashes_checked": true,
+  "completion_files": 39,
+  "regional_cases": [
+    {
+      "variant": "region_day_disjoint",
+      "region": "Centre-Ouest",
+      "train_n": 384,
+      "test_n": 736,
+      "train_days": 28,
+      "test_days": 75,
+      "purged_n": 296
+    },
+    {
+      "variant": "region_day_disjoint",
+      "region": "Centre-Sud",
+      "train_n": 854,
+      "test_n": 313,
+      "train_days": 70,
+      "test_days": 33,
+      "purged_n": 249
+    },
+    {
+      "variant": "region_day_disjoint",
+      "region": "Plateau-Central",
+      "train_n": 760,
+      "test_n": 367,
+      "train_days": 62,
+      "test_days": 41,
+      "purged_n": 289
+    },
+    {
+      "variant": "region_only",
+      "region": "Centre-Ouest",
+      "train_n": 680,
+      "test_n": 736,
+      "train_days": 67,
+      "test_days": 75,
+      "purged_n": 0
+    },
+    {
+      "variant": "region_only",
+      "region": "Centre-Sud",
+      "train_n": 1103,
+      "test_n": 313,
+      "train_days": 91,
+      "test_days": 33,
+      "purged_n": 0
+    },
+    {
+      "variant": "region_only",
+      "region": "Plateau-Central",
+      "train_n": 1049,
+      "test_n": 367,
+      "train_days": 90,
+      "test_days": 41,
+      "purged_n": 0
+    }
+  ],
+  "prediction_rows": 11328,
+  "point_metric_cases": 24,
+  "class_recall_rows": 88,
+  "inner_fold_partitions": 30,
+  "maximum_numeric_errors": {
+    "point_metrics": 0.0,
+    "prediction_reconstruction": 0.0,
+    "score_reconstruction": 0.0,
+    "calibrator_oof_reconstruction": 0.0,
+    "scaler_mean": 0.0
+  },
+  "independent_color_refit": {
+    "independent_fits": 37,
+    "variant": "region_day_disjoint",
+    "region": "Centre-Ouest",
+    "model": "color_shortcut_logit",
+    "selected_c": 0.01,
+    "max_CV_score_error": 0.0,
+    "max_source_OOF_score_error": 0.0,
+    "max_test_probability_error": 0.0,
+    "threshold_error": 0.0,
+    "test_decision_disagreements": 0,
+    "warnings": []
+  },
+  "bootstrap_audit": {
+    "replicates_per_array": 2000,
+    "arrays_independently_regenerated_exactly": [
+      "Centre-Ouest",
+      "Centre-Sud",
+      "Plateau-Central",
+      "joint_global"
+    ],
+    "global_unique_days": 103,
+    "global_same_day_counts_shared_across_regions": true,
+    "weighted_metric_cases": 24,
+    "independent_auc_formula": "Explicit weighted positive-negative concordance with half credit for ties; no import of implementation or its sorted cumulative algorithm.",
+    "weighted_AUC_comparisons_with_sklearn": 144,
+    "maximum_sklearn_weighted_AUC_error": 2.220446049250313e-16,
+    "interval_rows": 100,
+    "paired_contrast_rows": 60,
+    "aggregate_rows": 16,
+    "maximum_numeric_errors": {
+      "interval_estimate": 1.1102230246251565e-16,
+      "interval_limits": 1.1102230246251565e-16,
+      "paired_contrast_estimate": 1.1102230246251565e-16,
+      "paired_contrast_limits": 2.7755575615628914e-17,
+      "aggregate_points": 1.1102230246251565e-16
+    }
+  },
+  "inference_limits": [
+    "Post hoc analysis within an already examined archive, not a new independently acquired cohort.",
+    "Known regions are recovered search-index associations; timestamp-derived UTC days are not verified plant, farm, plot or capture identities.",
+    "227 unknown-region images are excluded from both training and test; exclusion depends on source label.",
+    "Centre-Ouest strict training has zero virosis and only 15 Alternaria-labelled images; regional results combine spatial, temporal, training-budget and source-label-case-mix changes.",
+    "Selected-C OOF probabilities fit calibration/threshold and are not unbiased internal validation scores.",
+    "Bootstrap intervals condition on fixed models and these three observed regions; no retraining, new-region or biological-replication uncertainty.",
+    "Region-only versus day-purged comparison changes training budget and composition; it is not an isolated causal leakage effect.",
+    "Generic minimum_region is a literal numerical minimum. Only higher-is-better metrics such as BA identify a worse region; minimum Brier denotes the best Brier.",
+    "Original folder labels were preserved; no new expert pathology or laboratory review was performed."
+  ],
+  "scientific_comparison": {
+    "strict_equal_region_resnet_BA": 0.8519700161986016,
+    "strict_minimum_region_resnet_BA": 0.8014870931537599,
+    "strict_equal_region_color_BA": 0.7851276465110306
+  }
+}
