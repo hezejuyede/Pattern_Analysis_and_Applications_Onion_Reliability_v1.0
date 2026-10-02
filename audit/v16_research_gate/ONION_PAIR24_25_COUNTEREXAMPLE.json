@@ -1,0 +1,58 @@
+{
+  "status": "COUNTEREXAMPLE_TO_SOURCE_DISJOINTNESS_CONFIRMED_FROM_EXISTING_ARTIFACTS",
+  "date": "2026-10-02",
+  "scope": "No downloads, no model fitting, no mutation of original evidence.",
+  "families": [
+    "iris_yellow_virus:parent_0024",
+    "iris_yellow_virus:parent_0025"
+  ],
+  "raw_exact_content_sha256": "8a8ace0c1694c17e842fc2daa31a9b614241aff0e461bc9160ed659d775b7ad2",
+  "raw_filenames": [
+    "149.jpg",
+    "150.jpg"
+  ],
+  "raw_file_count": 2,
+  "unique_raw_content_count": 1,
+  "old_collision_capacity": 2,
+  "old_supported_family_links": 2,
+  "old_downgrade_condition_len_gt_capacity": false,
+  "why_invalid_for_source_disjointness": "Exact duplicate raw records are one source-content unit, regardless of file multiplicity. Both groups remain separated by the existing experiment.",
+  "cross_partition_event_counts": [
+    {
+      "dose": "0",
+      "role": "probe",
+      "test_anchor_events": 8
+    },
+    {
+      "dose": "0",
+      "role": "sentinel",
+      "test_anchor_events": 1
+    },
+    {
+      "dose": "0.5",
+      "role": "probe",
+      "test_anchor_events": 7
+    },
+    {
+      "dose": "0.5",
+      "role": "sentinel",
+      "test_anchor_events": 1
+    },
+    {
+      "dose": "1",
+      "role": "probe",
+      "test_anchor_events": 9
+    }
+  ],
+  "nominal_zero_seeds_affected": 9,
+  "sentinel_zero_seed": 20261028,
+  "geometry_scope": "Existing family-level scores select the best of sampled members. They do not certify every member; the contact sheet provides an explicit visual counterexample.",
+  "result_scope": "Numerical historical fits remain reproducible but zero-source-exposure and always-unexposed-sentinel interpretations are unsupported. Extent beyond this pair is unknown.",
+  "inputs": {
+    "audit\\cold_augmented_lineage\\family_to_raw_mapping.csv": "8d7281954754036e84bff9688e303faf586be9b8b5aa331e1bafcad644570866",
+    "audit\\cold_augmented_lineage\\augmented_family_manifest.csv": "db89d16dc79262faa8b3bc2d8bca68b9c4ce9466ce63f10b556430b828820c0a",
+    "audit\\cold_augmented_lineage\\raw_parquet_manifest.csv": "8c7b5babbb565eb1c9029633c29f9679fed567623b4f5d53ac482b7fe132748c",
+    "results\\matched_sibling_intervention_v1\\family_membership.csv.gz": "8587d4d2ea298f286b2b47e0ad16e9afdaa07febbb22e9d26814b183a61daeb0",
+    "code\\audit_cold_augmented_lineage.py": "e3a0b560da0ac31b20fef6d147e1cbbf80d954a9ed78cb3a2b56aaf77a8f868e"
+  }
+}

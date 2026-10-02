@@ -1,0 +1,21 @@
+Scientific correction in progress — 2 October 2026
+
+The v1.5 manuscript and scientific release v1.2.0 are on submission hold while the augmented-COLD grouping assumption is corrected. Their numerical reproducibility checks remain records of computational reproducibility; they do not certify the source identity of every filename group.
+
+Confirmed counterexample
+Raw COLD files 149.jpg and 150.jpg have exactly the same SHA-256, 8a8ace0c1694c17e842fc2daa31a9b614241aff0e461bc9160ed659d775b7ad2. Augmented filename groups iris_yellow_virus:parent_0024 and iris_yellow_virus:parent_0025 both contain transformations of that same photograph. The old collision check used the number of duplicate raw files as a capacity of two and therefore did not merge these groups. In the original matched experiment this pair crossed nominal zero-exposure training and testing in nine of thirty split seeds, including a sentinel assignment in seed 20261028. See ONION_PAIR24_25_COUNTEREXAMPLE.json and its linked row-level evidence.
+
+The old geometric audit also used the maximum match over at most five members when assigning a group-level raw-link score. That score can support an individual match; it cannot establish that every member in the group has the same source. The 704 supported candidate links must not be described as 704 fully confirmed source families.
+
+Consequences
+The filename-defined experiment remains reproducible, but its zero-exposure and never-exposed-sentinel interpretation is not valid at the source-photograph level. Its reported numerical contrast must not be presented as a corrected sibling effect until dependency groups and the affected analyses are reconstructed. The descriptive file-versus-group experiment requires the same correction. Existing reports are preserved as history, not overwritten to erase the error.
+
+The primary TOM2024-to-raw-COLD transfer experiment, calibration sensitivity and recovered-region TOM analyses do not use this augmented filename grouping. Their numerical outputs are not changed by this finding. Their previously stated lack of plant identity and common pathology adjudication still applies.
+
+Repair underway
+Every augmented onion member is being checked individually against available raw candidates. Exact duplicate raw photographs count as one content identity. Cross-prefix correspondences will be blocked together or excluded under an explicit conservative rule. Unsupported links will remain unresolved; no one-to-one mapping will be forced. The corrected split memberships, input hashes and analysis protocol will be frozen before refitting. A separate reviewer will check corrected predictions and conclusions.
+
+A final submission package is withheld until the scientific and technical gates are reassessed. Neither successful rerunning nor a polished document establishes a top-decile journal ranking or acceptance probability.
+
+作者提示
+当前v1.5暂缓投稿。此前检查漏掉了不同增强编号对应同一原照片的问题，部分“未曝光”测试图仍与训练图同源；正在重建分组并重跑受影响实验。原跨来源测试和地区分析未因这一发现被改写。旧包及Git标签保留用于追溯，不作为现阶段可以直接投稿的依据。

@@ -1,5 +1,7 @@
 # Onion image reliability: original evidence and post hoc diagnostics
 
+> **Scientific correction — 2 October 2026: submission HOLD.** A member-level audit found that different augmented filename prefixes can refer to the same original photograph. The historical file-versus-family and matched-sibling analyses therefore do not establish zero source exposure or never-exposed sentinels. Their reproducible numerical outputs are preserved as historical results, not validated source-level intervention estimates. See [CORRECTION_NOTICE_20261002.txt](audit/v16_research_gate/CORRECTION_NOTICE_20261002.txt). Corrected grouping and affected analyses require fresh review; technical PASS records from v1.2.0 and manuscript v1.5 do not override this HOLD. Original Git tags remain unchanged.
+
 This repository preserves the original onion image reliability study and adds explicitly post hoc diagnostics, including recovered-region validation. The original locked external results are retained. The new analyses were designed after those results were known and do not constitute a new independent validation cohort.
 
 The original study distinguishes augmentation families, acquisition days and external image archives. Healthy versus affected is a source-dataset label, not confirmed pathogen diagnosis. Filename families are not verified plants. Neither the original nor extended work establishes field safety, treatment efficacy or causal country effects.
@@ -10,12 +12,12 @@ The original immutable public release is [v1.0.0](https://github.com/hezejuyede/
 
 The first two extensions, preserved from v1.1.0, are:
 
-- **Matched sibling substitution:** 30 fixed seeds, fixed probe and unexposed sentinel anchors, fixed training budgets and same-class donor replacement. It tests whether gains concentrate in families exposed through training siblings. Both original four-class and binary endpoints are retained.
+- **Historical matched sibling substitution (interpretation under correction):** 30 fixed seeds, fixed probe and nominal sentinel anchors, fixed training budgets and same-class donor replacement. Both four-class and binary endpoints are retained. The filename-prefix split does not establish source-disjoint anchors.
 - **Calibration construction sensitivity:** compare legacy mixed-regularization out-of-fold calibration with out-of-fold calibration using the already-selected final regularization. The final classification head is identical in both arms; source data determine the calibrators and thresholds. External labels do not choose an arm.
 
-The matched experiment uses 1,142 training images from 571 families and 245 test anchors per seed. Its complete rerun reproduced all 88,200 prediction rows exactly. ResNet18 four-class balanced accuracy rose by 0.153 on probes and changed by −0.009 on unexposed sentinels; the corresponding color-feature changes were 0.284 and 0.002. These are means across repeated archive splits, not estimates from independent biological replicates. Effects were smaller for the binary endpoint. Full results, variation ranges and limitations are in the result reports; no favorable seeds or endpoints are discarded.
+The historical matched experiment uses 1,142 training images from 571 filename groups and 245 test anchors per seed. Its complete rerun reproduced all 88,200 prediction rows exactly. ResNet18 four-class balanced accuracy rose by 0.153 on nominal probes and changed by −0.009 on nominal sentinels; the corresponding color-feature changes were 0.284 and 0.002. These are reproducible filename-grouping results, but the source-exposure interpretation is suspended. They are not corrected intervention estimates or observations from independent biological replicates. Full historical results remain available; no adverse seeds or endpoints are discarded.
 
-The original 0.832-versus-0.675 file/family contrast changed both training and test composition. The new fixed-budget diagnostic addresses that limitation but must not be numerically pooled with the original contrast. Locked TOM-to-COLD binary balanced accuracy remains 0.927 internally and 0.655 externally.
+The original 0.832-versus-0.675 file/family contrast changed both training and test composition and shares the filename-grouping defect. The later fixed-budget diagnostic controlled file and class counts but did not repair that source-identity defect. Neither is a validated source-disjoint intervention estimate. The separate locked TOM-to-raw-COLD binary point estimates remain 0.927 internally and 0.655 externally; that branch does not use augmented filename groups. Its image-level uncertainty and unknown biological identity require their own qualification.
 
 ## Reproduce the extended analyses
 

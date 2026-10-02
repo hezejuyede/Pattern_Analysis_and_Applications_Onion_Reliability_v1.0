@@ -44,6 +44,8 @@ def main() -> None:
     checks.append({"check": "individual_file_size_below_25_MiB", "pass": not large})
     failures = [x for x in checks if not x["pass"]]
     result = {"status": "PASS" if not failures else "FAIL", "checks": len(checks), "failures": failures, "oversized_files": large, "scope": "scientific inputs, immutable protocols and result checksums; not editorial readiness or acceptance"}
+    result["scientific_submission_status"] = "HOLD_AUGMENTED_LINEAGE_CORRECTION"
+    result["interpretation"] = "A PASS here verifies historical bytes and reruns, not source-identity assumptions. Read audit/v16_research_gate/CORRECTION_NOTICE_20261002.txt before using the augmented experiments."
     print(json.dumps(result, indent=2))
     if failures:
         raise SystemExit(1)
