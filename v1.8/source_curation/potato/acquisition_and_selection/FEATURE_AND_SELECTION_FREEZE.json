@@ -1,0 +1,28 @@
+{
+  "utc": "2026-10-02T16:39:56.334783+00:00",
+  "script_sha256": "0a7c3ace271eb886bb86b4e5c24fe1265c9c43be727f8a6049a0a2fe2858326e",
+  "manifest_sha256": "534e326a0ccf65b24d1daf5fba8a047b05a4f50b008bec56ee5a9ea1681e4d67",
+  "download_manifest_sha256": "9e1d5edcc9d3105dd27de5a8a4030e7e3e59d7041232e6535dc89090b4cc6390",
+  "author_leaf_map_git_blob": "cb04e3723d2ce15b0411483d71a60b5d536bc7f6",
+  "author_leaf_map_sha256": "3b4b253683c6911744959a3870a92509b1faa1ee34e9f8585e21d0fe6337a25b",
+  "leaf_map_initial_author_commit": "40789680ba2e6382608dba47b397688fcbd0d04a",
+  "class_components": {
+    "Potato___Early_blight": 250,
+    "Potato___Late_blight": 250,
+    "healthy": 38
+  },
+  "images": 2152,
+  "pixel_duplicate_rows": 0,
+  "cross_leaf_pixel_components": 0,
+  "resnet_weights_sha256": "f37072fd47e89c5e827621c5baffa7500819f7896bbacec160b1a16c560e07ec",
+  "resnet_config": "ResNet18_Weights.IMAGENET1K_V1, weights.transforms(), avgpool 512, eval, no augmentation or fine-tuning",
+  "color_config": "Original onion BGR/HSV/LAB each 3 channels x (16-bin normalized histogram + mean/std/q10/q50/q90) =189",
+  "model_fits": 0,
+  "runtime": {
+    "python": "3.13.3",
+    "torch": "2.7.1+cpu",
+    "torchvision": "0.22.1+cpu",
+    "opencv": "4.11.0",
+    "numpy": "2.2.6"
+  }
+}

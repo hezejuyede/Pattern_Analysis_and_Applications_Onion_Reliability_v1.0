@@ -1,0 +1,14 @@
+{
+  "status": "PASS",
+  "q0_rows": 7250,
+  "max_q0_probability_difference": 1.1102230246251565e-16,
+  "complete_joint_target_comparisons": 4800,
+  "errors": {
+    "target_panel": 1.1102230246251565e-16,
+    "class_means": 1.1102230246251565e-16,
+    "split_means": 1.1102230246251565e-16,
+    "summary": 1.1102230246251565e-16,
+    "legacy_joint_target_difference": 5.551115123125783e-17,
+    "legacy_joint_split_difference": 8.673617379884035e-17
+  }
+}

@@ -1,0 +1,63 @@
+{
+  "status": "PASS_DEFINED_VISUAL_AND_FILE_CHECKS",
+  "figures": [
+    {
+      "name": "Fig_1_Matched_Replacement_Design",
+      "width_mm": 174.0000000000025,
+      "height_mm": 118.00000000000779,
+      "png_mode": "RGB",
+      "png_pixels": [
+        4110,
+        2787
+      ],
+      "png_dpi": [
+        599.9988,
+        599.9988
+      ],
+      "pdf_sha256": "e305b8b9ab4075056e40c5ca327b2b13f1d2ed6a73330f273d55d79d3fb49de9",
+      "rendered_pdf_review_path": "D:\\\u8bba\u6587\\SCI\u6295\u7a3f\u6c47\u603b\\Onion_Deep_Revision_20261003_v18\\figures\\qa\\Fig_1_Matched_Replacement_Design-1.png",
+      "plot_rows": null,
+      "split_rows": null,
+      "visual_review": "Actual PDF rendered with Poppler at 180 dpi and inspected in full. Diagram boxes, branch arrows, q0 budgets, replacement counts, E/H insertions and anchor rules are legible without clipping or overlap."
+    },
+    {
+      "name": "Fig_2_Joint_Replacement",
+      "width_mm": 174.0000000000025,
+      "height_mm": 123.99999999999083,
+      "png_mode": "RGB",
+      "png_pixels": [
+        4110,
+        2929
+      ],
+      "png_dpi": [
+        599.9988,
+        599.9988
+      ],
+      "pdf_sha256": "0cce4a3c93ab144affde25005cbc7c6e501d8a782c8e7109acef7cb0186f6794",
+      "rendered_pdf_review_path": "D:\\\u8bba\u6587\\SCI\u6295\u7a3f\u6c47\u603b\\Onion_Deep_Revision_20261003_v18\\figures\\qa\\Fig_2_Joint_Replacement-1.png",
+      "plot_rows": 40,
+      "split_rows": 1200,
+      "visual_review": "Actual PDF rendered with Poppler at 180 dpi and inspected in full. No clipped title, label, tick, legend or interval detected; all five models and both tasks visible."
+    },
+    {
+      "name": "Fig_3_Single_Source_Replacement",
+      "width_mm": 174.0000000000025,
+      "height_mm": 123.99999999999083,
+      "png_mode": "RGB",
+      "png_pixels": [
+        4110,
+        2929
+      ],
+      "png_dpi": [
+        599.9988,
+        599.9988
+      ],
+      "pdf_sha256": "aca142d436df10150719903f2e49d870b153db91dfbb39d7a1b9e664dc4cbaab",
+      "rendered_pdf_review_path": "D:\\\u8bba\u6587\\SCI\u6295\u7a3f\u6c47\u603b\\Onion_Deep_Revision_20261003_v18\\figures\\qa\\Fig_3_Single_Source_Replacement-1.png",
+      "plot_rows": 40,
+      "split_rows": 400,
+      "visual_review": "Actual PDF rendered with Poppler at 180 dpi and inspected in full. No clipped title, label, tick, legend or interval detected; all five models and both tasks visible."
+    }
+  ],
+  "limitations": "Visual/file checks do not replace independent statistical reconstruction. Joint ranges are 30-split percentiles; single ranges are 10-split min/max. Captions must accompany figures."
+}

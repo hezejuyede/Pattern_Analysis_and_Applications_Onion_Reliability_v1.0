@@ -1,0 +1,29 @@
+{
+  "status": "COMPLETE_CANDIDATE_LIMITED_GEOMETRY_AUDIT",
+  "completed_utc": "2026-10-02T12:01:18.590136+00:00",
+  "augmented_members": 4502,
+  "candidate_comparisons": 22510,
+  "raw_rows": 815,
+  "raw_content_unique": 813,
+  "member_confidence_counts": {
+    "high_unique_within_retained_candidates": 4130,
+    "multiple_or_weakly_separated_candidates": 63,
+    "moderate_unique_within_retained_candidates": 236,
+    "unresolved": 73
+  },
+  "filename_groups": 816,
+  "all_members_supported_same_content_families": 744,
+  "families_with_multiple_uniquely_supported_raw_contents": 9,
+  "shared_raw_content_prefix_cases": 203,
+  "conservative_components": 573,
+  "multi_prefix_components": 72,
+  "cross_label_components": 0,
+  "scientific_interpretation": "The old filename prefix partition does not prove independent source content. Component union addresses observed raw-content collisions, but unresolved/candidate-limited lineage remains. Any new evaluation must retain these limits and cannot relabel split units as plants.",
+  "input_hashes": {
+    "augmented_family_manifest.csv": "db89d16dc79262faa8b3bc2d8bca68b9c4ce9466ce63f10b556430b828820c0a",
+    "raw_parquet_manifest.csv": "8c7b5babbb565eb1c9029633c29f9679fed567623b4f5d53ac482b7fe132748c",
+    "top_candidate_scores.csv": "7f105106db0ef9a769bda33ae770048864d55d2920e0d04a4aa0ce772582e7a3",
+    "family_to_raw_mapping.csv": "8d7281954754036e84bff9688e303faf586be9b8b5aa331e1bafcad644570866"
+  },
+  "model_fits": 0
+}

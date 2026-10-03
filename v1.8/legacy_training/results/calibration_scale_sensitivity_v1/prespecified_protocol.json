@@ -1,0 +1,63 @@
+{
+  "frozen_utc_before_model_fitting": "2026-10-02T07:44:51.813596+00:00",
+  "analysis_status": "post_hoc_source_only_protocol_sensitivity_not_new_confirmation",
+  "external_results_already_known_before_design": true,
+  "model": "resnet18_logit",
+  "final_C_already_selected": 0.1,
+  "outer_fold_C_already_selected": [
+    0.01,
+    0.01,
+    0.1,
+    0.1,
+    0.1
+  ],
+  "comparison": [
+    "reconstructed_legacy_mixed_C",
+    "fixed_final_C_OOF"
+  ],
+  "same_all_TOM_final_head_for_both_arms": true,
+  "no_retuning_no_target_label_selection": true,
+  "source_calibration_training_probabilities_are_not_unbiased_source_validation": true,
+  "all_results_retained": true,
+  "bootstrap_replicates": 1000,
+  "bootstrap_unit": "exact_deduplicated_COLD_image_conditional_on_fitted_models",
+  "seed": 20260930,
+  "inputs": {
+    "features": {
+      "path": "features\\resnet18.npz",
+      "sha256": "a0127be9efd0361541e6fad667f2e68ada436e9735f57c9e69a0eecccf0621db"
+    },
+    "manifest": {
+      "path": "manifests\\unified_manifest.csv",
+      "sha256": "283dbe54925acb97a281faff9dbe0669323b65f24b0158181ac37a5ad7cee6e5"
+    },
+    "model_summary": {
+      "path": "results\\reliability_benchmark_v1\\models\\model_summary.json",
+      "sha256": "9c827fbfddb12754d386e98b223742a53d7110333ee3f9cd703097193482c0a4"
+    },
+    "folds": {
+      "path": "results\\reliability_benchmark_v1\\split_manifests\\tom_acquisition_day_outer_folds.csv",
+      "sha256": "b342795ee73a4c13c7116b96e90321686ea0b7125b4e6c3ac38bfb3d490abbec"
+    },
+    "source_predictions": {
+      "path": "results\\reliability_benchmark_v1\\predictions\\tom_nested_oof.csv",
+      "sha256": "7ea01a77f43d434e860b7819b08da18e961485453ea1f03c0f86f9a516f436cb"
+    },
+    "external_predictions": {
+      "path": "results\\reliability_benchmark_v1\\predictions\\cold_locked_external.csv",
+      "sha256": "40b711702faacc32cbcca62032de4fc5f9a071b503e265ba8ae4a0b703644dd7"
+    },
+    "script": {
+      "path": "code\\run_calibration_scale_sensitivity.py",
+      "sha256": "c14f1caf78239c95c84698110b24ef4c2cb439713c9458a25b0a787a3c8958b6"
+    }
+  },
+  "environment": {
+    "python": "3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]",
+    "platform": "Windows-10-10.0.19045-SP0",
+    "numpy": "2.3.5",
+    "pandas": "3.0.1",
+    "scipy": "1.18.1",
+    "scikit_learn": "1.8.0"
+  }
+}

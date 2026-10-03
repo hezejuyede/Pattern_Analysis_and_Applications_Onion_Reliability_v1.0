@@ -1,0 +1,16 @@
+{
+  "utc": "2026-10-02T16:30:02.528138+00:00",
+  "revision": "9e97599868962bd0079b8db4b7f1efa9185fa1e7",
+  "files": [
+    "README.md",
+    "plant_village.py",
+    "leaf_grouping/leaf-map.json",
+    "splits/color_train.txt",
+    "splits/color_test.txt"
+  ],
+  "script_sha256": "8c60d7ec9181631ba15e97169387685ae48f31404665aac982666be7c2684c5e",
+  "selection_stage": "metadata only, no image classifier output inspected",
+  "image_mode": "raw/color only; grayscale/segmentation never independent views",
+  "eligibility": "exactly one class-compatible official leaf mapping; exclude fallback, copy derivatives, and any cross-class group; distinct original image identifiers >=3",
+  "scope": "independent pre-existing archive; leaf metadata provenance requires review; not newly collected plants, no new pathology adjudication"
+}

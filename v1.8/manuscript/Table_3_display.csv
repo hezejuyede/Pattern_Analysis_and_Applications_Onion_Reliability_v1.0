@@ -1,0 +1,11 @@
+task,model,single_all_pp,single_common_pp,matched_joint_pp,context_difference_pp
+Onion,ResNet18 + LR,25.19,13.59,23.34,1.85
+Onion,DINOv2 + LR,18.49,11.32,17.69,0.80
+Onion,Colour + LR,30.13,23.51,34.68,-4.55
+Onion,ResNet18 1NN,51.11,39.82,49.24,1.87
+Onion,DINOv2 1NN,44.15,37.20,43.95,0.20
+Potato,ResNet18 + LR,2.48,2.48,1.71,0.77
+Potato,DINOv2 + LR,2.83,2.83,2.59,0.25
+Potato,Colour + LR,2.42,2.42,1.68,0.74
+Potato,ResNet18 1NN,4.95,4.95,4.57,0.38
+Potato,DINOv2 1NN,6.78,6.78,7.74,-0.95

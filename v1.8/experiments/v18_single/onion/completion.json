@@ -1,0 +1,13 @@
+{
+  "status": "COMPLETED_POST_HOC_SINGLE_SOURCE_CONTROL",
+  "dataset": "onion",
+  "protocol_sha256": "05e1aabd1e2d8ad9f56052501360fb75a47f837ccb7366d16a1985d6082aff29",
+  "independent_review_sha256": "d51f94e57ba09e34ebdedef6836e3d7316a6f67e9e534a99e010397552713af9",
+  "targets": 960,
+  "model_conditions": 9650,
+  "logistic_fits": 5790,
+  "predictions": 1399250,
+  "warnings": 0,
+  "elapsed_seconds": 530.831885800002,
+  "scientific_submission_gate": "HOLD_UNTIL_INDEPENDENT_RESULT_AND_MANUSCRIPT_REVIEW"
+}

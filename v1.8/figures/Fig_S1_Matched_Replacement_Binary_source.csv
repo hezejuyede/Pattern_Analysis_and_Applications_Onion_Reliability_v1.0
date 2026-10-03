@@ -1,0 +1,13 @@
+dataset,model,endpoint,panel,metric,mean_pp,split_p025_pp,split_p975_pp,split_count
+Onion archive,resnet_logit,binary_healthy_other,selected_probe,policy_BA_difference,6.5750724637681097,2.7219565217391302,10.100869565217389,30
+Onion archive,resnet_logit,binary_healthy_other,sentinel,turnover_difference,-0.21043478260869003,-2.7449999999999997,2.4445652173912999,30
+Onion archive,colour_logit,binary_healthy_other,selected_probe,policy_BA_difference,12.48173913043478,8.1945652173913004,17.78891304347826,30
+Onion archive,colour_logit,binary_healthy_other,sentinel,turnover_difference,0.28898550724637001,-4.1943478260869496,6.2567391304347701,30
+Onion archive,resnet_cosine_1nn,binary_healthy_other,selected_probe,policy_BA_difference,26.391304347826079,19.420869565217391,32.147608695652167,30
+Onion archive,resnet_cosine_1nn,binary_healthy_other,sentinel,turnover_difference,-0.62057971014491997,-7.80304347826086,7.4591304347826002,30
+Potato archive,resnet_logit,binary_healthy_other,selected_probe,policy_BA_difference,1.9083333333333299,-0.32750000000000001,9.5912500000000005,30
+Potato archive,resnet_logit,binary_healthy_other,sentinel,turnover_difference,0.26500000000000001,-0.25499999999999001,2.28249999999999,30
+Potato archive,colour_logit,binary_healthy_other,selected_probe,policy_BA_difference,3.8300000000000001,-0.18249999999999,10.632499999999991,30
+Potato archive,colour_logit,binary_healthy_other,sentinel,turnover_difference,-0.36166666666666003,-3.6287499999999904,1.2762499999999901,30
+Potato archive,resnet_cosine_1nn,binary_healthy_other,selected_probe,policy_BA_difference,1.7216666666666598,-6.3650000000000002,13.300000000000001,30
+Potato archive,resnet_cosine_1nn,binary_healthy_other,sentinel,turnover_difference,0.056666666666660002,-7.28125,6.25,30

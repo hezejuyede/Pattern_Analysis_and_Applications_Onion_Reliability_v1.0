@@ -1,0 +1,215 @@
+{
+  "utc": "2026-10-03T00:49:38.143017+00:00",
+  "status": "ALL_INITIAL_PAGES_INSPECTED_REBUILD_REQUIRED",
+  "scope": "Initial v18 native layout inspection, not submission certification",
+  "build": {
+    "utc": "2026-10-03T00:40:10.978130+00:00",
+    "status": "NATIVE_STRUCTURE_AND_RENDER_PASS_PENDING_VISUAL_QA",
+    "contains_v18_results": true,
+    "submission_readiness": "NOT_CERTIFIED_BY_FORMAT_BUILDER",
+    "builder_sha256": "ca244b57334f40fc9d37eefb1124f43f28aa7096ad2f515343085e48fe9019f2",
+    "sources_unchanged": true,
+    "reports": [
+      {
+        "language": "en",
+        "source": "D:\\论文\\SCI投稿汇总\\Onion_Deep_Revision_20261003_v18\\manuscript_revision\\full_text.md",
+        "source_sha256": "563dbf3c335e18a1560b7d344fb49fc3cb43cde35f73b58d8510afad7e7e873f",
+        "docx": "D:\\论文\\SCI投稿汇总\\Onion_Deep_Revision_20261003_v18\\manuscript_revision\\native\\Pattern_Analysis_and_Applications_en_Native_Manuscript.docx",
+        "docx_sha256": "f44bf0572cea7aa85e8e00c7e2e1d9e597e5f0d1825d2d6dc32938b3643e4a05",
+        "native_omml_equations": 3,
+        "native_tables": 3,
+        "repeated_table_headers": 3,
+        "table_rows_protected_from_split": 30,
+        "figure_images": 3,
+        "figure_numbers_inserted": [
+          "1",
+          "2",
+          "3"
+        ],
+        "reference_count": 22,
+        "raw_markup_check": "PASS",
+        "proof_only": false,
+        "visual_review": "PENDING_FINAL_ALL_PAGE_INSPECTION",
+        "qa_dir": "D:\\论文\\SCI投稿汇总\\Onion_Deep_Revision_20261003_v18\\manuscript_revision\\native\\qa\\en\\f44bf0572cea",
+        "rendered_pdf": "D:\\论文\\SCI投稿汇总\\Onion_Deep_Revision_20261003_v18\\manuscript_revision\\native\\qa\\en\\f44bf0572cea\\Pattern_Analysis_and_Applications_en_Native_Manuscript.pdf",
+        "page_count": 12
+      },
+      {
+        "language": "zh",
+        "source": "D:\\论文\\SCI投稿汇总\\Onion_Deep_Revision_20261003_v18\\manuscript_revision\\full_text_zh.md",
+        "source_sha256": "a0b0b16550e387d0699d1cdd09a183d8f46ae9132fca1abbdc4a8734d125c5b7",
+        "docx": "D:\\论文\\SCI投稿汇总\\Onion_Deep_Revision_20261003_v18\\manuscript_revision\\native\\Pattern_Analysis_and_Applications_zh_Native_Manuscript.docx",
+        "docx_sha256": "814e332a3516787c50a64d81d7406e549e7fbeb3da61375373db944fd2e144a8",
+        "native_omml_equations": 3,
+        "native_tables": 3,
+        "repeated_table_headers": 3,
+        "table_rows_protected_from_split": 30,
+        "figure_images": 3,
+        "figure_numbers_inserted": [
+          "1",
+          "2",
+          "3"
+        ],
+        "reference_count": 22,
+        "raw_markup_check": "PASS",
+        "proof_only": false,
+        "visual_review": "PENDING_FINAL_ALL_PAGE_INSPECTION",
+        "qa_dir": "D:\\论文\\SCI投稿汇总\\Onion_Deep_Revision_20261003_v18\\manuscript_revision\\native\\qa\\zh\\814e332a3516",
+        "rendered_pdf": "D:\\论文\\SCI投稿汇总\\Onion_Deep_Revision_20261003_v18\\manuscript_revision\\native\\qa\\zh\\814e332a3516\\Pattern_Analysis_and_Applications_zh_Native_Manuscript.pdf",
+        "page_count": 11
+      }
+    ]
+  },
+  "pages": {
+    "en": [
+      {
+        "page": 1,
+        "png": "D:\\论文\\SCI投稿汇总\\Onion_Deep_Revision_20261003_v18\\manuscript_revision\\native\\qa\\en\\f44bf0572cea\\page-1.png",
+        "sha256": "2058a6f53f55703ce91105774d5fe9e49e3236b8687da7569f89cfe9c821b366",
+        "visual_inspected": true
+      },
+      {
+        "page": 2,
+        "png": "D:\\论文\\SCI投稿汇总\\Onion_Deep_Revision_20261003_v18\\manuscript_revision\\native\\qa\\en\\f44bf0572cea\\page-2.png",
+        "sha256": "3744265e811776e58ef20f578b719fad24610dccd722585413a5e6fed4d7fcc9",
+        "visual_inspected": true
+      },
+      {
+        "page": 3,
+        "png": "D:\\论文\\SCI投稿汇总\\Onion_Deep_Revision_20261003_v18\\manuscript_revision\\native\\qa\\en\\f44bf0572cea\\page-3.png",
+        "sha256": "54e515bb6da8eb1eeb69a7ccb959b20576f7c4c7cd24c15f38119ab122ef4173",
+        "visual_inspected": true
+      },
+      {
+        "page": 4,
+        "png": "D:\\论文\\SCI投稿汇总\\Onion_Deep_Revision_20261003_v18\\manuscript_revision\\native\\qa\\en\\f44bf0572cea\\page-4.png",
+        "sha256": "44b6f966f66e713f9fc6bba6b5f73857219a27e69f001693adcac3b135e49061",
+        "visual_inspected": true
+      },
+      {
+        "page": 5,
+        "png": "D:\\论文\\SCI投稿汇总\\Onion_Deep_Revision_20261003_v18\\manuscript_revision\\native\\qa\\en\\f44bf0572cea\\page-5.png",
+        "sha256": "ed4ecedf5e6012612e280e450881cf1d36c73951b3350657f42248f94c3ee7e1",
+        "visual_inspected": true
+      },
+      {
+        "page": 6,
+        "png": "D:\\论文\\SCI投稿汇总\\Onion_Deep_Revision_20261003_v18\\manuscript_revision\\native\\qa\\en\\f44bf0572cea\\page-6.png",
+        "sha256": "2d2aac51bdcfcf57a6800a5f805b70b02e62da0d5465ce0eda2f7d9434ca36fa",
+        "visual_inspected": true
+      },
+      {
+        "page": 7,
+        "png": "D:\\论文\\SCI投稿汇总\\Onion_Deep_Revision_20261003_v18\\manuscript_revision\\native\\qa\\en\\f44bf0572cea\\page-7.png",
+        "sha256": "09e6883cd19219d93ec74c2e95ad251cacb43b099e4017355620ee3fea6ff92a",
+        "visual_inspected": true
+      },
+      {
+        "page": 8,
+        "png": "D:\\论文\\SCI投稿汇总\\Onion_Deep_Revision_20261003_v18\\manuscript_revision\\native\\qa\\en\\f44bf0572cea\\page-8.png",
+        "sha256": "28052c5867f6c9b40fbf7f7dcd919ec98cd42b160d7ce4f05a9b06159de6a7c4",
+        "visual_inspected": true
+      },
+      {
+        "page": 9,
+        "png": "D:\\论文\\SCI投稿汇总\\Onion_Deep_Revision_20261003_v18\\manuscript_revision\\native\\qa\\en\\f44bf0572cea\\page-9.png",
+        "sha256": "a144a2d0b0a266736b76d8d31a5592d4ad7f3d31ab335d57890801f7803f0f63",
+        "visual_inspected": true
+      },
+      {
+        "page": 10,
+        "png": "D:\\论文\\SCI投稿汇总\\Onion_Deep_Revision_20261003_v18\\manuscript_revision\\native\\qa\\en\\f44bf0572cea\\page-10.png",
+        "sha256": "993dfa47c7466a26d03128ddb196b8c3763300b1621be79001ae66aec354fb29",
+        "visual_inspected": true
+      },
+      {
+        "page": 11,
+        "png": "D:\\论文\\SCI投稿汇总\\Onion_Deep_Revision_20261003_v18\\manuscript_revision\\native\\qa\\en\\f44bf0572cea\\page-11.png",
+        "sha256": "dbb314ad94c5f0079f43f77bf5f770387b3db444d2d1b03b814b351377a16e98",
+        "visual_inspected": true
+      },
+      {
+        "page": 12,
+        "png": "D:\\论文\\SCI投稿汇总\\Onion_Deep_Revision_20261003_v18\\manuscript_revision\\native\\qa\\en\\f44bf0572cea\\page-12.png",
+        "sha256": "a719fdd1332474637df59bf481486414c9d220a86d27d02ed5971b54a35ce7c7",
+        "visual_inspected": true
+      }
+    ],
+    "zh": [
+      {
+        "page": 1,
+        "png": "D:\\论文\\SCI投稿汇总\\Onion_Deep_Revision_20261003_v18\\manuscript_revision\\native\\qa\\zh\\814e332a3516\\page-1.png",
+        "sha256": "14a276c57677ed28c4c14d26730ce596a8f783cf1fca8ab73ecbccf8987a15e8",
+        "visual_inspected": true
+      },
+      {
+        "page": 2,
+        "png": "D:\\论文\\SCI投稿汇总\\Onion_Deep_Revision_20261003_v18\\manuscript_revision\\native\\qa\\zh\\814e332a3516\\page-2.png",
+        "sha256": "94f8f915156debda19053b4bd3b438a149632f2c3f78bd9917cd77ddee6a93f6",
+        "visual_inspected": true
+      },
+      {
+        "page": 3,
+        "png": "D:\\论文\\SCI投稿汇总\\Onion_Deep_Revision_20261003_v18\\manuscript_revision\\native\\qa\\zh\\814e332a3516\\page-3.png",
+        "sha256": "0a9c1c6349900e713c02c88da834f570008c7c42934053b59151fdf3ae8d2a19",
+        "visual_inspected": true
+      },
+      {
+        "page": 4,
+        "png": "D:\\论文\\SCI投稿汇总\\Onion_Deep_Revision_20261003_v18\\manuscript_revision\\native\\qa\\zh\\814e332a3516\\page-4.png",
+        "sha256": "0e974a5a5a55c3e89215e2f99b423a5dba424ac9d6eba44d798bc4141c525d3a",
+        "visual_inspected": true
+      },
+      {
+        "page": 5,
+        "png": "D:\\论文\\SCI投稿汇总\\Onion_Deep_Revision_20261003_v18\\manuscript_revision\\native\\qa\\zh\\814e332a3516\\page-5.png",
+        "sha256": "296f22b61e5e7abbb2363b42ef29ebf91dde77830359ef592fea754bee28cc9d",
+        "visual_inspected": true
+      },
+      {
+        "page": 6,
+        "png": "D:\\论文\\SCI投稿汇总\\Onion_Deep_Revision_20261003_v18\\manuscript_revision\\native\\qa\\zh\\814e332a3516\\page-6.png",
+        "sha256": "09ceda984a2475a65b48ecbb56cc077585f4fba59809b2a708e8eedee2030432",
+        "visual_inspected": true
+      },
+      {
+        "page": 7,
+        "png": "D:\\论文\\SCI投稿汇总\\Onion_Deep_Revision_20261003_v18\\manuscript_revision\\native\\qa\\zh\\814e332a3516\\page-7.png",
+        "sha256": "769ca900e7b3ecd3f80b3d919c8c3a2ea12aab955f2488a2782608c89aae1cf6",
+        "visual_inspected": true
+      },
+      {
+        "page": 8,
+        "png": "D:\\论文\\SCI投稿汇总\\Onion_Deep_Revision_20261003_v18\\manuscript_revision\\native\\qa\\zh\\814e332a3516\\page-8.png",
+        "sha256": "92b306696097915ebda2b66a63de66bc1bcb22ff169e23ebe28257bbc718c89d",
+        "visual_inspected": true
+      },
+      {
+        "page": 9,
+        "png": "D:\\论文\\SCI投稿汇总\\Onion_Deep_Revision_20261003_v18\\manuscript_revision\\native\\qa\\zh\\814e332a3516\\page-9.png",
+        "sha256": "7ef9561a2c86de70e8bbcc1e030500534e340a636c8f214d84993f9f23503016",
+        "visual_inspected": true
+      },
+      {
+        "page": 10,
+        "png": "D:\\论文\\SCI投稿汇总\\Onion_Deep_Revision_20261003_v18\\manuscript_revision\\native\\qa\\zh\\814e332a3516\\page-10.png",
+        "sha256": "c9b7dae11826f22e7d45dad540890f0f9f530ec36c423aa4bf8d62a0c405d85f",
+        "visual_inspected": true
+      },
+      {
+        "page": 11,
+        "png": "D:\\论文\\SCI投稿汇总\\Onion_Deep_Revision_20261003_v18\\manuscript_revision\\native\\qa\\zh\\814e332a3516\\page-11.png",
+        "sha256": "712be279f5c9cf284f2fbdd8b1dce25cb939952d0990f35a82cc6c204361e5b5",
+        "visual_inspected": true
+      }
+    ]
+  },
+  "findings": [
+    "All 12 English and 11 Chinese initial pages visually inspected. No clipped text, figure-captions separated across pages, or split table rows observed. Native table continuation headers appear correctly.",
+    "URL underscores were incorrectly formatted as subscripts in declarations and one reference URL. Builder now protects literal URLs and checks all source/reference URLs are preserved. Rebuild required.",
+    "Root identified and corrected Figure 3 caption claims about individual split markers and common-class sentinel weighting.",
+    "Chinese introduction contribution sentence was older and less specific than English; reported and now corrected by root.",
+    "DINOv2 normalized-token wording clarified as final LayerNorm CLS token."
+  ],
+  "final_gate": "Inspect all final pages; previously inspected pages may be reused only with byte-identical rendered PNG hashes."
+}

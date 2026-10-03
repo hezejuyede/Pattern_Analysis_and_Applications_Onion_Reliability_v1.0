@@ -1,11 +1,14 @@
 {
-  "status": "HOLD_AUGMENTED_LINEAGE_CORRECTION",
-  "date": "2026-10-02",
-  "historical_manuscript": "v1.5",
-  "historical_scientific_tag": "v1.2.0",
-  "correction_notice": "audit/v16_research_gate/CORRECTION_NOTICE_20261002.txt",
+  "status": "CURRENT_BOUNDED_RESEARCH_REVISION_AUTHOR_REVIEW_REQUIRED",
+  "date": "2026-10-03",
+  "current_research_version": "v1.8.0",
+  "current_path": "v1.8",
   "submission_ready": false,
+  "editorial_priority_certified": false,
   "old_augmented_source_exposure_interpretation_validated": false,
-  "locked_transfer_point_predictions_changed": false,
-  "notes": "Corrected evidence is being evaluated. Historical tags and numerical outputs remain immutable; technical PASS is not scientific approval."
+  "current_corrected_controls_numerically_verified": true,
+  "new_independent_field_cohort": false,
+  "whole_plant_identity_verified": false,
+  "unified_pathology_review": false,
+  "notes": "Current corrected computations, native documents and public materials do not certify all-author final review or submission-portal checks."
 }

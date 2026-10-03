@@ -1,0 +1,18 @@
+{
+  "review_scope": "Two prespecified contact sheets, 18 author-defined leaves, all four original photographs per leaf (72 images)",
+  "selection": "Within each of the three labels, lexical first two, middle two, last two author leaf IDs; selected before feature classifier fitting",
+  "reviewed_files": ["author_leaf_contacts_1.png", "author_leaf_contacts_2.png"],
+  "observations": [
+    "Each displayed row shows compatible leaf outline, venation, and visible marking locations across the four original photographs.",
+    "Framing, rotation, and shadows change within rows, consistent with the source author's description of repeated photography of a leaf.",
+    "Photographs depict detached leaves against a controlled background; these are not field scene validation images.",
+    "Sheet labels and photo row indices are visible and correspond to contact_sheet_manifest.csv."
+  ],
+  "limitations": [
+    "This limited visual review corroborates metadata and catches gross row mistakes; it does not certify all 538 leaf identities.",
+    "Leaf identity is attributed to the original authors' 2016 metadata, not inferred from this visual review.",
+    "No disease label was changed or diagnostically certified by visual review.",
+    "No new plant identity, field cohort, or unified pathology adjudication is established."
+  ],
+  "model_outcomes_seen_before_review": false
+}

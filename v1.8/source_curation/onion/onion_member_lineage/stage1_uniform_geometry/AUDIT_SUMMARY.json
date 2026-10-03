@@ -1,0 +1,11 @@
+{
+  "status": "COMPLETE_UNIFORM_TWO_ORIENTATION_GEOMETRY",
+  "pairs": 5468,
+  "any_high": 5468,
+  "any_spatial_high": 5178,
+  "cross_label_any_high": 0,
+  "cross_label_any_spatial_high": 0,
+  "old_argmax_hid_any_high_pairs": 2,
+  "previous_any_high_but_recheck_neither": 0,
+  "model_fits": 0
+}

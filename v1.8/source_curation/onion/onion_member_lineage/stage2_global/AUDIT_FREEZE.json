@@ -1,0 +1,39 @@
+{
+  "frozen_utc": "2026-10-02T12:06:52.400010+00:00",
+  "stage1_completion_sha256": "547257de25a26759ce498c87f2d673c6cc531f84da9b9fe2fc6ac49cce1bd8d1",
+  "embedding_sha256": "6cf804b512ab193d72cc044550db76a2cdbbfdc09165deed4eb2cea1426de877",
+  "raw_identity_sha256": "1a9023071e92b2d56a944bc3ac06845f5f1c352f4781a08ec7798434509dbbe5",
+  "augmented_manifest_sha256": "db89d16dc79262faa8b3bc2d8bca68b9c4ce9466ce63f10b556430b828820c0a",
+  "script_sha256": "ef9b310b23b2d1f000aafa3e986236f6774734a2e7beea1c89f6bb4f67a31a61",
+  "candidate_files_sha256": {
+    "frozen_augmented_global_candidates.csv": "2f9c0230ff4ed9aefe6dc5751da2aac2b7fa6c44bca8eaab8729801d87eeecf1",
+    "frozen_raw_global_candidates.csv": "205da44fe1cd5511d86c9177d637a6714e323e043fd91ff9b34c6130b236091b"
+  },
+  "selection": {
+    "augmented": "per-member cosine top5 over all 813 raw content-unique images, including other labels; compute only not previously checked candidates",
+    "raw": "each unique raw cosine top10 other unique raw; undirected union; includes other labels",
+    "tie_break": "stable content SHA order"
+  },
+  "pairs": {
+    "augmented": 16985,
+    "raw_raw": 6508
+  },
+  "geometry": {
+    "SIFT_nfeatures": 1000,
+    "contrastThreshold": 0.02,
+    "ratio": 0.75,
+    "RANSAC_pixels": 4.0,
+    "directions": [
+      "normal",
+      "horizontal_reflection"
+    ],
+    "high_geometric_support": ">=15 inliers and >=.60 inlier fraction",
+    "spatially_distributed_high_support": "high geometry plus each inlier convex hull >=.05 of image area, median inlier residual <=2 px and p95 <=4 px; heuristic screen, not certified identity"
+  },
+  "limitations": [
+    "finite nearest-neighbor candidates do not establish absence of other related sources",
+    "no pathology or plant identity inference",
+    "negative SIFT never interpreted as proof of independence"
+  ],
+  "model_fits": 0
+}

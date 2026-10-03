@@ -1,0 +1,24 @@
+{
+  "status": "PASS_INDEPENDENT_RESULTS",
+  "dataset": "potato",
+  "predictions_checked": 1757700,
+  "conditions_checked": 10850,
+  "protocol_sha256": "ee6ec6c3c52c10557aa7bbbf5e6c08c773ecd048568c158a512feb92369bdad8",
+  "predictions_sha256": "c2547bc8bd5036021d078787ed439c361651532b68ca32427ef2840463989582",
+  "all_reconstruction_errors": {
+    "target_panel": 1.1102230246251565e-16,
+    "class_means": 1.1102230246251565e-16,
+    "split_means": 1.1102230246251565e-16,
+    "summary": 1.1102230246251565e-16,
+    "legacy_joint_target_difference": 5.551115123125783e-17,
+    "legacy_joint_split_difference": 9.71445146547012e-17
+  },
+  "q0_rows_checked": 8100,
+  "q0_max_probability_difference": 1.1102230246251565e-16,
+  "logistic_refits": 6,
+  "independent_nn_conditions": 4,
+  "maximum_refit_probability_difference": 0.0,
+  "artifact_integrity": "PASS_FROZEN_HASHES_WITH_EXPLICIT_PARQUET_CONVERSION_LEDGER",
+  "single_vs_joint_targets_all_models": 5400,
+  "scientific_submission_gate": "UNCHANGED_HOLD"
+}

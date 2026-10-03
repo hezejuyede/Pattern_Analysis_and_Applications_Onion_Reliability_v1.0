@@ -1,0 +1,16 @@
+{
+  "status": "COMPLETE",
+  "files_sha256": {
+    "all_high_augmented_components.csv": "e1e1741fb7348a317517997be38f7dd00a925388d34214aef295b0b66d63f825",
+    "all_high_component_summary.csv": "3fa5039e287a6661b051959f44928f9783cdb09e243445e9efa3f0112db62c52",
+    "all_high_evidence_edges.csv": "2e8b934b431d3fb66387b8cf9f7974c1b95b71eb974bc4dbb543fce8469e3b87",
+    "all_high_raw_content_components.csv": "72fa58f754abb5e667b07a2f4cd440a6c9c725faea8d205741ef9a55db9be55b",
+    "GRAPH_FREEZE.json": "3458a90b07682675ad5fac5cf83ef0c23f6ac837d3340b737cd0765c9ff8669c",
+    "GRAPH_SUMMARY.json": "4fe903503cfec436eddc8daf2331c3da675223fa94e0905dcf9c17fccdb1dbce",
+    "member_source_support.csv": "a495e1655f929f61197e3a100e336acbe3b6452063145b98504faa34d753d79e",
+    "spatial_high_augmented_components.csv": "76bfb655050b1f50aa7db5dffa9f9e28945ee7441112b282250f08fe615c505e",
+    "spatial_high_component_summary.csv": "efd487cf8c05ca3813d8e27014dc6664d586ecec9a2536d78930e749d5e15d40",
+    "spatial_high_evidence_edges.csv": "311857a332314d8f941baa1ab6daf23c3370ba9a018990e957c504fa1016087d",
+    "spatial_high_raw_content_components.csv": "54fdd5b8f604ff5cc9fb162035e3b41e28953f3b99f6d73eba78acf690d14806"
+  }
+}

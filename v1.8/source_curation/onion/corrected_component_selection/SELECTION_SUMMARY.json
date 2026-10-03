@@ -1,0 +1,29 @@
+{
+  "status": "PREPARED_REQUIRES_INDEPENDENT_REVIEW",
+  "selected_images": 3076,
+  "selected_components": 481,
+  "components_by_label": {
+    "healthy": 228,
+    "iris_yellow_virus": 190,
+    "stemphylium_colletotrichum_leaf_blight": 50,
+    "purple_blotch": 13
+  },
+  "images_by_label": {
+    "iris_yellow_virus": 976,
+    "healthy": 757,
+    "stemphylium_colletotrichum_leaf_blight": 694,
+    "purple_blotch": 649
+  },
+  "all_component_decisions": {
+    "accepted_common_reference_subset": 481,
+    "fewer_than_three_spatially_supported_views": 63,
+    "cross_label_blocking_component": 4
+  },
+  "model_fits": 0,
+  "files_sha256": {
+    "all_member_selection_ledger.csv": "94e7383a1a0ad8204e7d746934d70e096d413e830e153e90d1e8de1ff4057fdd",
+    "component_eligibility.csv": "95010549ed34a415cc22805f3ae8bb29e12ec20b1bb23fa13e3e1e0d8905082a",
+    "corrected_manifest.csv": "5a5a31cccaf6b6d7a3fe046f16be33c99a33d00fecdf2d3ab49bb41d3dd7ee72",
+    "SELECTION_FREEZE.json": "be30edd1bb8e235e4a398ffd98e3b567c1de9bac47c8574ce63ad1929e735c19"
+  }
+}

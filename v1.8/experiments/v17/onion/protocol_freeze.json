@@ -1,0 +1,48 @@
+{
+  "frozen_utc": "2026-10-02T16:31:39.113725+00:00",
+  "inputs": {
+    "manifest": {
+      "path": "D:\\论文\\SCI投稿汇总\\Onion_Deep_Revision_20261002_v16\\corrected_component_selection\\corrected_manifest.csv",
+      "sha256": "5a5a31cccaf6b6d7a3fe046f16be33c99a33d00fecdf2d3ab49bb41d3dd7ee72"
+    },
+    "resnet": {
+      "path": "C:\\Users\\lixin\\Documents\\Codex\\2026-09-27\\lu\\work\\onion_crossdomain\\audit\\cold_augmented_lineage\\resnet18_embeddings.npz",
+      "sha256": "6cf804b512ab193d72cc044550db76a2cdbbfdc09165deed4eb2cea1426de877"
+    },
+    "colour": {
+      "path": "C:\\Users\\lixin\\Documents\\Codex\\2026-09-27\\lu\\work\\onion_crossdomain\\features\\cold_augmented_color_shortcut.npz",
+      "sha256": "24a783bb1442262076f725a056f610e34694d6d21d0c2148e82e987f705ce790"
+    },
+    "code": {
+      "path": "C:\\Users\\lixin\\Documents\\Codex\\2026-09-27\\lu\\work\\onion_crossdomain\\code\\run_matched_replacement_controls.py",
+      "sha256": "9200c228e766c190637c695ab6cad8dc0155a098e80364dc08ae1b66c783086d"
+    },
+    "shared_numerics": {
+      "path": "C:\\Users\\lixin\\Documents\\Codex\\2026-09-27\\lu\\work\\onion_crossdomain\\code\\run_corrected_component_experiment.py",
+      "sha256": "f7db6dd6b174d03264a0ab0d9311ac4ef4dd8f0aaf9042acc0887b13c535c7f2"
+    }
+  },
+  "status": "PREPARED_BEFORE_NEW_FITS",
+  "chronology": "Post hoc after all v16 outcomes; not independent replication or preregistration.",
+  "primary_probe": "Class-balanced correctness difference exposure minus matched sham on selected paired probes; average A/B then 5 pairs within split.",
+  "primary_sentinel": "Class-balanced correctness turnover relative to same zero baseline, exposure minus sham.",
+  "secondary": "Unselected probes, all paired probes, per-class results; label churn, gains/losses, wrong-to-wrong; all models and endpoints.",
+  "policy_interpretation": "Same removed donors and class counts; replacement sibling vs unrelated same-class source. Other sources change; not pure direct causal effect.",
+  "class_counts": {
+    "healthy": 228,
+    "iris_yellow_virus": 190,
+    "stemphylium_colletotrichum_leaf_blight": 50,
+    "purple_blotch": 13
+  },
+  "training_budget": "240 components and 480 files on onion; smaller than v16 336 and 672. Do not attribute differences only to control policy.",
+  "randomization": "30 seeds starting 20261003, 5 complementary pairs; odd probe remains unselected.",
+  "uncertainty": "30 split means and percentile variation, no independent-plant CIs or significance tests.",
+  "selection": "No feature-distance or outcome matching, exclusions, tuning, reranking, or stopping on results.",
+  "model_protocol": "Frozen ResNet18 and colour standardized balanced L2 logistic C=.01; untuned cosine 1NN; multiclass primary, binary secondary.",
+  "prepared_hashes": {
+    "allocation_membership.csv.gz": "4cecdee59639641ebef6e298cf2bbdb33fdcbba8f78a5b735cf204b2f08fa8de",
+    "component_membership.csv": "f35bdcf25b0491607f006b69c8c1c298e63fc41c413b79413e0ba7f7b13f6ddb",
+    "manifest.csv": "5a5a31cccaf6b6d7a3fe046f16be33c99a33d00fecdf2d3ab49bb41d3dd7ee72",
+    "support_checks.csv": "5bc9f09dac64bb5a471e0374d36139c6f92e6ad97e27baf6d0c6d45a1cc68502"
+  }
+}

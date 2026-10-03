@@ -1,0 +1,9 @@
+{
+  "status": "PASS_BYTE_PRESERVED_CURATION_SNAPSHOT",
+  "files": 84,
+  "MiB": 13.533796310424805,
+  "gzip_files": 24,
+  "all_copied_or_decompressed_bytes_equal_original": true,
+  "raw_photographs_or_contact_sheet_images_included": false,
+  "scope": "Original code and archived evidence only. Full raw-image pipeline was not rerun in this release build."
+}

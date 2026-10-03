@@ -1,0 +1,123 @@
+{
+  "status": "PASS_ALL_24_SUPPLEMENT_PDF_PAGES",
+  "documents": [
+    {
+      "file": "ESM_1.pdf",
+      "pages": 13,
+      "pdf_sha256": "36a713b71d5052394737f20c334551a36cfbe5a5df86bf5a660c4221bb0c9e84",
+      "source_sha256": "d1d7e8373a29a70a8b6a909ac7debf7c03772f8d0db83abad6df085f254f8848",
+      "inline_tables": 6,
+      "inline_table_body_rows": [
+        12,
+        7,
+        14,
+        4,
+        24,
+        10
+      ],
+      "supplementary_figures": 2,
+      "render_sha256": {
+        "en\\page-01.png": "35dc4b2a9a8b5d3497fcc1c0207e75eb07cd3fc66bbda720024fe448e23110b1",
+        "en\\page-02.png": "2ea12fd8c866649e7a99e409cde137102270812f52b460952875653b6c8b1fa2",
+        "en\\page-03.png": "0be53c551062fe6786adadc9b9387c3e7cf414de52f2c02d5dc7bc4f0b57658b",
+        "en\\page-04.png": "0631a75a30c28f109cebdc7496fbab7e059e0b71b0093e2aa74d5ad68fe4153e",
+        "en\\page-05.png": "a2303ab29888ca39845fd97c2ced8f85e5721e69b953ced8a8fa89d64d719c1b",
+        "en\\page-06.png": "1b10796e66581f906b27f706709aacc08cb9dffe2d1b4b09b0d90a48c9fbae14",
+        "en\\page-07.png": "055d874e5f448aaa56f204d0002990ac8ce50548173691631e42b6218c0f0688",
+        "en\\page-08.png": "e077ff7dbdf2cab0522aa3a4e3acb2ce680a40776467f706844951d867e3b3fb",
+        "en\\page-09.png": "67c28a6d5562a275aeb81947309f8f95424a63cbc0724b123dd218ea34aa6149",
+        "en\\page-10.png": "fe051b85452edb1db02ba02f6d2a3b1c7f53ec3a2797035eb0f6dae32cf16a7f",
+        "en\\page-11.png": "1d9254a0025861639ade38c6401e014e2344614fe7296715ee4297641322a306",
+        "en\\page-12.png": "271cd34140ba3dfe248e7afac551bf532935d65ced0dc79b4075f6a71f7c40a4",
+        "en\\page-13.png": "5d665fd784b935b0149e4c9f7fad32b1fb0d22b2aacb7f0a3bb7347443edb27e"
+      },
+      "changed_vs_pre_release_visual_check": [
+        "en\\page-01.png",
+        "en\\page-07.png",
+        "en\\page-08.png"
+      ],
+      "text_and_geometry_status": "PASS",
+      "visual_status": "PASS_ALL_PAGES_VISUALLY_REVIEWED",
+      "visually_reviewed_pages": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13
+      ],
+      "review_method": "Actual PDF rendered with Poppler at 115 dpi. All pages were visually inspected before release-text edits; changed rendered pages were reinspected after the final rebuild, while every unchanged page was confirmed byte-identical by PNG SHA256."
+    },
+    {
+      "file": "Online_Resource_1_中文参考_v1.8.pdf",
+      "pages": 11,
+      "pdf_sha256": "a2e8918b5285a9851314cd51a44e8d66d193c6c776c633ad48833f02dcb78832",
+      "source_sha256": "11a1ca16160d049e9c904abfd3bef7a15cbc952a950e087117c711b657fc0929",
+      "inline_tables": 6,
+      "inline_table_body_rows": [
+        12,
+        7,
+        14,
+        4,
+        24,
+        10
+      ],
+      "supplementary_figures": 2,
+      "render_sha256": {
+        "zh\\page-01.png": "2d6785bd9c7e7dde76d274f05e8b3bdf35bfd92ada7ba6453be8313c341483b3",
+        "zh\\page-02.png": "a839ba769eea7833af31635db2cd1c612baeee178e53ae8151fea10beed830f9",
+        "zh\\page-03.png": "87f69730e609d998980c84c60025ef67060563bc95d4722387c933a9642fe29d",
+        "zh\\page-04.png": "6c1dd76dc10bab51b924e7d88dd8abb1115b6dbc371e00376b1b7a8f9893b631",
+        "zh\\page-05.png": "0f03d4b80699934f5c370943179c6025230f640cbbf90621d8f6fa6bec9d3bc7",
+        "zh\\page-06.png": "befe72a654619b927821fff046402ecc7ed1cff21924ab49089bd974756c0b6b",
+        "zh\\page-07.png": "8033f4ae2ec8c46706f20bcf65952d5438bfc13fbd7754eb4715ea42576a3117",
+        "zh\\page-08.png": "a408b22c3c15c01334cf4878db929e167077bc3727da74cd1894570af5457b6c",
+        "zh\\page-09.png": "268f6a704b854b29a07c76f021ac5c8da3b95015196750074b8ef0f07f952258",
+        "zh\\page-10.png": "72d92e80b78aeb14b4a0c566290b935b7f0f69d965ca19f66760dff8812ea14e",
+        "zh\\page-11.png": "bb7b6d786d6b17d4407a363d38144bb73ab4940460f7d3188b1b4ea6fa9ac29e"
+      },
+      "changed_vs_pre_release_visual_check": [
+        "zh\\page-01.png",
+        "zh\\page-02.png",
+        "zh\\page-06.png",
+        "zh\\page-07.png"
+      ],
+      "text_and_geometry_status": "PASS",
+      "visual_status": "PASS_ALL_PAGES_VISUALLY_REVIEWED",
+      "visually_reviewed_pages": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "review_method": "Actual PDF rendered with Poppler at 115 dpi. All pages were visually inspected before release-text edits; changed rendered pages were reinspected after the final rebuild, while every unchanged page was confirmed byte-identical by PNG SHA256."
+    }
+  ],
+  "checks": [
+    "Journal, manuscript title, three authors, complete affiliation, corresponding email and ORCIDs present in each document header.",
+    "S1-S7, six text-native tables with 71 total body rows, the 39 CSV index, and both retained supplementary figures present.",
+    "All tables fit inside page margins; negative signs, numerical decimals, headers and footnotes are legible.",
+    "The Table S5b caption and explanatory paragraph were kept with their table after a detected caption/page separation was corrected.",
+    "Table S10 remains intact on one page; preceding whitespace intentionally preserves its caption and 24 rows.",
+    "Final public URL and release-scope paragraph are within margins and readable in both languages.",
+    "No observed clipping, overprinting, missing glyphs or detached table captions."
+  ],
+  "technical_qa_sha256": "49b040f123137f912a34ae6ca49e27bd57f4edf8498a01e08a3c62576c40e969",
+  "source_compatibility_qa_sha256": "506735b471ad9f6b0093294abb745eda023d949517e7d5fe973e0f16d67fae2c",
+  "publication_gate": "The documents are release-ready local artifacts. Remote v1.8.0 tag existence and final public delivery must be verified by the root agent; this visual report does not certify remote publication.",
+  "scope": "Supplement source/render verification only. It neither re-fits models nor guarantees journal acceptance or every editorial formatting preference."
+}

@@ -1,0 +1,10 @@
+metric,resampling_assumption,estimate,lower,upper,groups,replicates,n_images,source_csv
+balanced_accuracy,historical_images,0.655320813771518,0.6259346009045166,0.6847288203408297,813,1000,813,C:\Users\lixin\Documents\Codex\2026-09-27\lu\work\onion_crossdomain\results\reliability_benchmark_v1\tables\binary_metrics_group_bootstrap.csv
+balanced_accuracy,all_high,0.655320813771518,0.6214823478448278,0.6913554907551477,547,3000,813,D:\论文\SCI投稿汇总\Onion_Deep_Revision_20261002_v16\external_dependency_sensitivity\metric_intervals.csv
+balanced_accuracy,spatial_high,0.655320813771518,0.6208769976971891,0.6890805729025252,700,3000,813,D:\论文\SCI投稿汇总\Onion_Deep_Revision_20261002_v16\external_dependency_sensitivity\metric_intervals.csv
+auroc,historical_images,0.7345112882289431,0.7004897470328244,0.7695247011285917,813,1000,813,C:\Users\lixin\Documents\Codex\2026-09-27\lu\work\onion_crossdomain\results\reliability_benchmark_v1\tables\binary_metrics_group_bootstrap.csv
+auroc,all_high,0.734511288228943,0.686777174558956,0.7749456325965123,547,3000,813,D:\论文\SCI投稿汇总\Onion_Deep_Revision_20261002_v16\external_dependency_sensitivity\metric_intervals.csv
+auroc,spatial_high,0.734511288228943,0.6934617507605122,0.7733404162980452,700,3000,813,D:\论文\SCI投稿汇总\Onion_Deep_Revision_20261002_v16\external_dependency_sensitivity\metric_intervals.csv
+brier,historical_images,0.2402715300884541,0.2179159360617051,0.2615657056391864,813,1000,813,C:\Users\lixin\Documents\Codex\2026-09-27\lu\work\onion_crossdomain\results\reliability_benchmark_v1\tables\binary_metrics_group_bootstrap.csv
+brier,all_high,0.2402715300884541,0.2141618993744118,0.2720226469511533,547,3000,813,D:\论文\SCI投稿汇总\Onion_Deep_Revision_20261002_v16\external_dependency_sensitivity\metric_intervals.csv
+brier,spatial_high,0.2402715300884541,0.2155074932737399,0.2668196199266954,700,3000,813,D:\论文\SCI投稿汇总\Onion_Deep_Revision_20261002_v16\external_dependency_sensitivity\metric_intervals.csv

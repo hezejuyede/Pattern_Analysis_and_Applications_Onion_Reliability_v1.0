@@ -1,0 +1,21 @@
+{
+  "status": "PASS_PORTABLE_V17_V18_INCREMENT",
+  "experiments": 6,
+  "prediction_rows": 4704230,
+  "logistic_refits": 24,
+  "nearest_neighbour_conditions": 16,
+  "maximum_refit_probability_difference": 1.1102230246251565e-16,
+  "python": "3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]",
+  "numpy": "2.3.5",
+  "pandas": "3.0.1",
+  "scipy": "1.18.1",
+  "scikit_learn": "1.8.0",
+  "pyarrow": "25.0.1",
+  "execution_cwd": "D:/",
+  "path_policy": "Explicit release mapping has priority; unmapped external file inputs are rejected.",
+  "post_execution_change": "Large CSVs subsequently received byte-exact gzip transport; all six frozen-input/prepared/output hash audits and CSV adapter reads then passed.",
+  "figure_data": "Both plot-source tables independently matched within 3.56e-15 percentage points; same-target context summary matched within 1e-16.",
+  "figure_rendering": "Two figures regenerated from reconstructed split tables; actual output PNGs visually inspected for legibility, clipping, labels and complete model series.",
+  "scientific_scope": "Only matched-replacement and single-source v17/v18 studies; no claim that all legacy full-manuscript analyses are covered.",
+  "publication_status": "Technical evidence, not journal approval or author approval of a final manuscript."
+}

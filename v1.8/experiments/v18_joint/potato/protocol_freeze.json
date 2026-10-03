@@ -1,0 +1,73 @@
+{
+  "frozen_utc": "2026-10-03T00:01:42.465959+00:00",
+  "inputs": {
+    "manifest": {
+      "path": "D:\\论文\\SCI投稿汇总\\Onion_Deep_Revision_20261003_v17\\independent_task\\potato\\analysis_manifest.csv",
+      "sha256": "534e326a0ccf65b24d1daf5fba8a047b05a4f50b008bec56ee5a9ea1681e4d67"
+    },
+    "dinov2": {
+      "path": "D:\\论文\\SCI投稿汇总\\Onion_Deep_Revision_20261003_v18\\features\\potato_dinov2_vits14.npz",
+      "sha256": "7ad83e976950974e37041ba4b00eaf8b4c0fb98f0a0fb7aebe0e34a3d93ddf06"
+    },
+    "alignment_colour_cache": {
+      "path": "D:\\论文\\SCI投稿汇总\\Onion_Deep_Revision_20261003_v17\\independent_task\\potato\\features\\colour189.npz",
+      "sha256": "c66feb52067beae257e297c107cfe9d16fe8735cdf06571c7e79a2bb4853e8b3"
+    },
+    "code": {
+      "path": "D:\\论文\\SCI投稿汇总\\Onion_Deep_Revision_20261003_v18\\code\\run_dinov2_joint_controls.py",
+      "sha256": "7f10d4beb8fcb15269a318ef67592fa656603eba1771b446b72caab00c92eaba"
+    },
+    "shared_numerics": {
+      "path": "D:\\论文\\SCI投稿汇总\\Onion_Deep_Revision_20261003_v18\\code\\vendor\\run_corrected_component_experiment.py",
+      "sha256": "f7db6dd6b174d03264a0ab0d9311ac4ef4dd8f0aaf9042acc0887b13c535c7f2"
+    },
+    "extraction_freeze": {
+      "path": "D:\\论文\\SCI投稿汇总\\Onion_Deep_Revision_20261003_v18\\features\\DINOV2_PRE_EXTRACTION_FREEZE.json",
+      "sha256": "e8c7393260c47ae88f051c773943881033240c9d508eeab3a22d261000097282"
+    },
+    "extraction_completion": {
+      "path": "D:\\论文\\SCI投稿汇总\\Onion_Deep_Revision_20261003_v18\\features\\DINOV2_EXTRACTION_COMPLETE.json",
+      "sha256": "3213a7b8a85ed825c41a1fc0309c374a0cf5bfd9f0794e97bb3954d2b57baf3c"
+    },
+    "feature_metadata": {
+      "path": "D:\\论文\\SCI投稿汇总\\Onion_Deep_Revision_20261003_v18\\features\\potato_dinov2_vits14.json",
+      "sha256": "3f571cf1946d76ce7d94ad1383b78896567f181442970b91a716d1bb71596d2d"
+    },
+    "v17_protocol": {
+      "path": "D:\\论文\\SCI投稿汇总\\Onion_Deep_Revision_20261003_v17\\independent_task\\potato\\matched_replacement_experiment\\protocol_freeze.json",
+      "sha256": "c4bf1c2a6d08cb51d9ced2843016b1ed736583e029acaf999447ae6b757d6fa6"
+    },
+    "v17_component_membership": {
+      "path": "D:\\论文\\SCI投稿汇总\\Onion_Deep_Revision_20261003_v17\\independent_task\\potato\\matched_replacement_experiment\\component_membership.csv",
+      "sha256": "bef1817deaae0724bee1793d43468c7a5772851dd656b55e2253275be54305d1"
+    },
+    "v17_allocation_membership": {
+      "path": "D:\\论文\\SCI投稿汇总\\Onion_Deep_Revision_20261003_v17\\independent_task\\potato\\matched_replacement_experiment\\allocation_membership.csv.gz",
+      "sha256": "3cebf5b0f5a5fa55c672013150b4d4aaed85ad434d4d567f81def28fb27425c1"
+    }
+  },
+  "status": "PREPARED_BEFORE_NEW_FITS",
+  "feature_dimension": 384,
+  "feature_identity_check": "path, row_idx and image_sha256 exact alignment",
+  "chronology": "Post hoc after v17 outcomes. A fixed DINOv2 representation sensitivity using unchanged v17 assignments; not preregistration or new biological replication.",
+  "primary_probe": "Class-balanced correctness difference exposure minus matched sham on selected paired probes; average A/B then 5 pairs within split.",
+  "primary_sentinel": "Class-balanced correctness turnover relative to same zero baseline, exposure minus sham.",
+  "secondary": "Unselected probes, all paired probes, per-class results; label churn, gains/losses, wrong-to-wrong; all models and endpoints.",
+  "policy_interpretation": "Same removed donors and class counts; replacement sibling vs unrelated same-class source. Other sources change; not pure direct causal effect.",
+  "class_counts": {
+    "Potato___Early_blight": 250,
+    "Potato___Late_blight": 250,
+    "healthy": 38
+  },
+  "training_budget": "268 sources and 536 files; exactly the v17 task budget",
+  "randomization": "30 seeds starting 20261003, 5 complementary pairs; odd probe remains unselected.",
+  "uncertainty": "30 split means and percentile variation, no independent-plant CIs or significance tests.",
+  "selection": "No feature-distance or outcome matching, exclusions, tuning, reranking, or stopping on results.",
+  "model_protocol": "Frozen DINOv2 ViT-S/14, standardized balanced L2 logistic C=.01 and cosine 1NN; original multiclass only. The pretrained corpus cannot be fully audited for archive overlap.",
+  "prepared_hashes": {
+    "allocation_membership.csv.gz": "3cebf5b0f5a5fa55c672013150b4d4aaed85ad434d4d567f81def28fb27425c1",
+    "component_membership.csv": "bef1817deaae0724bee1793d43468c7a5772851dd656b55e2253275be54305d1",
+    "manifest.csv": "534e326a0ccf65b24d1daf5fba8a047b05a4f50b008bec56ee5a9ea1681e4d67",
+    "support_checks.csv": "8a717af12ea23ee9f44b37e2916ca405068784e0e211064239eb120e29c6110f"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "status": "PASS_RAW_RECONSTRUCTION",
+  "dataset": "onion",
+  "predictions": 548100,
+  "arm_rows": 36000,
+  "max_abs_errors": {
+    "all_arm_contrasts": 9.8879238130678e-17,
+    "all_split_means": 1.1102230246251565e-16,
+    "all_split_summary": 1.1102230246251565e-16
+  }
+}

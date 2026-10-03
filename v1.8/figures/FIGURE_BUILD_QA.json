@@ -1,0 +1,85 @@
+{
+  "status": "GENERATED_AWAITING_ACTUAL_PDF_VISUAL_REVIEW",
+  "width_mm": 174,
+  "height_mm": 124,
+  "plot_code_sha256": "5dec1291a303753bfeeb968c731695c70a28067bebee5ed27e97f15928f9ecb0",
+  "inputs": [
+    {
+      "path": "D:\\\u8bba\u6587\\SCI\u6295\u7a3f\u6c47\u603b\\Onion_Deep_Revision_20261003_v17\\matched_replacement_onion\\split_means.csv",
+      "sha256": "6071534f0c7128dc82bc31022c244cc4dc370d35ae37767138e8c0982ba586dc"
+    },
+    {
+      "path": "D:\\\u8bba\u6587\\SCI\u6295\u7a3f\u6c47\u603b\\Onion_Deep_Revision_20261003_v18\\joint_dinov2\\onion\\split_means.csv",
+      "sha256": "1d9dd3e79fa4b4cf26e6a5fc2e2d1c8a862ba452f406c1fedba7ff48f32e55bb"
+    },
+    {
+      "path": "D:\\\u8bba\u6587\\SCI\u6295\u7a3f\u6c47\u603b\\Onion_Deep_Revision_20261003_v17\\independent_task\\potato\\matched_replacement_experiment\\split_means.csv",
+      "sha256": "d5f805fe52939050ef74b6b49a4d90cca7818669608cc5b2beecc231f767c1e8"
+    },
+    {
+      "path": "D:\\\u8bba\u6587\\SCI\u6295\u7a3f\u6c47\u603b\\Onion_Deep_Revision_20261003_v18\\joint_dinov2\\potato\\split_means.csv",
+      "sha256": "44bd1082dcab0e75ed9cb3c06054910f07c04a4b9672af1a16753cc06e500f65"
+    },
+    {
+      "path": "D:\\\u8bba\u6587\\SCI\u6295\u7a3f\u6c47\u603b\\Onion_Deep_Revision_20261003_v18\\single_source\\onion\\split_means.csv",
+      "sha256": "e25f80250daaff4b5334b7a4b141add37eeb53058ee380ac9f36b219f917ba1e"
+    },
+    {
+      "path": "D:\\\u8bba\u6587\\SCI\u6295\u7a3f\u6c47\u603b\\Onion_Deep_Revision_20261003_v18\\single_source\\potato\\split_means.csv",
+      "sha256": "59635e2edd4324673456119140adc0ade0fa7e2168e624034ff07c53cc76f769"
+    }
+  ],
+  "outputs": [
+    {
+      "path": "Fig_2_Joint_Replacement.eps",
+      "bytes": 135784,
+      "sha256": "b79acbbcab046083c0eb478a358e2186291ba377ddcec584d73ac7e67fc96db5"
+    },
+    {
+      "path": "Fig_2_Joint_Replacement.pdf",
+      "bytes": 33869,
+      "sha256": "0cce4a3c93ab144affde25005cbc7c6e501d8a782c8e7109acef7cb0186f6794"
+    },
+    {
+      "path": "Fig_2_Joint_Replacement.png",
+      "bytes": 322866,
+      "sha256": "0cc292a10372b7be9c094c13f9d69c42206cc82a59f66947826d9edd2b42966d"
+    },
+    {
+      "path": "Fig_2_Joint_Replacement_plot_source.csv",
+      "bytes": 5772,
+      "sha256": "60fdb5cea4056ed84235004f9e747dba4796f2e6fdb02b9cf2cbf093b1b69593"
+    },
+    {
+      "path": "Fig_2_Joint_Replacement_split_source.csv",
+      "bytes": 135494,
+      "sha256": "4a69a1b0e3e2afed12089b1903531284f1e956041476bc78ad148a1c1551672f"
+    },
+    {
+      "path": "Fig_3_Single_Source_Replacement.eps",
+      "bytes": 135093,
+      "sha256": "1662f3546f4aeb5011cb0c85d11b2e0c6c6cd40c93aa39d737012de888019813"
+    },
+    {
+      "path": "Fig_3_Single_Source_Replacement.pdf",
+      "bytes": 33794,
+      "sha256": "aca142d436df10150719903f2e49d870b153db91dfbb39d7a1b9e664dc4cbaab"
+    },
+    {
+      "path": "Fig_3_Single_Source_Replacement.png",
+      "bytes": 318106,
+      "sha256": "6db35340e73997268f3324821dd02b5a358707495211dc75f8ebf3b0fc432b8b"
+    },
+    {
+      "path": "Fig_3_Single_Source_Replacement_plot_source.csv",
+      "bytes": 5555,
+      "sha256": "4171b19fe627dae8547ab09292d665d9f7358ff9cef5d8b0e11e9f4c1b4b9f18"
+    },
+    {
+      "path": "Fig_3_Single_Source_Replacement_split_source.csv",
+      "bytes": 43736,
+      "sha256": "138d4ee011e766dbd0fe56d5916bb9a74b7ec872bc403fdca306a3811bbd0c68"
+    }
+  ],
+  "numerical_scope": "Plot sources are derived from all retained saved split means; no models or outcomes selected. Joint intervals and single ranges have explicitly different definitions."
+}

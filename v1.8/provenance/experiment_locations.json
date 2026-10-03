@@ -1,0 +1,8 @@
+{
+  "v17/onion": "experiments/v17/onion",
+  "v17/potato": "experiments/v17/potato",
+  "v18_joint/onion": "experiments/v18_joint/onion",
+  "v18_joint/potato": "experiments/v18_joint/potato",
+  "v18_single/onion": "experiments/v18_single/onion",
+  "v18_single/potato": "experiments/v18_single/potato"
+}

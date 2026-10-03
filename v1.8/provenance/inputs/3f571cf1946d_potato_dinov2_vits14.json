@@ -1,0 +1,28 @@
+{
+  "file": "D:\\论文\\SCI投稿汇总\\Onion_Deep_Revision_20261003_v18\\features\\potato_dinov2_vits14.npz",
+  "sha256": "7ad83e976950974e37041ba4b00eaf8b4c0fb98f0a0fb7aebe0e34a3d93ddf06",
+  "bytes": 3182784,
+  "rows": 2152,
+  "dimensions": 384,
+  "dtype": "float32",
+  "finite": true,
+  "paths_order_exact_match": true,
+  "row_idx_order_exact_match": true,
+  "image_hash_order_exact_match": true,
+  "elapsed_seconds_including_repeat_qa_and_save": 231.64138129999992,
+  "images_per_second": 9.290222618785604,
+  "repeated_positions": [
+    0,
+    307,
+    614,
+    921,
+    1229,
+    1536,
+    1843,
+    2151
+  ],
+  "repeat_max_abs_difference": 0.0,
+  "repeat_atol": 5e-05,
+  "repeat_rtol": 1e-05,
+  "status": "PASS"
+}

@@ -1,1 +1,7 @@
 * -text
+*.pdf -diff
+*.docx -diff
+*.png -diff
+*.npz -diff
+*.parquet -diff
+*.gz -diff

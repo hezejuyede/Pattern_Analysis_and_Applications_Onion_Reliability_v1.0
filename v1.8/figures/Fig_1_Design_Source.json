@@ -1,0 +1,23 @@
+{
+  "width_mm": 174,
+  "height_mm": 118,
+  "counts": {
+    "onion": {
+      "training_sources": 240,
+      "training_images": 480,
+      "joint_selected": 48,
+      "single_selected": 1
+    },
+    "potato": {
+      "training_sources": 268,
+      "training_images": 536,
+      "joint_selected": 54,
+      "single_selected": 1
+    }
+  },
+  "joint_splits": 30,
+  "joint_pairs": 5,
+  "single_splits": 10,
+  "scope": "Schematic of frozen designs; identical background refers to each matched E/H pair. Background is shared for single-source E/H; in joint E/H all selected replacement slots jointly differ.",
+  "source_code_sha256": "9db5db5c29dbcde9af008adc9086335cc24b33a068181b3914b6808502394970"
+}

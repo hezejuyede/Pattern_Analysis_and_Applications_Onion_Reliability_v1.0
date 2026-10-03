@@ -1,0 +1,5 @@
+{
+  "status": "PASS",
+  "experiments": 6,
+  "scope": "All frozen input/prepared/output hashes verified using release-relative assets only; every compressed transport decompresses to original bytes. Path resolver rejects unmapped external inputs."
+}

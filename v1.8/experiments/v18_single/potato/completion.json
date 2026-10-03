@@ -1,0 +1,13 @@
+{
+  "status": "COMPLETED_POST_HOC_SINGLE_SOURCE_CONTROL",
+  "dataset": "potato",
+  "protocol_sha256": "ee6ec6c3c52c10557aa7bbbf5e6c08c773ecd048568c158a512feb92369bdad8",
+  "independent_review_sha256": "938505e1d8784cf51b19e957e584489de326ada395afebe3be8eb4e6f9cf2408",
+  "targets": 1080,
+  "model_conditions": 10850,
+  "logistic_fits": 6510,
+  "predictions": 1757700,
+  "warnings": 0,
+  "elapsed_seconds": 577.9562160000023,
+  "scientific_submission_gate": "HOLD_UNTIL_INDEPENDENT_RESULT_AND_MANUSCRIPT_REVIEW"
+}

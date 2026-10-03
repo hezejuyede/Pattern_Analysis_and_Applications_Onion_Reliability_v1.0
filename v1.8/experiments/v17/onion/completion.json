@@ -1,0 +1,10 @@
+{
+  "status": "COMPLETED_POST_HOC_MATCHED_CONTROL",
+  "fits": 3780,
+  "logistic_fits": 2520,
+  "predictions": 548100,
+  "warnings": 0,
+  "elapsed_seconds": 258.9418039000002,
+  "protocol_sha256": "b473986fc28d401c84fbdd6cd00598bddf060af6d7469ab60d2a40224f7c5603",
+  "scientific_submission_gate": "HOLD_UNTIL_REVIEW"
+}

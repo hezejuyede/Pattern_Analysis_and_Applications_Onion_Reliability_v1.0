@@ -1,0 +1,3 @@
+variant,components,images,binary_conflict_components,images_in_binary_conflict_components,multiclass_conflict_components,labels_modified,images_excluded
+all_high,547,813,3,150,4,0,0
+spatial_high,700,813,1,2,3,0,0

@@ -1,6 +1,6 @@
 cff-version: 1.2.0
-message: "If you use this repository, cite the associated article and this software record."
-title: "Controlled sibling exposure and locked cross-source reliability in onion image classification"
+message: "If you use these materials, cite this versioned research software and data record; no journal acceptance is implied."
+title: "Attributing related-view gains in plant image evaluation with single-source and joint replacement controls"
 type: software
 authors:
   - family-names: Li
@@ -12,7 +12,7 @@ authors:
   - family-names: Kartanova
     given-names: Asel
     orcid: "https://orcid.org/0000-0003-1479-0747"
-version: "1.2.0"
-date-released: "2026-10-02"
+version: "1.8.0"
+date-released: "2026-10-03"
 repository-code: "https://github.com/hezejuyede/Pattern_Analysis_and_Applications_Onion_Reliability_v1.0"
 license: MIT

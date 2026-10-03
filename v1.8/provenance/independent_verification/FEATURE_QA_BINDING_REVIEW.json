@@ -1,0 +1,15 @@
+{
+  "status": "PASS_METADATA_HASH_BINDING",
+  "scope": "Independent binding of producer extraction/transform QA records to actual caches; no independent model inference performed here.",
+  "records": {
+    "DINOV2_EXTRACTION_COMPLETE.json": "3213a7b8a85ed825c41a1fc0309c374a0cf5bfd9f0794e97bb3954d2b57baf3c",
+    "DINOV2_TRANSFORM_EQUIVALENCE_QA.json": "2e2c1eada649c6306a05f28590b62a8e6bc3b892d6212390bd52c75606c2332f",
+    "DINOV2_PRE_EXTRACTION_FREEZE.json": "e8c7393260c47ae88f051c773943881033240c9d508eeab3a22d261000097282"
+  },
+  "cache_sha256": {
+    "onion": "5567e8f126e23747e911f3e88a0310dbd81b86aa62ac0caa580c772ac3a415e4",
+    "potato": "7ad83e976950974e37041ba4b00eaf8b4c0fb98f0a0fb7aebe0e34a3d93ddf06"
+  },
+  "producer_repeated_inferences": 16,
+  "producer_transform_checks": 16
+}

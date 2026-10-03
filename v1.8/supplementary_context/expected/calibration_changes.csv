@@ -1,0 +1,5 @@
+variant,metric,contrast,estimate,lower,upper,replicates
+all_high,balanced_accuracy,fixed_final_C_OOF_minus_reconstructed_legacy_mixed_C,-0.0091713069112348,-0.021625301398968698,0.00627138173199894,3000
+all_high,brier,fixed_final_C_OOF_minus_reconstructed_legacy_mixed_C,-0.009303870849906248,-0.012035919719174858,-0.0071939075457847475,3000
+spatial_high,balanced_accuracy,fixed_final_C_OOF_minus_reconstructed_legacy_mixed_C,-0.0091713069112348,-0.022320294850733117,0.0032952085224116526,3000
+spatial_high,brier,fixed_final_C_OOF_minus_reconstructed_legacy_mixed_C,-0.009303870849906248,-0.01160359222617877,-0.007150135682972302,3000

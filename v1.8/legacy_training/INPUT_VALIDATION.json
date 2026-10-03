@@ -1,0 +1,39 @@
+{
+  "status": "PASS_CACHED_TRAINING_INPUT_CHECK",
+  "training_executed": false,
+  "cached_files": 14,
+  "regional_rows": 1643,
+  "regional_matrix_shapes": {
+    "handcrafted": [
+      1643,
+      1957
+    ],
+    "resnet18": [
+      1643,
+      512
+    ],
+    "color_shortcut": [
+      1643,
+      189
+    ]
+  },
+  "calibration_matrices": {
+    "source": {
+      "shape": [
+        1643,
+        512
+      ],
+      "images": 1643
+    },
+    "external": {
+      "shape": [
+        813,
+        512
+      ],
+      "images": 813
+    }
+  },
+  "fixed_source_folds": 5,
+  "source_external_exact_overlap": 0,
+  "scope": "Both original modules imported; preserved input hashes and original regional freeze verified; every required feature matrix aligned/read and checked finite. This is not full-training reproduction."
+}

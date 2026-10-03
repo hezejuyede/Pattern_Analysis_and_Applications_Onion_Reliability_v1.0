@@ -1,0 +1,56 @@
+{
+  "status": "PASS_FIXED_PREDICTION_DEPENDENCY_SENSITIVITY",
+  "completed_utc": "2026-10-02T12:42:13.072631+00:00",
+  "replicates": 3000,
+  "variants_reported": [
+    "all_high",
+    "spatial_high"
+  ],
+  "models_reported": 7,
+  "reference": "resnet18_logit",
+  "point_estimates_unchanged_image_weighted": true,
+  "labels_modified": 0,
+  "images_excluded": 0,
+  "model_fits": 0,
+  "sklearn_crosschecks": 189,
+  "maximum_numerical_error": 8.326672684688674e-16,
+  "scope": "Percentile resampling sensitivity conditional on frozen predictions and finite-retrieval, heuristic image-dependence graphs; not independent plant or field-cohort confidence intervals. Labels and image-weighted point estimates are retained. Unobserved dependencies remain possible.",
+  "binary_conflict_components": [
+    {
+      "variant": "all_high",
+      "components": 547,
+      "images": 813,
+      "binary_conflict_components": 3,
+      "images_in_binary_conflict_components": 150,
+      "multiclass_conflict_components": 4,
+      "labels_modified": 0,
+      "images_excluded": 0
+    },
+    {
+      "variant": "spatial_high",
+      "components": 700,
+      "images": 813,
+      "binary_conflict_components": 1,
+      "images_in_binary_conflict_components": 2,
+      "multiclass_conflict_components": 3,
+      "labels_modified": 0,
+      "images_excluded": 0
+    }
+  ],
+  "distribution_array_axes": {
+    "metrics": [
+      "model",
+      "replicate",
+      "metric"
+    ],
+    "calibration_arm_metrics": [
+      "arm",
+      "replicate",
+      "BA_then_Brier"
+    ],
+    "calibration_change": [
+      "replicate",
+      "BA_then_Brier"
+    ]
+  }
+}

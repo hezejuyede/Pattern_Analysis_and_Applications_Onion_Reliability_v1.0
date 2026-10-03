@@ -1,0 +1,28 @@
+{
+  "file": "D:\\论文\\SCI投稿汇总\\Onion_Deep_Revision_20261003_v18\\features\\onion_dinov2_vits14.npz",
+  "sha256": "5567e8f126e23747e911f3e88a0310dbd81b86aa62ac0caa580c772ac3a415e4",
+  "bytes": 4551248,
+  "rows": 3076,
+  "dimensions": 384,
+  "dtype": "float32",
+  "finite": true,
+  "paths_order_exact_match": true,
+  "row_idx_order_exact_match": true,
+  "image_hash_order_exact_match": true,
+  "elapsed_seconds_including_repeat_qa_and_save": 324.6694983999987,
+  "images_per_second": 9.474250014734407,
+  "repeated_positions": [
+    0,
+    439,
+    878,
+    1317,
+    1757,
+    2196,
+    2635,
+    3075
+  ],
+  "repeat_max_abs_difference": 0.0,
+  "repeat_atol": 5e-05,
+  "repeat_rtol": 1e-05,
+  "status": "PASS"
+}

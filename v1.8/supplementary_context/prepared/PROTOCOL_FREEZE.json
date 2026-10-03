@@ -1,0 +1,87 @@
+{
+  "status": "PREPARED_NOT_YET_ANALYZED",
+  "frozen_utc": "2026-10-02T12:40:45.223092+00:00",
+  "script_sha256": "575c84ec5f3029af005106562151f456beb209af9ea474643996a1f5b5d3708a",
+  "inputs": {
+    "external": {
+      "path": "C:\\Users\\lixin\\Documents\\Codex\\2026-09-27\\lu\\work\\onion_crossdomain\\results\\reliability_benchmark_v1\\predictions\\cold_locked_external.csv",
+      "sha256": "40b711702faacc32cbcca62032de4fc5f9a071b503e265ba8ae4a0b703644dd7"
+    },
+    "internal": {
+      "path": "C:\\Users\\lixin\\Documents\\Codex\\2026-09-27\\lu\\work\\onion_crossdomain\\results\\reliability_benchmark_v1\\predictions\\tom_nested_oof.csv",
+      "sha256": "7ea01a77f43d434e860b7819b08da18e961485453ea1f03c0f86f9a516f436cb"
+    },
+    "calibration": {
+      "path": "C:\\Users\\lixin\\Documents\\Codex\\2026-09-27\\lu\\work\\onion_crossdomain\\results\\calibration_scale_sensitivity_v1\\external_predictions.csv",
+      "sha256": "48b6c04c601e8b4b1b9efda8e53a4389350ff868920b00dd243bbb0f71ff8c25"
+    },
+    "raw_identity": {
+      "path": "D:\\论文\\SCI投稿汇总\\Onion_Deep_Revision_20261002_v16\\onion_member_lineage\\raw_content_identity.csv",
+      "sha256": "1a9023071e92b2d56a944bc3ac06845f5f1c352f4781a08ec7798434509dbbe5"
+    },
+    "all_high_components": {
+      "path": "D:\\论文\\SCI投稿汇总\\Onion_Deep_Revision_20261002_v16\\onion_member_lineage\\dependence_graph\\all_high_raw_content_components.csv",
+      "sha256": "72fa58f754abb5e667b07a2f4cd440a6c9c725faea8d205741ef9a55db9be55b"
+    },
+    "spatial_high_components": {
+      "path": "D:\\论文\\SCI投稿汇总\\Onion_Deep_Revision_20261002_v16\\onion_member_lineage\\dependence_graph\\spatial_high_raw_content_components.csv",
+      "sha256": "54fdd5b8f604ff5cc9fb162035e3b41e28953f3b99f6d73eba78acf690d14806"
+    }
+  },
+  "prepared_files_sha256": {
+    "external_alignment.csv": "8eab39df2410fe590dc66c9dd44b5bfebf220fa07adbf6219a41dccd86195600",
+    "internal_alignment.csv": "ceff3f81c732061f35d48ed13cd3c7f76be4a0eaed75cfed054d1446266524eb",
+    "component_composition.csv": "b8023485864911c59d2d2a525c7f10d57e7a8cba6ad3b307a948bc8aa7394183",
+    "binary_conflict_component_summary.csv": "1162b51994fbfa2f0b61447e455fe326d06c5ae4bbc12e7ae097b43ed7a8ee78",
+    "aligned_predictions.npz": "2327869bb98364145b594101a18f098f6338729ea3500606bc44fb75a9631173",
+    "bootstrap_component_weights.npz": "ee22d240e7eaf88e7e8a8c4c4bd086e6184f21c4c8b8c29e8eaf4b389a8171a2",
+    "bootstrap_group_orders.json": "09640386d78bf7428c547adc673ae6f47a266a689a7107db9e73daa30b7829aa"
+  },
+  "seed": 20261002,
+  "replicates": 3000,
+  "models": [
+    "color_shortcut_logit",
+    "convnext_tiny_logit",
+    "efficientnet_b0_logit",
+    "handcrafted_logit",
+    "prior_prevalence",
+    "resnet18_logit",
+    "swin_t_logit"
+  ],
+  "calibration_arms": [
+    "reconstructed_legacy_mixed_C",
+    "fixed_final_C_OOF"
+  ],
+  "metrics": [
+    "balanced_accuracy",
+    "auroc",
+    "brier"
+  ],
+  "variants": [
+    "all_high",
+    "spatial_high"
+  ],
+  "external_rows": 813,
+  "internal_rows": 1643,
+  "internal_days": 103,
+  "resampling": "For each graph reset default_rng(seed=20261002), sample G whole components uniformly with replacement G times per replicate using multinomial counts. Every model and both calibration arms share each graph weight draw. TOM uses independent default_rng(SeedSequence([seed,1])) and samples all 103 days with replacement; the same TOM stream is paired with both external graphs.",
+  "point_estimand": "Original image-weighted metrics: one unit per all 813 locked COLD images and all 1643 TOM OOF images. No exclusions, relabeling, model refits or threshold changes.",
+  "intervals": "2.5% and 97.5% empirical percentiles with numpy linear interpolation; labels-only degenerate draws replaced before freezing; fixed predictions, no refitting.",
+  "rejected_single_class_draws": {
+    "all_high": 0,
+    "spatial_high": 0,
+    "tom_days": 0
+  },
+  "paired_sign": "Reference minus comparator for all metrics; an additional improvement-positive column reverses Brier sign.",
+  "gap_sign": "External minus internal, from independent external-component and TOM-day draws.",
+  "calibration_change": "fixed_final_C_OOF minus reconstructed_legacy_mixed_C; BA and Brier only; shared external weights.",
+  "scope": "Percentile resampling sensitivity conditional on frozen predictions and finite-retrieval, heuristic image-dependence graphs; not independent plant or field-cohort confidence intervals. Labels and image-weighted point estimates are retained. Unobserved dependencies remain possible.",
+  "no_selection_between_graphs": true,
+  "classification_model_fits": 0,
+  "software": {
+    "python": "3.12.14",
+    "numpy": "2.3.5",
+    "pandas": "3.0.1",
+    "sklearn": "1.8.0"
+  }
+}

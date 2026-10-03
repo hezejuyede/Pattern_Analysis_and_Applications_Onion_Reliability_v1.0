@@ -1,0 +1,11 @@
+{
+  "status": "PASS_RAW_RECONSTRUCTION",
+  "dataset": "potato",
+  "predictions": 612360,
+  "arm_rows": 28800,
+  "max_abs_errors": {
+    "all_arm_contrasts": 9.8879238130678e-17,
+    "all_split_means": 9.974659986866641e-17,
+    "all_split_summary": 9.996344030316351e-17
+  }
+}

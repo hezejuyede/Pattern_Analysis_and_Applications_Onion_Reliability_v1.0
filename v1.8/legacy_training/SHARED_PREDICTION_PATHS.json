@@ -1,0 +1,10 @@
+{
+  "results/reliability_benchmark_v1/predictions/tom_nested_oof.csv": {
+    "release_relative_path": "supplementary_context/inputs/internal.csv",
+    "sha256": "7ea01a77f43d434e860b7819b08da18e961485453ea1f03c0f86f9a516f436cb"
+  },
+  "results/reliability_benchmark_v1/predictions/cold_locked_external.csv": {
+    "release_relative_path": "supplementary_context/inputs/external.csv",
+    "sha256": "40b711702faacc32cbcca62032de4fc5f9a071b503e265ba8ae4a0b703644dd7"
+  }
+}

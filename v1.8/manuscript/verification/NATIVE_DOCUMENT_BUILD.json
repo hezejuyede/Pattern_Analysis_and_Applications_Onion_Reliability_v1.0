@@ -1,0 +1,60 @@
+{
+  "utc": "2026-10-03T01:13:17.741221+00:00",
+  "status": "NATIVE_STRUCTURE_AND_RENDER_PASS_PENDING_VISUAL_QA",
+  "contains_v18_results": true,
+  "submission_readiness": "NOT_CERTIFIED_BY_FORMAT_BUILDER",
+  "builder_sha256": "396586def9d38d97788ea5d1b36287987641734267a6312c97b5d1485c8905d1",
+  "sources_unchanged": true,
+  "reports": [
+    {
+      "language": "en",
+      "source": "D:\\论文\\SCI投稿汇总\\Onion_Deep_Revision_20261003_v18\\manuscript_revision\\full_text.md",
+      "source_sha256": "7d98256464ec7e0cacac1ff8fa3712d357b09e3bbac5091c70d65f1e43e35bd3",
+      "docx": "D:\\论文\\SCI投稿汇总\\Onion_Deep_Revision_20261003_v18\\manuscript_revision\\native\\Pattern_Analysis_and_Applications_en_Native_Manuscript.docx",
+      "docx_sha256": "dcd8a549a70f723bbf62088c2bf983e2cf0058465656eddf09fe259a1035a1c2",
+      "native_omml_equations": 3,
+      "native_tables": 3,
+      "repeated_table_headers": 3,
+      "table_rows_protected_from_split": 30,
+      "figure_images": 3,
+      "figure_numbers_inserted": [
+        "1",
+        "2",
+        "3"
+      ],
+      "reference_count": 22,
+      "raw_markup_check": "PASS",
+      "literal_source_and_reference_url_check": "PASS",
+      "proof_only": false,
+      "visual_review": "PENDING_FINAL_ALL_PAGE_INSPECTION",
+      "qa_dir": "D:\\论文\\SCI投稿汇总\\Onion_Deep_Revision_20261003_v18\\manuscript_revision\\native\\qa\\en\\dcd8a549a70f",
+      "rendered_pdf": "D:\\论文\\SCI投稿汇总\\Onion_Deep_Revision_20261003_v18\\manuscript_revision\\native\\qa\\en\\dcd8a549a70f\\Pattern_Analysis_and_Applications_en_Native_Manuscript.pdf",
+      "page_count": 12
+    },
+    {
+      "language": "zh",
+      "source": "D:\\论文\\SCI投稿汇总\\Onion_Deep_Revision_20261003_v18\\manuscript_revision\\full_text_zh.md",
+      "source_sha256": "fe56762c8b0d5c5c1e3f530f721a97bd16872e011da340d02008a51936124893",
+      "docx": "D:\\论文\\SCI投稿汇总\\Onion_Deep_Revision_20261003_v18\\manuscript_revision\\native\\Pattern_Analysis_and_Applications_zh_Native_Manuscript.docx",
+      "docx_sha256": "37ef07e15aae25a2c02debf683c09a607f4bb2ed4283184cff2382f674337488",
+      "native_omml_equations": 3,
+      "native_tables": 3,
+      "repeated_table_headers": 3,
+      "table_rows_protected_from_split": 30,
+      "figure_images": 3,
+      "figure_numbers_inserted": [
+        "1",
+        "2",
+        "3"
+      ],
+      "reference_count": 22,
+      "raw_markup_check": "PASS",
+      "literal_source_and_reference_url_check": "PASS",
+      "proof_only": false,
+      "visual_review": "PENDING_FINAL_ALL_PAGE_INSPECTION",
+      "qa_dir": "D:\\论文\\SCI投稿汇总\\Onion_Deep_Revision_20261003_v18\\manuscript_revision\\native\\qa\\zh\\37ef07e15aae",
+      "rendered_pdf": "D:\\论文\\SCI投稿汇总\\Onion_Deep_Revision_20261003_v18\\manuscript_revision\\native\\qa\\zh\\37ef07e15aae\\Pattern_Analysis_and_Applications_zh_Native_Manuscript.pdf",
+      "page_count": 11
+    }
+  ]
+}

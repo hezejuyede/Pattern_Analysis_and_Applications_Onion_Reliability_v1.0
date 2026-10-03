@@ -1,0 +1,134 @@
+{
+  "status": "PREPARED_BEFORE_NEW_FITS",
+  "frozen_utc": "2026-10-03T00:04:10.141573+00:00",
+  "dataset": "potato",
+  "chronology": "Post hoc extension after v17 outcomes; not prospectively registered and not a new biological cohort.",
+  "inputs": {
+    "manifest": {
+      "path": "D:\\论文\\SCI投稿汇总\\Onion_Deep_Revision_20261003_v17\\independent_task\\potato\\analysis_manifest.csv",
+      "sha256": "534e326a0ccf65b24d1daf5fba8a047b05a4f50b008bec56ee5a9ea1681e4d67"
+    },
+    "resnet_features": {
+      "path": "D:\\论文\\SCI投稿汇总\\Onion_Deep_Revision_20261003_v17\\independent_task\\potato\\features\\resnet18.npz",
+      "sha256": "aa328c9989aa3ed2d284faab9672138bf6f4126b2e071f58ebfd3f13dd384fbb"
+    },
+    "colour_features": {
+      "path": "D:\\论文\\SCI投稿汇总\\Onion_Deep_Revision_20261003_v17\\independent_task\\potato\\features\\colour189.npz",
+      "sha256": "c66feb52067beae257e297c107cfe9d16fe8735cdf06571c7e79a2bb4853e8b3"
+    },
+    "membership": {
+      "path": "D:\\论文\\SCI投稿汇总\\Onion_Deep_Revision_20261003_v17\\independent_task\\potato\\matched_replacement_experiment\\component_membership.csv",
+      "sha256": "bef1817deaae0724bee1793d43468c7a5772851dd656b55e2253275be54305d1"
+    },
+    "joint_predictions": {
+      "path": "D:\\论文\\SCI投稿汇总\\Onion_Deep_Revision_20261003_v17\\independent_task\\potato\\matched_replacement_experiment\\predictions.csv.gz",
+      "sha256": "e9da88fe5a5a9e10d6abb80fd07e8a572cd3e2c8a76f19471b18a7a478d86630"
+    },
+    "code": {
+      "path": "D:\\论文\\SCI投稿汇总\\Onion_Deep_Revision_20261003_v18\\code\\run_single_source_controls.py",
+      "sha256": "b12f05729f718bc914c635496878082409e21ea2a6c0f45d54d3ae2716742c07"
+    },
+    "shared_numerics": {
+      "path": "D:\\论文\\SCI投稿汇总\\Onion_Deep_Revision_20261003_v18\\code\\vendor\\run_corrected_component_experiment.py",
+      "sha256": "f7db6dd6b174d03264a0ab0d9311ac4ef4dd8f0aaf9042acc0887b13c535c7f2"
+    },
+    "original_assignment_code": {
+      "path": "D:\\论文\\SCI投稿汇总\\Onion_Deep_Revision_20261003_v18\\code\\vendor\\run_matched_replacement_controls.py",
+      "sha256": "9200c228e766c190637c695ab6cad8dc0155a098e80364dc08ae1b66c783086d"
+    },
+    "dino_features": {
+      "path": "D:\\论文\\SCI投稿汇总\\Onion_Deep_Revision_20261003_v18\\features\\potato_dinov2_vits14.npz",
+      "sha256": "7ad83e976950974e37041ba4b00eaf8b4c0fb98f0a0fb7aebe0e34a3d93ddf06"
+    },
+    "dino_provenance_DINOV2_PRE_EXTRACTION_FREEZE.json": {
+      "path": "D:\\论文\\SCI投稿汇总\\Onion_Deep_Revision_20261003_v18\\features\\DINOV2_PRE_EXTRACTION_FREEZE.json",
+      "sha256": "e8c7393260c47ae88f051c773943881033240c9d508eeab3a22d261000097282"
+    },
+    "dino_provenance_DINOV2_OFFICIAL_SOURCE_BLOB_VERIFICATION.json": {
+      "path": "D:\\论文\\SCI投稿汇总\\Onion_Deep_Revision_20261003_v18\\features\\DINOV2_OFFICIAL_SOURCE_BLOB_VERIFICATION.json",
+      "sha256": "dbc831e30a4fbb12c3027f30266961f8fbb655812a0e0966b9918cb46bce74c4"
+    },
+    "dino_provenance_dinov2_source_file_hashes.json": {
+      "path": "D:\\论文\\SCI投稿汇总\\Onion_Deep_Revision_20261003_v18\\features\\dinov2_source_file_hashes.json",
+      "sha256": "67a48733ce7b727ed14b886909c54ad5fdc0105e8c3901ccf64857eb1e2fd2f4"
+    }
+  },
+  "prepared_hashes": {
+    "manifest.csv": "534e326a0ccf65b24d1daf5fba8a047b05a4f50b008bec56ee5a9ea1681e4d67",
+    "support_checks.csv": "c2a5415dcc739003adea085d7945d616df3704a3e1b54b0fd57efe604bceb77e",
+    "targets.csv": "fe3e5a19e98289cb172b867295df9e8362ca583b95338db65398723dccf1196f",
+    "training_membership.csv.gz": "629bac22d102250742dc96f78c33e6f55188b1f1dd520b94e9012da4f684d2e2",
+    "component_membership_first10.csv": "7d54d8271bbf0cce4d9ceeac45697422b549fb52425b25a776b3c0c84f29233b"
+  },
+  "class_order": [
+    "healthy",
+    "Potato___Early_blight",
+    "Potato___Late_blight"
+  ],
+  "common_class_rule": "Original manifest source count >=30; same fitted full-class models.",
+  "common_classes": [
+    "Potato___Early_blight",
+    "Potato___Late_blight",
+    "healthy"
+  ],
+  "models": [
+    "resnet_logit",
+    "colour_logit",
+    "dinov2_logit",
+    "resnet_cosine_1nn",
+    "dinov2_cosine_1nn"
+  ],
+  "endpoint": "multiclass",
+  "seeds": [
+    20261003,
+    20261004,
+    20261005,
+    20261006,
+    20261007,
+    20261008,
+    20261009,
+    20261010,
+    20261011,
+    20261012
+  ],
+  "target_count": 1080,
+  "target_counts_per_split": {
+    "0": 108,
+    "1": 108,
+    "2": 108,
+    "3": 108,
+    "4": 108,
+    "5": 108,
+    "6": 108,
+    "7": 108,
+    "8": 108,
+    "9": 108
+  },
+  "feature_info": {
+    "resnet_logit": {
+      "dimension": 512,
+      "cache_rows": 2152,
+      "selected_rows": 2152,
+      "alignment": "normalized exact path"
+    },
+    "colour_logit": {
+      "dimension": 189,
+      "cache_rows": 2152,
+      "selected_rows": 2152,
+      "alignment": "normalized exact path"
+    },
+    "dinov2_logit": {
+      "dimension": 384,
+      "rows": 2152,
+      "alignment": "path, row_idx and image_sha256"
+    }
+  },
+  "numerical_model": "Reviewed v17 base.predict: per-fit StandardScaler and balanced L2 LR C=.01, lbfgs, max_iter=10000. Both 1NN models explicitly route to resnet_cosine_1nn using their own normalized features.",
+  "primary": "Own-target E-H correctness; mean targets within target original class then equal target classes within seed.",
+  "other_panels": "All non-target probes, including odd unpaired probe, and sentinels. Within each target, original evaluation classes equal weight; target original classes subsequently equal weight.",
+  "common_sensitivity": "Restrict target classes and evaluation classes to manifest count >=30; retain unchanged models and all original predictions.",
+  "uncertainty": "Ten split means summarized by mean/min/max/sample SD; no biological CI, independent-source replication count or p-value.",
+  "background_comparison": "Same target and seed against mean of five existing selected joint E-H allocations; contextual sensitivity, not disease/ceiling mechanism or absence of interference.",
+  "pretraining": "DINO pretraining image exclusion is not established; the same frozen representation is used in every arm.",
+  "scientific_submission_gate": "HOLD_UNTIL_INDEPENDENT_REVIEW_AND_MANUSCRIPT_RECONCILIATION"
+}

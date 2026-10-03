@@ -1,0 +1,29 @@
+{
+  "status": "PASS_PRE_FIT_ASSIGNMENT_RECONSTRUCTION",
+  "utc": "2026-10-02T16:48:25.631906+00:00",
+  "review_style": "Rebuilt from saved memberships without importing the runner or planner",
+  "prepared_conditions_checked": 630,
+  "splits": 30,
+  "allocation_pairs_per_split": 5,
+  "n_author_leaves": 538,
+  "photos": 2152,
+  "per_split_roles": {
+    "probes": 108,
+    "sentinels": 54,
+    "core_plus_remove_training": 268,
+    "training_photos": 536
+  },
+  "prediction_rows_planned": 612360,
+  "author_leaf_overlap": "zero/sham none; exposure exactly designated 54 selected probe leaves; sentinels none",
+  "all_training_class_photo_counts": {
+    "healthy": 36,
+    "Potato___Early_blight": 250,
+    "Potato___Late_blight": 250
+  },
+  "hashes": {
+    "protocol": "c4bf1c2a6d08cb51d9ced2843016b1ed736583e029acaf999447ae6b757d6fa6",
+    "script": "d08be8ba7d4b9d910ca6c5bbdf5c6e22bf7dff485b8cf3af37152e157d06c8b3",
+    "checks": "bdfca59f76d452030f553f6fdcf08c5b30c43c9ae1f3baf5a03c3dc93a8c509f"
+  },
+  "model_fits_before_check": 0
+}

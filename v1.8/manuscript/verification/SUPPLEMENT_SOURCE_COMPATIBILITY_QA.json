@@ -1,0 +1,16 @@
+{
+  "status": "PASS_SUPPLEMENT_SOURCE_COMPATIBILITY",
+  "original_csvs_preserved_byte_identically": 18,
+  "total_csvs_verified": 39,
+  "complete_result_files_verified": 28,
+  "bilingual_table_lines_identical": true,
+  "derived_context_rows_checked": 10,
+  "new_prediction_count": 3543770,
+  "independent_new_logistic_refits": 96,
+  "independent_new_nn_checks": 68,
+  "source_hashes": {
+    "Online_Resource_1_EN_v1.8.md": "d1d7e8373a29a70a8b6a909ac7debf7c03772f8d0db83abad6df085f254f8848",
+    "Online_Resource_1_ZH_v1.8.md": "11a1ca16160d049e9c904abfd3bef7a15cbc952a950e087117c711b657fc0929"
+  },
+  "scope": "File existence, hashes, preservation, indexed row counts, bilingual numerical tables and cited audit counts. Does not certify native document rendering or repeat model fits."
+}
