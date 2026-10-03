@@ -1,0 +1,11 @@
+{
+  "status": "PASS_RAW_RECONSTRUCTION",
+  "predictions": 1399250,
+  "conditions": 9650,
+  "errors": {
+    "target_panel": 1.1102230246251565e-16,
+    "class_means": 1.1102230246251565e-16,
+    "split_means": 1.1102230246251565e-16,
+    "summary": 1.1102230246251565e-16
+  }
+}

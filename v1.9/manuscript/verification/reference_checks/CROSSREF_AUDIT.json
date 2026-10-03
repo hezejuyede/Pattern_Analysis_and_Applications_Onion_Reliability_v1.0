@@ -1,0 +1,421 @@
+[
+  {
+    "key": "Mohanty2016PlantDisease",
+    "status": "DOI_AND_TITLE_MATCH",
+    "doi": "10.3389/fpls.2016.01419",
+    "title": "Using Deep Learning for Image-Based Plant Disease Detection",
+    "expected_title": "Using Deep Learning for Image-Based Plant Disease Detection",
+    "authors": [
+      "Sharada P. Mohanty",
+      "David P. Hughes",
+      "Marcel Salathé"
+    ],
+    "year": {
+      "date-parts": [
+        [
+          2016,
+          9,
+          22
+        ]
+      ]
+    },
+    "volume": "7",
+    "pages": "1419",
+    "metadata_sha256": "e5f442e349e1c35702872b1db57d552628a8bf6c7ee3549ef7aa311ce51acd71"
+  },
+  {
+    "key": "Barbedo2018Factors",
+    "status": "DOI_AND_TITLE_MATCH",
+    "doi": "10.1016/j.biosystemseng.2018.05.013",
+    "title": "Factors influencing the use of deep learning for plant disease recognition",
+    "expected_title": "Factors influencing the use of deep learning for plant disease recognition",
+    "authors": [
+      "Jayme G.A. Barbedo"
+    ],
+    "year": {
+      "date-parts": [
+        [
+          2018,
+          8
+        ]
+      ]
+    },
+    "volume": "172",
+    "pages": "84-91",
+    "metadata_sha256": "be9c36b2a324ed2a25042733ff1ef6c4e0e914ff68718efca765795d457060cd"
+  },
+  {
+    "key": "Xu2024PlantDiseaseDatasets",
+    "status": "DOI_AND_TITLE_MATCH",
+    "doi": "10.3389/fpls.2024.1452551",
+    "title": "Plant disease recognition datasets in the age of deep learning: challenges and opportunities",
+    "expected_title": "Plant disease recognition datasets in the age of deep learning: challenges and opportunities",
+    "authors": [
+      "Mingle Xu",
+      "Ji-Eun Park",
+      "Jaehwan Lee",
+      "Jucheng Yang",
+      "Sook Yoon"
+    ],
+    "year": {
+      "date-parts": [
+        [
+          2024,
+          9,
+          27
+        ]
+      ]
+    },
+    "volume": "15",
+    "pages": "1452551",
+    "metadata_sha256": "a6b1715fa3f61b61d6fa2c015a7672df390a90e731b66336926aa89125f3511b"
+  },
+  {
+    "key": "MencoTovar2026OriginalImage",
+    "status": "FETCH_UNVERIFIED",
+    "error": "HTTP Error 429: Too Many Requests"
+  },
+  {
+    "key": "Guignard2024ClusterLeakage",
+    "status": "DOI_AND_TITLE_MATCH",
+    "doi": "10.1007/s00477-024-02715-1",
+    "title": "Some combinatorics of data leakage induced by clusters",
+    "expected_title": "Some combinatorics of data leakage induced by clusters",
+    "authors": [
+      "Fabian Guignard",
+      "David Ginsbourger",
+      "Lilia Levy Häner",
+      "Juan Manuel Herrera"
+    ],
+    "year": {
+      "date-parts": [
+        [
+          2024,
+          4,
+          11
+        ]
+      ]
+    },
+    "volume": "38",
+    "pages": "2815-2828",
+    "metadata_sha256": "73e3b061542ed39cde412acae015436d92820ba7a8a86e97ec0a1c1d89b0aecc"
+  },
+  {
+    "key": "Apicella2025Leakage",
+    "status": "DOI_AND_TITLE_MATCH",
+    "doi": "10.1007/s10462-025-11326-3",
+    "title": "Don’t push the button! Exploring data leakage risks in machine learning and transfer learning",
+    "expected_title": "Don't push the button! Exploring data leakage risks in machine learning and transfer learning",
+    "authors": [
+      "Andrea Apicella",
+      "Francesco Isgrò",
+      "Roberto Prevete"
+    ],
+    "year": {
+      "date-parts": [
+        [
+          2025,
+          8,
+          20
+        ]
+      ]
+    },
+    "volume": "58",
+    "pages": "339",
+    "metadata_sha256": "5a9416c6b7d463310b0dc85fa7b6a84503d0cbba8454f7df95c3b6b30af8b026"
+  },
+  {
+    "key": "Bousquet2002Stability",
+    "status": "NON_DOI_PRIMARY_URL_REQUIRES_PRIOR_OR_SEPARATE_PRIMARY_CHECK",
+    "url": "https://jmlr.org/papers/v2/bousquet02a.html"
+  },
+  {
+    "key": "Marx2020Multiplicity",
+    "status": "NON_DOI_PRIMARY_URL_REQUIRES_PRIOR_OR_SEPARATE_PRIMARY_CHECK",
+    "url": "https://proceedings.mlr.press/v119/marx20a.html"
+  },
+  {
+    "key": "WatsonDaniels2023ProbabilisticMultiplicity",
+    "status": "DOI_AND_TITLE_MATCH",
+    "doi": "10.1609/aaai.v37i9.26227",
+    "title": "Predictive Multiplicity in Probabilistic Classification",
+    "expected_title": "Predictive Multiplicity in Probabilistic Classification",
+    "authors": [
+      "Jamelle Watson-Daniels",
+      "David C. Parkes",
+      "Berk Ustun"
+    ],
+    "year": {
+      "date-parts": [
+        [
+          2023,
+          6,
+          26
+        ]
+      ]
+    },
+    "volume": "37",
+    "pages": "10306-10314",
+    "metadata_sha256": "ab5a55d370dd1192ac37e858752502a7ec5ab27457ea9c6f79827a33900b9a3b"
+  },
+  {
+    "key": "Feldman2020Influence",
+    "status": "NON_DOI_PRIMARY_URL_REQUIRES_PRIOR_OR_SEPARATE_PRIMARY_CHECK",
+    "url": "https://papers.nips.cc/paper/2020/hash/1e14bfe2714193e7af5abc64ecbd6b46-Abstract.html"
+  },
+  {
+    "key": "Aishwarya2024COLD",
+    "status": "DOI_AND_TITLE_MATCH",
+    "doi": "10.1016/j.dib.2024.110524",
+    "title": "Dataset of chilli and onion plant leaf images for classification and detection",
+    "expected_title": "Dataset of chilli and onion plant leaf images for classification and detection",
+    "authors": [
+      "M. P Aishwarya",
+      "A. Padmanabha Reddy"
+    ],
+    "year": {
+      "date-parts": [
+        [
+          2024,
+          6
+        ]
+      ]
+    },
+    "volume": "54",
+    "pages": "110524",
+    "metadata_sha256": "9d93b551056bc4e6d4ced5c1fc8acf43a93e5ed3b01ed15401fdaa5a5f183dbc"
+  },
+  {
+    "key": "He2016ResNet",
+    "status": "DOI_AND_TITLE_MATCH",
+    "doi": "10.1109/cvpr.2016.90",
+    "title": "Deep Residual Learning for Image Recognition",
+    "expected_title": "Deep residual learning for image recognition",
+    "authors": [
+      "Kaiming He",
+      "Xiangyu Zhang",
+      "Shaoqing Ren",
+      "Jian Sun"
+    ],
+    "year": {
+      "date-parts": [
+        [
+          2016,
+          6
+        ]
+      ]
+    },
+    "volume": null,
+    "pages": "770-778",
+    "metadata_sha256": "69a79ce6f356bbd3577c84169daa3c84e18ac3ea152f0fdd666d748eab11c143"
+  },
+  {
+    "key": "Deng2009ImageNet",
+    "status": "DOI_AND_TITLE_MATCH",
+    "doi": "10.1109/cvpr.2009.5206848",
+    "title": "ImageNet: A large-scale hierarchical image database",
+    "expected_title": "ImageNet: A large-scale hierarchical image database",
+    "authors": [
+      "Jia Deng",
+      "Wei Dong",
+      "Richard Socher",
+      "Li-Jia Li",
+      " Kai Li",
+      " Li Fei-Fei"
+    ],
+    "year": {
+      "date-parts": [
+        [
+          2009,
+          6
+        ]
+      ]
+    },
+    "volume": null,
+    "pages": "248-255",
+    "metadata_sha256": "3855cceaf2cad6cea982f51e918ae36f2f37c39d68fd8fd40115888fd35bd23c"
+  },
+  {
+    "key": "Oquab2024DINOv2",
+    "status": "NON_DOI_PRIMARY_URL_REQUIRES_PRIOR_OR_SEPARATE_PRIMARY_CHECK",
+    "url": "https://openreview.net/forum?id=a68SUt6zFt"
+  },
+  {
+    "key": "Pedregosa2011ScikitLearn",
+    "status": "NON_DOI_PRIMARY_URL_REQUIRES_PRIOR_OR_SEPARATE_PRIMARY_CHECK",
+    "url": "https://jmlr.org/papers/v12/pedregosa11a.html"
+  },
+  {
+    "key": "Appiah2025TOM2024",
+    "status": "DOI_AND_TITLE_MATCH",
+    "doi": "10.1016/j.dib.2025.111357",
+    "title": "TOM2024: Datasets of tomato, onion, and maize images for developing pests and diseases AI-based classification models",
+    "expected_title": "TOM2024: Datasets of tomato, onion, and maize images for developing pests and diseases AI-based classification models",
+    "authors": [
+      "Obed Appiah",
+      "Kwame Oppong Hackman",
+      "Son Diakalia",
+      "Audrey Kantz Dossou Codjia",
+      "Momo Bêbê",
+      "Valentin Ouedraogo",
+      "Belko Abdoul Aziz Diallo",
+      "Kisito Gandji",
+      "Damoue Abdoul-Karim",
+      "Kehinde Olufunso Ogunjobi",
+      "Gaston Dabire",
+      "Charles Lamoussa Sanou",
+      "David Anaafo",
+      "Emmanuel Ramde"
+    ],
+    "year": {
+      "date-parts": [
+        [
+          2025,
+          4
+        ]
+      ]
+    },
+    "volume": "59",
+    "pages": "111357",
+    "metadata_sha256": "15172870cb706eb92b51841c419193dba1477f0fc7ea6af47367352e4d5bf404"
+  },
+  {
+    "key": "Varma2006Bias",
+    "status": "DOI_AND_TITLE_MATCH",
+    "doi": "10.1186/1471-2105-7-91",
+    "title": "Bias in error estimation when using cross-validation for model selection",
+    "expected_title": "Bias in error estimation when using cross-validation for model selection",
+    "authors": [
+      "Sudhir Varma",
+      "Richard Simon"
+    ],
+    "year": {
+      "date-parts": [
+        [
+          2006,
+          2,
+          23
+        ]
+      ]
+    },
+    "volume": "7",
+    "pages": "91",
+    "metadata_sha256": "7a55440cf69456fd3007b72e4857d247ad021ed4206c0e6633b8349b4b7e262e"
+  },
+  {
+    "key": "Roberts2017CrossValidation",
+    "status": "DOI_AND_TITLE_MATCH",
+    "doi": "10.1111/ecog.02881",
+    "title": "Cross‐validation strategies for data with temporal, spatial, hierarchical, or phylogenetic structure",
+    "expected_title": "Cross-validation strategies for data with temporal, spatial, hierarchical, or phylogenetic structure",
+    "authors": [
+      "David R. Roberts",
+      "Volker Bahn",
+      "Simone Ciuti",
+      "Mark S. Boyce",
+      "Jane Elith",
+      "Gurutzeta Guillera‐Arroita",
+      "Severin Hauenstein",
+      "José J. Lahoz‐Monfort",
+      "Boris Schröder",
+      "Wilfried Thuiller",
+      "David I. Warton",
+      "Brendan A. Wintle",
+      "Florian Hartig",
+      "Carsten F. Dormann"
+    ],
+    "year": {
+      "date-parts": [
+        [
+          2017,
+          3,
+          3
+        ]
+      ]
+    },
+    "volume": "40",
+    "pages": "913-929",
+    "metadata_sha256": "d2c60bf4527f590deef09943c7cad75db9edf28150b9490906ee0408de63f408"
+  },
+  {
+    "key": "VanCalster2019Calibration",
+    "status": "DOI_AND_TITLE_MATCH",
+    "doi": "10.1186/s12916-019-1466-7",
+    "title": "Calibration: the Achilles heel of predictive analytics",
+    "expected_title": "Calibration: the Achilles heel of predictive analytics",
+    "authors": [
+      " ",
+      "Ben Van Calster",
+      "David J. McLernon",
+      "Maarten van Smeden",
+      "Laure Wynants",
+      "Ewout W. Steyerberg"
+    ],
+    "year": {
+      "date-parts": [
+        [
+          2019,
+          12
+        ]
+      ]
+    },
+    "volume": "17",
+    "pages": "230",
+    "metadata_sha256": "7412f4c88fb00e44bddd202e4965963bbab8b2ff8829628a7bd645276cfbc8a4"
+  },
+  {
+    "key": "Ovadia2019UncertaintyShift",
+    "status": "NON_DOI_PRIMARY_URL_REQUIRES_PRIOR_OR_SEPARATE_PRIMARY_CHECK",
+    "url": "https://proceedings.neurips.cc/paper_files/paper/2019/file/8558cb408c1d76621371888657d2eb1d-Paper.pdf"
+  },
+  {
+    "key": "Bozic2025Robustness",
+    "status": "DOI_AND_TITLE_MATCH",
+    "doi": "10.1007/s10044-025-01477-y",
+    "title": "Robustness of unsupervised methods for image surface-anomaly detection",
+    "expected_title": "Robustness of unsupervised methods for image surface-anomaly detection",
+    "authors": [
+      "Jakob Božič",
+      "Matic Fučka",
+      "Vitjan Zavrtanik",
+      "Danijel Skočaj"
+    ],
+    "year": {
+      "date-parts": [
+        [
+          2025,
+          5,
+          3
+        ]
+      ]
+    },
+    "volume": "28",
+    "pages": "99",
+    "metadata_sha256": "5175c608bae0625f66edb5aef1fc1b27e226117f79afbeb80aa5b0570a09d280"
+  },
+  {
+    "key": "Requena2026Noise",
+    "status": "DOI_AND_TITLE_MATCH",
+    "doi": "10.1007/s10044-026-01707-x",
+    "title": "Exploring the impact of label-level noise on multi-label k-Nearest Neighbor classification",
+    "expected_title": "Exploring the impact of label-level noise on multi-label k-Nearest Neighbor classification",
+    "authors": [
+      "Antonio Requena",
+      "Alejandro Galan-Cuenca",
+      "Antonio Javier Gallego",
+      "Jose J. Valero-Mas"
+    ],
+    "year": {
+      "date-parts": [
+        [
+          2026,
+          7,
+          4
+        ]
+      ]
+    },
+    "volume": "29",
+    "pages": "130",
+    "metadata_sha256": "a5d8f4d50a12a67d00013de8324d0de3281958696ecaf74bc23fac0c08fe8107"
+  }
+]

@@ -1,0 +1,18 @@
+{
+  "status": "PASS_INDEPENDENT_RESULTS",
+  "dataset": "onion",
+  "protocol_sha256": "8582253afbd9abd0307ec8d955c25d9406098c436f6f3860ace76cd2ae669b52",
+  "predictions_sha256": "e6f86cc32f04eb93720f14cf86f1014c05bf6ae5544221a84cf8b13f8c27b00c",
+  "predictions_checked": 182700,
+  "all_raw_summary_max_errors": {
+    "all_arm_contrasts": 9.8879238130678e-17,
+    "all_split_means": 9.93129189996722e-17,
+    "all_split_summary": 9.974659986866641e-17
+  },
+  "logistic_refits": 0,
+  "independent_nn_conditions": 0,
+  "maximum_refit_probability_difference": 0,
+  "artifact_integrity": "PASS_FROZEN_HASHES_WITH_EXPLICIT_PARQUET_CONVERSION_LEDGER",
+  "scope": "Complete raw primary/secondary contrast reconstruction, same-selected-mask baselines, fixed LR refits and cosine-neighbour checks; no new study.",
+  "scientific_submission_gate": "UNCHANGED_HOLD"
+}

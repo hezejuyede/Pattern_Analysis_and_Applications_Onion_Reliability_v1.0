@@ -1,0 +1,62 @@
+[
+  {
+    "freeze": "onion/onion_member_lineage/AUDIT_FREEZE.json",
+    "script_sha256": "d7ec3700ac074d1527b3a2388d0806870a570d9a1c735647e7ff866e563ee83d",
+    "matching_included_code": "code/original/onion/audit_onion_members.py",
+    "status": "MATCHES_INCLUDED_ORIGINAL"
+  },
+  {
+    "freeze": "onion/onion_member_lineage/dependence_graph/GRAPH_FREEZE.json",
+    "script_sha256": "6590b2ce2a384c83af32b386d6f300cdf6a734e426fdc10a89314cc258958251",
+    "matching_included_code": "code/original/onion/build_onion_dependence_graph.py",
+    "status": "MATCHES_INCLUDED_ORIGINAL"
+  },
+  {
+    "freeze": "onion/onion_member_lineage/stage1_uniform_geometry/AUDIT_FREEZE.json",
+    "script_sha256": "be05d30810ec9168f4a2fd1fb9ca53c5bfcd96bb2ab30bbcb5e192bbef89f83d",
+    "matching_included_code": "code/original/onion/unify_onion_geometry.py",
+    "status": "MATCHES_INCLUDED_ORIGINAL"
+  },
+  {
+    "freeze": "onion/onion_member_lineage/stage2_global/AUDIT_FREEZE.json",
+    "script_sha256": "ef9b310b23b2d1f000aafa3e986236f6774734a2e7beea1c89f6bb4f67a31a61",
+    "matching_included_code": "code/original/onion/audit_onion_global_candidates.py",
+    "status": "MATCHES_INCLUDED_ORIGINAL"
+  },
+  {
+    "freeze": "onion/onion_member_lineage/stage2_uniform_geometry/AUDIT_FREEZE.json",
+    "script_sha256": "be05d30810ec9168f4a2fd1fb9ca53c5bfcd96bb2ab30bbcb5e192bbef89f83d",
+    "matching_included_code": "code/original/onion/unify_onion_geometry.py",
+    "status": "MATCHES_INCLUDED_ORIGINAL"
+  },
+  {
+    "freeze": "onion/corrected_component_selection/SELECTION_FREEZE.json",
+    "script_sha256": "d089b0156271199b2769eb43fa57e97dce900501e4a6479f690c31b9fab2d733",
+    "matching_included_code": "code/original/onion/prepare_corrected_component_manifest.py",
+    "status": "MATCHES_INCLUDED_ORIGINAL"
+  },
+  {
+    "freeze": "potato/author_metadata_snapshot/METADATA_AUDIT_FREEZE.json",
+    "script_sha256": "8c60d7ec9181631ba15e97169387685ae48f31404665aac982666be7c2684c5e",
+    "matching_included_code": "code/original/potato/audit_plantvillage_metadata.py",
+    "status": "MATCHES_INCLUDED_ORIGINAL"
+  },
+  {
+    "freeze": "potato/acquisition_and_selection/ACQUISITION_FREEZE.json",
+    "script_sha256": "174af35f405f65943ca501cbd9ae5f913a679d5b2969ef8f8506319fb6f0697c",
+    "matching_included_code": "code/original/potato/acquire_potato.py",
+    "status": "MATCHES_INCLUDED_ORIGINAL"
+  },
+  {
+    "freeze": "potato/acquisition_and_selection/AUTHOR_GIT_BYTE_VERIFICATION.json",
+    "script_sha256": "79065f3d61f4b1254dfcd5e5c23a93ddaa22f22902400a6c6d3e53ad7b4d57bf",
+    "matching_included_code": "code/original/potato/verify_potato_git_bytes.py",
+    "status": "MATCHES_INCLUDED_ORIGINAL"
+  },
+  {
+    "freeze": "potato/acquisition_and_selection/FEATURE_AND_SELECTION_FREEZE.json",
+    "script_sha256": "0a7c3ace271eb886bb86b4e5c24fe1265c9c43be727f8a6049a0a2fe2858326e",
+    "matching_included_code": "code/original/potato/prepare_potato_features.py",
+    "status": "MATCHES_INCLUDED_ORIGINAL"
+  }
+]

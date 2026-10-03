@@ -1,0 +1,121 @@
+{
+  "frozen_utc": "2026-10-02T23:50:06.579521+00:00",
+  "status": "FROZEN_BEFORE_IMAGE_INFERENCE",
+  "model": "DINOv2 ViT-S/14, no register tokens, LVD-142M pretrained",
+  "selection_reason": "One different pretraining paradigm and stronger fixed-representation sensitivity; not exhaustive SOTA coverage.",
+  "chronology": "Post hoc extension after v17 results, model selected for representation family before v18 feature extraction or classifier outcomes.",
+  "script": {
+    "path": "D:\\论文\\SCI投稿汇总\\Onion_Deep_Revision_20261003_v18\\code\\extract_dinov2_features.py",
+    "sha256": "a185a72b0e557036743a416a91f81d05cd034e90b0d05d8f3fc50e9e345ff066"
+  },
+  "manifests": {
+    "onion": {
+      "path": "D:\\论文\\SCI投稿汇总\\Onion_Deep_Revision_20261003_v17\\onion_inputs\\analysis_manifest.csv",
+      "sha256": "5a5a31cccaf6b6d7a3fe046f16be33c99a33d00fecdf2d3ab49bb41d3dd7ee72",
+      "rows": 3076
+    },
+    "potato": {
+      "path": "D:\\论文\\SCI投稿汇总\\Onion_Deep_Revision_20261003_v17\\independent_task\\potato\\analysis_manifest.csv",
+      "sha256": "534e326a0ccf65b24d1daf5fba8a047b05a4f50b008bec56ee5a9ea1681e4d67",
+      "rows": 2152
+    }
+  },
+  "checkpoint": {
+    "path": "C:\\Users\\lixin\\.cache\\torch\\hub\\checkpoints\\dinov2_vits14_pretrain.pth",
+    "sha256": "b938bf1bc15cd2ec0feacfe3a1bb553fe8ea9ca46a7e1d8d00217f29aef60cd9",
+    "bytes": 88283115,
+    "official_url": "https://dl.fbaipublicfiles.com/dinov2/dinov2_vits14/dinov2_vits14_pretrain.pth"
+  },
+  "source": {
+    "path": "D:\\论文\\SCI投稿汇总\\Onion_Deep_Revision_20261003_v18\\code\\vendor\\dinov2_cached_source",
+    "provenance": "Existing official facebookresearch/dinov2 torch-hub cache. Upstream commit unrecorded; exact used source frozen by per-file SHA256 and copied to D.",
+    "inventory": "dinov2_source_file_hashes.json",
+    "inventory_sha256": "67a48733ce7b727ed14b886909c54ad5fdc0105e8c3901ccf64857eb1e2fd2f4",
+    "license": "Apache-2.0; LICENSE copied with source",
+    "file_count": 190
+  },
+  "transform": {
+    "input": "PIL RGB conversion",
+    "resize": "shortest side 256; bicubic; torchvision antialias=True default",
+    "crop": "center 224x224",
+    "tensor": "ToTensor, float32 scale 0..1",
+    "mean": [
+      0.485,
+      0.456,
+      0.406
+    ],
+    "std": [
+      0.229,
+      0.224,
+      0.225
+    ],
+    "basis": "Copied official dinov2/data/transforms.py make_classification_eval_transform defaults",
+    "output": "384-dimensional final LayerNorm CLS embedding; official eval-mode model.forward output; no unit-length rescaling"
+  },
+  "runtime": {
+    "python": "3.13.3",
+    "packages": {
+      "torch": "2.7.1",
+      "torchvision": "0.22.1",
+      "numpy": "2.2.6",
+      "pandas": "2.2.3",
+      "Pillow": "11.2.1"
+    },
+    "torch": "2.7.1+cpu",
+    "torchvision": "0.22.1+cpu",
+    "device": "cpu",
+    "torch_threads": 4,
+    "interop_threads": 1,
+    "batch_size": 16,
+    "workers": 0,
+    "shuffle": false
+  },
+  "protocol": {
+    "eval": true,
+    "gradients": false,
+    "fine_tuning": false,
+    "augmentation": false,
+    "label_use_for_features": false,
+    "classifier_fits": 0,
+    "network_access_for_extraction": false,
+    "outcome_based_exclusions": false
+  },
+  "image_hash_check": {
+    "file": "PRE_EXTRACTION_IMAGE_HASH_VERIFICATION.csv",
+    "sha256": "8953a162084f4cd095ae2dcb42ac0ce577d1b1f9b550e8bb27707be124fddd76",
+    "rows": 5228,
+    "failures": 0
+  },
+  "repeat_qa": {
+    "positions": {
+      "onion": [
+        0,
+        439,
+        878,
+        1317,
+        1757,
+        2196,
+        2635,
+        3075
+      ],
+      "potato": [
+        0,
+        307,
+        614,
+        921,
+        1229,
+        1536,
+        1843,
+        2151
+      ]
+    },
+    "operation": "Reload selected images and recompute features as a fresh 8-image batch; compare exact cached row ordering",
+    "atol": 5e-05,
+    "rtol": 1e-05,
+    "reason": "Float32 batching kernels may differ in rounding; record actual maximum differences and exact equality separately."
+  },
+  "limits": [
+    "No assurance that LVD-142M pretraining images are disjoint from the public image archives.",
+    "Feature extraction adds representation sensitivity, not new acquisitions, plant identities, pathology review or new algorithm."
+  ]
+}

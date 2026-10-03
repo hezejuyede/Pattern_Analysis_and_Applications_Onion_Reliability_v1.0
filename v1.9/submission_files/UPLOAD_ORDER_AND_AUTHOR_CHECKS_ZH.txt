@@ -1,0 +1,14 @@
+Pattern Analysis and Applications — v1.9 投稿文件使用说明
+
+本包的投稿文件与研究证据分开摆放。不要把完整汇总ZIP当作主稿上传。
+
+1. manuscript/Pattern_Analysis_and_Applications_Research_Manuscript_v1.9.docx：英文可编辑主稿，包含作者、声明、4个原生表格、3个可编辑公式、3幅主图及22条参考文献。PDF用于本地核对；系统若要求选择文件格式，以实际槽位为准。
+2. submission_files/Cover_Letter.docx（同内容TXT/PDF）：投稿信。没有捏造当前版本已获得全体作者审批或未一稿多投的证明；这些事实由通讯作者按实际确认。
+3. manuscript/ESM_1.pdf：英文Online Resource 1。53张补充CSV保留在manuscript/supplement_tables，不逐个默认当主稿上传；如系统允许数据附件，可使用代码仓库中的同一组文件。
+4. figures/：三个主图及补图的PDF/EPS/PNG与源数据。正文已嵌图；如系统要求独立图件，按Fig1–Fig3上传对应矢量PDF或受支持的高分辨率图像。
+5. 中文主稿及中文补充PDF仅供作者参考，不上传为英文稿件正文。
+6. 将AUTHOR_AND_SUBMISSION_METADATA.txt中三个作者逐一填入投稿系统，不能只填通讯作者。姓名、顺序、邮箱、单位及ORCID须与主稿一致。近期退回修改邮件明确反映过“文件中有作者、系统中漏作者”的问题。
+7. 标准订阅发表为当前偏好，未选择付费Open Choice。上传时再次核对是否产生费用；不自动选择收费服务。
+8. 提交前由各作者阅读本次实质修订，确认贡献、利益冲突、无同时投往另一刊的冲突；再检查系统生成的审稿PDF是否保留公式、图表和文献。公共指南未明确证实本稿型匿名文件要求，不能凭通用政策自行断言，应以实际门户要求处理。
+
+本轮已完成的文件检查及复算记录见quality。作者真实确认、实时门户转换和编辑决定，不能由本地文件检查替代。本包没有被自动提交。

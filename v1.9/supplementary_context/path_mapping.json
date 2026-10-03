@@ -1,0 +1,26 @@
+{
+  "C:/Users/lixin/Documents/Codex/2026-09-27/lu/work/onion_crossdomain/results/reliability_benchmark_v1/predictions/cold_locked_external.csv": {
+    "relative_path": "inputs/external.csv",
+    "sha256": "40b711702faacc32cbcca62032de4fc5f9a071b503e265ba8ae4a0b703644dd7"
+  },
+  "C:/Users/lixin/Documents/Codex/2026-09-27/lu/work/onion_crossdomain/results/reliability_benchmark_v1/predictions/tom_nested_oof.csv": {
+    "relative_path": "inputs/internal.csv",
+    "sha256": "7ea01a77f43d434e860b7819b08da18e961485453ea1f03c0f86f9a516f436cb"
+  },
+  "C:/Users/lixin/Documents/Codex/2026-09-27/lu/work/onion_crossdomain/results/calibration_scale_sensitivity_v1/external_predictions.csv": {
+    "relative_path": "inputs/calibration.csv",
+    "sha256": "48b6c04c601e8b4b1b9efda8e53a4389350ff868920b00dd243bbb0f71ff8c25"
+  },
+  "D:/论文/SCI投稿汇总/Onion_Deep_Revision_20261002_v16/onion_member_lineage/raw_content_identity.csv": {
+    "relative_path": "inputs/raw_identity.csv",
+    "sha256": "1a9023071e92b2d56a944bc3ac06845f5f1c352f4781a08ec7798434509dbbe5"
+  },
+  "D:/论文/SCI投稿汇总/Onion_Deep_Revision_20261002_v16/onion_member_lineage/dependence_graph/all_high_raw_content_components.csv": {
+    "relative_path": "inputs/all_high_components.csv",
+    "sha256": "72fa58f754abb5e667b07a2f4cd440a6c9c725faea8d205741ef9a55db9be55b"
+  },
+  "D:/论文/SCI投稿汇总/Onion_Deep_Revision_20261002_v16/onion_member_lineage/dependence_graph/spatial_high_raw_content_components.csv": {
+    "relative_path": "inputs/spatial_high_components.csv",
+    "sha256": "54fdd5b8f604ff5cc9fb162035e3b41e28953f3b99f6d73eba78acf690d14806"
+  }
+}

@@ -1,0 +1,7 @@
+repetition,seed,condition,model,max_probability_difference,decision_mismatches,training_rows,test_rows,nearest_row_mismatches
+0,20261003,exposure_0_A,resnet_logit,1.1102230246251565e-16,0,480.0,145,
+0,20261003,exposure_0_A,colour_logit,1.1102230246251565e-16,0,480.0,145,
+0,20261003,exposure_0_A,resnet_cosine_1nn,,0,,145,0.0
+0,20261003,sham_0_A,resnet_logit,1.1102230246251565e-16,0,480.0,145,
+0,20261003,sham_0_A,colour_logit,9.974659986866641e-17,0,480.0,145,
+0,20261003,sham_0_A,resnet_cosine_1nn,,0,,145,0.0

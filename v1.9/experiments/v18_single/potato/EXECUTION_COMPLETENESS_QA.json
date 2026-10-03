@@ -1,0 +1,13 @@
+{
+  "status": "PASS_EXECUTION_COMPLETENESS_AND_FREEZE_INTEGRITY",
+  "dataset": "potato",
+  "targets": 1080,
+  "model_conditions": 10850,
+  "logistic_fits": 6510,
+  "nearest_neighbour_conditions": 4340,
+  "predictions": 1757700,
+  "warnings": 0,
+  "protocol_sha256": "ee6ec6c3c52c10557aa7bbbf5e6c08c773ecd048568c158a512feb92369bdad8",
+  "code_sha256": "4ae9f7ba7a65454c036bff15045b664b6b4744d4be54891a0197af00e1a3be26",
+  "scope": "Execution counts, probability validity, declared numerical routes, support flags and frozen hashes. Not an independent refit or full result-aggregation audit."
+}

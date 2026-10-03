@@ -1,0 +1,8 @@
+dataset,label,manifest_source_units,unique_target_units,target_within_split_records,target_occurrences_min,target_occurrences_max,probe_count_each_split_min,probe_count_each_split_max,sentinel_count_each_split_min,sentinel_count_each_split_max,paired_target_each_split_min,paired_target_each_split_max
+onion,healthy,228,205,460,1,6,46,46,23,23,46,46
+onion,iris_yellow_virus,190,171,380,1,6,38,38,19,19,38,38
+onion,purple_blotch,13,10,20,1,5,3,3,1,1,2,2
+onion,stemphylium_colletotrichum_leaf_blight,50,42,100,1,5,10,10,5,5,10,10
+potato,Potato___Early_blight,250,222,500,1,6,50,50,25,25,50,50
+potato,Potato___Late_blight,250,224,500,1,7,50,50,25,25,50,50
+potato,healthy,38,34,80,1,6,8,8,4,4,8,8

@@ -1,0 +1,22 @@
+{
+  "status": "PASS_FIXED_PREDICTION_DEPENDENCY_SENSITIVITY",
+  "files_sha256": {
+    "aligned_predictions.npz": "2327869bb98364145b594101a18f098f6338729ea3500606bc44fb75a9631173",
+    "binary_conflict_component_summary.csv": "1162b51994fbfa2f0b61447e455fe326d06c5ae4bbc12e7ae097b43ed7a8ee78",
+    "bootstrap_component_weights.npz": "ee22d240e7eaf88e7e8a8c4c4bd086e6184f21c4c8b8c29e8eaf4b389a8171a2",
+    "bootstrap_group_orders.json": "09640386d78bf7428c547adc673ae6f47a266a689a7107db9e73daa30b7829aa",
+    "bootstrap_metric_distributions.npz": "b7a53915291eb83c57631518209d0960eb877860bed62ca19c513e1c88eef2c5",
+    "calibration_arm_intervals.csv": "9feef2eab3ab45bf97d5f1fe369b56988ba8d5ca3981b4d46f6843e45560d438",
+    "calibration_changes.csv": "c0b7d77881a53d637a8083d5273ed5959603277c1dea39b05058f192b82fa23a",
+    "component_composition.csv": "b8023485864911c59d2d2a525c7f10d57e7a8cba6ad3b307a948bc8aa7394183",
+    "external_alignment.csv": "8eab39df2410fe590dc66c9dd44b5bfebf220fa07adbf6219a41dccd86195600",
+    "external_minus_internal_gaps.csv": "9fe76596d5aca95d225f3b185fe197e6c15242c656337581192d0d3835d403cd",
+    "internal_alignment.csv": "ceff3f81c732061f35d48ed13cd3c7f76be4a0eaed75cfed054d1446266524eb",
+    "metric_intervals.csv": "27ac62ff831f9ad07c91e9c2b7ae0b3b52e82f042f267f3c4ffa9faf9d757a83",
+    "paired_model_contrasts.csv": "fd83a937eb6796365c951e8b95b473fb116d106abd73d3491384b649ab8727b9",
+    "point_estimates.csv": "192816bb9939f7ff3786d1eb22d1ee06d2071df441c272e3c82a1fcfb2105a34",
+    "PROTOCOL_FREEZE.json": "d6475f068739de7942bf340307393e31f79b0a8efbc546ce9d270a572fcde7e7",
+    "sklearn_numerical_crosscheck.csv": "d760b33cb229b40a1d1694846857f1cc9cd11c3e3cb872bbf8e21b0d40ae1a63",
+    "SUMMARY.json": "9c17935af202b9406745839a08c52afd610a9853731df529bfc72a398fa2af78"
+  }
+}

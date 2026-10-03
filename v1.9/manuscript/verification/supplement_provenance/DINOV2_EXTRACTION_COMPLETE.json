@@ -1,0 +1,77 @@
+{
+  "status": "PASS_FEATURE_EXTRACTION_AND_ALIGNMENT_QA",
+  "started_utc": "2026-10-02T23:50:29.214149+00:00",
+  "completed_utc": "2026-10-02T23:59:45.546556+00:00",
+  "freeze_sha256": "e8c7393260c47ae88f051c773943881033240c9d508eeab3a22d261000097282",
+  "script_sha256": "a185a72b0e557036743a416a91f81d05cd034e90b0d05d8f3fc50e9e345ff066",
+  "checkpoint_sha256": "b938bf1bc15cd2ec0feacfe3a1bb553fe8ea9ca46a7e1d8d00217f29aef60cd9",
+  "strict_checkpoint_load": "<All keys matched successfully>",
+  "model_parameters": 22056576,
+  "outputs": {
+    "onion": {
+      "file": "D:\\论文\\SCI投稿汇总\\Onion_Deep_Revision_20261003_v18\\features\\onion_dinov2_vits14.npz",
+      "sha256": "5567e8f126e23747e911f3e88a0310dbd81b86aa62ac0caa580c772ac3a415e4",
+      "bytes": 4551248,
+      "rows": 3076,
+      "dimensions": 384,
+      "dtype": "float32",
+      "finite": true,
+      "paths_order_exact_match": true,
+      "row_idx_order_exact_match": true,
+      "image_hash_order_exact_match": true,
+      "elapsed_seconds_including_repeat_qa_and_save": 324.6694983999987,
+      "images_per_second": 9.474250014734407,
+      "repeated_positions": [
+        0,
+        439,
+        878,
+        1317,
+        1757,
+        2196,
+        2635,
+        3075
+      ],
+      "repeat_max_abs_difference": 0.0,
+      "repeat_atol": 5e-05,
+      "repeat_rtol": 1e-05,
+      "status": "PASS"
+    },
+    "potato": {
+      "file": "D:\\论文\\SCI投稿汇总\\Onion_Deep_Revision_20261003_v18\\features\\potato_dinov2_vits14.npz",
+      "sha256": "7ad83e976950974e37041ba4b00eaf8b4c0fb98f0a0fb7aebe0e34a3d93ddf06",
+      "bytes": 3182784,
+      "rows": 2152,
+      "dimensions": 384,
+      "dtype": "float32",
+      "finite": true,
+      "paths_order_exact_match": true,
+      "row_idx_order_exact_match": true,
+      "image_hash_order_exact_match": true,
+      "elapsed_seconds_including_repeat_qa_and_save": 231.64138129999992,
+      "images_per_second": 9.290222618785604,
+      "repeated_positions": [
+        0,
+        307,
+        614,
+        921,
+        1229,
+        1536,
+        1843,
+        2151
+      ],
+      "repeat_max_abs_difference": 0.0,
+      "repeat_atol": 5e-05,
+      "repeat_rtol": 1e-05,
+      "status": "PASS"
+    }
+  },
+  "unique_manifest_images": 5228,
+  "repeated_qa_images": 16,
+  "classifier_fits": 0,
+  "downloads": 0,
+  "repeat_qa_file_sha256": "45a0213379f29fcc1dc55b5c5f9b1f640fc96136d8fa8ac4044f63d48bd35cf3",
+  "limits": [
+    "No assurance that LVD-142M pretraining images are disjoint from the public image archives.",
+    "Feature extraction adds representation sensitivity, not new acquisitions, plant identities, pathology review or new algorithm."
+  ]
+}

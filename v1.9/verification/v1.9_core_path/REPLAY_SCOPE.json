@@ -1,0 +1,23 @@
+{
+  "scope": "Actual v1.9 portable replay from copied frozen inputs. --refit none; no new LR or NN fits. Older verification folders preserve the v1.8 smoke checks.",
+  "source": "portable_core_path_verification",
+  "copied_json_reports": [
+    "PORTABLE_RECONSTRUCTION_REPORT.json",
+    "primary_tables/PRIMARY_TABLE_RECONSTRUCTION.json",
+    "v17_onion/RECONSTRUCTION_REPORT.json",
+    "v17_onion/STATISTICAL_RECONSTRUCTION.json",
+    "v17_potato/RECONSTRUCTION_REPORT.json",
+    "v17_potato/STATISTICAL_RECONSTRUCTION.json",
+    "v18_joint_onion/RECONSTRUCTION_REPORT.json",
+    "v18_joint_onion/STATISTICAL_RECONSTRUCTION.json",
+    "v18_joint_potato/RECONSTRUCTION_REPORT.json",
+    "v18_joint_potato/STATISTICAL_RECONSTRUCTION.json",
+    "v18_single_onion/Q0_AND_JOINT_COMPARISON.json",
+    "v18_single_onion/RAW_RECONSTRUCTION.json",
+    "v18_single_onion/RECONSTRUCTION_REPORT.json",
+    "v18_single_potato/Q0_AND_JOINT_COMPARISON.json",
+    "v18_single_potato/RAW_RECONSTRUCTION.json",
+    "v18_single_potato/RECONSTRUCTION_REPORT.json"
+  ],
+  "main_status": "PASS_PORTABLE_RECONSTRUCTION"
+}

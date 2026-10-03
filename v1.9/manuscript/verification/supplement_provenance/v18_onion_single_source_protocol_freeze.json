@@ -1,0 +1,130 @@
+{
+  "status": "PREPARED_BEFORE_NEW_FITS",
+  "frozen_utc": "2026-10-02T23:56:20.869229+00:00",
+  "dataset": "onion",
+  "chronology": "Post hoc extension after v17 outcomes; not prospectively registered and not a new biological cohort.",
+  "inputs": {
+    "manifest": {
+      "path": "D:\\论文\\SCI投稿汇总\\Onion_Deep_Revision_20261003_v17\\onion_inputs\\analysis_manifest.csv",
+      "sha256": "5a5a31cccaf6b6d7a3fe046f16be33c99a33d00fecdf2d3ab49bb41d3dd7ee72"
+    },
+    "resnet_features": {
+      "path": "D:\\论文\\SCI投稿汇总\\Onion_Deep_Revision_20261003_v17\\onion_inputs\\resnet18.npz",
+      "sha256": "6cf804b512ab193d72cc044550db76a2cdbbfdc09165deed4eb2cea1426de877"
+    },
+    "colour_features": {
+      "path": "D:\\论文\\SCI投稿汇总\\Onion_Deep_Revision_20261003_v17\\onion_inputs\\colour189.npz",
+      "sha256": "24a783bb1442262076f725a056f610e34694d6d21d0c2148e82e987f705ce790"
+    },
+    "membership": {
+      "path": "D:\\论文\\SCI投稿汇总\\Onion_Deep_Revision_20261003_v17\\matched_replacement_onion\\component_membership.csv",
+      "sha256": "f35bdcf25b0491607f006b69c8c1c298e63fc41c413b79413e0ba7f7b13f6ddb"
+    },
+    "joint_predictions": {
+      "path": "D:\\论文\\SCI投稿汇总\\Onion_Deep_Revision_20261003_v17\\matched_replacement_onion\\predictions.csv.gz",
+      "sha256": "54017f5e8a5f63b6a6070f825bf51b31303b21e9d58c5eb109512f2e42742991"
+    },
+    "code": {
+      "path": "D:\\论文\\SCI投稿汇总\\Onion_Deep_Revision_20261003_v18\\code\\run_single_source_controls.py",
+      "sha256": "b12f05729f718bc914c635496878082409e21ea2a6c0f45d54d3ae2716742c07"
+    },
+    "shared_numerics": {
+      "path": "D:\\论文\\SCI投稿汇总\\Onion_Deep_Revision_20261003_v18\\code\\vendor\\run_corrected_component_experiment.py",
+      "sha256": "f7db6dd6b174d03264a0ab0d9311ac4ef4dd8f0aaf9042acc0887b13c535c7f2"
+    },
+    "original_assignment_code": {
+      "path": "D:\\论文\\SCI投稿汇总\\Onion_Deep_Revision_20261003_v18\\code\\vendor\\run_matched_replacement_controls.py",
+      "sha256": "9200c228e766c190637c695ab6cad8dc0155a098e80364dc08ae1b66c783086d"
+    },
+    "dino_features": {
+      "path": "D:\\论文\\SCI投稿汇总\\Onion_Deep_Revision_20261003_v18\\features\\onion_dinov2_vits14.npz",
+      "sha256": "5567e8f126e23747e911f3e88a0310dbd81b86aa62ac0caa580c772ac3a415e4"
+    },
+    "dino_provenance_DINOV2_PRE_EXTRACTION_FREEZE.json": {
+      "path": "D:\\论文\\SCI投稿汇总\\Onion_Deep_Revision_20261003_v18\\features\\DINOV2_PRE_EXTRACTION_FREEZE.json",
+      "sha256": "e8c7393260c47ae88f051c773943881033240c9d508eeab3a22d261000097282"
+    },
+    "dino_provenance_DINOV2_OFFICIAL_SOURCE_BLOB_VERIFICATION.json": {
+      "path": "D:\\论文\\SCI投稿汇总\\Onion_Deep_Revision_20261003_v18\\features\\DINOV2_OFFICIAL_SOURCE_BLOB_VERIFICATION.json",
+      "sha256": "dbc831e30a4fbb12c3027f30266961f8fbb655812a0e0966b9918cb46bce74c4"
+    },
+    "dino_provenance_dinov2_source_file_hashes.json": {
+      "path": "D:\\论文\\SCI投稿汇总\\Onion_Deep_Revision_20261003_v18\\features\\dinov2_source_file_hashes.json",
+      "sha256": "67a48733ce7b727ed14b886909c54ad5fdc0105e8c3901ccf64857eb1e2fd2f4"
+    }
+  },
+  "prepared_hashes": {
+    "manifest.csv": "5a5a31cccaf6b6d7a3fe046f16be33c99a33d00fecdf2d3ab49bb41d3dd7ee72",
+    "support_checks.csv": "ba29c42d5304e904bee57aa1c10b5131c4076393fa469007f052f644bb54e7a7",
+    "targets.csv": "1aa62987234088c2579969edcd65096c4df56789c24e630bd4f9b36f1d654e55",
+    "training_membership.csv.gz": "72d2e7da3a2481864674fb7e147883344741888b277cee02c00f8de9213ede27",
+    "component_membership_first10.csv": "9fc15ecb79c41a8e963403eb53d1191a4e05bdf60369cede17b2e4fee244dcab"
+  },
+  "class_order": [
+    "healthy",
+    "iris_yellow_virus",
+    "purple_blotch",
+    "stemphylium_colletotrichum_leaf_blight"
+  ],
+  "common_class_rule": "Original manifest source count >=30; same fitted full-class models.",
+  "common_classes": [
+    "healthy",
+    "iris_yellow_virus",
+    "stemphylium_colletotrichum_leaf_blight"
+  ],
+  "models": [
+    "resnet_logit",
+    "colour_logit",
+    "dinov2_logit",
+    "resnet_cosine_1nn",
+    "dinov2_cosine_1nn"
+  ],
+  "endpoint": "multiclass",
+  "seeds": [
+    20261003,
+    20261004,
+    20261005,
+    20261006,
+    20261007,
+    20261008,
+    20261009,
+    20261010,
+    20261011,
+    20261012
+  ],
+  "target_count": 960,
+  "target_counts_per_split": {
+    "0": 96,
+    "1": 96,
+    "2": 96,
+    "3": 96,
+    "4": 96,
+    "5": 96,
+    "6": 96,
+    "7": 96,
+    "8": 96,
+    "9": 96
+  },
+  "feature_info": {
+    "resnet_logit": {
+      "dimension": 512,
+      "cache_rows": 5317,
+      "selected_rows": 3076,
+      "alignment": "normalized exact path"
+    },
+    "colour_logit": {
+      "dimension": 189,
+      "cache_rows": 4502,
+      "selected_rows": 3076,
+      "alignment": "normalized exact path"
+    }
+  },
+  "numerical_model": "Reviewed v17 base.predict: per-fit StandardScaler and balanced L2 LR C=.01, lbfgs, max_iter=10000. Both 1NN models explicitly route to resnet_cosine_1nn using their own normalized features.",
+  "primary": "Own-target E-H correctness; mean targets within target original class then equal target classes within seed.",
+  "other_panels": "All non-target probes, including odd unpaired probe, and sentinels. Within each target, original evaluation classes equal weight; target original classes subsequently equal weight.",
+  "common_sensitivity": "Restrict target classes and evaluation classes to manifest count >=30; retain unchanged models and all original predictions.",
+  "uncertainty": "Ten split means summarized by mean/min/max/sample SD; no biological CI, independent-source replication count or p-value.",
+  "background_comparison": "Same target and seed against mean of five existing selected joint E-H allocations; contextual sensitivity, not disease/ceiling mechanism or absence of interference.",
+  "pretraining": "DINO pretraining image exclusion is not established; the same frozen representation is used in every arm.",
+  "scientific_submission_gate": "HOLD_UNTIL_INDEPENDENT_REVIEW_AND_MANUSCRIPT_RECONCILIATION"
+}

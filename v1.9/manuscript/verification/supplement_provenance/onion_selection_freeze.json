@@ -1,0 +1,36 @@
+{
+  "frozen_utc": "2026-10-02T12:32:18.675152+00:00",
+  "script_sha256": "d089b0156271199b2769eb43fa57e97dce900501e4a6479f690c31b9fab2d733",
+  "inputs": {
+    "graph": {
+      "path": "D:\\\u8bba\u6587\\SCI\u6295\u7a3f\u6c47\u603b\\Onion_Deep_Revision_20261002_v16\\onion_member_lineage\\dependence_graph\\all_high_augmented_components.csv",
+      "sha256": "e1e1741fb7348a317517997be38f7dd00a925388d34214aef295b0b66d63f825"
+    },
+    "support": {
+      "path": "D:\\\u8bba\u6587\\SCI\u6295\u7a3f\u6c47\u603b\\Onion_Deep_Revision_20261002_v16\\onion_member_lineage\\dependence_graph\\member_source_support.csv",
+      "sha256": "a495e1655f929f61197e3a100e336acbe3b6452063145b98504faa34d753d79e"
+    },
+    "original_manifest": {
+      "path": "C:\\Users\\lixin\\Documents\\Codex\\2026-09-27\\lu\\work\\onion_crossdomain\\audit\\cold_augmented_lineage\\augmented_family_manifest.csv",
+      "sha256": "db89d16dc79262faa8b3bc2d8bca68b9c4ce9466ce63f10b556430b828820c0a"
+    },
+    "graph_freeze": {
+      "path": "D:\\\u8bba\u6587\\SCI\u6295\u7a3f\u6c47\u603b\\Onion_Deep_Revision_20261002_v16\\onion_member_lineage\\dependence_graph\\GRAPH_FREEZE.json",
+      "sha256": "3458a90b07682675ad5fac5cf83ef0c23f6ac837d3340b737cd0765c9ff8669c"
+    }
+  },
+  "rules": [
+    "Use all-high evidence components for blocking; exclude every cross-original-label component.",
+    "Within each component choose the raw-content reference supported spatially by the most distinct augmented members; ties use lexical raw-content hash order.",
+    "Require at least three distinct augmented SHA256 values for that common reference.",
+    "Admit only members supporting that chosen reference, with one intervention_source_id per blocking component.",
+    "All other members remain blocked/excluded; no classifier output is read or used."
+  ],
+  "limits": [
+    "Candidate-retrieved spatial correspondence is evidence of common visual content, not a complete original-to-augmentation generation ledger.",
+    "Components may conservatively merge distinct photographs; absence of a retrieved edge does not prove independence.",
+    "Retained subset differs from the whole archive; plant identity and pathology remain unverified.",
+    "Selection and design are post hoc relative to historical model results; frozen before these corrected fits."
+  ],
+  "model_fits": 0
+}

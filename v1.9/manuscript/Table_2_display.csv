@@ -1,0 +1,11 @@
+task,model,zero_BA_percent,sham_BA_percent,exposure_BA_percent,difference_pp
+Onion,ResNet18 + LR,55.32,57.08,80.74,23.66
+Onion,DINOv2 + LR,70.16,70.23,91.41,21.18
+Onion,Colour + LR,40.59,38.15,75.86,37.71
+Onion,ResNet18 1NN,38.03,39.04,89.29,50.25
+Onion,DINOv2 1NN,48.57,49.37,95.46,46.09
+Potato,ResNet18 + LR,96.56,96.74,98.44,1.70
+Potato,DINOv2 + LR,97.19,97.13,99.06,1.93
+Potato,Colour + LR,92.87,92.42,95.05,2.64
+Potato,ResNet18 1NN,92.18,92.07,94.21,2.14
+Potato,DINOv2 1NN,89.92,90.65,97.12,6.47

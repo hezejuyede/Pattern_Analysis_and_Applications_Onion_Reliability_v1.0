@@ -1,0 +1,47 @@
+{
+  "frozen_utc": "2026-10-02T16:45:55.116380+00:00",
+  "inputs": {
+    "manifest": {
+      "path": "D:\\论文\\SCI投稿汇总\\Onion_Deep_Revision_20261003_v17\\independent_task\\potato\\analysis_manifest.csv",
+      "sha256": "534e326a0ccf65b24d1daf5fba8a047b05a4f50b008bec56ee5a9ea1681e4d67"
+    },
+    "resnet": {
+      "path": "D:\\论文\\SCI投稿汇总\\Onion_Deep_Revision_20261003_v17\\independent_task\\potato\\features\\resnet18.npz",
+      "sha256": "aa328c9989aa3ed2d284faab9672138bf6f4126b2e071f58ebfd3f13dd384fbb"
+    },
+    "colour": {
+      "path": "D:\\论文\\SCI投稿汇总\\Onion_Deep_Revision_20261003_v17\\independent_task\\potato\\features\\colour189.npz",
+      "sha256": "c66feb52067beae257e297c107cfe9d16fe8735cdf06571c7e79a2bb4853e8b3"
+    },
+    "code": {
+      "path": "D:\\论文\\SCI投稿汇总\\Onion_Deep_Revision_20261003_v17\\independent_task\\code\\run_matched_replacement_controls.py",
+      "sha256": "9eac2b35efbd3959f81470e23789a4ed2bb95045b139ea351bf88531ac692846"
+    },
+    "shared_numerics": {
+      "path": "D:\\论文\\SCI投稿汇总\\Onion_Deep_Revision_20261003_v17\\independent_task\\code\\run_corrected_component_experiment.py",
+      "sha256": "f7db6dd6b174d03264a0ab0d9311ac4ef4dd8f0aaf9042acc0887b13c535c7f2"
+    }
+  },
+  "status": "PREPARED_BEFORE_NEW_FITS",
+  "chronology": "Post hoc study extension; second previously unanalysed archive task; same locked model/analysis rules; not prospective field replication.",
+  "primary_probe": "Class-balanced correctness difference exposure minus matched sham on selected paired probes; average A/B then 5 pairs within split.",
+  "primary_sentinel": "Class-balanced correctness turnover relative to same zero baseline, exposure minus sham.",
+  "secondary": "Unselected probes, all paired probes, per-class results; label churn, gains/losses, wrong-to-wrong; all models and endpoints.",
+  "policy_interpretation": "Same removed donors and class counts; replacement sibling vs unrelated same-class source. Other sources change; not pure direct causal effect.",
+  "class_counts": {
+    "Potato___Early_blight": 250,
+    "Potato___Late_blight": 250,
+    "healthy": 38
+  },
+  "training_budget": "268 components and 536 files on this task; budget and class support held equal across policies.",
+  "randomization": "30 seeds starting 20261003, 5 complementary pairs; odd probe remains unselected.",
+  "uncertainty": "30 split means and percentile variation, no independent-plant CIs or significance tests.",
+  "selection": "No feature-distance or outcome matching, exclusions, tuning, reranking, or stopping on results.",
+  "model_protocol": "Frozen ResNet18 and colour standardized balanced L2 logistic C=.01; untuned cosine 1NN; multiclass primary, binary secondary.",
+  "prepared_hashes": {
+    "allocation_membership.csv.gz": "3cebf5b0f5a5fa55c672013150b4d4aaed85ad434d4d567f81def28fb27425c1",
+    "component_membership.csv": "bef1817deaae0724bee1793d43468c7a5772851dd656b55e2253275be54305d1",
+    "manifest.csv": "534e326a0ccf65b24d1daf5fba8a047b05a4f50b008bec56ee5a9ea1681e4d67",
+    "support_checks.csv": "8a717af12ea23ee9f44b37e2916ca405068784e0e211064239eb120e29c6110f"
+  }
+}

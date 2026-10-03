@@ -1,0 +1,14 @@
+{
+  "status": "COMPLETE",
+  "files_sha256": {
+    "all_member_candidate_geometry.csv": "96af4564d625999716d39b76cfa10c2f37bc63d4cb0a9e15e0654c02565c350e",
+    "AUDIT_FREEZE.json": "dea309d173d675df19c9d98e2c00dcb6ccc6479d99d13509400abf3eb7e1e6a9",
+    "AUDIT_SUMMARY.json": "cfaefa2ace9773bf05438d4f0ac313b3a3392739755996b98621cfa1bfabb61c",
+    "conservative_component_membership.csv": "543a8305f7a453d4a0f02daf2eb262872a8fa997f8c8a08f8558797b85107b48",
+    "per_family_evidence.csv": "fbc124cbf7750393c1edfa709c0074858b3cbea752bd71755c3b32357a072a65",
+    "per_member_evidence.csv": "ef224040f360dfde5ebd99013dd364b6c4eab38ca4680936011d3b521adc08a9",
+    "raw_content_identity.csv": "1a9023071e92b2d56a944bc3ac06845f5f1c352f4781a08ec7798434509dbbe5",
+    "shared_raw_content_prefixes.csv": "847c770317cb49c7cd1c8be292ea04cfae0dcdd0d097b3fc748df8e860bae5a9",
+    "STAGE2_PAIR_COUNT_PREVIEW.json": "25bad484965817f78303947f589681eb237e92208ec085765bde94905be66ec6"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "status": "PASS",
+  "reviewer": "independent_v18_literature_priority_agent",
+  "protocol_sha256": "05e1aabd1e2d8ad9f56052501360fb75a47f837ccb7366d16a1985d6082aff29",
+  "code_sha256": "b12f05729f718bc914c635496878082409e21ea2a6c0f45d54d3ae2716742c07",
+  "dataset": "onion",
+  "scope": "Independent prefit code, membership, source identity and weighting audit; no classifier fit.",
+  "targets_checked": 960,
+  "model_independent_training_conditions_checked": 1930,
+  "v17_saved_record_and_anchor_parity": "PASS",
+  "one_source_E_H_difference": "PASS",
+  "source_and_image_overlap_checks": "PASS",
+  "constant_original_class_training_counts": "PASS",
+  "dino_feature_384d_identity_alignment": "PASS",
+  "class_then_split_weighting_software_check": "PASS",
+  "model_routing_review": "Five fixed models; each cosine uses its own features and the explicit reviewed 1NN route.",
+  "postfit_checks_still_required": [
+    "Full prediction reconstruction",
+    "Fit logs and convergence",
+    "Independent refits",
+    "Manuscript consistency"
+  ],
+  "scientific_limits": [
+    "Post hoc extension after v17",
+    "Common-class sensitivity changes weighting and is not a new primary endpoint",
+    "Ten splits describe design variation, not independent biological cohorts",
+    "Single-source policy contrast is not a pure neural-memory causal mechanism"
+  ]
+}

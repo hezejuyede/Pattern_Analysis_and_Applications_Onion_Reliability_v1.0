@@ -1,0 +1,14 @@
+{
+  "frozen_utc": "2026-10-02T12:21:52.561233+00:00",
+  "input_sha256": {
+    "D:\\\u8bba\u6587\\SCI\u6295\u7a3f\u6c47\u603b\\Onion_Deep_Revision_20261002_v16\\onion_member_lineage\\stage1_uniform_geometry\\unified_pair_support.csv": "28d01b5174ace1c405600f4d7087d4cb5873b0946d34b413ff9fe260ea2ea464",
+    "D:\\\u8bba\u6587\\SCI\u6295\u7a3f\u6c47\u603b\\Onion_Deep_Revision_20261002_v16\\onion_member_lineage\\stage2_uniform_geometry\\unified_pair_support.csv": "9e020ff706812548597ef69be7a8d6ea03332515a4e6dc0f8197b7fb11fce74c"
+  },
+  "script_sha256": "6590b2ce2a384c83af32b386d6f300cdf6a734e426fdc10a89314cc258958251",
+  "blocking_rule": "Undirected graph joining filename-prefix nodes to raw-content nodes for every any-orientation high match, plus every any-orientation high raw/raw edge; exact raw duplicate contents already share one node. No raw-file-count capacity.",
+  "spatial_sensitivity_graph": "same graph using only any-orientation high plus spatial/residual screen; not selected after classifier results",
+  "intervention_rule": "A blocking component is not a single photographic parent. A proposed intervention triple needs shared spatial-high support to one raw content ID and can use only one such unit per blocking component; no unreviewed experiment is run here.",
+  "cross_label": "preserve all original labels; mark whole blocking components with >1 archive label for quarantine in disease classification; do not majority-vote labels",
+  "uncertainty_scope": "finite retrieval evidence; unresolved links do not establish independence; components can conservatively merge genuinely distinct photographs",
+  "model_fits": 0
+}

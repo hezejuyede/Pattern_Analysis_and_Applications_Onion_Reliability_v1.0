@@ -1,0 +1,25 @@
+Journal: Pattern Analysis and Applications
+Manuscript title: Attributing related-view gains in plant image evaluation with single-source and joint replacement controls
+Article intent: Original empirical evaluation research (final portal category to be checked)
+Author 1 and corresponding author: Xin Li
+Email: lixin26@kstu.kg
+ORCID: https://orcid.org/0009-0005-0670-5006
+Author 2: Bojian Guo
+Email: guobojian26@kstu.kg
+ORCID: https://orcid.org/0009-0005-8353-2436
+Author 3: Asel Kartanova
+Email: asel.kartanova@kstu.kg
+ORCID: https://orcid.org/0000-0003-1479-0747
+All authors' affiliation: Higher School of Economics and Business, Department of Information Systems in Economics, I. Razzakov Kyrgyz State Technical University, 66 Ch. Aitmatov Ave., Bishkek 720044, Kyrgyz Republic.
+Funding: No funding received for this work.
+Competing interests: None declared by the authors.
+Ethics/participant consent: Public plant-image reanalysis; not applicable.
+Author contributions: As stated in the manuscript; Funding acquisition is not asserted.
+AI assistance: Substantive coding, analysis and drafting assistance is disclosed in Methods.
+Publication route preference: Standard subscription publication; do not select paid Open Choice without instruction. Current portal choices and any charges must be checked before actual submission.
+Final checks not yet performed: All authors' review of v1.9 new scientific content; exclusivity/related submissions declaration; actual portal metadata and system-generated reviewer PDF. Do not mark these complete automatically.
+
+Keywords: related images; data leakage; training-sample replacement; prediction stability; grouped evaluation; plant image classification
+
+Abstract (copy the entire following paragraph into the portal):
+Evaluations with related views can confound test-source familiarity with ordinary training-set replacement. We compare two matched policies that remove the same training sources and insert either related views or unused same-class sources. Single-source interventions hold all other training observations fixed; joint interventions replace multiple sources. Two public archives provide 481 audited onion components and 538 author-recorded potato leaves. Five fixed classifiers combine ResNet18, DINOv2 and colour representations with logistic or nearest-neighbour heads. All models used identical replacement allocations, source budgets and test anchors. Across ten fixed splits, the full-class single-source contrasts were 25.19 and 18.49 percentage points for the ResNet18 and DINOv2 logistic models in onion. Reweighting targets and evaluated anchors to classes with at least 30 sources reduced these contrasts to 13.59 and 11.32 points; potato contrasts were 2.48 and 2.83 points. Sparse-class weighting therefore materially affects the magnitude, while a positive contrast remains among better-supported classes. Joint replacement across 30 splits retained the larger onion response. However, the ResNet18 policy corrected similar fractions of ordinary-replacement errors in onion and potato (58.33% and 58.41%), despite their different absolute contrasts. Never-exposed predictions changed under both policies, and same-target single-versus-joint differences varied in sign across splits. Matched replacement distinguishes local related-view responses from general training-set sensitivity within these archives. The weighting analysis is retrospective, and these computational contrasts do not estimate field diagnostic benefit.

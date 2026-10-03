@@ -1,0 +1,123 @@
+{
+  "status": "PASS_INDEPENDENT_PORTABLE_DESCRIPTIVE_RECONSTRUCTION",
+  "tables": [
+    {
+      "file": "source_target_support.csv",
+      "rows": 7,
+      "maximum_numeric_difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "file": "unique_target_frequency.csv",
+      "rows": 908,
+      "maximum_numeric_difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "file": "cross_split_overlap.csv",
+      "rows": 90,
+      "maximum_numeric_difference": 6.938893903907228e-17,
+      "status": "PASS"
+    },
+    {
+      "file": "single_per_class_split_recall_headroom.csv",
+      "rows": 350,
+      "maximum_numeric_difference": 1.1102230246251565e-16,
+      "status": "PASS"
+    },
+    {
+      "file": "single_event_counts_not_independent_samples.csv",
+      "rows": 350,
+      "maximum_numeric_difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "file": "joint_per_class_split_recall_headroom.csv",
+      "rows": 1050,
+      "maximum_numeric_difference": 1.1102230246251565e-16,
+      "status": "PASS"
+    },
+    {
+      "file": "joint_repeated_context_event_counts.csv",
+      "rows": 1050,
+      "maximum_numeric_difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "file": "joint_repeated_context_confusion_records.csv",
+      "rows": 5061,
+      "maximum_numeric_difference": 0.0,
+      "status": "PASS"
+    },
+    {
+      "file": "all_common_loco_split_results.csv",
+      "rows": 2200,
+      "maximum_numeric_difference": 1.1102230246251565e-16,
+      "status": "PASS"
+    },
+    {
+      "file": "all_common_loco_summary.csv",
+      "rows": 110,
+      "maximum_numeric_difference": 3.3306690738754696e-16,
+      "status": "PASS"
+    },
+    {
+      "file": "frequency_weighted_split_results.csv",
+      "rows": 800,
+      "maximum_numeric_difference": 1.6653345369377348e-16,
+      "status": "PASS"
+    },
+    {
+      "file": "frequency_weighted_summary.csv",
+      "rows": 40,
+      "maximum_numeric_difference": 1.1102230246251565e-16,
+      "status": "PASS"
+    },
+    {
+      "file": "headroom_interpretation_percentage_units.csv",
+      "rows": 8,
+      "maximum_numeric_difference": 1.4210854715202004e-14,
+      "status": "PASS"
+    },
+    {
+      "file": "conditional_allocation_mcse.csv",
+      "rows": 20,
+      "maximum_numeric_difference": 1.4210854715202004e-14,
+      "status": "PASS"
+    }
+  ],
+  "prediction_rows_scanned": 4704230,
+  "prediction_files": {
+    "experiments/v18_single/onion/predictions.parquet": 1399250,
+    "experiments/v17/onion/predictions.parquet": 548100,
+    "experiments/v18_joint/onion/predictions.parquet": 182700,
+    "experiments/v18_single/potato/predictions.parquet": 1757700,
+    "experiments/v17/potato/predictions.parquet": 612360,
+    "experiments/v18_joint/potato/predictions.parquet": 204120
+  },
+  "single_raw_vs_saved_target_checks": [
+    {
+      "dataset": "onion",
+      "rows": 4800,
+      "maximum_metric_difference": 0.0
+    },
+    {
+      "dataset": "potato",
+      "rows": 5400,
+      "maximum_metric_difference": 0.0
+    }
+  ],
+  "fitted_models": 0,
+  "p_values": 0,
+  "population_confidence_intervals": 0,
+  "input_bindings_sha256": "8f48f8651fc7b0f05d322e6a7583cce51746e24129720422adaaf1b5a86081b1",
+  "freeze_sha256": "3b8571af9fceb639bd787055ae0d522cb03e87d49689ff6bcac0da62c1e78eb6",
+  "script_sha256": "3e6ec534a51f933dda73caa852814e6d64fd1de829023c2b6121e231801c1e07",
+  "versions": {
+    "python": "3.12.14",
+    "numpy": "2.3.5",
+    "pandas": "3.0.1",
+    "pyarrow": "25.0.1"
+  },
+  "scope": "Comment-prompted descriptive sensitivity after v18 results were known. MCSE is conditional on the fixed archive and saved allocation design; it is not a plant-population interval or new independent validation."
+}

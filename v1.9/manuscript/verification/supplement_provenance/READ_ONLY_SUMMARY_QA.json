@@ -1,0 +1,73 @@
+{
+  "status": "PASS_READ_ONLY_RECONSTRUCTION",
+  "inputs": [
+    {
+      "path": "D:\\论文\\SCI投稿汇总\\Onion_Deep_Revision_20261003_v18\\single_source\\onion\\manifest.csv",
+      "sha256": "5a5a31cccaf6b6d7a3fe046f16be33c99a33d00fecdf2d3ab49bb41d3dd7ee72"
+    },
+    {
+      "path": "D:\\论文\\SCI投稿汇总\\Onion_Deep_Revision_20261003_v18\\single_source\\onion\\targets.csv",
+      "sha256": "1aa62987234088c2579969edcd65096c4df56789c24e630bd4f9b36f1d654e55"
+    },
+    {
+      "path": "D:\\论文\\SCI投稿汇总\\Onion_Deep_Revision_20261003_v18\\single_source\\onion\\component_membership_first10.csv",
+      "sha256": "9fc15ecb79c41a8e963403eb53d1191a4e05bdf60369cede17b2e4fee244dcab"
+    },
+    {
+      "path": "D:\\论文\\SCI投稿汇总\\Onion_Deep_Revision_20261003_v18\\single_source\\onion\\target_panel_contrasts.csv",
+      "sha256": "f3c49e3de026105b868d4c1ef37ec29b2eb5077bbcab6a29b37167f8a47c3b7a"
+    },
+    {
+      "path": "D:\\论文\\SCI投稿汇总\\Onion_Deep_Revision_20261003_v17\\matched_replacement_onion\\predictions.csv.gz",
+      "sha256": "54017f5e8a5f63b6a6070f825bf51b31303b21e9d58c5eb109512f2e42742991"
+    },
+    {
+      "path": "D:\\论文\\SCI投稿汇总\\Onion_Deep_Revision_20261003_v18\\joint_dinov2\\onion\\predictions.csv.gz",
+      "sha256": "e6f86cc32f04eb93720f14cf86f1014c05bf6ae5544221a84cf8b13f8c27b00c"
+    },
+    {
+      "path": "D:\\论文\\SCI投稿汇总\\Onion_Deep_Revision_20261003_v18\\single_source\\potato\\manifest.csv",
+      "sha256": "534e326a0ccf65b24d1daf5fba8a047b05a4f50b008bec56ee5a9ea1681e4d67"
+    },
+    {
+      "path": "D:\\论文\\SCI投稿汇总\\Onion_Deep_Revision_20261003_v18\\single_source\\potato\\targets.csv",
+      "sha256": "fe3e5a19e98289cb172b867295df9e8362ca583b95338db65398723dccf1196f"
+    },
+    {
+      "path": "D:\\论文\\SCI投稿汇总\\Onion_Deep_Revision_20261003_v18\\single_source\\potato\\component_membership_first10.csv",
+      "sha256": "7d54d8271bbf0cce4d9ceeac45697422b549fb52425b25a776b3c0c84f29233b"
+    },
+    {
+      "path": "D:\\论文\\SCI投稿汇总\\Onion_Deep_Revision_20261003_v18\\single_source\\potato\\target_panel_contrasts.csv",
+      "sha256": "8bed0ed7edf54628911d838404fa3bf6dcc19a6f674e326a31073b50ed6a5343"
+    },
+    {
+      "path": "D:\\论文\\SCI投稿汇总\\Onion_Deep_Revision_20261003_v17\\independent_task\\potato\\matched_replacement_experiment\\predictions.csv.gz",
+      "sha256": "e9da88fe5a5a9e10d6abb80fd07e8a572cd3e2c8a76f19471b18a7a478d86630"
+    },
+    {
+      "path": "D:\\论文\\SCI投稿汇总\\Onion_Deep_Revision_20261003_v18\\joint_dinov2\\potato\\predictions.csv.gz",
+      "sha256": "bfbeaa3ba52cf025528ed896e013c359c776003f1eba1c5348d9902cb1472159"
+    },
+    {
+      "path": "D:\\论文\\SCI投稿汇总\\Onion_Deep_Revision_20261003_v18\\figures\\Fig_2_Joint_Replacement_plot_source.csv",
+      "sha256": "60fdb5cea4056ed84235004f9e747dba4796f2e6fdb02b9cf2cbf093b1b69593"
+    },
+    {
+      "path": "D:\\论文\\SCI投稿汇总\\Onion_Deep_Revision_20261003_v18\\context_sensitivity\\target_contrasts.csv",
+      "sha256": "b0342d740e963aa8a1e53bbbc579565a0562426112a2b909ef763b3fee9da05d"
+    },
+    {
+      "path": "D:\\论文\\SCI投稿汇总\\Onion_Deep_Revision_20261003_v18\\manuscript_revision\\Table_3_display.csv",
+      "sha256": "73b2ec927ab814f076fdd3323bf7973c457c535eec1cf97fafcaad67b51f9a8a"
+    }
+  ],
+  "original_inputs_unchanged": true,
+  "new_fits": 0,
+  "p_values": 0,
+  "population_confidence_intervals": 0,
+  "joint_figure_max_pp_difference": 7.105427357601002e-15,
+  "table3_rows": 10,
+  "same_target_context_pairs": 10200,
+  "scope": "Descriptive recalculation from frozen outputs. LOCO and frequency weighting do not change any fit. Event counts contain recurring units and training contexts, and are not independent biological sample sizes."
+}

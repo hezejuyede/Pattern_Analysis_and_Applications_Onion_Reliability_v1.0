@@ -1,0 +1,6 @@
+{
+  "status": "RENDERED_FROM_RECONSTRUCTED_SPLIT_TABLES",
+  "source": "D:\\\u8bba\u6587\\SCI\u6295\u7a3f\u6c47\u603b\\Onion_Deep_Revision_20261003_v18\\portable_verification\\primary_tables",
+  "visual_review": "This command renders files; it does not itself certify visual layout.",
+  "interpretation": "Joint bars are 30-split 2.5th-97.5th percentiles; single bars are ten-split min/max. Neither is a biological confidence interval. Common-class weighting is a post hoc sensitivity defined after v17; it restricts evaluation classes for joint and target plus evaluation classes for single."
+}

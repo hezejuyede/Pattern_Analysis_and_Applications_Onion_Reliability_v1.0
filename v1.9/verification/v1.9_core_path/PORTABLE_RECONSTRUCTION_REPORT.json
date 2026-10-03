@@ -1,0 +1,12 @@
+{
+  "status": "PASS_PORTABLE_RECONSTRUCTION",
+  "root": "D:\\\u8bba\u6587\\SCI\u6295\u7a3f\u6c47\u603b\\Onion_Deep_Revision_20261003_v19\\public_release_staging\\v1.9",
+  "output": "D:\\\u8bba\u6587\\SCI\u6295\u7a3f\u6c47\u603b\\Onion_Deep_Revision_20261003_v19\\portable_core_path_verification",
+  "refit_mode": "none",
+  "experiments": 6,
+  "prediction_rows": 4704230,
+  "logistic_refits": 0,
+  "nearest_neighbour_conditions": 0,
+  "max_refit_probability_difference": 0,
+  "scientific_interpretation": "Reproduction quality only. Not evidence of journal acceptance, prospective registration, independent field cohorts or diagnostic confirmation."
+}

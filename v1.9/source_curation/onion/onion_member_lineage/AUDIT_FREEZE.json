@@ -1,0 +1,31 @@
+{
+  "frozen_utc": "2026-10-02T11:55:30.220377+00:00",
+  "input_sha256": {
+    "augmented_family_manifest.csv": "db89d16dc79262faa8b3bc2d8bca68b9c4ce9466ce63f10b556430b828820c0a",
+    "raw_parquet_manifest.csv": "8c7b5babbb565eb1c9029633c29f9679fed567623b4f5d53ac482b7fe132748c",
+    "top_candidate_scores.csv": "7f105106db0ef9a769bda33ae770048864d55d2920e0d04a4aa0ce772582e7a3",
+    "family_to_raw_mapping.csv": "8d7281954754036e84bff9688e303faf586be9b8b5aa331e1bafcad644570866"
+  },
+  "script_sha256": "d7ec3700ac074d1527b3a2388d0806870a570d9a1c735647e7ff866e563ee83d",
+  "purpose": "Re-audit every augmented member against all five previously retained raw candidates; original analysis remains untouched",
+  "geometry": {
+    "SIFT_nfeatures": 1000,
+    "contrastThreshold": 0.02,
+    "Lowe_ratio": 0.75,
+    "homography_RANSAC_pixels": 4.0,
+    "orientations": [
+      "original",
+      "horizontal_reflection"
+    ],
+    "deterministic_cv_seed": 20261002
+  },
+  "high_support_rule": "best >=15 inliers and >=.60 fraction, with inlier margin >=max(8, ceil(.25*best)) over every other content-unique retained raw candidate",
+  "moderate_support_rule": "best >=8 inliers and >=.50 fraction, with margin >=4",
+  "content_identity": "SHA256 of original parquet decoded RGB shape and pixels; duplicate raw file entries count as one identity",
+  "scope_limits": [
+    "candidate search is limited to the five previously retained raw candidates",
+    "positive geometry supports correspondence, not verified plant identity or pathology",
+    "multiple raw matches can mean raw near duplicates, not necessarily mixed-source augmentation"
+  ],
+  "model_fits": 0
+}

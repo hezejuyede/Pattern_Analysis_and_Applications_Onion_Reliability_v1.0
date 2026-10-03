@@ -1,0 +1,72 @@
+[
+  {
+    "path": "code/run_regional_robustness.py",
+    "bytes": 23733,
+    "sha256": "6fa6fe018d81088e8b858b3240e7060292b94e8a975e3e976ba1e6bc4c166990"
+  },
+  {
+    "path": "code/run_calibration_scale_sensitivity.py",
+    "bytes": 19831,
+    "sha256": "c14f1caf78239c95c84698110b24ef4c2cb439713c9458a25b0a787a3c8958b6"
+  },
+  {
+    "path": "features/handcrafted.npz",
+    "bytes": 21122256,
+    "sha256": "ba81c01ad64fcdb68adeafa3a27d8ca3d396a8c3d253cc607b5b4cbe20311a67"
+  },
+  {
+    "path": "features/resnet18.npz",
+    "bytes": 6358361,
+    "sha256": "a0127be9efd0361541e6fad667f2e68ada436e9735f57c9e69a0eecccf0621db"
+  },
+  {
+    "path": "manifests/unified_manifest.csv",
+    "bytes": 824088,
+    "sha256": "283dbe54925acb97a281faff9dbe0669323b65f24b0158181ac37a5ad7cee6e5"
+  },
+  {
+    "path": "metadata/tom_region_recovery/analysis_image_region_join.csv",
+    "bytes": 452987,
+    "sha256": "cf8dccdb01574e85882f3362dabf673a9000df0b9c0557ea6637f0202e713a02"
+  },
+  {
+    "path": "results/reliability_benchmark_v1/models/model_summary.json",
+    "bytes": 2894,
+    "sha256": "9c827fbfddb12754d386e98b223742a53d7110333ee3f9cd703097193482c0a4"
+  },
+  {
+    "path": "results/reliability_benchmark_v1/split_manifests/tom_acquisition_day_outer_folds.csv",
+    "bytes": 394554,
+    "sha256": "b342795ee73a4c13c7116b96e90321686ea0b7125b4e6c3ac38bfb3d490abbec"
+  },
+  {
+    "path": "results/regional_robustness_v1/protocol_freeze.json",
+    "bytes": 3405,
+    "sha256": "6ec05323424db72c060172793cc5117b7fe55fd37e4688c3973e97870539bc79"
+  },
+  {
+    "path": "results/regional_robustness_v1/outer_memberships.csv",
+    "bytes": 3058633,
+    "sha256": "17ef539b9995cb3e4e5f7c49c06904578040d60d5a615a936daf1b73ea0eb5b4"
+  },
+  {
+    "path": "results/regional_robustness_v1/inner_fold_assignments.csv",
+    "bytes": 268720,
+    "sha256": "df522e2e4fb309cf006ece527776315ada12b353b7ee1777f9a610b93848aec8"
+  },
+  {
+    "path": "results/regional_robustness_v1/class_support.csv",
+    "bytes": 4745,
+    "sha256": "f6c64cdaade26e25a8232cff3ac633ef57704bfb47313f11b82fb5629206a625"
+  },
+  {
+    "path": "results/regional_robustness_v1/analysis_metadata.csv",
+    "bytes": 449698,
+    "sha256": "5e46a85734f732f688b6c23e0d5c92b27ae78f5a89d0eec2c82f926911705fbe"
+  },
+  {
+    "path": "results/calibration_scale_sensitivity_v1/prespecified_protocol.json",
+    "bytes": 2418,
+    "sha256": "3d4e89bfc93656b61fb57ddd9be688382c24464806d01b1260f22f9d97c272b6"
+  }
+]

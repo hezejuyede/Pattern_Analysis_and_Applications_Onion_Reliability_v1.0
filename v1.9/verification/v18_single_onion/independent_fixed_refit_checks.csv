@@ -1,0 +1,11 @@
+repetition,model,target_component,target_label,policy,max_probability_difference,decision_mismatches,training_rows,test_rows,nearest_row_mismatches
+0,resnet_logit,onion_all_high_0000,healthy,exposure,0.0,0,480.0,145,
+0,colour_logit,onion_all_high_0000,healthy,exposure,0.0,0,480.0,145,
+0,dinov2_logit,onion_all_high_0000,healthy,exposure,0.0,0,480.0,145,
+0,resnet_cosine_1nn,onion_all_high_0000,healthy,exposure,,0,,145,0.0
+0,dinov2_cosine_1nn,onion_all_high_0000,healthy,exposure,,0,,145,0.0
+0,resnet_logit,onion_all_high_0000,healthy,sham,0.0,0,480.0,145,
+0,colour_logit,onion_all_high_0000,healthy,sham,0.0,0,480.0,145,
+0,dinov2_logit,onion_all_high_0000,healthy,sham,0.0,0,480.0,145,
+0,resnet_cosine_1nn,onion_all_high_0000,healthy,sham,,0,,145,0.0
+0,dinov2_cosine_1nn,onion_all_high_0000,healthy,sham,,0,,145,0.0

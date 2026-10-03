@@ -1,0 +1,162 @@
+{
+  "status": "PASS_RELOCATED_FIXED_PREDICTION_REPLAY",
+  "models": 7,
+  "replicates_per_stream": 3000,
+  "external_graphs": [
+    547,
+    700
+  ],
+  "internal_days": 103,
+  "external_images": 813,
+  "internal_images": 1643,
+  "model_fits": 0,
+  "protocol_sha256": "d6475f068739de7942bf340307393e31f79b0a8efbc546ce9d270a572fcde7e7",
+  "original_code_sha256": "575c84ec5f3029af005106562151f456beb209af9ea474643996a1f5b5d3708a",
+  "tables": {
+    "calibration_arm_intervals.csv": {
+      "rows": 8,
+      "columns": 7,
+      "maximum_absolute_difference": 0.0
+    },
+    "calibration_changes.csv": {
+      "rows": 4,
+      "columns": 7,
+      "maximum_absolute_difference": 0.0
+    },
+    "external_minus_internal_gaps.csv": {
+      "rows": 42,
+      "columns": 7,
+      "maximum_absolute_difference": 0.0
+    },
+    "metric_intervals.csv": {
+      "rows": 63,
+      "columns": 8,
+      "maximum_absolute_difference": 0.0
+    },
+    "paired_model_contrasts.csv": {
+      "rows": 36,
+      "columns": 11,
+      "maximum_absolute_difference": 0.0
+    },
+    "point_estimates.csv": {
+      "rows": 42,
+      "columns": 5,
+      "maximum_absolute_difference": 0.0
+    },
+    "sklearn_numerical_crosscheck.csv": {
+      "rows": 189,
+      "columns": 7,
+      "maximum_absolute_difference": 0.0
+    }
+  },
+  "arrays": {
+    "tom_days_metrics": {
+      "shape": [
+        7,
+        3000,
+        3
+      ],
+      "maximum_absolute_difference": 0.0,
+      "bitwise_equal": true
+    },
+    "all_high_external_metrics": {
+      "shape": [
+        7,
+        3000,
+        3
+      ],
+      "maximum_absolute_difference": 0.0,
+      "bitwise_equal": true
+    },
+    "all_high_transport_gaps": {
+      "shape": [
+        7,
+        3000,
+        3
+      ],
+      "maximum_absolute_difference": 0.0,
+      "bitwise_equal": true
+    },
+    "all_high_calibration_arm_metrics": {
+      "shape": [
+        2,
+        3000,
+        2
+      ],
+      "maximum_absolute_difference": 0.0,
+      "bitwise_equal": true
+    },
+    "all_high_calibration_change": {
+      "shape": [
+        3000,
+        2
+      ],
+      "maximum_absolute_difference": 0.0,
+      "bitwise_equal": true
+    },
+    "spatial_high_external_metrics": {
+      "shape": [
+        7,
+        3000,
+        3
+      ],
+      "maximum_absolute_difference": 0.0,
+      "bitwise_equal": true
+    },
+    "spatial_high_transport_gaps": {
+      "shape": [
+        7,
+        3000,
+        3
+      ],
+      "maximum_absolute_difference": 0.0,
+      "bitwise_equal": true
+    },
+    "spatial_high_calibration_arm_metrics": {
+      "shape": [
+        2,
+        3000,
+        2
+      ],
+      "maximum_absolute_difference": 0.0,
+      "bitwise_equal": true
+    },
+    "spatial_high_calibration_change": {
+      "shape": [
+        3000,
+        2
+      ],
+      "maximum_absolute_difference": 0.0,
+      "bitwise_equal": true
+    }
+  },
+  "relocated_inputs": [
+    {
+      "historical_path": "C:/Users/lixin/Documents/Codex/2026-09-27/lu/work/onion_crossdomain/results/reliability_benchmark_v1/predictions/cold_locked_external.csv",
+      "used_relative_path": "inputs/external.csv"
+    },
+    {
+      "historical_path": "C:/Users/lixin/Documents/Codex/2026-09-27/lu/work/onion_crossdomain/results/reliability_benchmark_v1/predictions/tom_nested_oof.csv",
+      "used_relative_path": "inputs/internal.csv"
+    },
+    {
+      "historical_path": "C:/Users/lixin/Documents/Codex/2026-09-27/lu/work/onion_crossdomain/results/calibration_scale_sensitivity_v1/external_predictions.csv",
+      "used_relative_path": "inputs/calibration.csv"
+    },
+    {
+      "historical_path": "D:/\u8bba\u6587/SCI\u6295\u7a3f\u6c47\u603b/Onion_Deep_Revision_20261002_v16/onion_member_lineage/raw_content_identity.csv",
+      "used_relative_path": "inputs/raw_identity.csv"
+    },
+    {
+      "historical_path": "D:/\u8bba\u6587/SCI\u6295\u7a3f\u6c47\u603b/Onion_Deep_Revision_20261002_v16/onion_member_lineage/dependence_graph/all_high_raw_content_components.csv",
+      "used_relative_path": "inputs/all_high_components.csv"
+    },
+    {
+      "historical_path": "D:/\u8bba\u6587/SCI\u6295\u7a3f\u6c47\u603b/Onion_Deep_Revision_20261002_v16/onion_member_lineage/dependence_graph/spatial_high_raw_content_components.csv",
+      "used_relative_path": "inputs/spatial_high_components.csv"
+    }
+  ],
+  "adapter_scope": "Only historical input path resolution in SHA checking is replaced; unchanged original run and metric functions use the unchanged seven prepared files and frozen bootstrap weights.",
+  "scientific_scope": "Percentile resampling sensitivity conditional on frozen predictions and finite-retrieval, heuristic image-dependence graphs; not independent plant or field-cohort confidence intervals. Labels and image-weighted point estimates are retained. Unobserved dependencies remain possible.",
+  "exclusions": "No image download, classifier retraining, new acquisition, new pathology review or regional-model refitting."
+}

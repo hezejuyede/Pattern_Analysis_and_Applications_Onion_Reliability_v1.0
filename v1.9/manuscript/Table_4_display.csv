@@ -1,0 +1,5 @@
+dataset,model,sham_error_headroom_percent,corrected_pp,harmed_pp,net_contrast_pp,corrected_over_sham_error_percent
+Onion,ResNet18 + LR,42.92,25.03,1.38,23.66,58.33
+Onion,DINOv2 + LR,29.77,21.66,0.48,21.18,72.76
+Potato,ResNet18 + LR,3.26,1.91,0.20,1.70,58.41
+Potato,DINOv2 + LR,2.87,2.04,0.11,1.93,71.12

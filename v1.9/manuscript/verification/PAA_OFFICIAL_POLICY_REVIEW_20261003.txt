@@ -1,0 +1,39 @@
+PAA 投稿政策与所贴评论的核查（2026-10-03）
+
+范围：只读核对评论 25、27、28、29，并检查摘要长度和两篇 2026 文献。检查对象为 v1.8 public_release_staging 中英文主稿的英文源文、英文 DOCX 和 reference_inventory；实际排版视觉检查由另一份报告记录。本次未修改 v1.8，未提交稿件，未创建 Zenodo/OSF 记录。下面是证据审查，不是期刊编辑决定，也不是录用概率或“95分”评价。
+
+25｜不采纳“AI 声明放 Methods 错了，必须移走”。
+PAA 的现行作者指南明确将实质 LLM 使用说明放 Methods；只有纯文字润色可豁免。当前 2.6 已披露 Codex 涉及代码、统计、初稿和语言，说明数值核验、图件来源与作者责任。该用途不是纯润色，因此应保留真实披露；可改善小标题与叙述位置，但不要删除或降格为纯润色，也不要把机器独立重算说成人类专家复核。是否补充作者实际核查步骤，应据实际执行记录写。
+官方来源：https://link.springer.com/journal/10044/submission-guidelines （Title Page 的 LLM 段）
+
+27｜DOI 归档是有用增强，不是已确认的“必须用 Zenodo/OSF”。
+PAA 要求 Data Availability Statement，鼓励存储库和持久标识。v1.8 已有数据/代码声明、固定版本链接、README、requirements.txt、保存的协议与种子；不能说这些材料不存在。可另整理硬件和耗时表，但须来自日志，分别说明特征提取、全实验和复算，不得虚构或把局部复算时间当整项研究运行时间。是否取得归档 DOI 属独立后续动作，本次不外发、不发布。
+官方来源：https://link.springer.com/journal/10044/submission-guidelines （Research Data Policy）
+
+28｜逐项核验结果，不接受“参考文献全部连成一段”的概括。
+DOCX 的 References 后恰有 22 个非空独立段落；每条 inventory.formatted 与一个不同段落完整匹配，序号为 1–22。现有 DOI 均以 https://doi.org/ 写全。这是文本/结构检查，不据此宣称所有 PDF 链接注释均可点击，也不替代全部文献内容审核。
+PAA 的规则是方括号编号引用、连续编号书目、已有 DOI 用完整链接；期刊缩写用标准形式，不确定时允许全称。不要为了统一而猜缩写，也不要为无 DOI 的会议文献编造 DOI。
+官方来源：https://link.springer.com/journal/10044/submission-guidelines （References）
+
+ref 10 的 URL 在 DOCX 与 inventory 均完整，官方 NeurIPS 页面可打开。页码实际字符为 2881\u20132891，即正常的 en dash。一次终端输出发生编码显示异常，已用 Unicode 码点排除；这不是稿件的乱码缺陷。
+原文入口：https://papers.nips.cc/paper/2020/hash/1e14bfe2714193e7af5abc64ecbd6b46-Abstract.html
+
+ref 4：Menco-Tovar 等，PAA 29，article 183，DOI 10.1007/s10044-026-01751-7。官方 Published 和 Version of record 均为 2026-08-31。原刊题名含“deep and hHybrid”，当前稿件也完整保留 and 与 hHybrid；不能按评论 21 擅改成 hybrid。
+官方来源：https://link.springer.com/article/10.1007/s10044-026-01751-7
+
+ref 22：Requena 等，PAA 29，article 130，DOI 10.1007/s10044-026-01707-x。官方 Published 和 Version of record 均为 2026-07-04。两篇均早于本次核查日期，不是未来出版文献。以上确认的是这两篇的正式出版信息，不是对全部 22 篇内容适配性的笼统保证。
+官方来源：https://link.springer.com/article/10.1007/s10044-026-01707-x
+
+29｜“如果 PAA 盲审”应保持条件判断。
+公开 PAA 指南列明标题页作者等信息，但未在已查页面明确要求独立标题页文件或指定单/双匿名。通用条款中的“if double-anonymous”不是 PAA 双匿名的证据。Springer 通则说多数期刊单匿名，也不能据此确认本刊。此次投稿入口未能读取具体文件槽位；因此审稿模式和最终文件槽位仍待真实投稿界面核对，不应宣称“已确认双盲”，也不应因首页有作者信息判定当前稿必然违规。
+官方来源：https://link.springer.com/journal/10044/submission-guidelines
+Springer 通则：https://link.springer.com/brands/springer/journal-policies （Peer review models）
+本刊首页：https://link.springer.com/journal/10044
+
+22｜摘要的长度指控不成立，表达顺序仍可优化。
+官方范围为 150–250 词。英文源文与 DOCX 摘要完全相同；按空格计 207 词，按保留连字符的字母数字分词计 213，均在范围内。200–250 是评论者的写作建议，不是期刊的实际下限。主结果、单源/联合设计和事后确定的权重敏感性应说明清楚，但不能借此悄悄重定义预设主端点。
+官方来源：https://link.springer.com/journal/10044/submission-guidelines （Abstract）
+
+审查边界与可复查材料
+此次没有发现必须将 AI 说明移出 Methods、删除两篇 2026 文献、修正 hHybrid、重排“连成一段”书目或强制制作盲稿的可靠依据。保留可读性、永久存档、引用完整性和投稿界面复核这些合理目标；不要照搬未经核实的故障描述。科学贡献、估计量、统计独立性与送审竞争力须由研究证据另行评价，这份政策检查不能替代。
+同目录 audit_policy_inputs.py 可复算本地结构检查，POLICY_INPUT_STRUCTURE_AUDIT.json 记录输入 SHA256、摘要计数、全部参考文献逐段匹配及当前 AI 声明。没有修改冻结研究文件。

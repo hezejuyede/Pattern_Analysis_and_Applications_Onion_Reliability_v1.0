@@ -1,0 +1,23 @@
+{
+  "status": "PASS_SOURCE_COMPATIBILITY",
+  "checked_utc": "2026-10-03T03:45:56.406825+00:00",
+  "retained_v18_csvs_byte_identical": 39,
+  "added_csvs_source_identical": 14,
+  "total_indexed_csvs": 53,
+  "complete_prior_sections_retained": "S1-S7; current source path map clarified, S8 appended",
+  "frozen_original_inputs_sha_verified": 15,
+  "frozen_analysis_runner_sha256": "f7026bbbeff936adc221313bb7aa365e7dcc58129effa62f1a2089607eece9f9",
+  "analysis_freeze_utc": "2026-10-03T03:24:54.840990+00:00",
+  "en_zh_numeric_table_lines_identical": true,
+  "current_release_objects_hash_verified": 28,
+  "independent_reconstruction_audit_sha256": "0e99e5e4ad31b6b65a0e4313f5bbcba0495c15b2df89677cd8b624756308bd70",
+  "independent_reconstruction_max_numeric_difference": 1.4210854715202004e-14,
+  "conditional_mcse_recomputed_from_split_values_max_pp_error": 7.105427357601002e-15,
+  "main_table4_matches_unrounded_joint_source_after_two_decimal_rounding": true,
+  "headroom_corrected_and_net_ratio_identities_verified": true,
+  "source_hashes": {
+    "Online_Resource_1_EN_v1.9.md": "e622484d7f01aa652ad6dab02032cf6e99fcbe2f4cd40ce79f34c7214b251f44",
+    "Online_Resource_1_ZH_v1.9.md": "5547d41b203c6b19563a8e538e3a7d60f027845593b398669d124d701cc13671"
+  },
+  "boundaries": "Post-result descriptive analysis, no new fits, no population confidence intervals, no fresh collection or plant-identity claims. Remote release verification is performed separately by the coordinating agent."
+}

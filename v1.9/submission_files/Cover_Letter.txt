@@ -1,0 +1,26 @@
+3 October 2026
+
+Dear Editors of Pattern Analysis and Applications,
+
+Please consider our Research Article, “Attributing related-view gains in plant image evaluation with single-source and joint replacement controls,” by Xin Li, Bojian Guo and Asel Kartanova.
+
+Related images crossing an evaluation boundary can change both test-source familiarity and the training sample. Our study separates these responses through matched donor deletion followed by either related views or unused same-class sources. Single-source interventions hold all other training observations fixed, while a never-exposed sentinel panel measures changes beyond the deliberately exposed targets. The same allocations are evaluated with five fixed classifiers in two public archives containing 481 audited onion components and 538 author-recorded potato leaves.
+
+The contribution is a controlled attribution analysis for pattern-recognition evaluation. A local advantage persists after ordinary replacement is controlled, but changes on never-exposed sources also occur under the control policy. Additional analyses show why absolute contrasts require context: sparse-class weighting substantially affects the onion magnitude, while much smaller potato contrasts coexist with similar observed fractions of corrected errors for the two deep-feature logistic models. These findings provide concrete evidence for reporting matched controls, class support and baseline error headroom together. They extend the journal’s recent discussion of original-image-controlled and other controlled evaluations without claiming a new classifier or universal leakage magnitude.
+
+The manuscript presents the full class-weighted analysis alongside its sensitivity analyses, discloses the post-result chronology, and distinguishes repeated computational records from independent acquisitions. Neither archive supplies a newly collected field cohort or unified pathological review. We retain the separate onion transfer shortfall as a limit on agricultural interpretation. Complete predictions, source assignments, executable analyses and verification records are available in version v1.9.0 of the public research repository; Online Resource 1 describes the provenance and reproduction scope.
+
+The authors report no funding and no relevant financial or non-financial competing interests. The study reanalyses public plant images and involves no human participants, animals or new field intervention. Substantive AI assistance and author responsibility are disclosed in the Methods section.
+
+Thank you for considering this work.
+
+Yours sincerely,
+
+Xin Li
+Corresponding author
+Higher School of Economics and Business
+Department of Information Systems in Economics
+I. Razzakov Kyrgyz State Technical University
+66 Ch. Aitmatov Ave., Bishkek 720044, Kyrgyz Republic
+Email: lixin26@kstu.kg
+ORCID: https://orcid.org/0009-0005-0670-5006

@@ -1,0 +1,271 @@
+{
+  "status": "PASS_PDF_TECHNICAL_QA",
+  "checked_utc": "2026-10-03T03:45:56.406825+00:00",
+  "documents": [
+    {
+      "file": "ESM_1.pdf",
+      "sha256": "375f5ec2d86e0f3dce3867cb130a97ef78167455c689a8f1d0a9cdb297c882e8",
+      "pages": [
+        {
+          "page": 1,
+          "characters": 4248,
+          "minimum_x": 51.02362,
+          "maximum_x": 544.252,
+          "minimum_top": 56.13138270000013,
+          "maximum_bottom": 809.6006124
+        },
+        {
+          "page": 2,
+          "characters": 3777,
+          "minimum_x": 51.02362,
+          "maximum_x": 544.25338661,
+          "minimum_top": 56.34720299999992,
+          "maximum_bottom": 809.6006124
+        },
+        {
+          "page": 3,
+          "characters": 3023,
+          "minimum_x": 51.02362,
+          "maximum_x": 544.252,
+          "minimum_top": 56.4551131500001,
+          "maximum_bottom": 809.6006124
+        },
+        {
+          "page": 4,
+          "characters": 3131,
+          "minimum_x": 51.02362,
+          "maximum_x": 544.252,
+          "minimum_top": 56.4551131500001,
+          "maximum_bottom": 809.6006124
+        },
+        {
+          "page": 5,
+          "characters": 1934,
+          "minimum_x": 51.02362,
+          "maximum_x": 544.252,
+          "minimum_top": 56.77884360000007,
+          "maximum_bottom": 809.6006124
+        },
+        {
+          "page": 6,
+          "characters": 2382,
+          "minimum_x": 51.02362,
+          "maximum_x": 544.252,
+          "minimum_top": 56.4551131500001,
+          "maximum_bottom": 809.6006124
+        },
+        {
+          "page": 7,
+          "characters": 4529,
+          "minimum_x": 51.02362,
+          "maximum_x": 544.252,
+          "minimum_top": 56.77884360000007,
+          "maximum_bottom": 809.6006124
+        },
+        {
+          "page": 8,
+          "characters": 4612,
+          "minimum_x": 51.02362,
+          "maximum_x": 544.252,
+          "minimum_top": 56.347203000000036,
+          "maximum_bottom": 809.6006124
+        },
+        {
+          "page": 9,
+          "characters": 3857,
+          "minimum_x": 51.02362,
+          "maximum_x": 544.252,
+          "minimum_top": 56.4551131500001,
+          "maximum_bottom": 809.6006124
+        },
+        {
+          "page": 10,
+          "characters": 3070,
+          "minimum_x": 51.02362,
+          "maximum_x": 544.252,
+          "minimum_top": 56.347203000000036,
+          "maximum_bottom": 809.6006124
+        },
+        {
+          "page": 11,
+          "characters": 3304,
+          "minimum_x": 51.02362,
+          "maximum_x": 544.252,
+          "minimum_top": 56.4551131500001,
+          "maximum_bottom": 809.6006124
+        },
+        {
+          "page": 12,
+          "characters": 3438,
+          "minimum_x": 51.02362,
+          "maximum_x": 544.252,
+          "minimum_top": 56.4551131500001,
+          "maximum_bottom": 809.6006124
+        },
+        {
+          "page": 13,
+          "characters": 3146,
+          "minimum_x": 51.02362,
+          "maximum_x": 544.252,
+          "minimum_top": 56.4551131500001,
+          "maximum_bottom": 809.6006124
+        },
+        {
+          "page": 14,
+          "characters": 3356,
+          "minimum_x": 51.02362,
+          "maximum_x": 544.252,
+          "minimum_top": 56.347203000000036,
+          "maximum_bottom": 809.6006124
+        },
+        {
+          "page": 15,
+          "characters": 1738,
+          "minimum_x": 51.02362,
+          "maximum_x": 544.252,
+          "minimum_top": 56.023472550000065,
+          "maximum_bottom": 809.6006124
+        },
+        {
+          "page": 16,
+          "characters": 339,
+          "minimum_x": 51.02362,
+          "maximum_x": 544.252,
+          "minimum_top": 56.77884360000007,
+          "maximum_bottom": 809.6006124
+        },
+        {
+          "page": 17,
+          "characters": 383,
+          "minimum_x": 51.02362,
+          "maximum_x": 544.252,
+          "minimum_top": 279.54378270000007,
+          "maximum_bottom": 809.6006124
+        }
+      ],
+      "all_characters_within_safe_page_bounds": true,
+      "no_replacement_or_black_square_glyphs": true
+    },
+    {
+      "file": "Online_Resource_1_中文参考_v1.9.pdf",
+      "sha256": "3d72b5c024e2b8ae5bb2a66cfdf211798c7c158ded381320a3ef59bfc024fbc8",
+      "pages": [
+        {
+          "page": 1,
+          "characters": 2025,
+          "minimum_x": 51.02362,
+          "maximum_x": 544.252,
+          "minimum_top": 55.45462500000008,
+          "maximum_bottom": 809.6006124
+        },
+        {
+          "page": 2,
+          "characters": 2008,
+          "minimum_x": 51.02362,
+          "maximum_x": 544.25338661,
+          "minimum_top": 55.595249999999965,
+          "maximum_bottom": 809.6006124
+        },
+        {
+          "page": 3,
+          "characters": 2483,
+          "minimum_x": 51.02362,
+          "maximum_x": 544.252,
+          "minimum_top": 55.87650000000008,
+          "maximum_bottom": 809.6006124
+        },
+        {
+          "page": 4,
+          "characters": 862,
+          "minimum_x": 51.02362,
+          "maximum_x": 544.252,
+          "minimum_top": 55.66556250000008,
+          "maximum_bottom": 809.6006124
+        },
+        {
+          "page": 5,
+          "characters": 2103,
+          "minimum_x": 51.02362,
+          "maximum_x": 544.252,
+          "minimum_top": 55.66556250000008,
+          "maximum_bottom": 809.6006124
+        },
+        {
+          "page": 6,
+          "characters": 2190,
+          "minimum_x": 51.02362,
+          "maximum_x": 547.02362,
+          "minimum_top": 55.87650000000008,
+          "maximum_bottom": 809.6006124
+        },
+        {
+          "page": 7,
+          "characters": 1911,
+          "minimum_x": 51.02362,
+          "maximum_x": 547.02362,
+          "minimum_top": 55.59525000000008,
+          "maximum_bottom": 809.6006124
+        },
+        {
+          "page": 8,
+          "characters": 1787,
+          "minimum_x": 51.02362,
+          "maximum_x": 544.252,
+          "minimum_top": 55.66556250000008,
+          "maximum_bottom": 809.6006124
+        },
+        {
+          "page": 9,
+          "characters": 1975,
+          "minimum_x": 51.02362,
+          "maximum_x": 544.252,
+          "minimum_top": 55.66556250000008,
+          "maximum_bottom": 809.6006124
+        },
+        {
+          "page": 10,
+          "characters": 1836,
+          "minimum_x": 51.02362,
+          "maximum_x": 544.252,
+          "minimum_top": 55.66556250000008,
+          "maximum_bottom": 809.6006124
+        },
+        {
+          "page": 11,
+          "characters": 2804,
+          "minimum_x": 51.02362,
+          "maximum_x": 544.252,
+          "minimum_top": 55.66556250000008,
+          "maximum_bottom": 809.6006124
+        },
+        {
+          "page": 12,
+          "characters": 2170,
+          "minimum_x": 51.02362,
+          "maximum_x": 544.252,
+          "minimum_top": 56.023472550000065,
+          "maximum_bottom": 809.6006124
+        },
+        {
+          "page": 13,
+          "characters": 144,
+          "minimum_x": 51.02362,
+          "maximum_x": 544.252,
+          "minimum_top": 55.87650000000008,
+          "maximum_bottom": 809.6006124
+        },
+        {
+          "page": 14,
+          "characters": 152,
+          "minimum_x": 51.02362,
+          "maximum_x": 544.252,
+          "minimum_top": 278.867025,
+          "maximum_bottom": 809.6006124
+        }
+      ],
+      "all_characters_within_safe_page_bounds": true,
+      "no_replacement_or_black_square_glyphs": true
+    }
+  ],
+  "scope": "Automatic geometry/text/file checks supplement, not replace, the separately recorded manual all-page visual inspection."
+}

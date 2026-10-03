@@ -1,0 +1,226 @@
+{
+  "status": "PASS_ALL_31_PAGES_VISUALLY_REVIEWED",
+  "recorded_utc": "2026-10-03T03:46:27.544348+00:00",
+  "renderer": "Poppler pdftoppm, 115 dpi, every PDF page",
+  "method": "Actual manual inspection of each individual rendered page in the agent visual viewer, followed by automatic source and geometry checks.",
+  "documents": [
+    {
+      "file": "ESM_1.pdf",
+      "pdf_sha256": "375f5ec2d86e0f3dce3867cb130a97ef78167455c689a8f1d0a9cdb297c882e8",
+      "source_sha256": "e622484d7f01aa652ad6dab02032cf6e99fcbe2f4cd40ce79f34c7214b251f44",
+      "pages_reviewed": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17
+      ],
+      "rendered_pages": [
+        {
+          "page": 1,
+          "file": "qa_supp/en/page-01.png",
+          "sha256": "62c1709a52851b05b3dbdac85645e9b27205435aceaf11994317a17d133bbafc"
+        },
+        {
+          "page": 2,
+          "file": "qa_supp/en/page-02.png",
+          "sha256": "2ea12fd8c866649e7a99e409cde137102270812f52b460952875653b6c8b1fa2"
+        },
+        {
+          "page": 3,
+          "file": "qa_supp/en/page-03.png",
+          "sha256": "0be53c551062fe6786adadc9b9387c3e7cf414de52f2c02d5dc7bc4f0b57658b"
+        },
+        {
+          "page": 4,
+          "file": "qa_supp/en/page-04.png",
+          "sha256": "0631a75a30c28f109cebdc7496fbab7e059e0b71b0093e2aa74d5ad68fe4153e"
+        },
+        {
+          "page": 5,
+          "file": "qa_supp/en/page-05.png",
+          "sha256": "a2303ab29888ca39845fd97c2ced8f85e5721e69b953ced8a8fa89d64d719c1b"
+        },
+        {
+          "page": 6,
+          "file": "qa_supp/en/page-06.png",
+          "sha256": "1b10796e66581f906b27f706709aacc08cb9dffe2d1b4b09b0d90a48c9fbae14"
+        },
+        {
+          "page": 7,
+          "file": "qa_supp/en/page-07.png",
+          "sha256": "c2bf027ea721e6af1b9a690c11f0d8c2e6c2e1f9adc24602a3aaedaa9ccf43d9"
+        },
+        {
+          "page": 8,
+          "file": "qa_supp/en/page-08.png",
+          "sha256": "e077ff7dbdf2cab0522aa3a4e3acb2ce680a40776467f706844951d867e3b3fb"
+        },
+        {
+          "page": 9,
+          "file": "qa_supp/en/page-09.png",
+          "sha256": "2139b26ca6836df6b61b6439a731472cf923dcd3d5e03408538b89adc2a1aa29"
+        },
+        {
+          "page": 10,
+          "file": "qa_supp/en/page-10.png",
+          "sha256": "4540c648fce2b7a6b4fa86421028f21b9086a06407584fcc6591d555722a4d25"
+        },
+        {
+          "page": 11,
+          "file": "qa_supp/en/page-11.png",
+          "sha256": "1d595b2b8b82dca3d76f60b12602bd065aec2ec2501f215f3f397a49456d3095"
+        },
+        {
+          "page": 12,
+          "file": "qa_supp/en/page-12.png",
+          "sha256": "9c7e57234977730110646591b2f4e28e34af119383400561ebf6bbba14e4a6a7"
+        },
+        {
+          "page": 13,
+          "file": "qa_supp/en/page-13.png",
+          "sha256": "531ae593256454e2f383e6b4208da18c3075aaf7282fe6fa7d19010566383f26"
+        },
+        {
+          "page": 14,
+          "file": "qa_supp/en/page-14.png",
+          "sha256": "89976395e98c7e130c572390d9616082744c71dd3c35187e80d4220eb405ff4f"
+        },
+        {
+          "page": 15,
+          "file": "qa_supp/en/page-15.png",
+          "sha256": "551d0ca1d55d791b0201dffa6bad8617dcc9f99f174f270de591ee2d27bab1c7"
+        },
+        {
+          "page": 16,
+          "file": "qa_supp/en/page-16.png",
+          "sha256": "f4d89d25c443fb4a5fadd317291225e84d811bd25553fa4efdd6269aff7b244b"
+        },
+        {
+          "page": 17,
+          "file": "qa_supp/en/page-17.png",
+          "sha256": "f08c6dbd368381b10a6cf2b3d3445853401ae9ea7715a4488ac388294d76ffcf"
+        }
+      ],
+      "observed_layout": "All pages checked visually: complete first-page metadata; readable body and native tables; no observed clipped or overlapping text, missing negative signs, detached table headings, or excessive table width. Deliberate whitespace preserves complete tables and separates the two appendix figures.",
+      "inline_tables": 9,
+      "inline_table_body_rows": 106,
+      "appendix_figures": 2,
+      "status": "PASS_ALL_PAGES_VISUALLY_REVIEWED"
+    },
+    {
+      "file": "Online_Resource_1_中文参考_v1.9.pdf",
+      "pdf_sha256": "3d72b5c024e2b8ae5bb2a66cfdf211798c7c158ded381320a3ef59bfc024fbc8",
+      "source_sha256": "5547d41b203c6b19563a8e538e3a7d60f027845593b398669d124d701cc13671",
+      "pages_reviewed": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14
+      ],
+      "rendered_pages": [
+        {
+          "page": 1,
+          "file": "qa_supp/zh/page-01.png",
+          "sha256": "0427615d5ca7a02a73ad111c403632a9d2fb8bf8a9175b7731f636af53c39865"
+        },
+        {
+          "page": 2,
+          "file": "qa_supp/zh/page-02.png",
+          "sha256": "32d28fb8933c56862b9e5beca720e001ce29ab65023de77c99714f074460de55"
+        },
+        {
+          "page": 3,
+          "file": "qa_supp/zh/page-03.png",
+          "sha256": "87f69730e609d998980c84c60025ef67060563bc95d4722387c933a9642fe29d"
+        },
+        {
+          "page": 4,
+          "file": "qa_supp/zh/page-04.png",
+          "sha256": "6c1dd76dc10bab51b924e7d88dd8abb1115b6dbc371e00376b1b7a8f9893b631"
+        },
+        {
+          "page": 5,
+          "file": "qa_supp/zh/page-05.png",
+          "sha256": "0f03d4b80699934f5c370943179c6025230f640cbbf90621d8f6fa6bec9d3bc7"
+        },
+        {
+          "page": 6,
+          "file": "qa_supp/zh/page-06.png",
+          "sha256": "f2e737b263f1b15b78e0eb43715eefd30638b8bc004e5d10361298f15064cc98"
+        },
+        {
+          "page": 7,
+          "file": "qa_supp/zh/page-07.png",
+          "sha256": "8033f4ae2ec8c46706f20bcf65952d5438bfc13fbd7754eb4715ea42576a3117"
+        },
+        {
+          "page": 8,
+          "file": "qa_supp/zh/page-08.png",
+          "sha256": "d4cd7c4f75ff514971ca95793bba9e22b1a8da1e1df0da3a5d6d51db3be89271"
+        },
+        {
+          "page": 9,
+          "file": "qa_supp/zh/page-09.png",
+          "sha256": "91012b481d7487b5165568c760b7eaf0618029a1f9a37752b00d548ec35fc6e8"
+        },
+        {
+          "page": 10,
+          "file": "qa_supp/zh/page-10.png",
+          "sha256": "9580e4653217f2dd735bfde47f1559870b686c2e7d263ee7c8edff17ee71b397"
+        },
+        {
+          "page": 11,
+          "file": "qa_supp/zh/page-11.png",
+          "sha256": "b043c5b9e9c959ca4eb5727d0504681d4a357d1e51649beb494c2b34ed130661"
+        },
+        {
+          "page": 12,
+          "file": "qa_supp/zh/page-12.png",
+          "sha256": "f639912059da40bc4e37ab6e783e96628447b5bd49d5bcc066a03c58bd9a6071"
+        },
+        {
+          "page": 13,
+          "file": "qa_supp/zh/page-13.png",
+          "sha256": "fd91fdd0fe7cb8f652b75cf8a8e534fe577609cb421e08778203d092dcc92f56"
+        },
+        {
+          "page": 14,
+          "file": "qa_supp/zh/page-14.png",
+          "sha256": "0b23c5582ca0deaafe7f066782c12237f280fb88152950e8393e78347cd12b30"
+        }
+      ],
+      "observed_layout": "All pages checked visually: complete first-page metadata; readable body and native tables; no observed clipped or overlapping text, missing negative signs, detached table headings, or excessive table width. Deliberate whitespace preserves complete tables and separates the two appendix figures.",
+      "inline_tables": 9,
+      "inline_table_body_rows": 106,
+      "appendix_figures": 2,
+      "status": "PASS_ALL_PAGES_VISUALLY_REVIEWED"
+    }
+  ],
+  "numeric_tables": "53 supplied CSVs; 39 retained byte-identically, 14 added; EN/ZH inline numeric tables match.",
+  "technical_qa_sha256": "11cd54bf2ac5c6a0d6f0ee659aec955416550a1344fd2dbf923b98e1ea6efb80",
+  "source_compatibility_qa_sha256": "2ab11538dc3171640d5226f42a56db748d4ff1bd2bc81a12ae317303caab7f16",
+  "limitations": "Layout and source consistency checks do not guarantee journal acceptance. External release availability is verified separately before delivery."
+}

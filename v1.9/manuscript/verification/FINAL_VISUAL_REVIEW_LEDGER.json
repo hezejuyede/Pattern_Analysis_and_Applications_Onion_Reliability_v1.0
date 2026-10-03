@@ -1,0 +1,202 @@
+{
+  "utc": "2026-10-03T03:48:36.097334+00:00",
+  "status": "ALL_RENDERED_PAGES_VISUALLY_INSPECTED",
+  "reviewer": "Codex subagent /root/v18_feature_feasibility; actual original-resolution view_image review of every page",
+  "scope": "Local visual layout and source fidelity; not an external expert review, journal approval or acceptance prediction. All stated visual checks were performed before this ledger was written.",
+  "build_manifest_sha256": "136d7c2a8881e611a7f7e435d2c2165d0d3ed28bea8cfbc20f59de9134d63690",
+  "documents": {
+    "en": {
+      "status": "PASS",
+      "docx_sha256": "bea9bac12aa3b342bfb68118d8ebec14e82055f4d43bb722f3bdff5ec116569a",
+      "pdf_sha256": "7e8942938de02c39c9d28eddd9391a35a5faf23a82edf08bfc704021fb8398c5",
+      "pages": [
+        {
+          "page": 1,
+          "sha256": "2b515c540343f682998942a91331324cc96bfe0a925ccab2411c4ed9be6229d3",
+          "status": "PASS",
+          "notes": "Title, author order, complete ORCID strings, affiliation and abstract visible; normal text flow."
+        },
+        {
+          "page": 2,
+          "sha256": "acdea74a1e9a9d1e75dd080c82b8ff6de59c57353fd347e5f07e908cdee0325d",
+          "status": "PASS",
+          "notes": "Introduction and source provenance text readable; no glyph loss or clipping."
+        },
+        {
+          "page": 3,
+          "sha256": "50f967fc1dbc4e8e9840cfc7965b2aba1d87175196cd1ebe1e76d921c078a35b",
+          "status": "PASS",
+          "notes": "Table 1 contains all seven data rows on this page with its caption; Figure 1 and its caption complete."
+        },
+        {
+          "page": 4,
+          "sha256": "de26746f21f50f59f113cf563aba69824d2f956b49db283a5ee5b5c087e97507",
+          "status": "PASS",
+          "notes": "Methods, unique source counts and Equation 1 visible; denominator is 1/|P_c|, without garbled glyphs."
+        },
+        {
+          "page": 5,
+          "sha256": "5bfe20e43bdf2e2c9165e709c25c9d1119f819d76bc591555d02654fa7d7f1fb",
+          "status": "PASS",
+          "notes": "Equations 2 and 3 clear; weighting and conditional Monte Carlo descriptions readable."
+        },
+        {
+          "page": 6,
+          "sha256": "cac2d24ec0e4352b96935b1c8e4fd74a82ee9da320149a9117a8615707394e83",
+          "status": "PASS",
+          "notes": "Analysis chronology, substantive AI disclosure and first results paragraph readable."
+        },
+        {
+          "page": 7,
+          "sha256": "5ecf02d8fdb36b63352402b411ef2b030295c62134d459306b08bcec317e6a28",
+          "status": "PASS",
+          "notes": "Figure 2 complete with axes, legend and caption on the same page; no clipping."
+        },
+        {
+          "page": 8,
+          "sha256": "b0aa76f2df39e82d3fb0de550e04f70f0422bb2972a15975677550f0f46899d0",
+          "status": "PASS",
+          "notes": "Table 2 contains all ten data rows and caption on the same page; Section 3.3 starts clearly."
+        },
+        {
+          "page": 9,
+          "sha256": "497d5833e66bb22af64efc7d7bc36b8d4cebb7c781c305796418dcd02333448c",
+          "status": "PASS",
+          "notes": "Figure 3 complete with caption; all five models, error-bar interpretation and common-class note readable."
+        },
+        {
+          "page": 10,
+          "sha256": "eb5e6f90ea8ee98a93d940ebe3168b11534a1f07629418a86cad22039a04aead",
+          "status": "PASS",
+          "notes": "Tables 3 and 4 each complete on the page with their respective captions. Table 3 has ten data rows; Table 4 has four data rows and seven columns. Nine-point table text, no reduced font to force fit. Before-rounding and ratio-of-means notes visible."
+        },
+        {
+          "page": 11,
+          "sha256": "f78e06957ca583d88c3b6f3ec89cc85dc728dee0641ba4413187b3f7e0248f3a",
+          "status": "PASS",
+          "notes": "Discussion complete and readable; no overlap, clipping or broken math glyphs."
+        },
+        {
+          "page": 12,
+          "sha256": "a40f3aef2d6a6b548d98954bda81dd2da0b6d5a3841edc56e4743e2cdcf1851a",
+          "status": "PASS",
+          "notes": "Limitations, conclusion, declarations and full versioned repository URL readable; source limitations preserved."
+        },
+        {
+          "page": 13,
+          "sha256": "577222838120ece591fb5fb5edc8591846c6187b8c20da04568a01371c8b37c5",
+          "status": "PASS",
+          "notes": "All 22 references appear as separate hanging-indent paragraphs. Reference 4 retains deep and hHybrid; reference 10 has the proper 2881-2891 page range. URLs and final reference complete."
+        }
+      ],
+      "all_four_tables_complete_and_same_page": true,
+      "formula_1_denominator_visually_1_over_abs_Pc": true,
+      "table_pages": {
+        "1": 3,
+        "2": 8,
+        "3": 10,
+        "4": 10
+      }
+    },
+    "zh": {
+      "status": "PASS",
+      "docx_sha256": "a978445a81605efc27ecd301f107cf2fb171f66da40438d3ac14a2fa7038088f",
+      "pdf_sha256": "97dda0b6ac31445e0f58d51991ba698b1c9053411934154fc045a9f4641e5fdb",
+      "pages": [
+        {
+          "page": 1,
+          "sha256": "22eb286f96d280c19300813cb9634a896fcbf46c5b1f41f826b6ed8fee3f8af3",
+          "status": "PASS",
+          "notes": "Chinese title, authors, all three complete ORCIDs, abstract and introduction readable; Chinese and Latin fonts render correctly."
+        },
+        {
+          "page": 2,
+          "sha256": "bdbd7e00f2d92b0534a6273c14f7fe7fd79a9b0cbf9d6a3adc25e65eebe24a83",
+          "status": "PASS",
+          "notes": "Source provenance readable. Table 1 contains seven data rows and caption, entirely on the same page."
+        },
+        {
+          "page": 3,
+          "sha256": "0a9c1c6349900e713c02c88da834f570008c7c42934053b59151fdf3ae8d2a19",
+          "status": "PASS",
+          "notes": "Figure 1 complete with caption; matched replacement design text readable."
+        },
+        {
+          "page": 4,
+          "sha256": "f801e2593281a0e0de717e7a71c29e7d311869732ce50d82b0364efbdb70e059",
+          "status": "PASS",
+          "notes": "Unique source counts, DINOv2 description and all three native equations visible. Equation 1 denominator reads 1/|P_c|; no garbled glyphs."
+        },
+        {
+          "page": 5,
+          "sha256": "063f3e039bc749367dac69403a0be3e43031f579eaad2fa711222def0d4e30c1",
+          "status": "PASS",
+          "notes": "Weighting, error-headroom, conditional Monte Carlo and transfer methods readable; all signs and superscripts render."
+        },
+        {
+          "page": 6,
+          "sha256": "53b213f328e533ee634890d0e7e03905f7c7a8ffcae0285f0eeb1a5ea487a3f5",
+          "status": "PASS",
+          "notes": "Chronology and AI disclosure readable; Figure 2 is complete with legend and caption on the same page."
+        },
+        {
+          "page": 7,
+          "sha256": "9ed10f768d54d7ec1f112d08b4146da90e008d596741b24bc6bf8c2f296a627c",
+          "status": "PASS",
+          "notes": "Table 2 complete with all ten data rows and caption; results and class-weight sensitivity text readable."
+        },
+        {
+          "page": 8,
+          "sha256": "f16a0543475cff164f4347e8dcdf4a984c15158aa44e08cfe86e279341b94fd1",
+          "status": "PASS",
+          "notes": "Figure 3 complete with caption; all-model and min-max interpretation clear; results paragraphs readable."
+        },
+        {
+          "page": 9,
+          "sha256": "e212aea717de2695e3cbe246eb68753c699a5830479c2a2a7208b099ca6b7bab",
+          "status": "PASS",
+          "notes": "Table 3 has all ten data rows and caption, entirely on this page. Table 4 has all four data rows, seven columns and its caption, entirely on this page. Nine-point table text matches other tables; no clipped headers. Transfer results readable."
+        },
+        {
+          "page": 10,
+          "sha256": "aa443f25948c82d61ddc96c2e20d2272ba0fd261f03ae104fc932a09a4bf2b47",
+          "status": "PASS",
+          "notes": "Discussion and first limitations paragraphs clear, including source support and 908 distinct units; no clipping."
+        },
+        {
+          "page": 11,
+          "sha256": "5b97f9a60ef5691b03667c306df193381c356c4d9b44e9f8355ea2840a0ddd2d",
+          "status": "PASS",
+          "notes": "Limitations, conclusion, declarations and full v1.9.0 URL visible. References 1-5 each separate; reference 4 retains deep and hHybrid."
+        },
+        {
+          "page": 12,
+          "sha256": "de6b698eb2a3ada538313c7c8c471275de8253c578801fcfbaa670966a45cf2b",
+          "status": "PASS",
+          "notes": "References 6-22 appear as complete separate hanging-indent paragraphs; correct page-range dash, final DOI and full URLs; no glyph replacement."
+        }
+      ],
+      "all_four_tables_complete_and_same_page": true,
+      "formula_1_denominator_visually_1_over_abs_Pc": true,
+      "table_pages": {
+        "1": 2,
+        "2": 7,
+        "3": 9,
+        "4": 9
+      }
+    },
+    "cover_en": {
+      "status": "PASS",
+      "docx_sha256": "d4ad0593d0e017aae459c65a97a9b03a2c3ad82152b170fe78105c5dbb052b50",
+      "pdf_sha256": "c3b912453f84db4e4f87ffa487ec46d2f0680be6f6be3a5533f453153ab356ff",
+      "pages": [
+        {
+          "page": 1,
+          "sha256": "dbe9c5063f521ee660febafe7853b12b015e4d9cd10544e14007806a22b3c42c",
+          "status": "PASS",
+          "notes": "Full one-page letter is readable with date, article title, authors, contribution, limitations, AI disclosure and corresponding author contact. Full ORCID, no clipped text, no extraneous page footer."
+        }
+      ]
+    }
+  }
+}

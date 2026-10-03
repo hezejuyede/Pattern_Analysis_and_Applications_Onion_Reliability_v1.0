@@ -1,0 +1,162 @@
+{
+  "status": "CONTACT_SHEETS_GENERATED_NOT_ALL_MANUALLY_REVIEWED",
+  "cross_label_pairs_shown": 45,
+  "cross_label_spatial_high_pairs": 25,
+  "multiple_supported_raw_families_all_shown": 9,
+  "large_components_ge10_prefixes_all_shown": 7,
+  "files": [
+    {
+      "name": "cross_label_page_01.png",
+      "sha256": "04014de72dc3718e3993d50622116ad1ec1cabe65ee223e2d10840215deaa198"
+    },
+    {
+      "name": "cross_label_page_02.png",
+      "sha256": "53c0d9360e89fc28209a836a6fa904b9e782044d54ae01f592491f7fe5eb82a7"
+    },
+    {
+      "name": "cross_label_page_03.png",
+      "sha256": "33f056f2c890a174c989c061423835d957dfc9ef429a25cde79d61be958425ef"
+    },
+    {
+      "name": "cross_label_page_04.png",
+      "sha256": "526e228de44c9626911468fb6ca2ff03ddc852758593a9467069365a4bf2e373"
+    },
+    {
+      "name": "cross_label_page_05.png",
+      "sha256": "3e82c147a4f5f955c34bf206ecfc7feb68bdf9c29df2591287cf94616539d0d2"
+    },
+    {
+      "name": "cross_label_page_06.png",
+      "sha256": "990220ae83915976baaba323cd0b1334d559543ebcdb4f86c80c2630e0a6978b"
+    },
+    {
+      "name": "cross_label_page_07.png",
+      "sha256": "5fe0b9733f3d6d56eaf69307f5ac3463ef264bf22cd31723e52d10dbac4ac8ae"
+    },
+    {
+      "name": "cross_label_page_08.png",
+      "sha256": "5682ce69d1d6071e64886aac25b28b1a37635d2cc7a5f0dead7ba3c625b70929"
+    },
+    {
+      "name": "multiple_supported_raw_01.png",
+      "sha256": "3c5fa32750593828de27031a64f5fb4f1c5779f040e61a4cab5d649136f3ce5d"
+    },
+    {
+      "name": "multiple_supported_raw_02.png",
+      "sha256": "fa008d6fedb85646cc56d2cfe36747cba905f4a55a1c59476f4ba5c6810e6ac4"
+    },
+    {
+      "name": "multiple_supported_raw_03.png",
+      "sha256": "561ad5c9f204c5c5b63e726fbecf576fb3a67f6fc115babecc7b3955b3ba46af"
+    },
+    {
+      "name": "multiple_supported_raw_04.png",
+      "sha256": "9e55b705f061187948b6ec4ac714d92113b8385f860a6c8b1dfb5c0b2a184422"
+    },
+    {
+      "name": "multiple_supported_raw_05.png",
+      "sha256": "b71f04ba3d362b4bceb855e832b76dcfe62e40deea8470de086d9ad80f3e2133"
+    },
+    {
+      "name": "multiple_supported_raw_06.png",
+      "sha256": "957d33081a9aac71bb27c3c03633c0c0d6af5f05aab85fb20ac30dfe9e0168f3"
+    },
+    {
+      "name": "multiple_supported_raw_07.png",
+      "sha256": "06c75e179f973d185cb9bcc6f040e292401022e93c5bfd4405f8085873d2b4e8"
+    },
+    {
+      "name": "multiple_supported_raw_08.png",
+      "sha256": "a103b9bed6f4764af9d6a7d7a960832f8b2816b5fe72ef798742930cd7579fb5"
+    },
+    {
+      "name": "multiple_supported_raw_09.png",
+      "sha256": "1f3d2455d51a37915f2bb6cb3ad8a43a984a44f351eadabfefed02736b78efcb"
+    },
+    {
+      "name": "onion_content_component_0020_page_01.png",
+      "sha256": "b772d175cbae7cfcb4f3bf89e536f3ef517b5b7ef0bd9f29aea671947f6af86e"
+    },
+    {
+      "name": "onion_content_component_0020_page_02.png",
+      "sha256": "c3a2758dac09fd391db5f33d5c887f1725ae5892631bf14d7ec4bea5fb398066"
+    },
+    {
+      "name": "onion_content_component_0027_page_01.png",
+      "sha256": "1e767b0f6036fda04de4ab1be71332e538cfc9b0745137b9bbd0dcf620abbc46"
+    },
+    {
+      "name": "onion_content_component_0027_page_02.png",
+      "sha256": "7ef42284776df0b1ff8731ccf3fda84e6686d5ab99e088f826117a99b2e77b0e"
+    },
+    {
+      "name": "onion_content_component_0027_page_03.png",
+      "sha256": "468e12a2adc7e91bf4c4e9257032f7345cd5d722b1c2fb3e11baf3b4279fa735"
+    },
+    {
+      "name": "onion_content_component_0027_page_04.png",
+      "sha256": "26b844c7c9e0da81351b1f17176fa7846c82bc3687f81a0c38f1b0ca6cc52072"
+    },
+    {
+      "name": "onion_content_component_0027_page_05.png",
+      "sha256": "37c1a701a95392c271a5e9e6a940fc923f34dd96c34f7a172c27f026718684f7"
+    },
+    {
+      "name": "onion_content_component_0027_page_06.png",
+      "sha256": "0f06d72562eb15219313bb9d7617dbb97f52d3e4bada343ebab5ee2a212b97ba"
+    },
+    {
+      "name": "onion_content_component_0041_page_01.png",
+      "sha256": "55b8e0d8fcb604f815f6ef8b5deef771934516bcf1b36ffdf4d9538070d9fe42"
+    },
+    {
+      "name": "onion_content_component_0041_page_02.png",
+      "sha256": "2ae1dc0816765306fd02db58bf2a31b38249dc7ee7ca2826de081fafef3f9244"
+    },
+    {
+      "name": "onion_content_component_0045_page_01.png",
+      "sha256": "d6239378e06aea1f9ccb5c595a0acb1ff632a357ec7b1dd473697cf5be3e11c0"
+    },
+    {
+      "name": "onion_content_component_0045_page_02.png",
+      "sha256": "af1893737e7a50c46782854a6453dee2b4904516c3a626db9552a52c8e27d11f"
+    },
+    {
+      "name": "onion_content_component_0314_page_01.png",
+      "sha256": "39b264240153f8504403f2bb51bd5a0038f535c4861ad23119163860bfd207a2"
+    },
+    {
+      "name": "onion_content_component_0314_page_02.png",
+      "sha256": "a06ed80056f9d7a6e56ec2ec8c255c32be4be775c69cac39d22cdcf187178275"
+    },
+    {
+      "name": "onion_content_component_0314_page_03.png",
+      "sha256": "e3e36e3a4ebdddcdf150a0245531c69bc157261fb3383e6f248098fdadd6ae7e"
+    },
+    {
+      "name": "onion_content_component_0314_page_04.png",
+      "sha256": "749e171244c4377db1c1a2805ff4c1a20efc4819f2501a7f0c1662132c48fbc8"
+    },
+    {
+      "name": "onion_content_component_0341_page_01.png",
+      "sha256": "50c297686ce8dffcaf1951a8ac8d66839c9093231e805e259e556375fe5e000e"
+    },
+    {
+      "name": "onion_content_component_0341_page_02.png",
+      "sha256": "92d3e6ad519f94d5d9763bc3b986b47815185945a9b1fa63b7e3e13efd51d5c1"
+    },
+    {
+      "name": "onion_content_component_0524_page_01.png",
+      "sha256": "288f5d6a866241c94a98577fc0cc500620e75c7aa4d3260ea9e76ae7a61b6c64"
+    },
+    {
+      "name": "onion_content_component_0524_page_02.png",
+      "sha256": "b4c86032f30ead9b6d16b606d36cb5e463b3babf612fa141e5875264cc80b42c"
+    },
+    {
+      "name": "onion_content_component_0524_page_03.png",
+      "sha256": "023b56154cc3accb06638ea06cea848081a54aac4f48465161dcfa9c75e1081a"
+    }
+  ],
+  "limits": "Contact sheets cover all strong cross-label candidates from stage2, all nine multiply supported filename groups from stage1, and all stage1 blocking components >=10 prefixes. They do not establish identity of every image or absence of other dependencies."
+}

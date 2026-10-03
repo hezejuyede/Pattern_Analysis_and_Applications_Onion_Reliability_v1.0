@@ -1,0 +1,10 @@
+{
+  "status": "PASS",
+  "errors": {
+    "Fig_2_Joint_Replacement": 3.552713678800501e-15,
+    "Fig_3_Single_Source_Replacement": 3.552713678800501e-15,
+    "same_target_context": 9.8879238130678e-17
+  },
+  "units": "Figure tables are percentage points; other tables are fractions.",
+  "interpretation": "Class weighting sensitivities are post hoc. Joint 30-split percentiles and single 10-split min/max are design ranges, not confidence intervals."
+}

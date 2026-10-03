@@ -1,0 +1,11 @@
+{
+  "status": "COMPLETE",
+  "files_sha256": {
+    "AUDIT_FREEZE.json": "9887f6fbd166d2df8651df85942d9982458af76676ed0fad911bb4e7e3e8eaeb",
+    "AUDIT_SUMMARY.json": "90730b9309adf7413d7f86dbdaf517f868f9387df2be49b5b89760f4710d6621",
+    "augmented_global_candidate_geometry.csv": "b8bdd6bcd62bf6e93b10f805ee2a561ff060daa13098ee15e09ce03df3136b51",
+    "frozen_augmented_global_candidates.csv": "2f9c0230ff4ed9aefe6dc5751da2aac2b7fa6c44bca8eaab8729801d87eeecf1",
+    "frozen_raw_global_candidates.csv": "205da44fe1cd5511d86c9177d637a6714e323e043fd91ff9b34c6130b236091b",
+    "raw_global_candidate_geometry.csv": "7f5c1f329209d92f5324ec22fe4ebd8b89fe6e91d448e825eac531b4f196ed17"
+  }
+}

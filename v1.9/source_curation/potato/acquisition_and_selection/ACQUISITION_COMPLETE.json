@@ -1,0 +1,14 @@
+{
+  "status": "COMPLETE_ORIGINAL_IMAGE_DOWNLOAD_NOT_ANALYSIS_APPROVAL",
+  "utc": "2026-10-02T16:37:22.378210+00:00",
+  "images": 2152,
+  "bytes": 39441201,
+  "unique_rgb_images": 2152,
+  "source_revision": "7f7ecc7e1eaca78107e3affe7cb5abd9427e139a",
+  "manifest_sha256": "9e1d5edcc9d3105dd27de5a8a4030e7e3e59d7041232e6535dc89090b4cc6390",
+  "freeze_sha256": "7ed3ce0611bb1414ce54425863ee2478d82526539ce4601513fcabed14599894",
+  "image_sizes": {
+    "256x256": 2152
+  },
+  "model_fits": 0
+}

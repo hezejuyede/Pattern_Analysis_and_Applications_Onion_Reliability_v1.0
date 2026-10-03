@@ -1,0 +1,45 @@
+{
+  "status": "PASS_AUTHOR_REPORTED_LEAF_ID_PROVENANCE",
+  "checks": {
+    "all_2152_author_csv_rows_represented": true,
+    "538_author_leaves": true,
+    "four_distinct_original_photographs_each": true,
+    "single_original_label_each": true,
+    "single_official_split_each": true,
+    "all_bytes_unique": true,
+    "all_declared_rgb_hashes_unique": true,
+    "all_rows_match_historical_author_ids_and_image_hashes": true
+  },
+  "errors": [],
+  "historical_commit": "40789680ba2e6382608dba47b397688fcbd0d04a",
+  "historical_commit_date": "2016-08-04T10:52:10Z",
+  "historical_map_blob": "cb04e3723d2ce15b0411483d71a60b5d536bc7f6",
+  "historical_map_source": "CSV File Name and Leaf # columns, converted from author Excel workbooks; not a newly inferred filename counter.",
+  "original_paper": "https://doi.org/10.3389/fpls.2016.01419",
+  "input_files": {
+    "2016_Potato___Early_blight.csv": {
+      "sha256": "f784386a27a067c5f7b40342c275c2d4dd951a509175e481f2cedb45b91143b6",
+      "git_blob_sha1": "797207c150f953836d3fcfaf60f9f511bfaed03e"
+    },
+    "2016_Potato___healthy.csv": {
+      "sha256": "9409fa87a9378a044f9aea55c62078738c5748aa2db66f95afb7fde5a619ef36",
+      "git_blob_sha1": "d97923889d757dc353f77f3d0ca9d453c587e24d"
+    },
+    "2016_Potato___Late_blight.csv": {
+      "sha256": "3ca1185158cacd336ede15253a9779628b0158b4c973140f45de7ad16e71466b",
+      "git_blob_sha1": "08665c978207b86017d4f634a6563a2e72ed56e9"
+    }
+  },
+  "manifest_sha256": "534e326a0ccf65b24d1daf5fba8a047b05a4f50b008bec56ee5a9ea1681e4d67",
+  "auditor_script_sha256": "cd0cbf644524aaf11b856041f7df2456ce65d14ca08bf301d151b1a9a3ef2d4d",
+  "visual_review": {
+    "files": [
+      "author_leaf_contacts_1.png",
+      "author_leaf_contacts_2.png"
+    ],
+    "coverage": "18 supplied leaf groups, four views per group; metadata-sampled contact sheets only.",
+    "finding": "Reviewed groups show compatible within-leaf shape, venation and markings across different orientations/lighting. No obvious group contradiction in these sheets.",
+    "limit": "Not full 538-leaf visual adjudication, plant identity verification, field collection, or pathological diagnosis."
+  },
+  "interpretation": "Author-provided leaf identity in a separately acquired controlled archive, suitable for bounded cross-task computation. It does not supply onion plant identities or a new onion field cohort."
+}

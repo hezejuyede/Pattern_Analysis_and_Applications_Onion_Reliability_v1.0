@@ -1,0 +1,134 @@
+{
+  "status": "ALL_22_CITED_PUBLICATIONS_IDENTIFIED",
+  "date": "2026-10-03",
+  "scope": "Bibliographic existence and source attribution; not a claim that every scientific claim in each reference was independently replicated. Full DOI retrieval details retained, including the actual failed Crossref request.",
+  "checks": [
+    {
+      "key": "Mohanty2016PlantDisease",
+      "status": "DOI_TITLE_MATCH_IN_SAVED_CROSSREF_RECORD",
+      "source": "https://doi.org/10.3389/fpls.2016.01419"
+    },
+    {
+      "key": "Barbedo2018Factors",
+      "status": "DOI_TITLE_MATCH_IN_SAVED_CROSSREF_RECORD",
+      "source": "https://doi.org/10.1016/j.biosystemseng.2018.05.013"
+    },
+    {
+      "key": "Xu2024PlantDiseaseDatasets",
+      "status": "DOI_TITLE_MATCH_IN_SAVED_CROSSREF_RECORD",
+      "source": "https://doi.org/10.3389/fpls.2024.1452551"
+    },
+    {
+      "key": "MencoTovar2026OriginalImage",
+      "status": "PUBLICATION_VERIFIED_ON_PRIMARY_PUBLISHER_OR_PROCEEDINGS_PAGE",
+      "sources": [
+        "https://link.springer.com/article/10.1007/s10044-026-01751-7"
+      ],
+      "note": "Crossref endpoint returned a rate-limit error; publisher page confirms title including printed hHybrid, author list, 2026, volume 29, article 183. Do not substitute an invented corrected title."
+    },
+    {
+      "key": "Guignard2024ClusterLeakage",
+      "status": "DOI_TITLE_MATCH_IN_SAVED_CROSSREF_RECORD",
+      "source": "https://doi.org/10.1007/s00477-024-02715-1"
+    },
+    {
+      "key": "Apicella2025Leakage",
+      "status": "DOI_TITLE_MATCH_IN_SAVED_CROSSREF_RECORD",
+      "source": "https://doi.org/10.1007/s10462-025-11326-3"
+    },
+    {
+      "key": "Bousquet2002Stability",
+      "status": "PUBLICATION_VERIFIED_ON_PRIMARY_PUBLISHER_OR_PROCEEDINGS_PAGE",
+      "sources": [
+        "https://jmlr.org/papers/v2/bousquet02a.html"
+      ]
+    },
+    {
+      "key": "Marx2020Multiplicity",
+      "status": "PUBLICATION_VERIFIED_ON_PRIMARY_PUBLISHER_OR_PROCEEDINGS_PAGE",
+      "sources": [
+        "https://proceedings.mlr.press/v119/marx20a.html"
+      ]
+    },
+    {
+      "key": "WatsonDaniels2023ProbabilisticMultiplicity",
+      "status": "DOI_TITLE_MATCH_IN_SAVED_CROSSREF_RECORD",
+      "source": "https://doi.org/10.1609/aaai.v37i9.26227"
+    },
+    {
+      "key": "Feldman2020Influence",
+      "status": "PUBLICATION_VERIFIED_ON_PRIMARY_PUBLISHER_OR_PROCEEDINGS_PAGE",
+      "sources": [
+        "https://papers.nips.cc/paper/2020/hash/1e14bfe2714193e7af5abc64ecbd6b46-Abstract.html"
+      ]
+    },
+    {
+      "key": "Aishwarya2024COLD",
+      "status": "DOI_TITLE_MATCH_IN_SAVED_CROSSREF_RECORD",
+      "source": "https://doi.org/10.1016/j.dib.2024.110524"
+    },
+    {
+      "key": "He2016ResNet",
+      "status": "DOI_TITLE_MATCH_IN_SAVED_CROSSREF_RECORD",
+      "source": "https://doi.org/10.1109/cvpr.2016.90"
+    },
+    {
+      "key": "Deng2009ImageNet",
+      "status": "DOI_TITLE_MATCH_IN_SAVED_CROSSREF_RECORD",
+      "source": "https://doi.org/10.1109/cvpr.2009.5206848"
+    },
+    {
+      "key": "Oquab2024DINOv2",
+      "status": "PUBLICATION_VERIFIED_ON_PRIMARY_PUBLISHER_OR_PROCEEDINGS_PAGE",
+      "sources": [
+        "https://openreview.net/profile?id=~Russell_Howes1",
+        "https://blog.tmlr.org/2024/announcing-the-2024-tmlr-outstanding-certification/"
+      ],
+      "note": "OpenReview forum challenge prevented direct forum extraction; official author profile and TMLR journal announcement corroborate the journal record. No DOI was fabricated."
+    },
+    {
+      "key": "Pedregosa2011ScikitLearn",
+      "status": "PUBLICATION_VERIFIED_ON_PRIMARY_PUBLISHER_OR_PROCEEDINGS_PAGE",
+      "sources": [
+        "https://jmlr.org/papers/v12/pedregosa11a.html"
+      ]
+    },
+    {
+      "key": "Appiah2025TOM2024",
+      "status": "DOI_TITLE_MATCH_IN_SAVED_CROSSREF_RECORD",
+      "source": "https://doi.org/10.1016/j.dib.2025.111357"
+    },
+    {
+      "key": "Varma2006Bias",
+      "status": "DOI_TITLE_MATCH_IN_SAVED_CROSSREF_RECORD",
+      "source": "https://doi.org/10.1186/1471-2105-7-91"
+    },
+    {
+      "key": "Roberts2017CrossValidation",
+      "status": "DOI_TITLE_MATCH_IN_SAVED_CROSSREF_RECORD",
+      "source": "https://doi.org/10.1111/ecog.02881"
+    },
+    {
+      "key": "VanCalster2019Calibration",
+      "status": "DOI_TITLE_MATCH_IN_SAVED_CROSSREF_RECORD",
+      "source": "https://doi.org/10.1186/s12916-019-1466-7"
+    },
+    {
+      "key": "Ovadia2019UncertaintyShift",
+      "status": "PUBLICATION_VERIFIED_ON_PRIMARY_PUBLISHER_OR_PROCEEDINGS_PAGE",
+      "sources": [
+        "https://papers.nips.cc/paper/2019/hash/8558cb408c1d76621371888657d2eb1d-Abstract.html"
+      ]
+    },
+    {
+      "key": "Bozic2025Robustness",
+      "status": "DOI_TITLE_MATCH_IN_SAVED_CROSSREF_RECORD",
+      "source": "https://doi.org/10.1007/s10044-025-01477-y"
+    },
+    {
+      "key": "Requena2026Noise",
+      "status": "DOI_TITLE_MATCH_IN_SAVED_CROSSREF_RECORD",
+      "source": "https://doi.org/10.1007/s10044-026-01707-x"
+    }
+  ]
+}

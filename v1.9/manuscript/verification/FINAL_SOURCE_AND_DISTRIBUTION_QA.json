@@ -1,0 +1,12 @@
+{
+  "status": "PASS_SOURCE_TABLE_CITATION_AND_DISTRIBUTION_CHECKS",
+  "checked_utc": "2026-10-03T03:52:50.832209+00:00",
+  "abstract_words": 223,
+  "native_tables": 4,
+  "equations": 3,
+  "references": 22,
+  "supplement_tables": 53,
+  "files_scanned": 560,
+  "new_fits": 0,
+  "claims_scope": "Local checks and executed reconstruction; no editorial or author-approval certification."
+}

@@ -1,0 +1,45 @@
+{
+  "status": "VISUAL_REVIEW_COMPLETED_FOR_17_SPECIFIED_SHEETS_WITH_LIMITS",
+  "reviewed_utc": "2026-10-02T12:27:19.837284+00:00",
+  "reviewer": "computational audit agent; not a plant pathologist",
+  "scope": {
+    "cross_label_sheets": 8,
+    "all_cross_label_high_candidate_pairs": 45,
+    "multiple_supported_raw_filename_groups": 9
+  },
+  "observations": [
+    "Cross-label IMG_8790 (IYSV folder) and IMG_8802 (blight folder) show the same distinctive looped tip and matching pale markings in nearby views. Their associated augmented views preserve these features. This supports photographic dependence, not a new etiological diagnosis.",
+    "Cross-label healthy 31.jpg and IYSV 32.jpg share a long leaf and similar soil context with a viewpoint change. Retain dependence as a concern; photographs do not determine the correct pathology label.",
+    "IYSV 134.jpg versus blight 135.jpg has less visually obvious overlap; retain as a candidate pending closer registered-image inspection, not a proven mislabel.",
+    "Several high-inlier but non-spatial matches map to a near-linear leaf edge or a very small target region. Inlier count alone is insufficient for assigning a unique source photograph.",
+    "All nine multiply supported raw candidate groups were inspected with every augmented member displayed. None shows the obvious two-distinct-photo mixing seen in the chilli candidate-index example. This limited visual observation does not certify all 816 groups.",
+    "Healthy parent0234 references IMG_2034 and IMG_2034_7; IYSV parent0266 references IMG_9455 and IMG_9455_7: crop/near-view relationships explain multiple candidate raw contents without establishing independent source identities.",
+    "Blight parent0023 and parent0060 show the same distinctive damaged tip, flanking stems and background as raw326.jpg/IMG_4030_1.jpg. Distinct filename prefixes must not be assumed independent.",
+    "Healthy parent0084, parent0136 and IYSV parent0000 contain weak or visually unconvincing raw candidates while their augmented views appear internally consistent. Weak raw assignment must remain unresolved, rather than being forced to a best candidate."
+  ],
+  "limits": [
+    "No labels were changed.",
+    "No plant identities, clinical/pathological review or fresh field cohort is inferred.",
+    "Seven large-component contact-sheet sets were generated but not exhaustively manually reviewed by this agent.",
+    "This review supports quarantine and candidate-limited dependence analysis; it does not prove absence of additional connections."
+  ],
+  "reviewed_files_sha256": {
+    "cross_label_page_01.png": "04014de72dc3718e3993d50622116ad1ec1cabe65ee223e2d10840215deaa198",
+    "cross_label_page_02.png": "53c0d9360e89fc28209a836a6fa904b9e782044d54ae01f592491f7fe5eb82a7",
+    "cross_label_page_03.png": "33f056f2c890a174c989c061423835d957dfc9ef429a25cde79d61be958425ef",
+    "cross_label_page_04.png": "526e228de44c9626911468fb6ca2ff03ddc852758593a9467069365a4bf2e373",
+    "cross_label_page_05.png": "3e82c147a4f5f955c34bf206ecfc7feb68bdf9c29df2591287cf94616539d0d2",
+    "cross_label_page_06.png": "990220ae83915976baaba323cd0b1334d559543ebcdb4f86c80c2630e0a6978b",
+    "cross_label_page_07.png": "5fe0b9733f3d6d56eaf69307f5ac3463ef264bf22cd31723e52d10dbac4ac8ae",
+    "cross_label_page_08.png": "5682ce69d1d6071e64886aac25b28b1a37635d2cc7a5f0dead7ba3c625b70929",
+    "multiple_supported_raw_01.png": "3c5fa32750593828de27031a64f5fb4f1c5779f040e61a4cab5d649136f3ce5d",
+    "multiple_supported_raw_02.png": "fa008d6fedb85646cc56d2cfe36747cba905f4a55a1c59476f4ba5c6810e6ac4",
+    "multiple_supported_raw_03.png": "561ad5c9f204c5c5b63e726fbecf576fb3a67f6fc115babecc7b3955b3ba46af",
+    "multiple_supported_raw_04.png": "9e55b705f061187948b6ec4ac714d92113b8385f860a6c8b1dfb5c0b2a184422",
+    "multiple_supported_raw_05.png": "b71f04ba3d362b4bceb855e832b76dcfe62e40deea8470de086d9ad80f3e2133",
+    "multiple_supported_raw_06.png": "957d33081a9aac71bb27c3c03633c0c0d6af5f05aab85fb20ac30dfe9e0168f3",
+    "multiple_supported_raw_07.png": "06c75e179f973d185cb9bcc6f040e292401022e93c5bfd4405f8085873d2b4e8",
+    "multiple_supported_raw_08.png": "a103b9bed6f4764af9d6a7d7a960832f8b2816b5fe72ef798742930cd7579fb5",
+    "multiple_supported_raw_09.png": "1f3d2455d51a37915f2bb6cb3ad8a43a984a44f351eadabfefed02736b78efcb"
+  }
+}

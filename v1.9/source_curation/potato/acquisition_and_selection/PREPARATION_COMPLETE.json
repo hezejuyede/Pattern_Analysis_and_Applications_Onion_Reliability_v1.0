@@ -1,0 +1,37 @@
+{
+  "status": "PREPARED_REAL_ARCHIVAL_LEAF_TASK_FOR_INDEPENDENT_REVIEW",
+  "components": 538,
+  "images": 2152,
+  "class_components": {
+    "Potato___Early_blight": 250,
+    "Potato___Late_blight": 250,
+    "healthy": 38
+  },
+  "all_selected_leaf_photo_counts": {
+    "4": 538
+  },
+  "feature_shapes": {
+    "resnet18": [
+      2152,
+      512
+    ],
+    "colour189": [
+      2152,
+      189
+    ]
+  },
+  "hashes": {
+    "analysis_manifest.csv": "534e326a0ccf65b24d1daf5fba8a047b05a4f50b008bec56ee5a9ea1681e4d67",
+    "selection_decisions.csv": "e97db1ea793d93d2b27636630a837de3b85c5a90661212feb03ba4f8594b78b1",
+    "FEATURE_AND_SELECTION_FREEZE.json": "7e7e0bcc1892606375e5efa6f0b350c6c3206a619550d389d0d1fb62f9c68e64",
+    "features\\resnet18.npz": "aa328c9989aa3ed2d284faab9672138bf6f4126b2e071f58ebfd3f13dd384fbb",
+    "features\\colour189.npz": "c66feb52067beae257e297c107cfe9d16fe8735cdf06571c7e79a2bb4853e8b3"
+  },
+  "source_provenance": "2016 authors leaf mapping blob matches downloaded HF mapping exactly; original paper states repeated photos of the same leaves",
+  "limits": [
+    "Independent archive and author-labelled leaf groups, not a new field cohort or verified plant grouping.",
+    "No new diagnostic/pathology review.",
+    "Selected original-color Potato subset; no claim about all PlantVillage species."
+  ],
+  "classifier_fits": 0
+}

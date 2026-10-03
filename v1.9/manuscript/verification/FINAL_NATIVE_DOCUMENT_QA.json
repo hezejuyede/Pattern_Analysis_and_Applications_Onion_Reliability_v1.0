@@ -1,0 +1,125 @@
+{
+  "utc": "2026-10-03T03:48:57.234028+00:00",
+  "status": "LOCAL_FORMAT_PASS_NOT_EDITOR_APPROVAL",
+  "scope": "Native structure, source fidelity, all-page visual review, bilingual table numbers/equations/citation order, and exact delivery copies.",
+  "build_manifest_sha256": "136d7c2a8881e611a7f7e435d2c2165d0d3ed28bea8cfbc20f59de9134d63690",
+  "visual_ledger_sha256": "a40e628b76db4a2c3cfda277641f894986f61610dc491b37bef4e1e945f5ba77",
+  "reference_inventory_sha256": "7771eac80774b43dc96815d30a9a63d77211f5e91aa1cd43b926e427c0c6a00a",
+  "qa_script_sha256": "601378fbbf3e804cd5a913340f48508c2a261e44af3c1bd447cafac36a180003",
+  "reports": [
+    {
+      "language": "en",
+      "source": "D:\\论文\\SCI投稿汇总\\Onion_Deep_Revision_20261003_v19\\manuscript_revision\\full_text.md",
+      "source_sha256": "4c1dc0c9dfdb31dea4382ad57758837a8f30bff98c6cfcf8c5dfe691833efdb0",
+      "docx": "D:\\论文\\SCI投稿汇总\\Onion_Deep_Revision_20261003_v19\\manuscript_revision\\native\\Pattern_Analysis_and_Applications_Research_Manuscript_v1.9.docx",
+      "docx_sha256": "bea9bac12aa3b342bfb68118d8ebec14e82055f4d43bb722f3bdff5ec116569a",
+      "native_omml_equations": 3,
+      "native_tables": 4,
+      "repeated_table_headers": 4,
+      "table_rows_protected_from_split": 35,
+      "figure_images": 3,
+      "figure_numbers_inserted": [
+        "1",
+        "2",
+        "3"
+      ],
+      "reference_count": 22,
+      "raw_markup_check": "PASS",
+      "literal_source_and_reference_url_check": "PASS",
+      "version": "1.9",
+      "whole_table_keep_policy": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "visual_review": "ALL_PAGES_PASS",
+      "qa_dir": "D:\\论文\\SCI投稿汇总\\Onion_Deep_Revision_20261003_v19\\manuscript_revision\\native\\qa\\en\\bea9bac12aa3",
+      "rendered_pdf": "D:\\论文\\SCI投稿汇总\\Onion_Deep_Revision_20261003_v19\\manuscript_revision\\native\\qa\\en\\bea9bac12aa3\\Pattern_Analysis_and_Applications_Research_Manuscript_v1.9.pdf",
+      "page_count": 13,
+      "copies": {
+        "docx": {
+          "path": "D:\\论文\\SCI投稿汇总\\Onion_Deep_Revision_20261003_v19\\manuscript_revision\\Pattern_Analysis_and_Applications_Research_Manuscript_v1.9.docx",
+          "sha256": "bea9bac12aa3b342bfb68118d8ebec14e82055f4d43bb722f3bdff5ec116569a",
+          "matches_reviewed_original": true
+        },
+        "pdf": {
+          "path": "D:\\论文\\SCI投稿汇总\\Onion_Deep_Revision_20261003_v19\\manuscript_revision\\Pattern_Analysis_and_Applications_Research_Manuscript_v1.9.pdf",
+          "sha256": "7e8942938de02c39c9d28eddd9391a35a5faf23a82edf08bfc704021fb8398c5",
+          "matches_reviewed_original": true
+        }
+      }
+    },
+    {
+      "language": "zh",
+      "source": "D:\\论文\\SCI投稿汇总\\Onion_Deep_Revision_20261003_v19\\manuscript_revision\\full_text_zh.md",
+      "source_sha256": "359092b0506ee1a9cad131c2443027120f72cda7a122fc529b25280d357ae2e8",
+      "docx": "D:\\论文\\SCI投稿汇总\\Onion_Deep_Revision_20261003_v19\\manuscript_revision\\native\\Pattern_Analysis_and_Applications_中文研究稿_v1.9.docx",
+      "docx_sha256": "a978445a81605efc27ecd301f107cf2fb171f66da40438d3ac14a2fa7038088f",
+      "native_omml_equations": 3,
+      "native_tables": 4,
+      "repeated_table_headers": 4,
+      "table_rows_protected_from_split": 35,
+      "figure_images": 3,
+      "figure_numbers_inserted": [
+        "1",
+        "2",
+        "3"
+      ],
+      "reference_count": 22,
+      "raw_markup_check": "PASS",
+      "literal_source_and_reference_url_check": "PASS",
+      "version": "1.9",
+      "whole_table_keep_policy": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "visual_review": "ALL_PAGES_PASS",
+      "qa_dir": "D:\\论文\\SCI投稿汇总\\Onion_Deep_Revision_20261003_v19\\manuscript_revision\\native\\qa\\zh\\a978445a8160",
+      "rendered_pdf": "D:\\论文\\SCI投稿汇总\\Onion_Deep_Revision_20261003_v19\\manuscript_revision\\native\\qa\\zh\\a978445a8160\\Pattern_Analysis_and_Applications_中文研究稿_v1.9.pdf",
+      "page_count": 12,
+      "copies": {
+        "docx": {
+          "path": "D:\\论文\\SCI投稿汇总\\Onion_Deep_Revision_20261003_v19\\manuscript_revision\\Pattern_Analysis_and_Applications_中文研究稿_v1.9.docx",
+          "sha256": "a978445a81605efc27ecd301f107cf2fb171f66da40438d3ac14a2fa7038088f",
+          "matches_reviewed_original": true
+        },
+        "pdf": {
+          "path": "D:\\论文\\SCI投稿汇总\\Onion_Deep_Revision_20261003_v19\\manuscript_revision\\Pattern_Analysis_and_Applications_中文研究稿_v1.9.pdf",
+          "sha256": "97dda0b6ac31445e0f58d51991ba698b1c9053411934154fc045a9f4641e5fdb",
+          "matches_reviewed_original": true
+        }
+      }
+    },
+    {
+      "language": "cover_en",
+      "source": "D:\\论文\\SCI投稿汇总\\Onion_Deep_Revision_20261003_v19\\submission_files\\Cover_Letter.txt",
+      "source_sha256": "d02c707982515c8de762c110289a2761212e62e5c617f049045e474feef250a0",
+      "docx": "D:\\论文\\SCI投稿汇总\\Onion_Deep_Revision_20261003_v19\\manuscript_revision\\native\\Cover_Letter.docx",
+      "docx_sha256": "d4ad0593d0e017aae459c65a97a9b03a2c3ad82152b170fe78105c5dbb052b50",
+      "version": "1.9",
+      "visual_review": "ALL_PAGES_PASS",
+      "qa_dir": "D:\\论文\\SCI投稿汇总\\Onion_Deep_Revision_20261003_v19\\manuscript_revision\\native\\qa\\cover_en\\d4ad0593d0e0",
+      "rendered_pdf": "D:\\论文\\SCI投稿汇总\\Onion_Deep_Revision_20261003_v19\\manuscript_revision\\native\\qa\\cover_en\\d4ad0593d0e0\\Cover_Letter.pdf",
+      "page_count": 1,
+      "copies": {
+        "docx": {
+          "path": "D:\\论文\\SCI投稿汇总\\Onion_Deep_Revision_20261003_v19\\submission_files\\Cover_Letter.docx",
+          "sha256": "d4ad0593d0e017aae459c65a97a9b03a2c3ad82152b170fe78105c5dbb052b50",
+          "matches_reviewed_original": true
+        },
+        "pdf": {
+          "path": "D:\\论文\\SCI投稿汇总\\Onion_Deep_Revision_20261003_v19\\submission_files\\Cover_Letter.pdf",
+          "sha256": "c3b912453f84db4e4f87ffa487ec46d2f0680be6f6be3a5533f453153ab356ff",
+          "matches_reviewed_original": true
+        }
+      }
+    }
+  ],
+  "limitations": [
+    "Not editor approval or a promise of peer review or acceptance.",
+    "Scientific constraints and uncertainty remain as explicitly described in the manuscript."
+  ]
+}

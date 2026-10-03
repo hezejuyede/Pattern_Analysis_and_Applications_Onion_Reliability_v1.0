@@ -1,0 +1,283 @@
+{
+  "status": "PASS_PRESERVED_39_TABLES_AND_ADDED_14",
+  "retained_tables": [
+    {
+      "file": "S10_regional_all_24_cases.csv",
+      "sha256": "2dfb444682f7a41422f8b4a9a03b94c7cabc3452063155e73a14acfac5d9d84e"
+    },
+    {
+      "file": "S11_regional_aggregates.csv",
+      "sha256": "4f7505290762e8f3e54fc0073c9ba180965c865d48fb5455b9c924522e6e8ef1"
+    },
+    {
+      "file": "S12_regional_intervals.csv",
+      "sha256": "a8aa14c84c95c017d1071d7aa25bfd52f1c144f182d2f0fe38860667cd9eb386"
+    },
+    {
+      "file": "S13_regional_source_label_recalls.csv",
+      "sha256": "d0d3090f19e30b008dec6778fe4394d58649bedcfcaca5efd14dec2c3060ff3c"
+    },
+    {
+      "file": "S14_regional_class_support.csv",
+      "sha256": "f6c64cdaade26e25a8232cff3ac633ef57704bfb47313f11b82fb5629206a625"
+    },
+    {
+      "file": "S15_regional_paired_contrasts.csv",
+      "sha256": "8ae7d90183556231f4f61e40db9debe86a412d640c31654edd380d5561e027b1"
+    },
+    {
+      "file": "S16_onion_dinov2_joint_summary.csv",
+      "sha256": "42ca8ee1c0182badd35e42f049d7cd6bcd9204296a3f6e2f3e6001b83da553ef"
+    },
+    {
+      "file": "S16_potato_dinov2_joint_summary.csv",
+      "sha256": "8f8db33c82f03e3f2f2aab2534b04afeb32342cc0b76bd7233c72f2ae06a6b3e"
+    },
+    {
+      "file": "S17_onion_single_target_panel_contrasts.csv",
+      "sha256": "f3c49e3de026105b868d4c1ef37ec29b2eb5077bbcab6a29b37167f8a47c3b7a"
+    },
+    {
+      "file": "S17_potato_single_target_panel_contrasts.csv",
+      "sha256": "8bed0ed7edf54628911d838404fa3bf6dcc19a6f674e326a31073b50ed6a5343"
+    },
+    {
+      "file": "S18_onion_single_target_class_split_means.csv",
+      "sha256": "b8d54dedcfc20e626e328cffac312a72de92a6beed717b7415501e2a0f0d1556"
+    },
+    {
+      "file": "S18_potato_single_target_class_split_means.csv",
+      "sha256": "ee9e1a2bdf8db28a11202c9bd3b15c8e7ee1b1b13f888458cd06b1698bfd8bad"
+    },
+    {
+      "file": "S19_onion_single_split_means.csv",
+      "sha256": "e25f80250daaff4b5334b7a4b141add37eeb53058ee380ac9f36b219f917ba1e"
+    },
+    {
+      "file": "S19_potato_single_split_means.csv",
+      "sha256": "59635e2edd4324673456119140adc0ade0fa7e2168e624034ff07c53cc76f769"
+    },
+    {
+      "file": "S1_onion_all_model_endpoint_panel_class_summaries.csv",
+      "sha256": "d3d3488230c7b27f677dc36fcfb8b850a7f97b55c9970f8a115b14c5e04d445d"
+    },
+    {
+      "file": "S1_potato_all_model_endpoint_panel_class_summaries.csv",
+      "sha256": "c27423e9509c4a79946a58b9a09a92463580cbf34db156e0ae7dabdd7b3e9ade"
+    },
+    {
+      "file": "S20_onion_single_summary.csv",
+      "sha256": "90f15e3cc2749f62e0cbb754d2b57d27ebd79c60d036532ed4dc0fcb93ae00b2"
+    },
+    {
+      "file": "S20_potato_single_summary.csv",
+      "sha256": "5e210fe4d2963b79c1f8e4894032f47230d05dac60272811b52321d3861a1be0"
+    },
+    {
+      "file": "S21_context_all_target_contrasts.csv",
+      "sha256": "b0342d740e963aa8a1e53bbbc579565a0562426112a2b909ef763b3fee9da05d"
+    },
+    {
+      "file": "S22_context_target_class_split_means.csv",
+      "sha256": "9cbe8a5479a060c6b957e806197d92f537c7fd7cbdd4bd7795713926ea441d5f"
+    },
+    {
+      "file": "S23_context_split_means.csv",
+      "sha256": "78b38355b991fc8fa462a09b81f5ca7e44734de4d95420b009964da953a41c96"
+    },
+    {
+      "file": "S24_context_summary.csv",
+      "sha256": "09766c497dfc3c5abe095a8cae4b2ced4f93adb9298423891145dcdc447d3e01"
+    },
+    {
+      "file": "S25_joint_all_five_models_plot_source.csv",
+      "sha256": "60fdb5cea4056ed84235004f9e747dba4796f2e6fdb02b9cf2cbf093b1b69593"
+    },
+    {
+      "file": "S26_single_all_five_models_plot_source.csv",
+      "sha256": "4171b19fe627dae8547ab09292d665d9f7358ff9cef5d8b0e11e9f4c1b4b9f18"
+    },
+    {
+      "file": "S27_context_display.csv",
+      "sha256": "06dd0b1831c220856f32455dbe226e710d55dcda3799a7e9568f36df21afa3e7"
+    },
+    {
+      "file": "S28_onion_dinov2_joint_arm_contrasts.csv",
+      "sha256": "f7e43496de7653bab088db1543a09dd567d9925f66824e6722eb0236babf4db5"
+    },
+    {
+      "file": "S28_potato_dinov2_joint_arm_contrasts.csv",
+      "sha256": "6bbaea7db52572240ae432a392ab663b421950400d2167105a5c2d8305beaf0c"
+    },
+    {
+      "file": "S29_onion_dinov2_joint_split_means.csv",
+      "sha256": "1d9dd3e79fa4b4cf26e6a5fc2e2d1c8a862ba452f406c1fedba7ff48f32e55bb"
+    },
+    {
+      "file": "S29_potato_dinov2_joint_split_means.csv",
+      "sha256": "44bd1082dcab0e75ed9cb3c06054910f07c04a4b9672af1a16753cc06e500f65"
+    },
+    {
+      "file": "S2_selected_probe_policy_contrast.csv",
+      "sha256": "97636d8a3e677c0361f2810da95de1087f4ce02f0c01c58baeb80842026c6d59"
+    },
+    {
+      "file": "S3_selected_probe_absolute_BA.csv",
+      "sha256": "73d5ceb8846affddb00784ded4736bd363d5fda0f54ee12b8907dc4f94d78b9c"
+    },
+    {
+      "file": "S4_primary_original_class_policy_contrasts.csv",
+      "sha256": "be1b991f9292b5200712fec086252b06196c84824e4a4d69709f44b45e9681a3"
+    },
+    {
+      "file": "S5_locked_transfer_metric_intervals.csv",
+      "sha256": "27ac62ff831f9ad07c91e9c2b7ae0b3b52e82f042f267f3c4ffa9faf9d757a83"
+    },
+    {
+      "file": "S5a_locked_transfer_point_estimates.csv",
+      "sha256": "192816bb9939f7ff3786d1eb22d1ee06d2071df441c272e3c82a1fcfb2105a34"
+    },
+    {
+      "file": "S5b_locked_external_display_all_models.csv",
+      "sha256": "f14e2e2e24d4ce26273fbcfadc46c39ac71399e3fec004375b4757cb4ba2e931"
+    },
+    {
+      "file": "S6_locked_transfer_paired_models.csv",
+      "sha256": "fd83a937eb6796365c951e8b95b473fb116d106abd73d3491384b649ab8727b9"
+    },
+    {
+      "file": "S7_locked_transfer_gaps.csv",
+      "sha256": "9fe76596d5aca95d225f3b185fe197e6c15242c656337581192d0d3835d403cd"
+    },
+    {
+      "file": "S8_calibration_arms.csv",
+      "sha256": "9feef2eab3ab45bf97d5f1fe369b56988ba8d5ca3981b4d46f6843e45560d438"
+    },
+    {
+      "file": "S9_calibration_changes.csv",
+      "sha256": "c0b7d77881a53d637a8083d5273ed5959603277c1dea39b05058f192b82fa23a"
+    }
+  ],
+  "added_tables": [
+    {
+      "table": "S40",
+      "source": "D:\\论文\\SCI投稿汇总\\Onion_Deep_Revision_20261003_v19\\additional_analysis\\source_target_support.csv",
+      "file": "supplement_tables/S40_source_target_support.csv",
+      "rows": 7,
+      "bytes": 701,
+      "sha256": "0ff1dc252b253e416288fcd7da44ef4dae988e3119760f2c8a2faf54049effa9"
+    },
+    {
+      "table": "S41",
+      "source": "D:\\论文\\SCI投稿汇总\\Onion_Deep_Revision_20261003_v19\\additional_analysis\\unique_target_frequency.csv",
+      "file": "supplement_tables/S41_unique_target_frequency.csv",
+      "rows": 908,
+      "bytes": 55074,
+      "sha256": "1aeaab8e19836045a7d8380fd805b2cd7db9bcf9e10e67b36ee5d110b4da7ad3"
+    },
+    {
+      "table": "S42",
+      "source": "D:\\论文\\SCI投稿汇总\\Onion_Deep_Revision_20261003_v19\\additional_analysis\\cross_split_overlap.csv",
+      "file": "supplement_tables/S42_cross_split_overlap.csv",
+      "rows": 90,
+      "bytes": 5469,
+      "sha256": "09150171e059bf8a9577f73a3103cfa47296554ea2ea3181a65132c37df83bb2"
+    },
+    {
+      "table": "S43",
+      "source": "D:\\论文\\SCI投稿汇总\\Onion_Deep_Revision_20261003_v19\\additional_analysis\\single_per_class_split_recall_headroom.csv",
+      "file": "supplement_tables/S43_single_per_class_split_recall_headroom.csv",
+      "rows": 350,
+      "bytes": 40571,
+      "sha256": "8cea48f7f365ff773a502deda8c29102fcaa0bfc164097067dd51a8784640678"
+    },
+    {
+      "table": "S44",
+      "source": "D:\\论文\\SCI投稿汇总\\Onion_Deep_Revision_20261003_v19\\additional_analysis\\joint_per_class_split_recall_headroom.csv",
+      "file": "supplement_tables/S44_joint_per_class_split_recall_headroom.csv",
+      "rows": 1050,
+      "bytes": 128733,
+      "sha256": "f79c35c37fbea6c81bc67d0d24c089fe89658020dee543dffd04619952e54dd3"
+    },
+    {
+      "table": "S45",
+      "source": "D:\\论文\\SCI投稿汇总\\Onion_Deep_Revision_20261003_v19\\additional_analysis\\single_event_counts_not_independent_samples.csv",
+      "file": "supplement_tables/S45_single_event_counts_not_independent_samples.csv",
+      "rows": 350,
+      "bytes": 25172,
+      "sha256": "0b3d0865638c52b6f03dd2885754309980cfa48590b6113ddc871cd71f7197e7"
+    },
+    {
+      "table": "S46",
+      "source": "D:\\论文\\SCI投稿汇总\\Onion_Deep_Revision_20261003_v19\\additional_analysis\\joint_repeated_context_event_counts.csv",
+      "file": "supplement_tables/S46_joint_repeated_context_event_counts.csv",
+      "rows": 1050,
+      "bytes": 73239,
+      "sha256": "23271c8aeb845568a89ca86fbe275ee21af9255191f7637f7e98dc2b8dc5ebeb"
+    },
+    {
+      "table": "S47",
+      "source": "D:\\论文\\SCI投稿汇总\\Onion_Deep_Revision_20261003_v19\\additional_analysis\\joint_repeated_context_confusion_records.csv",
+      "file": "supplement_tables/S47_joint_repeated_context_confusion_records.csv",
+      "rows": 5061,
+      "bytes": 326461,
+      "sha256": "26e95938d945cfebc7aa79f668b8ce529ededeb035815e40f0f8831b6860ebd3"
+    },
+    {
+      "table": "S48",
+      "source": "D:\\论文\\SCI投稿汇总\\Onion_Deep_Revision_20261003_v19\\additional_analysis\\all_common_loco_split_results.csv",
+      "file": "supplement_tables/S48_all_common_loco_split_results.csv",
+      "rows": 2200,
+      "bytes": 385310,
+      "sha256": "edb4f0c76f5c933c65e8089f0b9a496de62cd8bf0ce3c74a8dd146f0e0ceba20"
+    },
+    {
+      "table": "S49",
+      "source": "D:\\论文\\SCI投稿汇总\\Onion_Deep_Revision_20261003_v19\\additional_analysis\\all_common_loco_summary.csv",
+      "file": "supplement_tables/S49_all_common_loco_summary.csv",
+      "rows": 110,
+      "bytes": 28885,
+      "sha256": "a698d7ba04c82f6516aacc143d4462ba1d517852a667b20165b8e2a79e034af6"
+    },
+    {
+      "table": "S50",
+      "source": "D:\\论文\\SCI投稿汇总\\Onion_Deep_Revision_20261003_v19\\additional_analysis\\frequency_weighted_split_results.csv",
+      "file": "supplement_tables/S50_frequency_weighted_split_results.csv",
+      "rows": 800,
+      "bytes": 70538,
+      "sha256": "938c5961b6b9f35985f52eeaf6a2360e9062ba30f203fa6ffdf8137136254e7c"
+    },
+    {
+      "table": "S51",
+      "source": "D:\\论文\\SCI投稿汇总\\Onion_Deep_Revision_20261003_v19\\additional_analysis\\frequency_weighted_summary.csv",
+      "file": "supplement_tables/S51_frequency_weighted_summary.csv",
+      "rows": 40,
+      "bytes": 5583,
+      "sha256": "c9891e973beeb82bc3ac27391fe133cd6656aa7b818fa3545f97ab89ae1508d1"
+    },
+    {
+      "table": "S52",
+      "source": "D:\\论文\\SCI投稿汇总\\Onion_Deep_Revision_20261003_v19\\additional_analysis\\headroom_interpretation_percentage_units.csv",
+      "file": "supplement_tables/S52_headroom_interpretation_percentage_units.csv",
+      "rows": 8,
+      "bytes": 1172,
+      "sha256": "7418ea706827d25beb366d859b65026b1e1ebd26150da4cbbdbfcab2fd27dabc"
+    },
+    {
+      "table": "S53",
+      "source": "D:\\论文\\SCI投稿汇总\\Onion_Deep_Revision_20261003_v19\\additional_analysis\\conditional_allocation_mcse.csv",
+      "file": "supplement_tables/S53_conditional_allocation_mcse.csv",
+      "rows": 20,
+      "bytes": 2654,
+      "sha256": "b89d9cba2271fff6ee52bedbed5ccc1719c712ce32ad3d28d3b88a95397ded88"
+    }
+  ],
+  "total_csvs": 53,
+  "source_hashes": {
+    "Online_Resource_1_EN_v1.9.md": "e622484d7f01aa652ad6dab02032cf6e99fcbe2f4cd40ce79f34c7214b251f44",
+    "Online_Resource_1_ZH_v1.9.md": "5547d41b203c6b19563a8e538e3a7d60f027845593b398669d124d701cc13671"
+  },
+  "release_result_locations": 28,
+  "chronology": "Post-result descriptive extension; no new fits.",
+  "scope": "Source assembly and file identity only; independent numerical replay and final PDF rendering are recorded separately."
+}

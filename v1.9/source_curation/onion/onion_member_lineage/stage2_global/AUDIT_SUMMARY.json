@@ -1,0 +1,22 @@
+{
+  "status": "COMPLETE_GLOBAL_CANDIDATE_GEOMETRY",
+  "completed_utc": "2026-10-02T12:13:31.284279+00:00",
+  "augmented_new_pairs": 16985,
+  "augmented_cross_label_tested": 10717,
+  "augmented_high_support": 108,
+  "augmented_cross_label_high_support": 38,
+  "augmented_spatial_high_support": 84,
+  "augmented_cross_label_spatial_high_support": 22,
+  "raw_pairs": 6508,
+  "raw_cross_label_tested": 2902,
+  "raw_high_support": 101,
+  "raw_cross_label_high_support": 6,
+  "raw_spatial_high_support": 88,
+  "raw_cross_label_spatial_high_support": 3,
+  "limits": [
+    "finite nearest-neighbor candidates do not establish absence of other related sources",
+    "no pathology or plant identity inference",
+    "negative SIFT never interpreted as proof of independence"
+  ],
+  "model_fits": 0
+}

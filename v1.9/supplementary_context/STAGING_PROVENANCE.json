@@ -1,0 +1,8 @@
+{
+  "protocol_sha256": "d6475f068739de7942bf340307393e31f79b0a8efbc546ce9d270a572fcde7e7",
+  "original_code_sha256": "575c84ec5f3029af005106562151f456beb209af9ea474643996a1f5b5d3708a",
+  "inputs": 6,
+  "prepared_files": 7,
+  "expected_files": 10,
+  "meaning": "Relocation only. Original input/weight/protocol/code bytes and hashes unchanged. No new model fitting or biological data collection."
+}

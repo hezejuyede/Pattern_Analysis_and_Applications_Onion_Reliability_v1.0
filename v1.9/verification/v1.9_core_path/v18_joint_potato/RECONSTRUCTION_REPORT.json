@@ -1,0 +1,18 @@
+{
+  "status": "PASS_INDEPENDENT_RESULTS",
+  "dataset": "potato",
+  "protocol_sha256": "c0a5ee0b9c7405b62a0fe85ef16654e432d501ab4299c765c918951dc4615e65",
+  "predictions_sha256": "bfbeaa3ba52cf025528ed896e013c359c776003f1eba1c5348d9902cb1472159",
+  "predictions_checked": 204120,
+  "all_raw_summary_max_errors": {
+    "all_arm_contrasts": 9.71445146547012e-17,
+    "all_split_means": 9.974659986866641e-17,
+    "all_split_summary": 9.990923019453923e-17
+  },
+  "logistic_refits": 0,
+  "independent_nn_conditions": 0,
+  "maximum_refit_probability_difference": 0,
+  "artifact_integrity": "PASS_FROZEN_HASHES_WITH_EXPLICIT_PARQUET_CONVERSION_LEDGER",
+  "scope": "Complete raw primary/secondary contrast reconstruction, same-selected-mask baselines, fixed LR refits and cosine-neighbour checks; no new study.",
+  "scientific_submission_gate": "UNCHANGED_HOLD"
+}

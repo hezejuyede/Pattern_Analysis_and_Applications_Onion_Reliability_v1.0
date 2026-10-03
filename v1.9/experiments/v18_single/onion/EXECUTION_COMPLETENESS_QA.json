@@ -1,0 +1,13 @@
+{
+  "status": "PASS_EXECUTION_COMPLETENESS_AND_FREEZE_INTEGRITY",
+  "dataset": "onion",
+  "targets": 960,
+  "model_conditions": 9650,
+  "logistic_fits": 5790,
+  "nearest_neighbour_conditions": 3860,
+  "predictions": 1399250,
+  "warnings": 0,
+  "protocol_sha256": "05e1aabd1e2d8ad9f56052501360fb75a47f837ccb7366d16a1985d6082aff29",
+  "code_sha256": "4ae9f7ba7a65454c036bff15045b664b6b4744d4be54891a0197af00e1a3be26",
+  "scope": "Execution counts, probability validity, declared numerical routes, support flags and frozen hashes. Not an independent refit or full result-aggregation audit."
+}

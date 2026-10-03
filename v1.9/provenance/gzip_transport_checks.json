@@ -1,0 +1,263 @@
+{
+  "experiments/v17/onion/arm_contrasts.csv.gz": {
+    "original_relative_path": "experiments/v17/onion/arm_contrasts.csv",
+    "relative_path": "experiments/v17/onion/arm_contrasts.csv.gz",
+    "original_sha256": "abe118aecc0dc173e14901f1a67b74a3ec08d6771e5db6ed0ba6bfcf104c5bf1",
+    "distributed_sha256": "61454d8f524c49d8d1f464f2c680c1a5d54df54bdd13a61a76647d5a3620cdf2",
+    "original_bytes": 9804231,
+    "distributed_bytes": 731698,
+    "validation": "PASS_BYTE_IDENTICAL_AFTER_DECOMPRESSION"
+  },
+  "experiments/v17/onion/component_membership.csv.gz": {
+    "original_relative_path": "experiments/v17/onion/component_membership.csv",
+    "relative_path": "experiments/v17/onion/component_membership.csv.gz",
+    "original_sha256": "f35bdcf25b0491607f006b69c8c1c298e63fc41c413b79413e0ba7f7b13f6ddb",
+    "distributed_sha256": "8a9749051f68d640383cdcc1e6e657c7f031e93f8c35e3ecb5959d5fb8dfdae4",
+    "original_bytes": 2070029,
+    "distributed_bytes": 740845,
+    "validation": "PASS_BYTE_IDENTICAL_AFTER_DECOMPRESSION"
+  },
+  "experiments/v17/onion/condition_metrics.csv.gz": {
+    "original_relative_path": "experiments/v17/onion/condition_metrics.csv",
+    "relative_path": "experiments/v17/onion/condition_metrics.csv.gz",
+    "original_sha256": "1a6ce83fc4dd81a61a3fd3d126e87bc409dbbeff4503973a777d1de2e74173fe",
+    "distributed_sha256": "3c265bc0aa228a5851c442ceda50c79d7c693e3ef11ed9e8ec3f7d18557fcb2e",
+    "original_bytes": 1342315,
+    "distributed_bytes": 302532,
+    "validation": "PASS_BYTE_IDENTICAL_AFTER_DECOMPRESSION"
+  },
+  "experiments/v17/onion/manifest.csv.gz": {
+    "original_relative_path": "experiments/v17/onion/manifest.csv",
+    "relative_path": "experiments/v17/onion/manifest.csv.gz",
+    "original_sha256": "5a5a31cccaf6b6d7a3fe046f16be33c99a33d00fecdf2d3ab49bb41d3dd7ee72",
+    "distributed_sha256": "01d07603a5b1e0d0616fbd0ce5df2aeec0ceea826b9983524a05643be3ce0e8e",
+    "original_bytes": 806249,
+    "distributed_bytes": 171499,
+    "validation": "PASS_BYTE_IDENTICAL_AFTER_DECOMPRESSION"
+  },
+  "experiments/v17/onion/split_means.csv.gz": {
+    "original_relative_path": "experiments/v17/onion/split_means.csv",
+    "relative_path": "experiments/v17/onion/split_means.csv.gz",
+    "original_sha256": "6071534f0c7128dc82bc31022c244cc4dc370d35ae37767138e8c0982ba586dc",
+    "distributed_sha256": "18ee1368728199ffb2b5ed5ab10fe540ac8d4113ec79e105bb4c589b715a1067",
+    "original_bytes": 1056976,
+    "distributed_bytes": 133764,
+    "validation": "PASS_BYTE_IDENTICAL_AFTER_DECOMPRESSION"
+  },
+  "experiments/v17/potato/arm_contrasts.csv.gz": {
+    "original_relative_path": "experiments/v17/potato/arm_contrasts.csv",
+    "relative_path": "experiments/v17/potato/arm_contrasts.csv.gz",
+    "original_sha256": "04a0f7c6676bd07bf0d70fb3f1df1cbd39b36ba561b475144b85101b03ae3646",
+    "distributed_sha256": "7f9c2152db8e047f46fc2e8c782d0c49a8b3dda851b36ed67e058c807908e151",
+    "original_bytes": 4828309,
+    "distributed_bytes": 186633,
+    "validation": "PASS_BYTE_IDENTICAL_AFTER_DECOMPRESSION"
+  },
+  "experiments/v17/potato/component_membership.csv.gz": {
+    "original_relative_path": "experiments/v17/potato/component_membership.csv",
+    "relative_path": "experiments/v17/potato/component_membership.csv.gz",
+    "original_sha256": "bef1817deaae0724bee1793d43468c7a5772851dd656b55e2253275be54305d1",
+    "distributed_sha256": "bb6dca6f193ff0decc0beaa016f164a1a494c460bd7a031782a43e2306aa4cd8",
+    "original_bytes": 2376928,
+    "distributed_bytes": 211740,
+    "validation": "PASS_BYTE_IDENTICAL_AFTER_DECOMPRESSION"
+  },
+  "experiments/v17/potato/condition_metrics.csv.gz": {
+    "original_relative_path": "experiments/v17/potato/condition_metrics.csv",
+    "relative_path": "experiments/v17/potato/condition_metrics.csv.gz",
+    "original_sha256": "2baced03094a025c0d54ad82d779674923eaeb642917cfc39a38420107fae655",
+    "distributed_sha256": "2a214250705e3b6b64c63ac9707d0a2c67b7eabc5be637a8776b2206c81324bd",
+    "original_bytes": 1211961,
+    "distributed_bytes": 172615,
+    "validation": "PASS_BYTE_IDENTICAL_AFTER_DECOMPRESSION"
+  },
+  "experiments/v17/potato/manifest.csv.gz": {
+    "original_relative_path": "experiments/v17/potato/manifest.csv",
+    "relative_path": "experiments/v17/potato/manifest.csv.gz",
+    "original_sha256": "534e326a0ccf65b24d1daf5fba8a047b05a4f50b008bec56ee5a9ea1681e4d67",
+    "distributed_sha256": "373439d483e5fd5982b4d6247e9a375d8a140609b678b348ca1ca520bc0283ce",
+    "original_bytes": 1122970,
+    "distributed_bytes": 264407,
+    "validation": "PASS_BYTE_IDENTICAL_AFTER_DECOMPRESSION"
+  },
+  "experiments/v17/potato/split_means.csv.gz": {
+    "original_relative_path": "experiments/v17/potato/split_means.csv",
+    "relative_path": "experiments/v17/potato/split_means.csv.gz",
+    "original_sha256": "d5f805fe52939050ef74b6b49a4d90cca7818669608cc5b2beecc231f767c1e8",
+    "distributed_sha256": "25bec1f9845179736bd5a7a29d08c5d1ebc4f381ad5af19446dae6e46aa7d007",
+    "original_bytes": 532739,
+    "distributed_bytes": 45963,
+    "validation": "PASS_BYTE_IDENTICAL_AFTER_DECOMPRESSION"
+  },
+  "experiments/v18_joint/onion/arm_contrasts.csv.gz": {
+    "original_relative_path": "experiments/v18_joint/onion/arm_contrasts.csv",
+    "relative_path": "experiments/v18_joint/onion/arm_contrasts.csv.gz",
+    "original_sha256": "f7e43496de7653bab088db1543a09dd567d9925f66824e6722eb0236babf4db5",
+    "distributed_sha256": "15b2d234042f1d36e05867896396198bc94496116a8b69af3c7c8487cf4f287c",
+    "original_bytes": 3171829,
+    "distributed_bytes": 235376,
+    "validation": "PASS_BYTE_IDENTICAL_AFTER_DECOMPRESSION"
+  },
+  "experiments/v18_joint/onion/component_membership.csv.gz": {
+    "original_relative_path": "experiments/v18_joint/onion/component_membership.csv",
+    "relative_path": "experiments/v18_joint/onion/component_membership.csv.gz",
+    "original_sha256": "f35bdcf25b0491607f006b69c8c1c298e63fc41c413b79413e0ba7f7b13f6ddb",
+    "distributed_sha256": "8a9749051f68d640383cdcc1e6e657c7f031e93f8c35e3ecb5959d5fb8dfdae4",
+    "original_bytes": 2070029,
+    "distributed_bytes": 740845,
+    "validation": "PASS_BYTE_IDENTICAL_AFTER_DECOMPRESSION"
+  },
+  "experiments/v18_joint/onion/manifest.csv.gz": {
+    "original_relative_path": "experiments/v18_joint/onion/manifest.csv",
+    "relative_path": "experiments/v18_joint/onion/manifest.csv.gz",
+    "original_sha256": "5a5a31cccaf6b6d7a3fe046f16be33c99a33d00fecdf2d3ab49bb41d3dd7ee72",
+    "distributed_sha256": "01d07603a5b1e0d0616fbd0ce5df2aeec0ceea826b9983524a05643be3ce0e8e",
+    "original_bytes": 806249,
+    "distributed_bytes": 171499,
+    "validation": "PASS_BYTE_IDENTICAL_AFTER_DECOMPRESSION"
+  },
+  "experiments/v18_joint/potato/arm_contrasts.csv.gz": {
+    "original_relative_path": "experiments/v18_joint/potato/arm_contrasts.csv",
+    "relative_path": "experiments/v18_joint/potato/arm_contrasts.csv.gz",
+    "original_sha256": "6bbaea7db52572240ae432a392ab663b421950400d2167105a5c2d8305beaf0c",
+    "distributed_sha256": "91fbc9d3c42fad464665824f036863f807ad1efeb7947041081b661329efdeef",
+    "original_bytes": 1695962,
+    "distributed_bytes": 70017,
+    "validation": "PASS_BYTE_IDENTICAL_AFTER_DECOMPRESSION"
+  },
+  "experiments/v18_joint/potato/component_membership.csv.gz": {
+    "original_relative_path": "experiments/v18_joint/potato/component_membership.csv",
+    "relative_path": "experiments/v18_joint/potato/component_membership.csv.gz",
+    "original_sha256": "bef1817deaae0724bee1793d43468c7a5772851dd656b55e2253275be54305d1",
+    "distributed_sha256": "bb6dca6f193ff0decc0beaa016f164a1a494c460bd7a031782a43e2306aa4cd8",
+    "original_bytes": 2376928,
+    "distributed_bytes": 211740,
+    "validation": "PASS_BYTE_IDENTICAL_AFTER_DECOMPRESSION"
+  },
+  "experiments/v18_joint/potato/manifest.csv.gz": {
+    "original_relative_path": "experiments/v18_joint/potato/manifest.csv",
+    "relative_path": "experiments/v18_joint/potato/manifest.csv.gz",
+    "original_sha256": "534e326a0ccf65b24d1daf5fba8a047b05a4f50b008bec56ee5a9ea1681e4d67",
+    "distributed_sha256": "373439d483e5fd5982b4d6247e9a375d8a140609b678b348ca1ca520bc0283ce",
+    "original_bytes": 1122970,
+    "distributed_bytes": 264407,
+    "validation": "PASS_BYTE_IDENTICAL_AFTER_DECOMPRESSION"
+  },
+  "experiments/v18_single/onion/component_membership_first10.csv.gz": {
+    "original_relative_path": "experiments/v18_single/onion/component_membership_first10.csv",
+    "relative_path": "experiments/v18_single/onion/component_membership_first10.csv.gz",
+    "original_sha256": "9fc15ecb79c41a8e963403eb53d1191a4e05bdf60369cede17b2e4fee244dcab",
+    "distributed_sha256": "2bc493cfd0a7aa23cbcee91b832087679da624983428045c8826baa7556415fe",
+    "original_bytes": 686908,
+    "distributed_bytes": 247142,
+    "validation": "PASS_BYTE_IDENTICAL_AFTER_DECOMPRESSION"
+  },
+  "experiments/v18_single/onion/fit_log.csv.gz": {
+    "original_relative_path": "experiments/v18_single/onion/fit_log.csv",
+    "relative_path": "experiments/v18_single/onion/fit_log.csv.gz",
+    "original_sha256": "11dda33086ebc85a3db899a9d691afc485e40fe3e5db5fa1ff6e49c0b702028b",
+    "distributed_sha256": "3a01b508c78084a324fe93ceb792f22a96cf1f6e5a1d4e97984616d798135d4f",
+    "original_bytes": 1240134,
+    "distributed_bytes": 129233,
+    "validation": "PASS_BYTE_IDENTICAL_AFTER_DECOMPRESSION"
+  },
+  "experiments/v18_single/onion/manifest.csv.gz": {
+    "original_relative_path": "experiments/v18_single/onion/manifest.csv",
+    "relative_path": "experiments/v18_single/onion/manifest.csv.gz",
+    "original_sha256": "5a5a31cccaf6b6d7a3fe046f16be33c99a33d00fecdf2d3ab49bb41d3dd7ee72",
+    "distributed_sha256": "01d07603a5b1e0d0616fbd0ce5df2aeec0ceea826b9983524a05643be3ce0e8e",
+    "original_bytes": 806249,
+    "distributed_bytes": 171499,
+    "validation": "PASS_BYTE_IDENTICAL_AFTER_DECOMPRESSION"
+  },
+  "experiments/v18_single/onion/single_vs_v17_joint_targets.csv.gz": {
+    "original_relative_path": "experiments/v18_single/onion/single_vs_v17_joint_targets.csv",
+    "relative_path": "experiments/v18_single/onion/single_vs_v17_joint_targets.csv.gz",
+    "original_sha256": "518b2b7b061000f3405db54821e1af3c0a3f6708338c9bf897ac15b10e6b2514",
+    "distributed_sha256": "8ac1f76a869d287da4fa0ba5dc264054120f4053c54559a7f76289eb6d986bff",
+    "original_bytes": 1263117,
+    "distributed_bytes": 74128,
+    "validation": "PASS_BYTE_IDENTICAL_AFTER_DECOMPRESSION"
+  },
+  "experiments/v18_single/onion/support_checks.csv.gz": {
+    "original_relative_path": "experiments/v18_single/onion/support_checks.csv",
+    "relative_path": "experiments/v18_single/onion/support_checks.csv.gz",
+    "original_sha256": "ba29c42d5304e904bee57aa1c10b5131c4076393fa469007f052f644bb54e7a7",
+    "distributed_sha256": "8b60d1b8385d545139e3eb4887ab81234e9d57d3ad0a88cdcb060c5f99e1d73d",
+    "original_bytes": 826468,
+    "distributed_bytes": 209060,
+    "validation": "PASS_BYTE_IDENTICAL_AFTER_DECOMPRESSION"
+  },
+  "experiments/v18_single/onion/target_class_split_means.csv.gz": {
+    "original_relative_path": "experiments/v18_single/onion/target_class_split_means.csv",
+    "relative_path": "experiments/v18_single/onion/target_class_split_means.csv.gz",
+    "original_sha256": "b8d54dedcfc20e626e328cffac312a72de92a6beed717b7415501e2a0f0d1556",
+    "distributed_sha256": "26c2331b304946b65d251defb368b21d15ede4fc389e1dc045bf1506cf5fc09e",
+    "original_bytes": 508793,
+    "distributed_bytes": 112008,
+    "validation": "PASS_BYTE_IDENTICAL_AFTER_DECOMPRESSION"
+  },
+  "experiments/v18_single/onion/target_panel_contrasts.csv.gz": {
+    "original_relative_path": "experiments/v18_single/onion/target_panel_contrasts.csv",
+    "relative_path": "experiments/v18_single/onion/target_panel_contrasts.csv.gz",
+    "original_sha256": "f3c49e3de026105b868d4c1ef37ec29b2eb5077bbcab6a29b37167f8a47c3b7a",
+    "distributed_sha256": "c171e84c2fa590b777068704b37fba71f6ce29656343909c450fc8a35c34b2a8",
+    "original_bytes": 9486393,
+    "distributed_bytes": 760222,
+    "validation": "PASS_BYTE_IDENTICAL_AFTER_DECOMPRESSION"
+  },
+  "experiments/v18_single/potato/component_membership_first10.csv.gz": {
+    "original_relative_path": "experiments/v18_single/potato/component_membership_first10.csv",
+    "relative_path": "experiments/v18_single/potato/component_membership_first10.csv.gz",
+    "original_sha256": "7d54d8271bbf0cce4d9ceeac45697422b549fb52425b25a776b3c0c84f29233b",
+    "distributed_sha256": "bae8bed6f64c17341f6a06428afbeffd8742c57ebeba4b934d4b8621f10d0e80",
+    "original_bytes": 788817,
+    "distributed_bytes": 70742,
+    "validation": "PASS_BYTE_IDENTICAL_AFTER_DECOMPRESSION"
+  },
+  "experiments/v18_single/potato/fit_log.csv.gz": {
+    "original_relative_path": "experiments/v18_single/potato/fit_log.csv",
+    "relative_path": "experiments/v18_single/potato/fit_log.csv.gz",
+    "original_sha256": "743c652fbd1a776f298841b4931b03bd7cdcda876068fd250b28861b953e0a98",
+    "distributed_sha256": "eb6c00888b4ca4ce53b33f0868d02f8f00ed45b86b008ac5370c1c2c554b3937",
+    "original_bytes": 1717476,
+    "distributed_bytes": 142915,
+    "validation": "PASS_BYTE_IDENTICAL_AFTER_DECOMPRESSION"
+  },
+  "experiments/v18_single/potato/manifest.csv.gz": {
+    "original_relative_path": "experiments/v18_single/potato/manifest.csv",
+    "relative_path": "experiments/v18_single/potato/manifest.csv.gz",
+    "original_sha256": "534e326a0ccf65b24d1daf5fba8a047b05a4f50b008bec56ee5a9ea1681e4d67",
+    "distributed_sha256": "373439d483e5fd5982b4d6247e9a375d8a140609b678b348ca1ca520bc0283ce",
+    "original_bytes": 1122970,
+    "distributed_bytes": 264407,
+    "validation": "PASS_BYTE_IDENTICAL_AFTER_DECOMPRESSION"
+  },
+  "experiments/v18_single/potato/single_vs_v17_joint_targets.csv.gz": {
+    "original_relative_path": "experiments/v18_single/potato/single_vs_v17_joint_targets.csv",
+    "relative_path": "experiments/v18_single/potato/single_vs_v17_joint_targets.csv.gz",
+    "original_sha256": "97f3340835a11320b57a18a1587103d6babfb84f3daae430b6f2e83975e88129",
+    "distributed_sha256": "d560364119589428b4ec31bbc5a457ef005ac4a77769b5a11dcf74dc7b51ce56",
+    "original_bytes": 1589649,
+    "distributed_bytes": 82434,
+    "validation": "PASS_BYTE_IDENTICAL_AFTER_DECOMPRESSION"
+  },
+  "experiments/v18_single/potato/support_checks.csv.gz": {
+    "original_relative_path": "experiments/v18_single/potato/support_checks.csv",
+    "relative_path": "experiments/v18_single/potato/support_checks.csv.gz",
+    "original_sha256": "c2a5415dcc739003adea085d7945d616df3704a3e1b54b0fd57efe604bceb77e",
+    "distributed_sha256": "dd8558c19ea61cab4799600e8560080eb7ef1ec1c87b7dd2828f2d2578c91cc7",
+    "original_bytes": 1020974,
+    "distributed_bytes": 235656,
+    "validation": "PASS_BYTE_IDENTICAL_AFTER_DECOMPRESSION"
+  },
+  "experiments/v18_single/potato/target_panel_contrasts.csv.gz": {
+    "original_relative_path": "experiments/v18_single/potato/target_panel_contrasts.csv",
+    "relative_path": "experiments/v18_single/potato/target_panel_contrasts.csv.gz",
+    "original_sha256": "8bed0ed7edf54628911d838404fa3bf6dcc19a6f674e326a31073b50ed6a5343",
+    "distributed_sha256": "7fb85dd1c4a40a749311a50b852e5f8da2bf4abdb6892dada89f2aa6b54ba279",
+    "original_bytes": 9836429,
+    "distributed_bytes": 390665,
+    "validation": "PASS_BYTE_IDENTICAL_AFTER_DECOMPRESSION"
+  }
+}

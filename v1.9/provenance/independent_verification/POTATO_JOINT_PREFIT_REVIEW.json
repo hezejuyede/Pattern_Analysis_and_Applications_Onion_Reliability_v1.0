@@ -1,0 +1,207 @@
+{
+  "status": "PASS_PREFIT_JOINT_EXTENSION",
+  "dataset": "potato",
+  "script_sha256": "7f10d4beb8fcb15269a318ef67592fa656603eba1771b446b72caab00c92eaba",
+  "protocol_sha256": "c0a5ee0b9c7405b62a0fe85ef16654e432d501ab4299c765c918951dc4615e65",
+  "scope": "Independent code/identity/assignment audit; no fitting or result inspection.",
+  "v17_functions_ast_identical": [
+    "plan_one",
+    "analyse_pair"
+  ],
+  "shared_numerics_sha256": "f7db6dd6b174d03264a0ab0d9311ac4ef4dd8f0aaf9042acc0887b13c535c7f2",
+  "feature_shape": [
+    2152,
+    384
+  ],
+  "feature_row_path_image_sha_alignment": "PASS",
+  "v17_assignment_exact_parity": "PASS",
+  "reconstructed_splits": [
+    {
+      "repetition": 0,
+      "seed": 20261003,
+      "training_sources": 268,
+      "conditions": 21
+    },
+    {
+      "repetition": 1,
+      "seed": 20261004,
+      "training_sources": 268,
+      "conditions": 21
+    },
+    {
+      "repetition": 2,
+      "seed": 20261005,
+      "training_sources": 268,
+      "conditions": 21
+    },
+    {
+      "repetition": 3,
+      "seed": 20261006,
+      "training_sources": 268,
+      "conditions": 21
+    },
+    {
+      "repetition": 4,
+      "seed": 20261007,
+      "training_sources": 268,
+      "conditions": 21
+    },
+    {
+      "repetition": 5,
+      "seed": 20261008,
+      "training_sources": 268,
+      "conditions": 21
+    },
+    {
+      "repetition": 6,
+      "seed": 20261009,
+      "training_sources": 268,
+      "conditions": 21
+    },
+    {
+      "repetition": 7,
+      "seed": 20261010,
+      "training_sources": 268,
+      "conditions": 21
+    },
+    {
+      "repetition": 8,
+      "seed": 20261011,
+      "training_sources": 268,
+      "conditions": 21
+    },
+    {
+      "repetition": 9,
+      "seed": 20261012,
+      "training_sources": 268,
+      "conditions": 21
+    },
+    {
+      "repetition": 10,
+      "seed": 20261013,
+      "training_sources": 268,
+      "conditions": 21
+    },
+    {
+      "repetition": 11,
+      "seed": 20261014,
+      "training_sources": 268,
+      "conditions": 21
+    },
+    {
+      "repetition": 12,
+      "seed": 20261015,
+      "training_sources": 268,
+      "conditions": 21
+    },
+    {
+      "repetition": 13,
+      "seed": 20261016,
+      "training_sources": 268,
+      "conditions": 21
+    },
+    {
+      "repetition": 14,
+      "seed": 20261017,
+      "training_sources": 268,
+      "conditions": 21
+    },
+    {
+      "repetition": 15,
+      "seed": 20261018,
+      "training_sources": 268,
+      "conditions": 21
+    },
+    {
+      "repetition": 16,
+      "seed": 20261019,
+      "training_sources": 268,
+      "conditions": 21
+    },
+    {
+      "repetition": 17,
+      "seed": 20261020,
+      "training_sources": 268,
+      "conditions": 21
+    },
+    {
+      "repetition": 18,
+      "seed": 20261021,
+      "training_sources": 268,
+      "conditions": 21
+    },
+    {
+      "repetition": 19,
+      "seed": 20261022,
+      "training_sources": 268,
+      "conditions": 21
+    },
+    {
+      "repetition": 20,
+      "seed": 20261023,
+      "training_sources": 268,
+      "conditions": 21
+    },
+    {
+      "repetition": 21,
+      "seed": 20261024,
+      "training_sources": 268,
+      "conditions": 21
+    },
+    {
+      "repetition": 22,
+      "seed": 20261025,
+      "training_sources": 268,
+      "conditions": 21
+    },
+    {
+      "repetition": 23,
+      "seed": 20261026,
+      "training_sources": 268,
+      "conditions": 21
+    },
+    {
+      "repetition": 24,
+      "seed": 20261027,
+      "training_sources": 268,
+      "conditions": 21
+    },
+    {
+      "repetition": 25,
+      "seed": 20261028,
+      "training_sources": 268,
+      "conditions": 21
+    },
+    {
+      "repetition": 26,
+      "seed": 20261029,
+      "training_sources": 268,
+      "conditions": 21
+    },
+    {
+      "repetition": 27,
+      "seed": 20261030,
+      "training_sources": 268,
+      "conditions": 21
+    },
+    {
+      "repetition": 28,
+      "seed": 20261031,
+      "training_sources": 268,
+      "conditions": 21
+    },
+    {
+      "repetition": 29,
+      "seed": 20261032,
+      "training_sources": 268,
+      "conditions": 21
+    }
+  ],
+  "conditions_checked": 630,
+  "model_routing_review": "DINO logistic uses reviewed Pipeline; DINO cosine explicitly calls reviewed 1NN branch.",
+  "scientific_limits": [
+    "Post hoc representation sensitivity, not new data or hypothesis preregistration.",
+    "No assurance that full DINO pretraining corpus excludes archive images.",
+    "Split variability is not a biological confidence interval."
+  ]
+}

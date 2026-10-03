@@ -1,0 +1,34 @@
+[
+  {
+    "path": "code/portable/audit_joint_results.py",
+    "sha256": "46496aa7a60732b19a563dc7e59885850847f1cc23a0bede8392197c7f674a7e"
+  },
+  {
+    "path": "code/portable/audit_result_helpers.py",
+    "sha256": "320c60e3b6c542165c3622ef7e0a494441f5bed6e60bebcf18082af8347c2190"
+  },
+  {
+    "path": "code/portable/audit_single_results.py",
+    "sha256": "b9198235ae0185948a245f8d8c772ea91e77d666da0e49a95e858049198745ec"
+  },
+  {
+    "path": "code/portable/build_primary_tables.py",
+    "sha256": "a95d32c43ae0cc32e83f85bb799e466e4e85d752b96ee542c7309b96f22be825"
+  },
+  {
+    "path": "code/portable/make_file_manifest.py",
+    "sha256": "903055b53f4e3e560d7b601a47542ffa52b2c96445629b1031ca30a6ba7ec1f3"
+  },
+  {
+    "path": "code/portable/plot_primary.py",
+    "sha256": "59d9be80937c433f6fcfee20f887b1e44463b9f0ce49a72886ab5150693472a0"
+  },
+  {
+    "path": "code/portable/reproduce.py",
+    "sha256": "931332385d1a89e9d848db05f7885d1e5a6ca8afed4f3a58010d36cd685e8c39"
+  },
+  {
+    "path": "code/portable/verify_release.py",
+    "sha256": "051a732837c1b9376f412f0b6d05be1143cbd897b0a7458463c37c90723f4602"
+  }
+]

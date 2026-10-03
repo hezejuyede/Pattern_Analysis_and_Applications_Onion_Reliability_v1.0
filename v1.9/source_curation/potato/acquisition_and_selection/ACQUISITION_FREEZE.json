@@ -1,0 +1,38 @@
+{
+  "frozen_utc": "2026-10-02T16:34:40.006875+00:00",
+  "github_revision": "7f7ecc7e1eaca78107e3affe7cb5abd9427e139a",
+  "hf_leaf_map_revision": "9e97599868962bd0079b8db4b7f1efa9185fa1e7",
+  "selection": "All three-class Potato original-color records with unique class-compatible author leaf mapping and >=3 distinct original photo identifiers, excluding filename copy variants. No subsampling by model output.",
+  "selection_justification": "Compact complete crop task with two disease categories and healthy controls; independent collection project from COLD.",
+  "selected_leaves": 538,
+  "selected_images": 2152,
+  "class_leaf_counts": {
+    "Potato___Early_blight": 250,
+    "Potato___Late_blight": 250,
+    "Potato___healthy": 38
+  },
+  "class_image_counts": {
+    "Potato___Early_blight": 1000,
+    "Potato___Late_blight": 1000,
+    "Potato___healthy": 152
+  },
+  "same_identifier_deduplication": "stable original-path lexical first; variants do not become independent photographs",
+  "post_download_rule": "Verify decoded image; remove duplicate pixel rows stably, union leaves sharing exact RGB content for isolation, exclude cross-label connected components; require >=3 pixel-distinct photographs per chosen leaf. No arbitrary geometric assignment used as leaf identity.",
+  "analysis_admissibility": "all three classes >=12 nonconflict isolation components and >=100 total; no performance-based fallback",
+  "features": "frozen torchvision ResNet18 ImageNet1K_V1 512-D, weights.transforms; 189-D fixed color histogram/moments identical to onion. No training or augmentation of image feature extractor.",
+  "analysis": "fixed-budget source-exposure and matched donor-replacement control; root protocol and independently checked runner required before classifier fitting",
+  "max_total_download_bytes": 100000000,
+  "metadata_sha256": {
+    "color_metadata.csv": "803ed88c247107a7fc292bfedd93046ca178f74dab722e80a4ead4db8baf6878",
+    "leaf_group_metadata.csv": "7d094fc384aedee7bea19e27d4801e8e2be23eaa7a8a84cd6c418a4fba9ec169",
+    "leaf_grouping/leaf-map.json": "3b4b253683c6911744959a3870a92509b1faa1ee34e9f8585e21d0fe6337a25b"
+  },
+  "selection_sha256": "d29e0caca5e73afe14ff698569d8dc78091bce44163a56335b44720bb5954b18",
+  "script_sha256": "174af35f405f65943ca501cbd9ae5f913a679d5b2969ef8f8506319fb6f0697c",
+  "model_results_inspected": false,
+  "scope_limits": [
+    "author-reported leaf identity, not our newly observed plant ID",
+    "independent archival task, not newly collected field cohort",
+    "laboratory backgrounds and author diagnostic labels, no unified pathology adjudication"
+  ]
+}

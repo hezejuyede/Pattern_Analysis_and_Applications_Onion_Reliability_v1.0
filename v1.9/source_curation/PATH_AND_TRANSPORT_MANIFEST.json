@@ -1,0 +1,842 @@
+[
+  {
+    "historical_path": "C:/Users/lixin/Documents/Codex/2026-09-27/lu/work/onion_crossdomain/audit/v16_data_feasibility/audit_onion_members.py",
+    "relative_path": "code/original/onion/audit_onion_members.py",
+    "original_relative_path": "code/original/onion/audit_onion_members.py",
+    "original_sha256": "d7ec3700ac074d1527b3a2388d0806870a570d9a1c735647e7ff866e563ee83d",
+    "distributed_sha256": "d7ec3700ac074d1527b3a2388d0806870a570d9a1c735647e7ff866e563ee83d",
+    "original_bytes": 11756,
+    "distributed_bytes": 11756,
+    "gzip_transport": false
+  },
+  {
+    "historical_path": "C:/Users/lixin/Documents/Codex/2026-09-27/lu/work/onion_crossdomain/audit/v16_data_feasibility/audit_onion_global_candidates.py",
+    "relative_path": "code/original/onion/audit_onion_global_candidates.py",
+    "original_relative_path": "code/original/onion/audit_onion_global_candidates.py",
+    "original_sha256": "ef9b310b23b2d1f000aafa3e986236f6774734a2e7beea1c89f6bb4f67a31a61",
+    "distributed_sha256": "ef9b310b23b2d1f000aafa3e986236f6774734a2e7beea1c89f6bb4f67a31a61",
+    "original_bytes": 9760,
+    "distributed_bytes": 9760,
+    "gzip_transport": false
+  },
+  {
+    "historical_path": "C:/Users/lixin/Documents/Codex/2026-09-27/lu/work/onion_crossdomain/audit/v16_data_feasibility/unify_onion_geometry.py",
+    "relative_path": "code/original/onion/unify_onion_geometry.py",
+    "original_relative_path": "code/original/onion/unify_onion_geometry.py",
+    "original_sha256": "be05d30810ec9168f4a2fd1fb9ca53c5bfcd96bb2ab30bbcb5e192bbef89f83d",
+    "distributed_sha256": "be05d30810ec9168f4a2fd1fb9ca53c5bfcd96bb2ab30bbcb5e192bbef89f83d",
+    "original_bytes": 8019,
+    "distributed_bytes": 8019,
+    "gzip_transport": false
+  },
+  {
+    "historical_path": "C:/Users/lixin/Documents/Codex/2026-09-27/lu/work/onion_crossdomain/audit/v16_data_feasibility/build_onion_dependence_graph.py",
+    "relative_path": "code/original/onion/build_onion_dependence_graph.py",
+    "original_relative_path": "code/original/onion/build_onion_dependence_graph.py",
+    "original_sha256": "6590b2ce2a384c83af32b386d6f300cdf6a734e426fdc10a89314cc258958251",
+    "distributed_sha256": "6590b2ce2a384c83af32b386d6f300cdf6a734e426fdc10a89314cc258958251",
+    "original_bytes": 7778,
+    "distributed_bytes": 7778,
+    "gzip_transport": false
+  },
+  {
+    "historical_path": "C:/Users/lixin/Documents/Codex/2026-09-27/lu/work/onion_crossdomain/audit/v16_data_feasibility/check_candidate_geometry.py",
+    "relative_path": "code/original/onion/check_candidate_geometry.py",
+    "original_relative_path": "code/original/onion/check_candidate_geometry.py",
+    "original_sha256": "f5aeceb03a79aa615bb67c18893540227cd4a65ecde620ad69cd57969d4f7c26",
+    "distributed_sha256": "f5aeceb03a79aa615bb67c18893540227cd4a65ecde620ad69cd57969d4f7c26",
+    "original_bytes": 3366,
+    "distributed_bytes": 3366,
+    "gzip_transport": false
+  },
+  {
+    "historical_path": "D:/论文/SCI投稿汇总/Onion_Deep_Revision_20261002_v16/code/prepare_corrected_component_manifest.py",
+    "relative_path": "code/original/onion/prepare_corrected_component_manifest.py",
+    "original_relative_path": "code/original/onion/prepare_corrected_component_manifest.py",
+    "original_sha256": "d089b0156271199b2769eb43fa57e97dce900501e4a6479f690c31b9fab2d733",
+    "distributed_sha256": "d089b0156271199b2769eb43fa57e97dce900501e4a6479f690c31b9fab2d733",
+    "original_bytes": 6583,
+    "distributed_bytes": 6583,
+    "gzip_transport": false
+  },
+  {
+    "historical_path": "D:/论文/SCI投稿汇总/Onion_Deep_Revision_20261002_v16/onion_member_lineage/all_member_candidate_geometry.csv",
+    "relative_path": "onion/onion_member_lineage/all_member_candidate_geometry.csv.gz",
+    "original_relative_path": "onion/onion_member_lineage/all_member_candidate_geometry.csv",
+    "original_sha256": "96af4564d625999716d39b76cfa10c2f37bc63d4cb0a9e15e0654c02565c350e",
+    "distributed_sha256": "a337359c70fa02175b88a5539045784f08872bf6fb332a1446291e8622c2b43a",
+    "original_bytes": 6780820,
+    "distributed_bytes": 1229366,
+    "gzip_transport": true
+  },
+  {
+    "historical_path": "D:/论文/SCI投稿汇总/Onion_Deep_Revision_20261002_v16/onion_member_lineage/AUDIT_FREEZE.json",
+    "relative_path": "onion/onion_member_lineage/AUDIT_FREEZE.json",
+    "original_relative_path": "onion/onion_member_lineage/AUDIT_FREEZE.json",
+    "original_sha256": "dea309d173d675df19c9d98e2c00dcb6ccc6479d99d13509400abf3eb7e1e6a9",
+    "distributed_sha256": "dea309d173d675df19c9d98e2c00dcb6ccc6479d99d13509400abf3eb7e1e6a9",
+    "original_bytes": 1687,
+    "distributed_bytes": 1687,
+    "gzip_transport": false
+  },
+  {
+    "historical_path": "D:/论文/SCI投稿汇总/Onion_Deep_Revision_20261002_v16/onion_member_lineage/AUDIT_SUMMARY.json",
+    "relative_path": "onion/onion_member_lineage/AUDIT_SUMMARY.json",
+    "original_relative_path": "onion/onion_member_lineage/AUDIT_SUMMARY.json",
+    "original_sha256": "cfaefa2ace9773bf05438d4f0ac313b3a3392739755996b98621cfa1bfabb61c",
+    "distributed_sha256": "cfaefa2ace9773bf05438d4f0ac313b3a3392739755996b98621cfa1bfabb61c",
+    "original_bytes": 1507,
+    "distributed_bytes": 1507,
+    "gzip_transport": false
+  },
+  {
+    "historical_path": "D:/论文/SCI投稿汇总/Onion_Deep_Revision_20261002_v16/onion_member_lineage/COMPLETION.json",
+    "relative_path": "onion/onion_member_lineage/COMPLETION.json",
+    "original_relative_path": "onion/onion_member_lineage/COMPLETION.json",
+    "original_sha256": "547257de25a26759ce498c87f2d673c6cc531f84da9b9fe2fc6ac49cce1bd8d1",
+    "distributed_sha256": "547257de25a26759ce498c87f2d673c6cc531f84da9b9fe2fc6ac49cce1bd8d1",
+    "original_bytes": 983,
+    "distributed_bytes": 983,
+    "gzip_transport": false
+  },
+  {
+    "historical_path": "D:/论文/SCI投稿汇总/Onion_Deep_Revision_20261002_v16/onion_member_lineage/conservative_component_membership.csv",
+    "relative_path": "onion/onion_member_lineage/conservative_component_membership.csv",
+    "original_relative_path": "onion/onion_member_lineage/conservative_component_membership.csv",
+    "original_sha256": "543a8305f7a453d4a0f02daf2eb262872a8fa997f8c8a08f8558797b85107b48",
+    "distributed_sha256": "543a8305f7a453d4a0f02daf2eb262872a8fa997f8c8a08f8558797b85107b48",
+    "original_bytes": 155757,
+    "distributed_bytes": 155757,
+    "gzip_transport": false
+  },
+  {
+    "historical_path": "D:/论文/SCI投稿汇总/Onion_Deep_Revision_20261002_v16/onion_member_lineage/contact_sheets/CONTACT_SHEET_MANIFEST.json",
+    "relative_path": "onion/onion_member_lineage/contact_sheets/CONTACT_SHEET_MANIFEST.json",
+    "original_relative_path": "onion/onion_member_lineage/contact_sheets/CONTACT_SHEET_MANIFEST.json",
+    "original_sha256": "c6239680b93cdc7703cdaadea617729a4ae75d1e4bd1b8cf8778b5b86d27eb2e",
+    "distributed_sha256": "c6239680b93cdc7703cdaadea617729a4ae75d1e4bd1b8cf8778b5b86d27eb2e",
+    "original_bytes": 6305,
+    "distributed_bytes": 6305,
+    "gzip_transport": false
+  },
+  {
+    "historical_path": "D:/论文/SCI投稿汇总/Onion_Deep_Revision_20261002_v16/onion_member_lineage/contact_sheets/TARGETED_VISUAL_REVIEW.json",
+    "relative_path": "onion/onion_member_lineage/contact_sheets/TARGETED_VISUAL_REVIEW.json",
+    "original_relative_path": "onion/onion_member_lineage/contact_sheets/TARGETED_VISUAL_REVIEW.json",
+    "original_sha256": "4c4c54a64e066e25d6223e4a56ac63b6e50c50df30e218468167fca4720e67e1",
+    "distributed_sha256": "4c4c54a64e066e25d6223e4a56ac63b6e50c50df30e218468167fca4720e67e1",
+    "original_bytes": 4380,
+    "distributed_bytes": 4380,
+    "gzip_transport": false
+  },
+  {
+    "historical_path": "D:/论文/SCI投稿汇总/Onion_Deep_Revision_20261002_v16/onion_member_lineage/dependence_graph/all_high_augmented_components.csv",
+    "relative_path": "onion/onion_member_lineage/dependence_graph/all_high_augmented_components.csv.gz",
+    "original_relative_path": "onion/onion_member_lineage/dependence_graph/all_high_augmented_components.csv",
+    "original_sha256": "e1e1741fb7348a317517997be38f7dd00a925388d34214aef295b0b66d63f825",
+    "distributed_sha256": "276443fa7642c923855ac51fef62e3d74343f5e8823ea5514c59d48b3d9b67e1",
+    "original_bytes": 1056116,
+    "distributed_bytes": 144039,
+    "gzip_transport": true
+  },
+  {
+    "historical_path": "D:/论文/SCI投稿汇总/Onion_Deep_Revision_20261002_v16/onion_member_lineage/dependence_graph/all_high_component_summary.csv",
+    "relative_path": "onion/onion_member_lineage/dependence_graph/all_high_component_summary.csv",
+    "original_relative_path": "onion/onion_member_lineage/dependence_graph/all_high_component_summary.csv",
+    "original_sha256": "3fa5039e287a6661b051959f44928f9783cdb09e243445e9efa3f0112db62c52",
+    "distributed_sha256": "3fa5039e287a6661b051959f44928f9783cdb09e243445e9efa3f0112db62c52",
+    "original_bytes": 120329,
+    "distributed_bytes": 120329,
+    "gzip_transport": false
+  },
+  {
+    "historical_path": "D:/论文/SCI投稿汇总/Onion_Deep_Revision_20261002_v16/onion_member_lineage/dependence_graph/all_high_evidence_edges.csv",
+    "relative_path": "onion/onion_member_lineage/dependence_graph/all_high_evidence_edges.csv.gz",
+    "original_relative_path": "onion/onion_member_lineage/dependence_graph/all_high_evidence_edges.csv",
+    "original_sha256": "2e8b934b431d3fb66387b8cf9f7974c1b95b71eb974bc4dbb543fce8469e3b87",
+    "distributed_sha256": "fbab8782029482715c82ea54247f6d91155e31df72dcafd458cefbeabe85f148",
+    "original_bytes": 1146875,
+    "distributed_bytes": 295069,
+    "gzip_transport": true
+  },
+  {
+    "historical_path": "D:/论文/SCI投稿汇总/Onion_Deep_Revision_20261002_v16/onion_member_lineage/dependence_graph/all_high_raw_content_components.csv",
+    "relative_path": "onion/onion_member_lineage/dependence_graph/all_high_raw_content_components.csv",
+    "original_relative_path": "onion/onion_member_lineage/dependence_graph/all_high_raw_content_components.csv",
+    "original_sha256": "72fa58f754abb5e667b07a2f4cd440a6c9c725faea8d205741ef9a55db9be55b",
+    "distributed_sha256": "72fa58f754abb5e667b07a2f4cd440a6c9c725faea8d205741ef9a55db9be55b",
+    "original_bytes": 137978,
+    "distributed_bytes": 137978,
+    "gzip_transport": false
+  },
+  {
+    "historical_path": "D:/论文/SCI投稿汇总/Onion_Deep_Revision_20261002_v16/onion_member_lineage/dependence_graph/COMPLETION.json",
+    "relative_path": "onion/onion_member_lineage/dependence_graph/COMPLETION.json",
+    "original_relative_path": "onion/onion_member_lineage/dependence_graph/COMPLETION.json",
+    "original_sha256": "599cccaf92913d86ab3fb9a89706c0a945c11582bdfebf581ac93bdd000de091",
+    "distributed_sha256": "599cccaf92913d86ab3fb9a89706c0a945c11582bdfebf581ac93bdd000de091",
+    "original_bytes": 1227,
+    "distributed_bytes": 1227,
+    "gzip_transport": false
+  },
+  {
+    "historical_path": "D:/论文/SCI投稿汇总/Onion_Deep_Revision_20261002_v16/onion_member_lineage/dependence_graph/GRAPH_FREEZE.json",
+    "relative_path": "onion/onion_member_lineage/dependence_graph/GRAPH_FREEZE.json",
+    "original_relative_path": "onion/onion_member_lineage/dependence_graph/GRAPH_FREEZE.json",
+    "original_sha256": "3458a90b07682675ad5fac5cf83ef0c23f6ac837d3340b737cd0765c9ff8669c",
+    "distributed_sha256": "3458a90b07682675ad5fac5cf83ef0c23f6ac837d3340b737cd0765c9ff8669c",
+    "original_bytes": 1658,
+    "distributed_bytes": 1658,
+    "gzip_transport": false
+  },
+  {
+    "historical_path": "D:/论文/SCI投稿汇总/Onion_Deep_Revision_20261002_v16/onion_member_lineage/dependence_graph/GRAPH_SUMMARY.json",
+    "relative_path": "onion/onion_member_lineage/dependence_graph/GRAPH_SUMMARY.json",
+    "original_relative_path": "onion/onion_member_lineage/dependence_graph/GRAPH_SUMMARY.json",
+    "original_sha256": "4fe903503cfec436eddc8daf2331c3da675223fa94e0905dcf9c17fccdb1dbce",
+    "distributed_sha256": "4fe903503cfec436eddc8daf2331c3da675223fa94e0905dcf9c17fccdb1dbce",
+    "original_bytes": 1197,
+    "distributed_bytes": 1197,
+    "gzip_transport": false
+  },
+  {
+    "historical_path": "D:/论文/SCI投稿汇总/Onion_Deep_Revision_20261002_v16/onion_member_lineage/dependence_graph/member_source_support.csv",
+    "relative_path": "onion/onion_member_lineage/dependence_graph/member_source_support.csv.gz",
+    "original_relative_path": "onion/onion_member_lineage/dependence_graph/member_source_support.csv",
+    "original_sha256": "a495e1655f929f61197e3a100e336acbe3b6452063145b98504faa34d753d79e",
+    "distributed_sha256": "d3f8a57a89cc92b9f87b082f849a928cbb1512447d733e2403e9dac907139a7d",
+    "original_bytes": 1345356,
+    "distributed_bytes": 164134,
+    "gzip_transport": true
+  },
+  {
+    "historical_path": "D:/论文/SCI投稿汇总/Onion_Deep_Revision_20261002_v16/onion_member_lineage/dependence_graph/spatial_high_augmented_components.csv",
+    "relative_path": "onion/onion_member_lineage/dependence_graph/spatial_high_augmented_components.csv.gz",
+    "original_relative_path": "onion/onion_member_lineage/dependence_graph/spatial_high_augmented_components.csv",
+    "original_sha256": "76bfb655050b1f50aa7db5dffa9f9e28945ee7441112b282250f08fe615c505e",
+    "distributed_sha256": "d62e681d4db2b24bb1b6dd4ffd6ed616e321bd7439d23a203fa5fd2347c33031",
+    "original_bytes": 1070050,
+    "distributed_bytes": 145238,
+    "gzip_transport": true
+  },
+  {
+    "historical_path": "D:/论文/SCI投稿汇总/Onion_Deep_Revision_20261002_v16/onion_member_lineage/dependence_graph/spatial_high_component_summary.csv",
+    "relative_path": "onion/onion_member_lineage/dependence_graph/spatial_high_component_summary.csv",
+    "original_relative_path": "onion/onion_member_lineage/dependence_graph/spatial_high_component_summary.csv",
+    "original_sha256": "efd487cf8c05ca3813d8e27014dc6664d586ecec9a2536d78930e749d5e15d40",
+    "distributed_sha256": "efd487cf8c05ca3813d8e27014dc6664d586ecec9a2536d78930e749d5e15d40",
+    "original_bytes": 133373,
+    "distributed_bytes": 133373,
+    "gzip_transport": false
+  },
+  {
+    "historical_path": "D:/论文/SCI投稿汇总/Onion_Deep_Revision_20261002_v16/onion_member_lineage/dependence_graph/spatial_high_evidence_edges.csv",
+    "relative_path": "onion/onion_member_lineage/dependence_graph/spatial_high_evidence_edges.csv.gz",
+    "original_relative_path": "onion/onion_member_lineage/dependence_graph/spatial_high_evidence_edges.csv",
+    "original_sha256": "311857a332314d8f941baa1ab6daf23c3370ba9a018990e957c504fa1016087d",
+    "distributed_sha256": "444c39450e6d13c6f841ea73f4ebe60aad0e57318ddb877270a0ad8defc07f84",
+    "original_bytes": 1081228,
+    "distributed_bytes": 279818,
+    "gzip_transport": true
+  },
+  {
+    "historical_path": "D:/论文/SCI投稿汇总/Onion_Deep_Revision_20261002_v16/onion_member_lineage/dependence_graph/spatial_high_raw_content_components.csv",
+    "relative_path": "onion/onion_member_lineage/dependence_graph/spatial_high_raw_content_components.csv",
+    "original_relative_path": "onion/onion_member_lineage/dependence_graph/spatial_high_raw_content_components.csv",
+    "original_sha256": "54fdd5b8f604ff5cc9fb162035e3b41e28953f3b99f6d73eba78acf690d14806",
+    "distributed_sha256": "54fdd5b8f604ff5cc9fb162035e3b41e28953f3b99f6d73eba78acf690d14806",
+    "original_bytes": 140774,
+    "distributed_bytes": 140774,
+    "gzip_transport": false
+  },
+  {
+    "historical_path": "D:/论文/SCI投稿汇总/Onion_Deep_Revision_20261002_v16/onion_member_lineage/per_family_evidence.csv",
+    "relative_path": "onion/onion_member_lineage/per_family_evidence.csv",
+    "original_relative_path": "onion/onion_member_lineage/per_family_evidence.csv",
+    "original_sha256": "fbc124cbf7750393c1edfa709c0074858b3cbea752bd71755c3b32357a072a65",
+    "distributed_sha256": "fbc124cbf7750393c1edfa709c0074858b3cbea752bd71755c3b32357a072a65",
+    "original_bytes": 150663,
+    "distributed_bytes": 150663,
+    "gzip_transport": false
+  },
+  {
+    "historical_path": "D:/论文/SCI投稿汇总/Onion_Deep_Revision_20261002_v16/onion_member_lineage/per_member_evidence.csv",
+    "relative_path": "onion/onion_member_lineage/per_member_evidence.csv.gz",
+    "original_relative_path": "onion/onion_member_lineage/per_member_evidence.csv",
+    "original_sha256": "ef224040f360dfde5ebd99013dd364b6c4eab38ca4680936011d3b521adc08a9",
+    "distributed_sha256": "9643c53854e11510d23304caa080be23025ebc7ada74ecc9a56b098d5a1bd69b",
+    "original_bytes": 1178496,
+    "distributed_bytes": 205714,
+    "gzip_transport": true
+  },
+  {
+    "historical_path": "D:/论文/SCI投稿汇总/Onion_Deep_Revision_20261002_v16/onion_member_lineage/raw_content_identity.csv",
+    "relative_path": "onion/onion_member_lineage/raw_content_identity.csv",
+    "original_relative_path": "onion/onion_member_lineage/raw_content_identity.csv",
+    "original_sha256": "1a9023071e92b2d56a944bc3ac06845f5f1c352f4781a08ec7798434509dbbe5",
+    "distributed_sha256": "1a9023071e92b2d56a944bc3ac06845f5f1c352f4781a08ec7798434509dbbe5",
+    "original_bytes": 220802,
+    "distributed_bytes": 220802,
+    "gzip_transport": false
+  },
+  {
+    "historical_path": "D:/论文/SCI投稿汇总/Onion_Deep_Revision_20261002_v16/onion_member_lineage/shared_raw_content_prefixes.csv",
+    "relative_path": "onion/onion_member_lineage/shared_raw_content_prefixes.csv",
+    "original_relative_path": "onion/onion_member_lineage/shared_raw_content_prefixes.csv",
+    "original_sha256": "847c770317cb49c7cd1c8be292ea04cfae0dcdd0d097b3fc748df8e860bae5a9",
+    "distributed_sha256": "847c770317cb49c7cd1c8be292ea04cfae0dcdd0d097b3fc748df8e860bae5a9",
+    "original_bytes": 32469,
+    "distributed_bytes": 32469,
+    "gzip_transport": false
+  },
+  {
+    "historical_path": "D:/论文/SCI投稿汇总/Onion_Deep_Revision_20261002_v16/onion_member_lineage/stage1_uniform_geometry/all_orientation_geometry.csv",
+    "relative_path": "onion/onion_member_lineage/stage1_uniform_geometry/all_orientation_geometry.csv.gz",
+    "original_relative_path": "onion/onion_member_lineage/stage1_uniform_geometry/all_orientation_geometry.csv",
+    "original_sha256": "5463f9fa586005c29948bcb3a909c5a0c024ddc5bb6c03644a94ab1da158517f",
+    "distributed_sha256": "03f05f6ad87492b73b602d372308bc64d8729dc579c95a3832e214de8ad394e4",
+    "original_bytes": 4542763,
+    "distributed_bytes": 815876,
+    "gzip_transport": true
+  },
+  {
+    "historical_path": "D:/论文/SCI投稿汇总/Onion_Deep_Revision_20261002_v16/onion_member_lineage/stage1_uniform_geometry/AUDIT_FREEZE.json",
+    "relative_path": "onion/onion_member_lineage/stage1_uniform_geometry/AUDIT_FREEZE.json",
+    "original_relative_path": "onion/onion_member_lineage/stage1_uniform_geometry/AUDIT_FREEZE.json",
+    "original_sha256": "bd2b7ab84ec80e9866bbd01499df5e9cf1436771ff711c1e76af2a9e04960e3a",
+    "distributed_sha256": "bd2b7ab84ec80e9866bbd01499df5e9cf1436771ff711c1e76af2a9e04960e3a",
+    "original_bytes": 1276,
+    "distributed_bytes": 1276,
+    "gzip_transport": false
+  },
+  {
+    "historical_path": "D:/论文/SCI投稿汇总/Onion_Deep_Revision_20261002_v16/onion_member_lineage/stage1_uniform_geometry/AUDIT_SUMMARY.json",
+    "relative_path": "onion/onion_member_lineage/stage1_uniform_geometry/AUDIT_SUMMARY.json",
+    "original_relative_path": "onion/onion_member_lineage/stage1_uniform_geometry/AUDIT_SUMMARY.json",
+    "original_sha256": "b675cc1f3189865e24a58ba99a25424bcf9705d43d99b8d1c0ade0e8273fac48",
+    "distributed_sha256": "b675cc1f3189865e24a58ba99a25424bcf9705d43d99b8d1c0ade0e8273fac48",
+    "original_bytes": 303,
+    "distributed_bytes": 303,
+    "gzip_transport": false
+  },
+  {
+    "historical_path": "D:/论文/SCI投稿汇总/Onion_Deep_Revision_20261002_v16/onion_member_lineage/stage1_uniform_geometry/COMPLETION.json",
+    "relative_path": "onion/onion_member_lineage/stage1_uniform_geometry/COMPLETION.json",
+    "original_relative_path": "onion/onion_member_lineage/stage1_uniform_geometry/COMPLETION.json",
+    "original_sha256": "e62c7f9e7d19120ab324ea2d2763ca9aa3face05871604c472ea0032852ca586",
+    "distributed_sha256": "e62c7f9e7d19120ab324ea2d2763ca9aa3face05871604c472ea0032852ca586",
+    "original_bytes": 542,
+    "distributed_bytes": 542,
+    "gzip_transport": false
+  },
+  {
+    "historical_path": "D:/论文/SCI投稿汇总/Onion_Deep_Revision_20261002_v16/onion_member_lineage/stage1_uniform_geometry/frozen_pairs.csv",
+    "relative_path": "onion/onion_member_lineage/stage1_uniform_geometry/frozen_pairs.csv.gz",
+    "original_relative_path": "onion/onion_member_lineage/stage1_uniform_geometry/frozen_pairs.csv",
+    "original_sha256": "119c963513eb3ca587477b5c1af3c86422a17b518c6f5debea96d370af6e8d44",
+    "distributed_sha256": "b00f0f6ba7de483403100972ef2cf1a6f81ceb63bb9b39b11e4b606557b08b14",
+    "original_bytes": 1625408,
+    "distributed_bytes": 209912,
+    "gzip_transport": true
+  },
+  {
+    "historical_path": "D:/论文/SCI投稿汇总/Onion_Deep_Revision_20261002_v16/onion_member_lineage/stage1_uniform_geometry/unified_pair_support.csv",
+    "relative_path": "onion/onion_member_lineage/stage1_uniform_geometry/unified_pair_support.csv.gz",
+    "original_relative_path": "onion/onion_member_lineage/stage1_uniform_geometry/unified_pair_support.csv",
+    "original_sha256": "28d01b5174ace1c405600f4d7087d4cb5873b0946d34b413ff9fe260ea2ea464",
+    "distributed_sha256": "c5424172f58c05a39c1c28c8610a7cee533be57c88761b5bd209be5620f6eee8",
+    "original_bytes": 2323277,
+    "distributed_bytes": 514022,
+    "gzip_transport": true
+  },
+  {
+    "historical_path": "D:/论文/SCI投稿汇总/Onion_Deep_Revision_20261002_v16/onion_member_lineage/stage2_global/AUDIT_FREEZE.json",
+    "relative_path": "onion/onion_member_lineage/stage2_global/AUDIT_FREEZE.json",
+    "original_relative_path": "onion/onion_member_lineage/stage2_global/AUDIT_FREEZE.json",
+    "original_sha256": "9887f6fbd166d2df8651df85942d9982458af76676ed0fad911bb4e7e3e8eaeb",
+    "distributed_sha256": "9887f6fbd166d2df8651df85942d9982458af76676ed0fad911bb4e7e3e8eaeb",
+    "original_bytes": 1909,
+    "distributed_bytes": 1909,
+    "gzip_transport": false
+  },
+  {
+    "historical_path": "D:/论文/SCI投稿汇总/Onion_Deep_Revision_20261002_v16/onion_member_lineage/stage2_global/AUDIT_SUMMARY.json",
+    "relative_path": "onion/onion_member_lineage/stage2_global/AUDIT_SUMMARY.json",
+    "original_relative_path": "onion/onion_member_lineage/stage2_global/AUDIT_SUMMARY.json",
+    "original_sha256": "90730b9309adf7413d7f86dbdaf517f868f9387df2be49b5b89760f4710d6621",
+    "distributed_sha256": "90730b9309adf7413d7f86dbdaf517f868f9387df2be49b5b89760f4710d6621",
+    "original_bytes": 809,
+    "distributed_bytes": 809,
+    "gzip_transport": false
+  },
+  {
+    "historical_path": "D:/论文/SCI投稿汇总/Onion_Deep_Revision_20261002_v16/onion_member_lineage/stage2_global/augmented_global_candidate_geometry.csv",
+    "relative_path": "onion/onion_member_lineage/stage2_global/augmented_global_candidate_geometry.csv.gz",
+    "original_relative_path": "onion/onion_member_lineage/stage2_global/augmented_global_candidate_geometry.csv",
+    "original_sha256": "b8bdd6bcd62bf6e93b10f805ee2a561ff060daa13098ee15e09ce03df3136b51",
+    "distributed_sha256": "54266772fd36d8102ceedf1801fd8d19c30cb4f140ceda0338542d6b24579313",
+    "original_bytes": 4876495,
+    "distributed_bytes": 1236474,
+    "gzip_transport": true
+  },
+  {
+    "historical_path": "D:/论文/SCI投稿汇总/Onion_Deep_Revision_20261002_v16/onion_member_lineage/stage2_global/COMPLETION.json",
+    "relative_path": "onion/onion_member_lineage/stage2_global/COMPLETION.json",
+    "original_relative_path": "onion/onion_member_lineage/stage2_global/COMPLETION.json",
+    "original_sha256": "14493f74cef0b9470fef6732da9ebb5cb5afb6554a363d5d2da2b1022f676fcd",
+    "distributed_sha256": "14493f74cef0b9470fef6732da9ebb5cb5afb6554a363d5d2da2b1022f676fcd",
+    "original_bytes": 693,
+    "distributed_bytes": 693,
+    "gzip_transport": false
+  },
+  {
+    "historical_path": "D:/论文/SCI投稿汇总/Onion_Deep_Revision_20261002_v16/onion_member_lineage/stage2_global/frozen_augmented_global_candidates.csv",
+    "relative_path": "onion/onion_member_lineage/stage2_global/frozen_augmented_global_candidates.csv.gz",
+    "original_relative_path": "onion/onion_member_lineage/stage2_global/frozen_augmented_global_candidates.csv",
+    "original_sha256": "2f9c0230ff4ed9aefe6dc5751da2aac2b7fa6c44bca8eaab8729801d87eeecf1",
+    "distributed_sha256": "dbc9cd7569be36fa07d29dfa6bcd6ab137a239dd394347b6d354e95909399b38",
+    "original_bytes": 3195415,
+    "distributed_bytes": 732812,
+    "gzip_transport": true
+  },
+  {
+    "historical_path": "D:/论文/SCI投稿汇总/Onion_Deep_Revision_20261002_v16/onion_member_lineage/stage2_global/frozen_raw_global_candidates.csv",
+    "relative_path": "onion/onion_member_lineage/stage2_global/frozen_raw_global_candidates.csv.gz",
+    "original_relative_path": "onion/onion_member_lineage/stage2_global/frozen_raw_global_candidates.csv",
+    "original_sha256": "205da44fe1cd5511d86c9177d637a6714e323e043fd91ff9b34c6130b236091b",
+    "distributed_sha256": "993734f13b859ab74e8e9db10c035eccf85c88f72c26a062a967ef2002c07541",
+    "original_bytes": 1432092,
+    "distributed_bytes": 374894,
+    "gzip_transport": true
+  },
+  {
+    "historical_path": "D:/论文/SCI投稿汇总/Onion_Deep_Revision_20261002_v16/onion_member_lineage/stage2_global/raw_global_candidate_geometry.csv",
+    "relative_path": "onion/onion_member_lineage/stage2_global/raw_global_candidate_geometry.csv.gz",
+    "original_relative_path": "onion/onion_member_lineage/stage2_global/raw_global_candidate_geometry.csv",
+    "original_sha256": "7f5c1f329209d92f5324ec22fe4ebd8b89fe6e91d448e825eac531b4f196ed17",
+    "distributed_sha256": "3036d3af0e7aee3b96bc8a5e0cd21fa5a10c978edea8066956637c86a86f4b71",
+    "original_bytes": 2060847,
+    "distributed_bytes": 556129,
+    "gzip_transport": true
+  },
+  {
+    "historical_path": "D:/论文/SCI投稿汇总/Onion_Deep_Revision_20261002_v16/onion_member_lineage/STAGE2_PAIR_COUNT_PREVIEW.json",
+    "relative_path": "onion/onion_member_lineage/STAGE2_PAIR_COUNT_PREVIEW.json",
+    "original_relative_path": "onion/onion_member_lineage/STAGE2_PAIR_COUNT_PREVIEW.json",
+    "original_sha256": "25bad484965817f78303947f589681eb237e92208ec085765bde94905be66ec6",
+    "distributed_sha256": "25bad484965817f78303947f589681eb237e92208ec085765bde94905be66ec6",
+    "original_bytes": 183,
+    "distributed_bytes": 183,
+    "gzip_transport": false
+  },
+  {
+    "historical_path": "D:/论文/SCI投稿汇总/Onion_Deep_Revision_20261002_v16/onion_member_lineage/stage2_uniform_geometry/all_orientation_geometry.csv",
+    "relative_path": "onion/onion_member_lineage/stage2_uniform_geometry/all_orientation_geometry.csv",
+    "original_relative_path": "onion/onion_member_lineage/stage2_uniform_geometry/all_orientation_geometry.csv",
+    "original_sha256": "57cc441e8d547a33dd116a625839bcbe4ffe9a5712d0bb0e6e3febd0d2c3a1dc",
+    "distributed_sha256": "57cc441e8d547a33dd116a625839bcbe4ffe9a5712d0bb0e6e3febd0d2c3a1dc",
+    "original_bytes": 168139,
+    "distributed_bytes": 168139,
+    "gzip_transport": false
+  },
+  {
+    "historical_path": "D:/论文/SCI投稿汇总/Onion_Deep_Revision_20261002_v16/onion_member_lineage/stage2_uniform_geometry/AUDIT_FREEZE.json",
+    "relative_path": "onion/onion_member_lineage/stage2_uniform_geometry/AUDIT_FREEZE.json",
+    "original_relative_path": "onion/onion_member_lineage/stage2_uniform_geometry/AUDIT_FREEZE.json",
+    "original_sha256": "df31452aa4cc1b842419837a5f6268d6ae69cfbb21accb8dc2f5f7966cb35937",
+    "distributed_sha256": "df31452aa4cc1b842419837a5f6268d6ae69cfbb21accb8dc2f5f7966cb35937",
+    "original_bytes": 1524,
+    "distributed_bytes": 1524,
+    "gzip_transport": false
+  },
+  {
+    "historical_path": "D:/论文/SCI投稿汇总/Onion_Deep_Revision_20261002_v16/onion_member_lineage/stage2_uniform_geometry/AUDIT_SUMMARY.json",
+    "relative_path": "onion/onion_member_lineage/stage2_uniform_geometry/AUDIT_SUMMARY.json",
+    "original_relative_path": "onion/onion_member_lineage/stage2_uniform_geometry/AUDIT_SUMMARY.json",
+    "original_sha256": "f8a68767adba799c463c741e6c3516ead0a2fb144358932d490670bbf2a039fc",
+    "distributed_sha256": "f8a68767adba799c463c741e6c3516ead0a2fb144358932d490670bbf2a039fc",
+    "original_bytes": 302,
+    "distributed_bytes": 302,
+    "gzip_transport": false
+  },
+  {
+    "historical_path": "D:/论文/SCI投稿汇总/Onion_Deep_Revision_20261002_v16/onion_member_lineage/stage2_uniform_geometry/COMPLETION.json",
+    "relative_path": "onion/onion_member_lineage/stage2_uniform_geometry/COMPLETION.json",
+    "original_relative_path": "onion/onion_member_lineage/stage2_uniform_geometry/COMPLETION.json",
+    "original_sha256": "49e67cbedf9282cafa5c107ee17792b9a4b8407df5073df210973b9ac9331bd1",
+    "distributed_sha256": "49e67cbedf9282cafa5c107ee17792b9a4b8407df5073df210973b9ac9331bd1",
+    "original_bytes": 542,
+    "distributed_bytes": 542,
+    "gzip_transport": false
+  },
+  {
+    "historical_path": "D:/论文/SCI投稿汇总/Onion_Deep_Revision_20261002_v16/onion_member_lineage/stage2_uniform_geometry/frozen_pairs.csv",
+    "relative_path": "onion/onion_member_lineage/stage2_uniform_geometry/frozen_pairs.csv",
+    "original_relative_path": "onion/onion_member_lineage/stage2_uniform_geometry/frozen_pairs.csv",
+    "original_sha256": "5cfd661047f9ed4e314df7841d4f92595ec5a0cddfedc7f4b403b404e9f88209",
+    "distributed_sha256": "5cfd661047f9ed4e314df7841d4f92595ec5a0cddfedc7f4b403b404e9f88209",
+    "original_bytes": 60531,
+    "distributed_bytes": 60531,
+    "gzip_transport": false
+  },
+  {
+    "historical_path": "D:/论文/SCI投稿汇总/Onion_Deep_Revision_20261002_v16/onion_member_lineage/stage2_uniform_geometry/unified_pair_support.csv",
+    "relative_path": "onion/onion_member_lineage/stage2_uniform_geometry/unified_pair_support.csv",
+    "original_relative_path": "onion/onion_member_lineage/stage2_uniform_geometry/unified_pair_support.csv",
+    "original_sha256": "9e020ff706812548597ef69be7a8d6ea03332515a4e6dc0f8197b7fb11fce74c",
+    "distributed_sha256": "9e020ff706812548597ef69be7a8d6ea03332515a4e6dc0f8197b7fb11fce74c",
+    "original_bytes": 87262,
+    "distributed_bytes": 87262,
+    "gzip_transport": false
+  },
+  {
+    "historical_path": "D:/论文/SCI投稿汇总/Onion_Deep_Revision_20261002_v16/corrected_component_selection/all_member_selection_ledger.csv",
+    "relative_path": "onion/corrected_component_selection/all_member_selection_ledger.csv",
+    "original_relative_path": "onion/corrected_component_selection/all_member_selection_ledger.csv",
+    "original_sha256": "94e7383a1a0ad8204e7d746934d70e096d413e830e153e90d1e8de1ff4057fdd",
+    "distributed_sha256": "94e7383a1a0ad8204e7d746934d70e096d413e830e153e90d1e8de1ff4057fdd",
+    "original_bytes": 290826,
+    "distributed_bytes": 290826,
+    "gzip_transport": false
+  },
+  {
+    "historical_path": "D:/论文/SCI投稿汇总/Onion_Deep_Revision_20261002_v16/corrected_component_selection/component_eligibility.csv",
+    "relative_path": "onion/corrected_component_selection/component_eligibility.csv",
+    "original_relative_path": "onion/corrected_component_selection/component_eligibility.csv",
+    "original_sha256": "95010549ed34a415cc22805f3ae8bb29e12ec20b1bb23fa13e3e1e0d8905082a",
+    "distributed_sha256": "95010549ed34a415cc22805f3ae8bb29e12ec20b1bb23fa13e3e1e0d8905082a",
+    "original_bytes": 76037,
+    "distributed_bytes": 76037,
+    "gzip_transport": false
+  },
+  {
+    "historical_path": "D:/论文/SCI投稿汇总/Onion_Deep_Revision_20261002_v16/corrected_component_selection/corrected_manifest.csv",
+    "relative_path": "onion/corrected_component_selection/corrected_manifest.csv.gz",
+    "original_relative_path": "onion/corrected_component_selection/corrected_manifest.csv",
+    "original_sha256": "5a5a31cccaf6b6d7a3fe046f16be33c99a33d00fecdf2d3ab49bb41d3dd7ee72",
+    "distributed_sha256": "4f6389b30a41ab5afaa2a5d9a309009327f201e1039a4b21db85fb5e65a3c428",
+    "original_bytes": 806249,
+    "distributed_bytes": 171499,
+    "gzip_transport": true
+  },
+  {
+    "historical_path": "D:/论文/SCI投稿汇总/Onion_Deep_Revision_20261002_v16/corrected_component_selection/SELECTION_FREEZE.json",
+    "relative_path": "onion/corrected_component_selection/SELECTION_FREEZE.json",
+    "original_relative_path": "onion/corrected_component_selection/SELECTION_FREEZE.json",
+    "original_sha256": "be30edd1bb8e235e4a398ffd98e3b567c1de9bac47c8574ce63ad1929e735c19",
+    "distributed_sha256": "be30edd1bb8e235e4a398ffd98e3b567c1de9bac47c8574ce63ad1929e735c19",
+    "original_bytes": 2380,
+    "distributed_bytes": 2380,
+    "gzip_transport": false
+  },
+  {
+    "historical_path": "D:/论文/SCI投稿汇总/Onion_Deep_Revision_20261002_v16/corrected_component_selection/SELECTION_SUMMARY.json",
+    "relative_path": "onion/corrected_component_selection/SELECTION_SUMMARY.json",
+    "original_relative_path": "onion/corrected_component_selection/SELECTION_SUMMARY.json",
+    "original_sha256": "4e09d64d0637905431622fcc4f0a03e722fab28d192dd5201ad6b4b07a69b448",
+    "distributed_sha256": "4e09d64d0637905431622fcc4f0a03e722fab28d192dd5201ad6b4b07a69b448",
+    "original_bytes": 1070,
+    "distributed_bytes": 1070,
+    "gzip_transport": false
+  },
+  {
+    "historical_path": "C:/Users/lixin/Documents/Codex/2026-09-27/lu/work/onion_crossdomain/audit/cold_augmented_lineage/augmented_family_manifest.csv",
+    "relative_path": "onion/additional_inputs/augmented_family_manifest.csv.gz",
+    "original_relative_path": "onion/additional_inputs/augmented_family_manifest.csv",
+    "original_sha256": "db89d16dc79262faa8b3bc2d8bca68b9c4ce9466ce63f10b556430b828820c0a",
+    "distributed_sha256": "a8652eb920cb298a5c73cefd928ae4c8f42491ccfae0859a0e2acfe0c4a4033a",
+    "original_bytes": 1780674,
+    "distributed_bytes": 481866,
+    "gzip_transport": true
+  },
+  {
+    "historical_path": "D:/论文/SCI投稿汇总/Onion_Deep_Revision_20261003_v17/independent_task/acquire_potato.py",
+    "relative_path": "code/original/potato/acquire_potato.py",
+    "original_relative_path": "code/original/potato/acquire_potato.py",
+    "original_sha256": "174af35f405f65943ca501cbd9ae5f913a679d5b2969ef8f8506319fb6f0697c",
+    "distributed_sha256": "174af35f405f65943ca501cbd9ae5f913a679d5b2969ef8f8506319fb6f0697c",
+    "original_bytes": 6121,
+    "distributed_bytes": 6121,
+    "gzip_transport": false
+  },
+  {
+    "historical_path": "D:/论文/SCI投稿汇总/Onion_Deep_Revision_20261003_v17/independent_task/prepare_potato_features.py",
+    "relative_path": "code/original/potato/prepare_potato_features.py",
+    "original_relative_path": "code/original/potato/prepare_potato_features.py",
+    "original_sha256": "0a7c3ace271eb886bb86b4e5c24fe1265c9c43be727f8a6049a0a2fe2858326e",
+    "distributed_sha256": "0a7c3ace271eb886bb86b4e5c24fe1265c9c43be727f8a6049a0a2fe2858326e",
+    "original_bytes": 8144,
+    "distributed_bytes": 8144,
+    "gzip_transport": false
+  },
+  {
+    "historical_path": "D:/论文/SCI投稿汇总/Onion_Deep_Revision_20261003_v17/independent_task/audit_plantvillage_metadata.py",
+    "relative_path": "code/original/potato/audit_plantvillage_metadata.py",
+    "original_relative_path": "code/original/potato/audit_plantvillage_metadata.py",
+    "original_sha256": "8c60d7ec9181631ba15e97169387685ae48f31404665aac982666be7c2684c5e",
+    "distributed_sha256": "8c60d7ec9181631ba15e97169387685ae48f31404665aac982666be7c2684c5e",
+    "original_bytes": 4361,
+    "distributed_bytes": 4361,
+    "gzip_transport": false
+  },
+  {
+    "historical_path": "D:/论文/SCI投稿汇总/Onion_Deep_Revision_20261003_v17/independent_task/verify_potato_git_bytes.py",
+    "relative_path": "code/original/potato/verify_potato_git_bytes.py",
+    "original_relative_path": "code/original/potato/verify_potato_git_bytes.py",
+    "original_sha256": "79065f3d61f4b1254dfcd5e5c23a93ddaa22f22902400a6c6d3e53ad7b4d57bf",
+    "distributed_sha256": "79065f3d61f4b1254dfcd5e5c23a93ddaa22f22902400a6c6d3e53ad7b4d57bf",
+    "original_bytes": 2221,
+    "distributed_bytes": 2221,
+    "gzip_transport": false
+  },
+  {
+    "historical_path": "D:/论文/SCI投稿汇总/Onion_Deep_Revision_20261003_v17/independent_task/plantvillage_metadata/color_metadata.csv",
+    "relative_path": "potato/author_metadata_snapshot/color_metadata.csv.gz",
+    "original_relative_path": "potato/author_metadata_snapshot/color_metadata.csv",
+    "original_sha256": "803ed88c247107a7fc292bfedd93046ca178f74dab722e80a4ead4db8baf6878",
+    "distributed_sha256": "70c146997895d9cc9baee0c8d9a5bc0fa3cc6637cf5d226992cd707033cb7c47",
+    "original_bytes": 13749286,
+    "distributed_bytes": 1923059,
+    "gzip_transport": true
+  },
+  {
+    "historical_path": "D:/论文/SCI投稿汇总/Onion_Deep_Revision_20261003_v17/independent_task/plantvillage_metadata/leaf_group_metadata.csv",
+    "relative_path": "potato/author_metadata_snapshot/leaf_group_metadata.csv.gz",
+    "original_relative_path": "potato/author_metadata_snapshot/leaf_group_metadata.csv",
+    "original_sha256": "7d094fc384aedee7bea19e27d4801e8e2be23eaa7a8a84cd6c418a4fba9ec169",
+    "distributed_sha256": "09bef620aae898a2e050ac126037f64c614ff27a069d0c1b1d5313ed5523ef36",
+    "original_bytes": 653006,
+    "distributed_bytes": 24052,
+    "gzip_transport": true
+  },
+  {
+    "historical_path": "D:/论文/SCI投稿汇总/Onion_Deep_Revision_20261003_v17/independent_task/plantvillage_metadata/leaf_grouping/leaf-map.json",
+    "relative_path": "potato/author_metadata_snapshot/leaf_grouping/leaf-map.json.gz",
+    "original_relative_path": "potato/author_metadata_snapshot/leaf_grouping/leaf-map.json",
+    "original_sha256": "3b4b253683c6911744959a3870a92509b1faa1ee34e9f8585e21d0fe6337a25b",
+    "distributed_sha256": "56d90b19e1cf6509adfe573ee4014f98fa4ee6914c1bc907f253e68cc6f63ffb",
+    "original_bytes": 2429879,
+    "distributed_bytes": 192590,
+    "gzip_transport": true
+  },
+  {
+    "historical_path": "D:/论文/SCI投稿汇总/Onion_Deep_Revision_20261003_v17/independent_task/plantvillage_metadata/METADATA_AUDIT_FREEZE.json",
+    "relative_path": "potato/author_metadata_snapshot/METADATA_AUDIT_FREEZE.json",
+    "original_relative_path": "potato/author_metadata_snapshot/METADATA_AUDIT_FREEZE.json",
+    "original_sha256": "b59105927ff379475fb95b9e3a7efbdf079353ccfeafa691f740fc0a85ddf627",
+    "distributed_sha256": "b59105927ff379475fb95b9e3a7efbdf079353ccfeafa691f740fc0a85ddf627",
+    "original_bytes": 840,
+    "distributed_bytes": 840,
+    "gzip_transport": false
+  },
+  {
+    "historical_path": "D:/论文/SCI投稿汇总/Onion_Deep_Revision_20261003_v17/independent_task/plantvillage_metadata/METADATA_SUMMARY.json",
+    "relative_path": "potato/author_metadata_snapshot/METADATA_SUMMARY.json",
+    "original_relative_path": "potato/author_metadata_snapshot/METADATA_SUMMARY.json",
+    "original_sha256": "b568c983e643210595dce373786ccc6356e844692090949712e4f18fd570206b",
+    "distributed_sha256": "b568c983e643210595dce373786ccc6356e844692090949712e4f18fd570206b",
+    "original_bytes": 2458,
+    "distributed_bytes": 2458,
+    "gzip_transport": false
+  },
+  {
+    "historical_path": "D:/论文/SCI投稿汇总/Onion_Deep_Revision_20261003_v17/independent_task/plantvillage_metadata/plant_village.py",
+    "relative_path": "potato/author_metadata_snapshot/plant_village.py",
+    "original_relative_path": "potato/author_metadata_snapshot/plant_village.py",
+    "original_sha256": "872c207c874ad96e3a2e470299abf67e82b15c66e23f9e4e5b1ed784c69567d8",
+    "distributed_sha256": "872c207c874ad96e3a2e470299abf67e82b15c66e23f9e4e5b1ed784c69567d8",
+    "original_bytes": 7949,
+    "distributed_bytes": 7949,
+    "gzip_transport": false
+  },
+  {
+    "historical_path": "D:/论文/SCI投稿汇总/Onion_Deep_Revision_20261003_v17/independent_task/plantvillage_metadata/README.md",
+    "relative_path": "potato/author_metadata_snapshot/README.md",
+    "original_relative_path": "potato/author_metadata_snapshot/README.md",
+    "original_sha256": "9fbe34695a3f05583f47345e5174383226ecee9e7af9e21d979307771b2362fb",
+    "distributed_sha256": "9fbe34695a3f05583f47345e5174383226ecee9e7af9e21d979307771b2362fb",
+    "original_bytes": 6471,
+    "distributed_bytes": 6471,
+    "gzip_transport": false
+  },
+  {
+    "historical_path": "D:/论文/SCI投稿汇总/Onion_Deep_Revision_20261003_v17/independent_task/plantvillage_metadata/splits/color_test.txt",
+    "relative_path": "potato/author_metadata_snapshot/splits/color_test.txt.gz",
+    "original_relative_path": "potato/author_metadata_snapshot/splits/color_test.txt",
+    "original_sha256": "7a7257dcb5f9456feae6ae81248d29c28f45dc4cd41a00c13a5c5c198c5f2f8b",
+    "distributed_sha256": "6edbc529c34206656814225c516261aa24504541bf205d01bbb153dda3e5fba5",
+    "original_bytes": 1018650,
+    "distributed_bytes": 283870,
+    "gzip_transport": true
+  },
+  {
+    "historical_path": "D:/论文/SCI投稿汇总/Onion_Deep_Revision_20261003_v17/independent_task/plantvillage_metadata/splits/color_train.txt",
+    "relative_path": "potato/author_metadata_snapshot/splits/color_train.txt.gz",
+    "original_relative_path": "potato/author_metadata_snapshot/splits/color_train.txt",
+    "original_sha256": "c43e0205b321d1c929116f5df1842348ac1e5c4861306e081416785d3c439dbd",
+    "distributed_sha256": "e16c6fb211ef75003b1ff8acd67ca7702232277331fc141b77e1a39974556c91",
+    "original_bytes": 4151500,
+    "distributed_bytes": 1134326,
+    "gzip_transport": true
+  },
+  {
+    "historical_path": "D:/论文/SCI投稿汇总/Onion_Deep_Revision_20261003_v17/independent_task/potato/ACQUISITION_COMPLETE.json",
+    "relative_path": "potato/acquisition_and_selection/ACQUISITION_COMPLETE.json",
+    "original_relative_path": "potato/acquisition_and_selection/ACQUISITION_COMPLETE.json",
+    "original_sha256": "3ac599d36216385b93bd48dced7f33ef271cb28846e4550c35c428405f128ee8",
+    "distributed_sha256": "3ac599d36216385b93bd48dced7f33ef271cb28846e4550c35c428405f128ee8",
+    "original_bytes": 502,
+    "distributed_bytes": 502,
+    "gzip_transport": false
+  },
+  {
+    "historical_path": "D:/论文/SCI投稿汇总/Onion_Deep_Revision_20261003_v17/independent_task/potato/ACQUISITION_FREEZE.json",
+    "relative_path": "potato/acquisition_and_selection/ACQUISITION_FREEZE.json",
+    "original_relative_path": "potato/acquisition_and_selection/ACQUISITION_FREEZE.json",
+    "original_sha256": "7ed3ce0611bb1414ce54425863ee2478d82526539ce4601513fcabed14599894",
+    "distributed_sha256": "7ed3ce0611bb1414ce54425863ee2478d82526539ce4601513fcabed14599894",
+    "original_bytes": 2652,
+    "distributed_bytes": 2652,
+    "gzip_transport": false
+  },
+  {
+    "historical_path": "D:/论文/SCI投稿汇总/Onion_Deep_Revision_20261003_v17/independent_task/potato/analysis_manifest.csv",
+    "relative_path": "potato/acquisition_and_selection/analysis_manifest.csv.gz",
+    "original_relative_path": "potato/acquisition_and_selection/analysis_manifest.csv",
+    "original_sha256": "534e326a0ccf65b24d1daf5fba8a047b05a4f50b008bec56ee5a9ea1681e4d67",
+    "distributed_sha256": "5448471a450e3b521cf087ad1792b2da660c335d1359a07772ff448d388b09c3",
+    "original_bytes": 1122970,
+    "distributed_bytes": 264407,
+    "gzip_transport": true
+  },
+  {
+    "historical_path": "D:/论文/SCI投稿汇总/Onion_Deep_Revision_20261003_v17/independent_task/potato/author_git_blob_checks.csv",
+    "relative_path": "potato/acquisition_and_selection/author_git_blob_checks.csv",
+    "original_relative_path": "potato/acquisition_and_selection/author_git_blob_checks.csv",
+    "original_sha256": "fcd6504e84433e758a5db3de4779dec5683175119979d052b6de432ff625a249",
+    "distributed_sha256": "fcd6504e84433e758a5db3de4779dec5683175119979d052b6de432ff625a249",
+    "original_bytes": 438038,
+    "distributed_bytes": 438038,
+    "gzip_transport": false
+  },
+  {
+    "historical_path": "D:/论文/SCI投稿汇总/Onion_Deep_Revision_20261003_v17/independent_task/potato/AUTHOR_GIT_BYTE_VERIFICATION.json",
+    "relative_path": "potato/acquisition_and_selection/AUTHOR_GIT_BYTE_VERIFICATION.json",
+    "original_relative_path": "potato/acquisition_and_selection/AUTHOR_GIT_BYTE_VERIFICATION.json",
+    "original_sha256": "9459c28ce62bf09291af0e93187c9f71d3d8c8f0c4908ba5f8d076f67bd1155f",
+    "distributed_sha256": "9459c28ce62bf09291af0e93187c9f71d3d8c8f0c4908ba5f8d076f67bd1155f",
+    "original_bytes": 1371,
+    "distributed_bytes": 1371,
+    "gzip_transport": false
+  },
+  {
+    "historical_path": "D:/论文/SCI投稿汇总/Onion_Deep_Revision_20261003_v17/independent_task/potato/contact_sheet_manifest.csv",
+    "relative_path": "potato/acquisition_and_selection/contact_sheet_manifest.csv",
+    "original_relative_path": "potato/acquisition_and_selection/contact_sheet_manifest.csv",
+    "original_sha256": "422431e2754b4da44b5c1bb9ac914f33d185bb0e7b6a2bab38ea4360728c0e49",
+    "distributed_sha256": "422431e2754b4da44b5c1bb9ac914f33d185bb0e7b6a2bab38ea4360728c0e49",
+    "original_bytes": 10423,
+    "distributed_bytes": 10423,
+    "gzip_transport": false
+  },
+  {
+    "historical_path": "D:/论文/SCI投稿汇总/Onion_Deep_Revision_20261003_v17/independent_task/potato/download_errors.json",
+    "relative_path": "potato/acquisition_and_selection/download_errors.json",
+    "original_relative_path": "potato/acquisition_and_selection/download_errors.json",
+    "original_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+    "distributed_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+    "original_bytes": 2,
+    "distributed_bytes": 2,
+    "gzip_transport": false
+  },
+  {
+    "historical_path": "D:/论文/SCI投稿汇总/Onion_Deep_Revision_20261003_v17/independent_task/potato/downloaded_manifest.csv",
+    "relative_path": "potato/acquisition_and_selection/downloaded_manifest.csv.gz",
+    "original_relative_path": "potato/acquisition_and_selection/downloaded_manifest.csv",
+    "original_sha256": "9e1d5edcc9d3105dd27de5a8a4030e7e3e59d7041232e6535dc89090b4cc6390",
+    "distributed_sha256": "f68521c1aff54e034b4a8a9cf3506d0c6897dd74062d26edda1ed5e14b8263b8",
+    "original_bytes": 1505236,
+    "distributed_bytes": 287460,
+    "gzip_transport": true
+  },
+  {
+    "historical_path": "D:/论文/SCI投稿汇总/Onion_Deep_Revision_20261003_v17/independent_task/potato/FEATURE_AND_SELECTION_FREEZE.json",
+    "relative_path": "potato/acquisition_and_selection/FEATURE_AND_SELECTION_FREEZE.json",
+    "original_relative_path": "potato/acquisition_and_selection/FEATURE_AND_SELECTION_FREEZE.json",
+    "original_sha256": "7e7e0bcc1892606375e5efa6f0b350c6c3206a619550d389d0d1fb62f9c68e64",
+    "distributed_sha256": "7e7e0bcc1892606375e5efa6f0b350c6c3206a619550d389d0d1fb62f9c68e64",
+    "original_bytes": 1307,
+    "distributed_bytes": 1307,
+    "gzip_transport": false
+  },
+  {
+    "historical_path": "D:/论文/SCI投稿汇总/Onion_Deep_Revision_20261003_v17/independent_task/potato/MATCHED_PREPARE_INDEPENDENT_CHECKS.csv",
+    "relative_path": "potato/acquisition_and_selection/MATCHED_PREPARE_INDEPENDENT_CHECKS.csv",
+    "original_relative_path": "potato/acquisition_and_selection/MATCHED_PREPARE_INDEPENDENT_CHECKS.csv",
+    "original_sha256": "bdfca59f76d452030f553f6fdcf08c5b30c43c9ae1f3baf5a03c3dc93a8c509f",
+    "distributed_sha256": "bdfca59f76d452030f553f6fdcf08c5b30c43c9ae1f3baf5a03c3dc93a8c509f",
+    "original_bytes": 24611,
+    "distributed_bytes": 24611,
+    "gzip_transport": false
+  },
+  {
+    "historical_path": "D:/论文/SCI投稿汇总/Onion_Deep_Revision_20261003_v17/independent_task/potato/MATCHED_PREPARE_INDEPENDENT_REVIEW.json",
+    "relative_path": "potato/acquisition_and_selection/MATCHED_PREPARE_INDEPENDENT_REVIEW.json",
+    "original_relative_path": "potato/acquisition_and_selection/MATCHED_PREPARE_INDEPENDENT_REVIEW.json",
+    "original_sha256": "8074abbfa01f2d6b0d288fe7959895acd1fa0d43aee7a833bfe879c8e71f020a",
+    "distributed_sha256": "8074abbfa01f2d6b0d288fe7959895acd1fa0d43aee7a833bfe879c8e71f020a",
+    "original_bytes": 1064,
+    "distributed_bytes": 1064,
+    "gzip_transport": false
+  },
+  {
+    "historical_path": "D:/论文/SCI投稿汇总/Onion_Deep_Revision_20261003_v17/independent_task/potato/PREPARATION_COMPLETE.json",
+    "relative_path": "potato/acquisition_and_selection/PREPARATION_COMPLETE.json",
+    "original_relative_path": "potato/acquisition_and_selection/PREPARATION_COMPLETE.json",
+    "original_sha256": "8e717e1d92fc091f8d0c397218c9256e755b4e0ea95c8675db11be70a0abf8eb",
+    "distributed_sha256": "8e717e1d92fc091f8d0c397218c9256e755b4e0ea95c8675db11be70a0abf8eb",
+    "original_bytes": 1395,
+    "distributed_bytes": 1395,
+    "gzip_transport": false
+  },
+  {
+    "historical_path": "D:/论文/SCI投稿汇总/Onion_Deep_Revision_20261003_v17/independent_task/potato/SELECTED_BEFORE_DOWNLOAD.csv",
+    "relative_path": "potato/acquisition_and_selection/SELECTED_BEFORE_DOWNLOAD.csv.gz",
+    "original_relative_path": "potato/acquisition_and_selection/SELECTED_BEFORE_DOWNLOAD.csv",
+    "original_sha256": "d29e0caca5e73afe14ff698569d8dc78091bce44163a56335b44720bb5954b18",
+    "distributed_sha256": "31d91117c4044ca501f86c307ac0d9986b724e7a1a5b91ea6c23214390ad2c8c",
+    "original_bytes": 542144,
+    "distributed_bytes": 82076,
+    "gzip_transport": true
+  },
+  {
+    "historical_path": "D:/论文/SCI投稿汇总/Onion_Deep_Revision_20261003_v17/independent_task/potato/selection_decisions.csv",
+    "relative_path": "potato/acquisition_and_selection/selection_decisions.csv",
+    "original_relative_path": "potato/acquisition_and_selection/selection_decisions.csv",
+    "original_sha256": "e97db1ea793d93d2b27636630a837de3b85c5a90661212feb03ba4f8594b78b1",
+    "distributed_sha256": "e97db1ea793d93d2b27636630a837de3b85c5a90661212feb03ba4f8594b78b1",
+    "original_bytes": 57166,
+    "distributed_bytes": 57166,
+    "gzip_transport": false
+  },
+  {
+    "historical_path": "D:/论文/SCI投稿汇总/Onion_Deep_Revision_20261003_v17/independent_task/potato/VISUAL_RECORD_REVIEW.json",
+    "relative_path": "potato/acquisition_and_selection/VISUAL_RECORD_REVIEW.json",
+    "original_relative_path": "potato/acquisition_and_selection/VISUAL_RECORD_REVIEW.json",
+    "original_sha256": "f46fa3ec3bef2ef3dac256c706decfa960669ba0ca74074eea1a7dca3164d84e",
+    "distributed_sha256": "f46fa3ec3bef2ef3dac256c706decfa960669ba0ca74074eea1a7dca3164d84e",
+    "original_bytes": 1378,
+    "distributed_bytes": 1378,
+    "gzip_transport": false
+  },
+  {
+    "historical_path": "D:/论文/SCI投稿汇总/Onion_Deep_Revision_20261003_v18/code/vendor/dinov2_cached_source/LICENSE",
+    "relative_path": "THIRD_PARTY_APACHE_2_0_LICENSE.txt",
+    "original_relative_path": "THIRD_PARTY_APACHE_2_0_LICENSE.txt",
+    "original_sha256": "600cc67cc4cb2f5ea317dcfc687ad1c74dc4bec8782bbe9db0afd83513b935b7",
+    "distributed_sha256": "600cc67cc4cb2f5ea317dcfc687ad1c74dc4bec8782bbe9db0afd83513b935b7",
+    "original_bytes": 11359,
+    "distributed_bytes": 11359,
+    "gzip_transport": false
+  }
+]

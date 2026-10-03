@@ -1,0 +1,11 @@
+repetition,model,target_component,target_label,policy,max_probability_difference,decision_mismatches,training_rows,test_rows,nearest_row_mismatches
+0,resnet_logit,pv_author_leaf::Potato___Early_blight:::1.0,Potato___Early_blight,exposure,0.0,0,536.0,162,
+0,colour_logit,pv_author_leaf::Potato___Early_blight:::1.0,Potato___Early_blight,exposure,0.0,0,536.0,162,
+0,dinov2_logit,pv_author_leaf::Potato___Early_blight:::1.0,Potato___Early_blight,exposure,0.0,0,536.0,162,
+0,resnet_cosine_1nn,pv_author_leaf::Potato___Early_blight:::1.0,Potato___Early_blight,exposure,,0,,162,0.0
+0,dinov2_cosine_1nn,pv_author_leaf::Potato___Early_blight:::1.0,Potato___Early_blight,exposure,,0,,162,0.0
+0,resnet_logit,pv_author_leaf::Potato___Early_blight:::1.0,Potato___Early_blight,sham,0.0,0,536.0,162,
+0,colour_logit,pv_author_leaf::Potato___Early_blight:::1.0,Potato___Early_blight,sham,0.0,0,536.0,162,
+0,dinov2_logit,pv_author_leaf::Potato___Early_blight:::1.0,Potato___Early_blight,sham,0.0,0,536.0,162,
+0,resnet_cosine_1nn,pv_author_leaf::Potato___Early_blight:::1.0,Potato___Early_blight,sham,,0,,162,0.0
+0,dinov2_cosine_1nn,pv_author_leaf::Potato___Early_blight:::1.0,Potato___Early_blight,sham,,0,,162,0.0

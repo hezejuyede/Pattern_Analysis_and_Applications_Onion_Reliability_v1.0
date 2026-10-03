@@ -1,0 +1,24 @@
+{
+  "status": "PASS_INDEPENDENT_RESULTS",
+  "dataset": "onion",
+  "predictions_checked": 1399250,
+  "conditions_checked": 9650,
+  "protocol_sha256": "05e1aabd1e2d8ad9f56052501360fb75a47f837ccb7366d16a1985d6082aff29",
+  "predictions_sha256": "b24f20a0cd7458a5b8e23ad1b3c07092313d05854e609ab0a127103c91293931",
+  "all_reconstruction_errors": {
+    "target_panel": 1.1102230246251565e-16,
+    "class_means": 1.1102230246251565e-16,
+    "split_means": 1.1102230246251565e-16,
+    "summary": 1.1102230246251565e-16,
+    "legacy_joint_target_difference": 5.551115123125783e-17,
+    "legacy_joint_split_difference": 8.673617379884035e-17
+  },
+  "q0_rows_checked": 7250,
+  "q0_max_probability_difference": 1.1102230246251565e-16,
+  "logistic_refits": 6,
+  "independent_nn_conditions": 4,
+  "maximum_refit_probability_difference": 0.0,
+  "artifact_integrity": "PASS_FROZEN_HASHES_WITH_EXPLICIT_PARQUET_CONVERSION_LEDGER",
+  "single_vs_joint_targets_all_models": 4800,
+  "scientific_submission_gate": "UNCHANGED_HOLD"
+}

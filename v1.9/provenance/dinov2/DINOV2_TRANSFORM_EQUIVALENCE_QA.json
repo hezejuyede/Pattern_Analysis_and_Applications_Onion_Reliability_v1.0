@@ -1,0 +1,205 @@
+{
+  "utc": "2026-10-02T23:59:04.620406+00:00",
+  "status": "PASS_EXACT_TRANSFORM_EQUIVALENCE",
+  "freeze_sha256": "e8c7393260c47ae88f051c773943881033240c9d508eeab3a22d261000097282",
+  "official_transform_source_sha256": "725823be317c6a549810740c6566a2a448ba1eba85eea87769c10b986dda2e5b",
+  "verification_script_sha256": "3872bbdd3a48ec0e94b2b4a3645f58db8a7477d25e0b678365301f8ed993dfcf",
+  "official_transform_repr": "Compose(\n    Resize(size=256, interpolation=bicubic, max_size=None, antialias=True)\n    CenterCrop(size=(224, 224))\n    MaybeToTensor()\n    Normalize(mean=(0.485, 0.456, 0.406), std=(0.229, 0.224, 0.225))\n)",
+  "explicit_transform_repr": "Compose(\n    Resize(size=256, interpolation=bicubic, max_size=None, antialias=True)\n    CenterCrop(size=(224, 224))\n    ToTensor()\n    Normalize(mean=[0.485, 0.456, 0.406], std=[0.229, 0.224, 0.225])\n)",
+  "images_checked": 16,
+  "model_inferences": 0,
+  "rows": [
+    {
+      "dataset": "onion",
+      "position": 0,
+      "original_path": "data/cold_augmented_hf/healthy/row_0152.jpg",
+      "shape": [
+        3,
+        224,
+        224
+      ],
+      "exact_equal": true,
+      "max_abs_difference": 0.0
+    },
+    {
+      "dataset": "onion",
+      "position": 439,
+      "original_path": "data/cold_augmented_hf/healthy/row_0477.jpg",
+      "shape": [
+        3,
+        224,
+        224
+      ],
+      "exact_equal": true,
+      "max_abs_difference": 0.0
+    },
+    {
+      "dataset": "onion",
+      "position": 878,
+      "original_path": "data/cold_augmented_hf/iris_yellow_virus/row_3652.jpg",
+      "shape": [
+        3,
+        224,
+        224
+      ],
+      "exact_equal": true,
+      "max_abs_difference": 0.0
+    },
+    {
+      "dataset": "onion",
+      "position": 1317,
+      "original_path": "data/cold_augmented_hf/iris_yellow_virus/row_4343.jpg",
+      "shape": [
+        3,
+        224,
+        224
+      ],
+      "exact_equal": true,
+      "max_abs_difference": 0.0
+    },
+    {
+      "dataset": "onion",
+      "position": 1757,
+      "original_path": "data/cold_augmented_hf/purple_blotch/row_2924.jpg",
+      "shape": [
+        3,
+        224,
+        224
+      ],
+      "exact_equal": true,
+      "max_abs_difference": 0.0
+    },
+    {
+      "dataset": "onion",
+      "position": 2196,
+      "original_path": "data/cold_augmented_hf/purple_blotch/row_2998.jpg",
+      "shape": [
+        3,
+        224,
+        224
+      ],
+      "exact_equal": true,
+      "max_abs_difference": 0.0
+    },
+    {
+      "dataset": "onion",
+      "position": 2635,
+      "original_path": "data/cold_augmented_hf/stemphylium_colletotrichum_leaf_blight/row_1484.jpg",
+      "shape": [
+        3,
+        224,
+        224
+      ],
+      "exact_equal": true,
+      "max_abs_difference": 0.0
+    },
+    {
+      "dataset": "onion",
+      "position": 3075,
+      "original_path": "data/cold_augmented_hf/stemphylium_colletotrichum_leaf_blight/row_2445.jpg",
+      "shape": [
+        3,
+        224,
+        224
+      ],
+      "exact_equal": true,
+      "max_abs_difference": 0.0
+    },
+    {
+      "dataset": "potato",
+      "position": 0,
+      "original_path": "D:/论文/SCI投稿汇总/Onion_Deep_Revision_20261003_v17/independent_task/potato/images/pv_potato_00000.jpg",
+      "shape": [
+        3,
+        224,
+        224
+      ],
+      "exact_equal": true,
+      "max_abs_difference": 0.0
+    },
+    {
+      "dataset": "potato",
+      "position": 307,
+      "original_path": "D:/论文/SCI投稿汇总/Onion_Deep_Revision_20261003_v17/independent_task/potato/images/pv_potato_00307.jpg",
+      "shape": [
+        3,
+        224,
+        224
+      ],
+      "exact_equal": true,
+      "max_abs_difference": 0.0
+    },
+    {
+      "dataset": "potato",
+      "position": 614,
+      "original_path": "D:/论文/SCI投稿汇总/Onion_Deep_Revision_20261003_v17/independent_task/potato/images/pv_potato_00614.jpg",
+      "shape": [
+        3,
+        224,
+        224
+      ],
+      "exact_equal": true,
+      "max_abs_difference": 0.0
+    },
+    {
+      "dataset": "potato",
+      "position": 921,
+      "original_path": "D:/论文/SCI投稿汇总/Onion_Deep_Revision_20261003_v17/independent_task/potato/images/pv_potato_00921.jpg",
+      "shape": [
+        3,
+        224,
+        224
+      ],
+      "exact_equal": true,
+      "max_abs_difference": 0.0
+    },
+    {
+      "dataset": "potato",
+      "position": 1229,
+      "original_path": "D:/论文/SCI投稿汇总/Onion_Deep_Revision_20261003_v17/independent_task/potato/images/pv_potato_01229.jpg",
+      "shape": [
+        3,
+        224,
+        224
+      ],
+      "exact_equal": true,
+      "max_abs_difference": 0.0
+    },
+    {
+      "dataset": "potato",
+      "position": 1536,
+      "original_path": "D:/论文/SCI投稿汇总/Onion_Deep_Revision_20261003_v17/independent_task/potato/images/pv_potato_01536.jpg",
+      "shape": [
+        3,
+        224,
+        224
+      ],
+      "exact_equal": true,
+      "max_abs_difference": 0.0
+    },
+    {
+      "dataset": "potato",
+      "position": 1843,
+      "original_path": "D:/论文/SCI投稿汇总/Onion_Deep_Revision_20261003_v17/independent_task/potato/images/pv_potato_01843.jpg",
+      "shape": [
+        3,
+        224,
+        224
+      ],
+      "exact_equal": true,
+      "max_abs_difference": 0.0
+    },
+    {
+      "dataset": "potato",
+      "position": 2151,
+      "original_path": "D:/论文/SCI投稿汇总/Onion_Deep_Revision_20261003_v17/independent_task/potato/images/pv_potato_02151.jpg",
+      "shape": [
+        3,
+        224,
+        224
+      ],
+      "exact_equal": true,
+      "max_abs_difference": 0.0
+    }
+  ]
+}

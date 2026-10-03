@@ -1,0 +1,49 @@
+{
+  "documents": [
+    {
+      "file": "ESM_1.pdf",
+      "pages": 17,
+      "inline_tables": 9,
+      "inline_table_body_rows": [
+        12,
+        7,
+        14,
+        4,
+        24,
+        10,
+        7,
+        8,
+        20
+      ],
+      "supplementary_figures": 2,
+      "source_sha256": "e622484d7f01aa652ad6dab02032cf6e99fcbe2f4cd40ce79f34c7214b251f44",
+      "pdf_sha256": "375f5ec2d86e0f3dce3867cb130a97ef78167455c689a8f1d0a9cdb297c882e8",
+      "status": "PASS_TEXT_GEOMETRY_SOURCE_AND_ALL_PAGE_VISUAL_QA"
+    },
+    {
+      "file": "Online_Resource_1_中文参考_v1.9.pdf",
+      "pages": 14,
+      "inline_tables": 9,
+      "inline_table_body_rows": [
+        12,
+        7,
+        14,
+        4,
+        24,
+        10,
+        7,
+        8,
+        20
+      ],
+      "supplementary_figures": 2,
+      "source_sha256": "5547d41b203c6b19563a8e538e3a7d60f027845593b398669d124d701cc13671",
+      "pdf_sha256": "3d72b5c024e2b8ae5bb2a66cfdf211798c7c158ded381320a3ef59bfc024fbc8",
+      "status": "PASS_TEXT_GEOMETRY_SOURCE_AND_ALL_PAGE_VISUAL_QA"
+    }
+  ],
+  "code_sha256": "a9dc2e4a7b9ec84527871706c38d60015b6bf7e80838340d6d3547d2b30b326c",
+  "visual_qa_file": "SUPPLEMENT_PDF_VISUAL_QA.json",
+  "technical_qa_file": "SUPPLEMENT_PDF_TECHNICAL_QA.json",
+  "source_compatibility_qa_file": "SUPPLEMENT_SOURCE_COMPATIBILITY_QA.json",
+  "status": "PASS_SOURCE_TECHNICAL_AND_ALL_PAGE_VISUAL_QA"
+}

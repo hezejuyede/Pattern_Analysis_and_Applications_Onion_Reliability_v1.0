@@ -1,0 +1,6 @@
+{
+  "files": 558,
+  "bytes": 247600806,
+  "MiB": 236.13052940368652,
+  "scope": "Inventory excludes only the root generated FILE_MANIFEST.csv, root RELEASE_SIZE.json and transient Python bytecode. Historical manifests in provenance are included."
+}

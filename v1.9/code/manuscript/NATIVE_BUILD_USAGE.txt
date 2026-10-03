@@ -1,0 +1,31 @@
+v1.9 native Word build and render
+
+Authoring marker for three DOCX outputs has already run once; do not rerun it.
+Use bundled Python and the canonical documents renderer. The user explicitly
+authorized the installed LibreOffice exception; see the audit record. This
+installation is not a bundled LibreOffice dependency.
+
+After the root task freezes full_text.md, full_text_zh.md, reference_inventory.json,
+figure_map.json and the final cover-letter prose, run in PowerShell:
+
+& 'C:/Users/lixin/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/python.exe' -B `
+  'D:/论文/SCI投稿汇总/Onion_Deep_Revision_20261003_v19/code/build_native_manuscript.py' `
+  --cover-letter '<absolute path to frozen cover-letter prose>' --final-source --render `
+  --libreoffice 'C:/Program Files/LibreOffice/program/soffice.exe' `
+  --renderer-authorization-record 'D:/论文/SCI投稿汇总/Onion_Deep_Revision_20261003_v19/audit/LIBREOFFICE_USER_AUTHORIZATION.txt'
+
+The builder supports four complete native tables, three reviewed OMML display
+equations, three scientific figure PNGs and two manuscript languages plus one
+cover letter. Whole-table keep chains and nonbreaking object-number labels are
+requested in OOXML; actual layout still requires all-page inspection.
+
+Rendering creates hash-specific QA directories and a NATIVE_DOCUMENT_BUILD.json.
+Inspect every page image. If any source or DOCX changes, rebuild and recheck the
+current render. The final manual ledger must bind the actual build manifest,
+DOCX, PDF and every page PNG hash, and record complete same-page tables and the
+visual denominator 1/|P_c|. Structural checks alone never authorize delivery.
+
+After the visual ledger is complete, complete_native_qa.py validates source
+fidelity and bilingual parity and copies byte-identical final DOCX/PDF files to
+manuscript_revision and submission_files. It records LOCAL_FORMAT_PASS_NOT_EDITOR_APPROVAL.
+The final status is not a prediction of editor acceptance or journal external review.

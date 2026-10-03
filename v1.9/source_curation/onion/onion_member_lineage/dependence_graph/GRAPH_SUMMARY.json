@@ -1,0 +1,32 @@
+{
+  "status": "COMPLETE_GRAPH_REQUIRES_VISUAL_REVIEW_AND_PROTOCOL_FREEZE",
+  "variants": {
+    "all_high": {
+      "components_all_nodes": 584,
+      "raw_components": 547,
+      "augmented_components": 548,
+      "cross_label_components": 4,
+      "augmented_rows_in_cross_label_components": 911,
+      "raw_contents_in_cross_label_components": 152,
+      "largest_raw_content_count": 131,
+      "largest_augmented_member_count": 830,
+      "evidence_edges": 5678,
+      "has_no_model_outcome_based_selection": true
+    },
+    "spatial_high": {
+      "components_all_nodes": 740,
+      "raw_components": 700,
+      "augmented_components": 702,
+      "cross_label_components": 3,
+      "augmented_rows_in_cross_label_components": 44,
+      "raw_contents_in_cross_label_components": 6,
+      "largest_raw_content_count": 5,
+      "largest_augmented_member_count": 121,
+      "evidence_edges": 5350,
+      "has_no_model_outcome_based_selection": true
+    }
+  },
+  "labels_modified": 0,
+  "model_fits": 0,
+  "scope_limits": "finite retrieval evidence; unresolved links do not establish independence; components can conservatively merge genuinely distinct photographs"
+}

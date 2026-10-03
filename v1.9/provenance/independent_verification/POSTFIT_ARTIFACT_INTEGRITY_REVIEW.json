@@ -1,0 +1,21 @@
+{
+  "status": "PASS",
+  "experiments": [
+    {
+      "experiment": "D:\\论文\\SCI投稿汇总\\Onion_Deep_Revision_20261003_v18\\joint_dinov2\\onion",
+      "status": "PASS_FROZEN_INPUTS_PREPARED_ASSIGNMENTS_AND_OUTPUT_MANIFEST"
+    },
+    {
+      "experiment": "D:\\论文\\SCI投稿汇总\\Onion_Deep_Revision_20261003_v18\\joint_dinov2\\potato",
+      "status": "PASS_FROZEN_INPUTS_PREPARED_ASSIGNMENTS_AND_OUTPUT_MANIFEST"
+    },
+    {
+      "experiment": "D:\\论文\\SCI投稿汇总\\Onion_Deep_Revision_20261003_v18\\single_source\\onion",
+      "status": "PASS_FROZEN_INPUTS_PREPARED_ASSIGNMENTS_AND_OUTPUT_MANIFEST"
+    },
+    {
+      "experiment": "D:\\论文\\SCI投稿汇总\\Onion_Deep_Revision_20261003_v18\\single_source\\potato",
+      "status": "PASS_FROZEN_INPUTS_PREPARED_ASSIGNMENTS_AND_OUTPUT_MANIFEST"
+    }
+  ]
+}
